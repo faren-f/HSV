@@ -1,7 +1,0 @@
-Sample	Nodes
-Entry_and_Uncoating.amygdala.firstneighbor	2459
-Entry_and_Uncoating.brain.firstneighbor	2577
-Entry_and_Uncoating.dorsal_root_ganglia.firstneighbor	2650
-Entry_and_Uncoating.hypothalamus.firstneighbor	2511
-Entry_and_Uncoating.salivary_gland.firstneighbor	2539
-Entry_and_Uncoating.uniprot_ppi.firstneighbor	3383

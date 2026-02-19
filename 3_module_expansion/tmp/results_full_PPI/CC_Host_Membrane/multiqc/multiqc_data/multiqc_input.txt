@@ -1,7 +1,0 @@
-Sample	Seeds	Not in network
-Host_Membrane.amygdala	152	45
-Host_Membrane.brain	157	40
-Host_Membrane.dorsal_root_ganglia	163	34
-Host_Membrane.hypothalamus	153	44
-Host_Membrane.salivary_gland	154	43
-Host_Membrane.uniprot_ppi	191	6

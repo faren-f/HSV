@@ -1,7 +1,0 @@
-Sample	Seeds	Not in network
-Egress_and_Envelopment.amygdala	164	40
-Egress_and_Envelopment.brain	168	36
-Egress_and_Envelopment.dorsal_root_ganglia	175	29
-Egress_and_Envelopment.hypothalamus	166	38
-Egress_and_Envelopment.salivary_gland	170	34
-Egress_and_Envelopment.uniprot_ppi	201	3

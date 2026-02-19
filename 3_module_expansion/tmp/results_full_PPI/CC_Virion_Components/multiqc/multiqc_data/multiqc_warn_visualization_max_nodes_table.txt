@@ -1,7 +1,0 @@
-Sample	Nodes
-Virion_Components.amygdala.firstneighbor	3215
-Virion_Components.brain.firstneighbor	3256
-Virion_Components.dorsal_root_ganglia.firstneighbor	3293
-Virion_Components.hypothalamus.firstneighbor	3232
-Virion_Components.salivary_gland.firstneighbor	3289
-Virion_Components.uniprot_ppi.firstneighbor	3994

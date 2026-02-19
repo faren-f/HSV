@@ -1,7 +1,0 @@
-Sample	Seeds	Not in network
-Uncharacterized.amygdala	17	6
-Uncharacterized.brain	18	5
-Uncharacterized.dorsal_root_ganglia	18	5
-Uncharacterized.hypothalamus	18	5
-Uncharacterized.salivary_gland	19	4
-Uncharacterized.uniprot_ppi	23	0

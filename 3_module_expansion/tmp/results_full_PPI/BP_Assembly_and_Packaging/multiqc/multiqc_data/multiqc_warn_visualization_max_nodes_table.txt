@@ -1,7 +1,0 @@
-Sample	Nodes
-Assembly_and_Packaging.amygdala.firstneighbor	3268
-Assembly_and_Packaging.brain.firstneighbor	3330
-Assembly_and_Packaging.dorsal_root_ganglia.firstneighbor	3374
-Assembly_and_Packaging.hypothalamus.firstneighbor	3316
-Assembly_and_Packaging.salivary_gland.firstneighbor	3291
-Assembly_and_Packaging.uniprot_ppi.firstneighbor	4327

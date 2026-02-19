@@ -1,7 +1,0 @@
-Sample	nodes	edges	components	largest_component	diameter	self_loops	duplicate_edges
-amygdala	11718	224929	1	11718	7.0	0	0
-brain	11920	229791	1	11920	9.0	0	0
-dorsal_root_ganglia	12092	239169	2	12090	8.0	0	0
-hypothalamus	11764	227211	1	11764	7.0	0	0
-salivary_gland	11803	232824	2	11801	7.0	0	0
-uniprot_ppi	17666	329215	8	17649	7.0	0	0

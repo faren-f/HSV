@@ -1,7 +1,0 @@
-Sample	Seeds	Not in network
-Entry_and_Uncoating.amygdala	50	13
-Entry_and_Uncoating.brain	53	10
-Entry_and_Uncoating.dorsal_root_ganglia	52	11
-Entry_and_Uncoating.hypothalamus	51	12
-Entry_and_Uncoating.salivary_gland	47	16
-Entry_and_Uncoating.uniprot_ppi	60	3

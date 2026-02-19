@@ -1,7 +1,0 @@
-Sample	Nodes
-Host_Membrane.amygdala.firstneighbor	5731
-Host_Membrane.brain.firstneighbor	5855
-Host_Membrane.dorsal_root_ganglia.firstneighbor	5996
-Host_Membrane.hypothalamus.firstneighbor	5778
-Host_Membrane.salivary_gland.firstneighbor	5812
-Host_Membrane.uniprot_ppi.firstneighbor	7789
