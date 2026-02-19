@@ -1,0 +1,15 @@
+[2026-01-03 17:24:54,140] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yml
+[2026-01-03 17:24:54,249] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.33 now available!
+[2026-01-03 17:24:54,250] multiqc.core.file_search                           [INFO   ]  Search path: /home/bbc8731/nextflow_work/85/cf55e4ac90bfc5b314f3541fe33402
+[2026-01-03 17:24:54,251] multiqc.core.file_search                           [INFO   ]  Only using modules: custom_content
+[2026-01-03 17:24:54,307] multiqc.modules.custom_content.custom_content      [INFO   ]  warn_empty_modules: Found 2 samples (PlotType.TABLE)
+[2026-01-03 17:24:54,316] multiqc.modules.custom_content.custom_content      [INFO   ]  drugstone_link: Found 34 samples (PlotType.TABLE)
+[2026-01-03 17:24:54,316] multiqc.modules.custom_content.custom_content      [INFO   ]  nf-core-diseasemodulediscovery-summary: Found 1 sample (html)
+[2026-01-03 17:24:54,333] multiqc.modules.custom_content.custom_content      [INFO   ]  input: Found 1 samples (PlotType.BAR)
+[2026-01-03 17:24:54,339] multiqc.modules.custom_content.custom_content      [INFO   ]  input: Found 6 samples (PlotType.TABLE)
+[2026-01-03 17:24:54,344] multiqc.modules.custom_content.custom_content      [INFO   ]  warn_drugstone_max_nodes: Found 6 samples (PlotType.TABLE)
+[2026-01-03 17:24:54,345] multiqc.modules.custom_content.custom_content      [INFO   ]  topology: Found 42 General Statistics columns
+[2026-01-03 17:24:54,345] multiqc.modules.custom_content.custom_content      [INFO   ]  nf-core-diseasemodulediscovery-methods-description: Found 1 sample (html)
+[2026-01-03 17:24:54,350] multiqc.modules.custom_content.custom_content      [INFO   ]  warn_visualization_max_nodes: Found 6 samples (PlotType.TABLE)
+[2026-01-03 17:24:54,354] multiqc.core.file_search                           [INFO   ]  Only using modules: warn_empty_modules, drugstone_link, nf-core-diseasemodulediscovery-summary, input, warn_drugstone_max_nodes, nf-core-diseasemodulediscovery-methods-description, warn_visualization_max_nodes
+[2026-01-03 17:24:54,355] multiqc.core.write_results                         [INFO   ]  Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag

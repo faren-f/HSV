@@ -1,0 +1,11 @@
+module,pathway_id,pathway_name,pathway_database,module_size,pathway_size,overlap,p_value,fold_enrichment,fdr,significant
+CC_Host_Nucleus/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,249,301,20,8.536969416358142e-13,7.9716619286133295,8.536969416358142e-12,True
+BP_Replication_and_Transcription/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,152,301,11,4.036245783121489e-07,7.182362507392075,2.018122891560744e-06,True
+BP_Assembly_and_Packaging/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,48,301,6,8.307567160621822e-06,12.405898876404494,2.7691890535406074e-05,True
+CC_Host_Membrane/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,214,301,10,6.402071413642532e-05,4.637719206132521,0.0001600517853410633,True
+CC_Virion_Components/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,56,301,5,0.0002474174740266684,8.861356340288925,0.0004948349480533368,True
+BP_Immune_Evasion/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,138,301,7,0.0005013167537676378,5.034277804917766,0.0008355279229460631,True
+BP_Entry_and_Uncoating/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,70,301,5,0.0006998743594537535,7.08908507223114,0.0009998205135053622,True
+BP_Egress_and_Envelopment/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,217,301,8,0.0016319936108367056,3.6588826179257494,0.002039992013545882,True
+CC_Host_Cytoplasm/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,45,301,2,0.07541220650804417,4.4109862671660425,0.08379134056449353,False
+BP_Uncharacterized/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,27,301,0,1.0,0.0,1.0,False

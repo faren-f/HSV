@@ -1,0 +1,44 @@
+DIAMOND:
+  python: 3.8.5
+DOMINO_DOMINO:
+  python: 3.6.15
+DOMINO_SLICER:
+  python: 3.6.15
+DRUGSTONEEXPORT:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+FIRSTNEIGHBOR:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+GRAPHTOOLPARSER:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+MODULEPARSER:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+NETWORKANNOTATION:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+ROBUST:
+  python: 3.10.4
+ROBUSTBIASAWARE:
+  python: 3.10.14
+  robust-bias-aware: 0.0.1
+RWR:
+  python: 3.12.7
+SAVEMODULES:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+  pandas: 2.2.3
+TOPOLOGY:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+VISUALIZEMODULES:
+  python: 3.12.7
+  graph-tool: 2.77 (commit 4ad25c62, )
+  networkx: 3.3
+  pyintergraph: 1.3.3
+  pyvis: 0.3.1
+Workflow:
+    nf-core/diseasemodulediscovery: v1.0dev
+    Nextflow: 25.10.2

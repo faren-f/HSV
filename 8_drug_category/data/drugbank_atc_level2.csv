@@ -1,0 +1,3190 @@
+cmpdname,drugbank_id,atc_code,atc_label
+Aminolevulinic Acid,DB00855,L01,Antineoplastic agents 
+Acetic Acid,DB03166,G01,Gynecological antiinfectives and antiseptics 
+Acetic Acid,DB03166,S02,Otologicals 
+Acetylcholine,DB03128,S01,Ophthalmologicals 
+Quinacrine,DB01103,P01,Antiprotozoals 
+Benzyl Alcohol,DB06770,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Betaine,DB06756,A16,Other alimentary tract and metabolism products 
+Carbon Dioxide,DB09157,V03,All other therapeutic products 
+Carbon Monoxide,DB11588,V04,Diagnostic agents
+Citric Acid,DB04272,A09,"Digestives, incl. enzymes "
+Hydrochloric Acid,DB13366,A09,"Digestives, incl. enzymes "
+Hydrochloric Acid,DB13366,B05,Blood substitutes and perfusion solutions 
+Phloroglucinol,DB12944,A03,Drugs for functional gastrointestinal disorders 
+Bupropion,DB01156,N06,Psychoanaleptics 
+Phosphonoacetic acid,DB02823,J05,Antivirals for systemic use 
+Aminocaproic acid,DB00513,B02,Antihemorrhagics 
+Lactic Acid,DB04398,G01,Gynecological antiinfectives and antiseptics 
+Dimethyl Sulfoxide,DB01093,G04,Urologicals 
+Dimethyl Sulfoxide,DB01093,M02,Topical products for joint and muscular pain 
+Dopamine,DB00988,C01,Cardiac therapy 
+Glycine,DB00145,B05,Blood substitutes and perfusion solutions 
+Hydrogen Peroxide,DB11091,A01,Stomatological preparations 
+Hydrogen Peroxide,DB11091,D08,Antiseptics and disinfectants 
+Hydrogen Peroxide,DB11091,S02,Otologicals 
+Iodine,DB05382,D08,Antiseptics and disinfectants 
+Racemethionine,DB13972,V03,All other therapeutic products 
+Inositol,DB03106,A11,Vitamins
+Melatonin,DB01065,N05,Psycholeptics 
+Niacinamide,DB02701,A11,Vitamins
+Nicotinic acid,DB00627,C04,Peripheral vasodilators 
+Nicotinic acid,DB00627,C10,Lipid modifying agents 
+Nitrogen,DB09152,V03,All other therapeutic products 
+Nitrous Oxide,DB06690,N01,Anesthetics 
+Oxygen,DB09140,V03,All other therapeutic products 
+4-Aminobenzoic Acid,DB02362,D02,Emollients and protectives 
+Phenol,DB03255,C05,Vasoprotectives 
+Phenol,DB03255,D08,Antiseptics and disinfectants 
+Phenol,DB03255,N01,Anesthetics 
+Phenol,DB03255,R02,Throat preparations 
+1-Propanol,DB03175,C10,Lipid modifying agents 
+1-Propanol,DB03175,D08,Antiseptics and disinfectants 
+Pyrazinamide,DB00339,J04,Antimycobacterials 
+Pyridoxal phosphate,DB00114,A11,Vitamins
+Pyridoxine,DB00165,A11,Vitamins
+Thiamine,DB00152,A11,Vitamins 
+Urea,DB03904,B05,Blood substitutes and perfusion solutions 
+Urea,DB03904,D02,Emollients and protectives 
+Gallopamil,DB12923,C08,Calcium channel blockers 
+Mandelic Acid,DB13218,B05,Blood substitutes and perfusion solutions 
+Mandelic Acid,DB13218,J01,Antibacterials for systemic use
+Meglutol,DB04377,C10,Lipid modifying agents 
+Pleconaril,DB05105,J05,Antivirals for systemic use 
+Phenytoin,DB00252,N03,Antiepileptics 
+Oxyquinoline,DB11145,A01,Stomatological preparations 
+Oxyquinoline,DB11145,D08,Antiseptics and disinfectants 
+Oxyquinoline,DB11145,G01,Gynecological antiinfectives and antiseptics 
+Oxyquinoline,DB11145,R02,Throat preparations 
+Tacrine,DB00382,N06,Psychoanaleptics 
+Acebutolol,DB01193,C07,Beta blocking agents 
+Aceclidine,DB13262,S01,Ophthalmologicals 
+Acemetacin,DB13783,M01,Antiinflammatory and antirheumatic products 
+Acetarsol,DB13268,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Acetarsol,DB13268,G01,Gynecological antiinfectives and antiseptics 
+Acetarsol,DB13268,P01,Antiprotozoals 
+Acetazolamide,DB00819,S01,Ophthalmologicals 
+Acetohexamide,DB00414,A10,Drugs used in diabetes 
+Acetohydroxamic Acid,DB00551,G04,Urologicals 
+Methacholine,DB06709,V04,Diagnostic agents
+Acetylleucine,DB13226,N07,Other nervous system drugs 
+Alaproclate,DB13233,N06,Psychoanaleptics 
+Albendazole,DB00518,P02,Anthelmintics 
+Albuterol,DB01001,R03,Drugs for obstructive airway diseases 
+Albuterol,DB01001,R03,Drugs for obstructive airway diseases 
+Alendronic Acid,DB00630,M05,Drugs for treatment of bone diseases 
+Alfuzosin,DB00346,G04,Urologicals 
+Alminoprofen,DB13314,M01,Antiinflammatory and antirheumatic products 
+Alosetron,DB00969,A03,Drugs for functional gastrointestinal disorders 
+Alprazolam,DB00404,N05,Psycholeptics 
+Alprenolol,DB00866,C07,Beta blocking agents 
+Altretamine,DB00488,L01,Antineoplastic agents
+Amantadine,DB00915,N04,Anti-parkinson drugs 
+Ambenonium,DB01122,N07,Other nervous system drugs 
+Ambroxol,DB06742,R02,Throat preparations 
+Ambroxol,DB06742,R05,Cough and cold preparations 
+Diatrizoic Acid,DB00271,V08,Contrast media 
+Amifostine,DB01143,V03,All other therapeutic products 
+Aminoglutethimide,DB00357,L02,Endocrine therapy 
+Aminohippuric acid,DB00345,V04,Diagnostic agents 
+Theophylline,DB00277,R03,Drugs for obstructive airway diseases 
+Amiodarone,DB01118,C01,Cardiac therapy 
+Amisulpride,DB06288,N05,Psycholeptics 
+Amitriptyline,DB00321,N06,Psychoanaleptics 
+Amlexanox,DB01025,A01,Stomatological preparations 
+Amlexanox,DB01025,R03,Drugs for obstructive airway diseases
+Amlodipine,DB00381,C08,Calcium channel blockers 
+Amobarbital,DB01351,N05,Psycholeptics 
+Amodiaquine,DB00613,P01,Antiprotozoals 
+Amoxapine,DB00543,N06,Psychoanaleptics 
+Amsacrine,DB00276,L01,Antineoplastic agents
+Anastrozole,DB01217,L02,Endocrine therapy 
+Anethole trithione,DB13853,A16,Other alimentary tract and metabolism products 
+Aniracetam,DB04599,N06,Psychoanaleptics 
+Antazoline,DB08799,R01,Nasal preparations 
+Antazoline,DB08799,R06,Antihistamines for systemic use 
+Anthralin,DB11157,D05,Antipsoriatics 
+Antipyrine,DB01435,N02,Analgesics 
+Antipyrine,DB01435,S02,Otologicals 
+Apraclonidine,DB00964,S01,Ophthalmologicals 
+Aprindine,DB01429,C01,Cardiac therapy 
+Aspirin,DB00945,N02,Analgesics 
+Aspirin,DB00945,B01,Antithrombotic agents 
+Aspirin,DB00945,A01,Stomatological preparations 
+Astemizole,DB00637,R06,Antihistamines for systemic use 
+Atenolol,DB00335,C07,Beta blocking agents 
+Azathioprine,DB00993,L04,Immunosuppressants 
+Azelaic Acid,DB00548,D10,Anti-acne preparations 
+Azelastine,DB00972,R01,Nasal preparations 
+Azelastine,DB00972,R06,Antihistamines for systemic use 
+Azelastine,DB00972,S01,Ophthalmologicals 
+Baclofen,DB00181,M03,Muscle relaxants 
+Bamethan,DB13206,C04,Peripheral vasodilators 
+Barbital,DB01483,N05,Psycholeptics 
+Befunolol,DB09013,S01,Ophthalmologicals 
+Bemegride,DB13740,R07,Other respiratory system products 
+Bencyclane,DB13488,C04,Peripheral vasodilators 
+Bendazac,DB13501,M02,Topical products for joint and muscular pain 
+Bendazac,DB13501,S01,Ophthalmologicals 
+Bendroflumethiazide,DB00436,C03,Diuretics 
+Benfluorex,DB09022,A10,Drugs used in diabetes 
+Benproperine,DB13309,R05,Cough and cold preparations 
+Benzbromarone,DB12319,M04,Antigout preparations 
+Benzethonium,DB11125,R02,Throat preparations 
+Benzyl Benzoate,DB00676,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Bepridil,DB01244,C08,Calcium channel blockers 
+Bergapten,DB12216,D05,Antipsoriatics 
+Betahistine,DB06698,N07,Other nervous system drugs 
+Bethanidine,DB00217,C02,Antihypertensives 
+Betaxolol,DB00195,C07,Beta blocking agents 
+Betaxolol,DB00195,S01,Ophthalmologicals 
+Bethanechol,DB01019,N07,Other nervous system drugs 
+Bevantolol,DB01295,C07,Beta blocking agents 
+Bicalutamide,DB01128,L02,Endocrine therapy 
+Bifemelane,DB13550,N06,Psychoanaleptics 
+Bifonazole,DB04794,D01,Antifungals for dermatological use 
+Biperiden,DB00810,N04,Anti-parkinson drugs 
+Bisacodyl,DB09020,A06,Drugs for constipation 
+Bisacodyl,DB09020,A06,Drugs for constipation 
+Bisoprolol,DB00612,C07,Beta blocking agents 
+Bithionol,DB04813,D10,Anti-acne preparations 
+Bithionol,DB04813,P02,Anthelmintics 
+Brimonidine,DB00484,S01,Ophthalmologicals 
+Brimonidine,DB00484,S01,Ophthalmologicals 
+Bromazepam,DB01558,N05,Psycholeptics 
+Bromhexine,DB09019,R05,Cough and cold preparations 
+Bromazine,DB01237,R06,Antihistamines for systemic use 
+Bromopride,DB09018,A03,Drugs for functional gastrointestinal disorders 
+Bromisoval,DB13370,N05,Psycholeptics 
+Bromperidol,DB12401,N05,Psycholeptics 
+Seratrodast,DB06739,R03,Drugs for obstructive airway diseases
+Brotizolam,DB09017,N05,Psycholeptics 
+Broxyquinoline,DB13536,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Broxyquinoline,DB13536,G01,Gynecological antiinfectives and antiseptics 
+Broxyquinoline,DB13536,P01,Antiprotozoals 
+Bufexamac,DB13346,M01,Antiinflammatory and antirheumatic products 
+Bufexamac,DB13346,M02,Topical products for joint and muscular pain 
+Buflomedil,DB13510,C04,Peripheral vasodilators 
+Buformin,DB04830,A10,Drugs used in diabetes 
+Bumetanide,DB00887,C03,Diuretics 
+Bupivacaine,DB00297,N01,Anesthetics 
+Bupranolol,DB08808,C07,Beta blocking agents 
+Buspirone,DB00490,N05,Psycholeptics 
+Busulfan,DB01008,L01,Antineoplastic agents 
+Butenafine,DB01091,D01,Antifungals for dermatological use 
+Cadralazine,DB13452,C02,Antihypertensives 
+Caffeine,DB00201,N06,Psychoanaleptics 
+Verapamil,DB00661,C08,Calcium channel blockers 
+Metrizoic acid,DB09346,V08,Contrast media 
+Camostat,DB13729,B02,Antihemorrhagics 
+Candesartan,DB13919,C09,Agents acting on the renin-angiotensin system 
+Carbamazepine,DB00564,N03,Antiepileptics 
+Carbazochrome,DB09012,B02,Antihemorrhagics 
+Carbetapentane,DB11186,R05,Cough and cold preparations 
+Carbinoxamine,DB00748,R06,Antihistamines for systemic use 
+Carbazilquinone,DB13677,L01,Antineoplastic agents 
+Carisoprodol,DB00395,M03,Muscle relaxants 
+Carmofur,DB09010,L01,Antineoplastic agents 
+Carmustine,DB00262,L01,Antineoplastic agents 
+Carteolol,DB00521,C07,Beta blocking agents 
+Carteolol,DB00521,S01,Ophthalmologicals 
+Carvedilol,DB01136,C07,Beta blocking agents 
+Celecoxib,DB00482,L01,Antineoplastic agents
+Celecoxib,DB00482,M01,Antiinflammatory and antirheumatic products 
+Celiprolol,DB04846,C07,Beta blocking agents 
+Cetirizine,DB00341,R06,Antihistamines for systemic use 
+Cetirizine,DB00341,S01,Ophthalmologicals 
+Cetrimonium,DB01718,D08,Antiseptics and disinfectants 
+Cetrimonium,DB01718,R02,Throat preparations 
+Cetylpyridinium,DB11073,B05,Blood substitutes and perfusion solutions 
+Cetylpyridinium,DB11073,D08,Antiseptics and disinfectants 
+Cetylpyridinium,DB11073,D09,Medicated dressings 
+Cetylpyridinium,DB11073,R02,Throat preparations 
+Chloral Hydrate,DB01563,N05,Psycholeptics 
+Chlorambucil,DB00291,L01,Antineoplastic agents 
+Chlorcyclizine,DB08936,R06,Antihistamines for systemic use 
+Chlordiazepoxide,DB00475,N05,Psycholeptics 
+Chlormezanone,DB01178,M03,Muscle relaxants 
+Chloroquine,DB00608,P01,Antiprotozoals 
+Chlorothiazide,DB00880,C03,Diuretics 
+Chloroxylenol,DB11121,D08,Antiseptics and disinfectants 
+Chlorpheniramine,DB01114,R06,Antihistamines for systemic use 
+Chlorpromazine,DB00477,N05,Psycholeptics 
+Chlorpropamide,DB00672,A10,Drugs used in diabetes 
+Chlorthalidone,DB00310,C03,Diuretics 
+Chlorzoxazone,DB00356,M03,Muscle relaxants 
+Cibenzoline,DB13358,C01,Cardiac therapy 
+Ciclopirox,DB01188,D01,Antifungals for dermatological use 
+Ciclopirox,DB01188,G01,Gynecological antiinfectives and antiseptics 
+Cilostazol,DB01166,B01,Antithrombotic agents 
+Cimetidine,DB00501,A02,Drugs for acid related disorders 
+Eucalyptol,DB03852,R05,Cough and cold preparations 
+Cinoxacin,DB00827,J01,Antibacterials for systemic use 
+Ciprofibrate,DB09064,C10,Lipid modifying agents 
+Ciprofloxacin,DB00537,J01,Antibacterials for systemic use 
+Ciprofloxacin,DB00537,S01,Ophthalmologicals 
+Ciprofloxacin,DB00537,S02,Otologicals 
+Ciprofloxacin,DB00537,S03,Ophthalmological and otological preparations 
+Citalopram,DB00215,N06,Psychoanaleptics 
+Clebopride,DB13511,A03,Drugs for functional gastrointestinal disorders 
+Clenbuterol,DB01407,R03,Drugs for obstructive airway diseases 
+Clenbuterol,DB01407,R03,Drugs for obstructive airway diseases 
+Clioquinol,DB04815,D08,Antiseptics and disinfectants 
+Clioquinol,DB04815,D09,Medicated dressings 
+Clioquinol,DB04815,G01,Gynecological antiinfectives and antiseptics 
+Clioquinol,DB04815,P01,Antiprotozoals 
+Clioquinol,DB04815,S02,Otologicals 
+Clobazam,DB00349,N05,Psycholeptics 
+Clofazimine,DB00845,J04,Antimycobacterials 
+Clofedanol,DB04837,R05,Cough and cold preparations 
+Clofibrate,DB00636,C10,Lipid modifying agents 
+Clofoctol,DB13237,J01,Antibacterials for systemic use
+Clomiphene,DB00882,G03,Sex hormones and modulators of the genital system 
+Clomipramine,DB01242,N06,Psychoanaleptics 
+Clonazepam,DB01068,N03,Antiepileptics 
+Clonidine,DB00575,C02,Antihypertensives 
+Clonidine,DB00575,N02,Analgesics 
+Clonidine,DB00575,S01,Ophthalmologicals 
+Cloperastine,DB09002,R05,Cough and cold preparations 
+Clotiazepam,DB01559,N05,Psycholeptics 
+Clotrimazole,DB00257,A01,Stomatological preparations 
+Clotrimazole,DB00257,D01,Antifungals for dermatological use 
+Clotrimazole,DB00257,G01,Gynecological antiinfectives and antiseptics 
+Cloxazolam,DB01553,N05,Psycholeptics 
+Cromolyn,DB01003,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Cromolyn,DB01003,D11,Other dermatological preparations 
+Cromolyn,DB01003,R01,Nasal preparations 
+Cromolyn,DB01003,R03,Drugs for obstructive airway diseases 
+Cromolyn,DB01003,S01,Ophthalmologicals 
+Cyclandelate,DB04838,C04,Peripheral vasodilators 
+Cyclobenzaprine,DB00924,M03,Muscle relaxants 
+Cyclofenil,DB13472,G03,Sex hormones and modulators of the genital system 
+Cyclopenthiazide,DB13532,C03,Diuretics 
+Cyclopentolate,DB00979,S01,Ophthalmologicals 
+Cyclophosphamide,DB00531,L01,Antineoplastic agents 
+Cyclothiazide,DB00606,C03,Diuretics 
+Cypermethrin,DB13721,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Cyproheptadine,DB00434,R06,Antihistamines for systemic use 
+Danthron,DB04816,A06,Drugs for constipation 
+Dapsone,DB00250,J04,Antimycobacterials 
+Dapsone,DB00250,D10,Anti-acne preparations 
+Debrisoquin,DB04840,C02,Antihypertensives 
+Deferiprone,DB08826,V03,All other therapeutic products 
+Deferoxamine,DB00746,V03,All other therapeutic products 
+Dequalinium,DB04209,D08,Antiseptics and disinfectants 
+Dequalinium,DB04209,G01,Gynecological antiinfectives and antiseptics 
+Dequalinium,DB04209,R02,Throat preparations 
+Desipramine,DB01151,N06,Psychoanaleptics 
+Nordazepam,DB14028,N05,Psycholeptics 
+Amphetamine,DB00182,N06,Psychoanaleptics 
+Eflornithine,DB06243,P01,Antiprotozoals 
+Diazepam,DB00829,N05,Psycholeptics 
+Diazoxide,DB01119,C02,Antihypertensives 
+Diazoxide,DB01119,V03,All other therapeutic products 
+Dibucaine,DB00527,C05,Vasoprotectives 
+Dibucaine,DB00527,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Dibucaine,DB00527,N01,Anesthetics 
+Dibucaine,DB00527,S01,Ophthalmologicals 
+Dibucaine,DB00527,S02,Otologicals 
+Dibutyl Phthalate,DB13716,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Diclofenac,DB00586,M01,Antiinflammatory and antirheumatic products 
+Diclofenac,DB00586,M02,Topical products for joint and muscular pain 
+Diclofenac,DB00586,S01,Ophthalmologicals 
+Clofenotane,DB13424,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Dichlorophene,DB11396,P02,Anthelmintics 
+Dichlorphenamide,DB01144,S01,Ophthalmologicals 
+Dicyclomine,DB00804,A03,Drugs for functional gastrointestinal disorders 
+Diethylcarbamazine,DB00711,P02,Anthelmintics 
+Diflunisal,DB00861,N02,Analgesics 
+Dilazep,DB13715,C01,Cardiac therapy 
+Dimefline,DB13482,R07,Other respiratory system products 
+Dimercaprol,DB06782,V03,All other therapeutic products 
+Dimetotiazine,DB08967,N02,Analgesics 
+Diphenhydramine,DB01075,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Diphenhydramine,DB01075,R06,Antihistamines for systemic use 
+Diphenylpyraline,DB01146,R06,Antihistamines for systemic use 
+Dipivefrin,DB00449,S01,Ophthalmologicals 
+Dipyridamole,DB00975,B01,Antithrombotic agents 
+Disopyramide,DB00280,C01,Cardiac therapy 
+Distigmine,DB13694,N07,Other nervous system drugs 
+Disulfiram,DB00822,N07,Other nervous system drugs 
+Disulfiram,DB00822,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Valproic Acid,DB00313,N03,Antiepileptics 
+Domiphen,DB11594,A01,Stomatological preparations 
+Domperidone,DB01184,A03,Drugs for functional gastrointestinal disorders 
+Donepezil,DB00843,N06,Psychoanaleptics 
+Doxapram,DB00561,R07,Other respiratory system products 
+Doxazosin,DB00590,C02,Antihypertensives 
+Doxylamine,DB00366,R06,Antihistamines for systemic use 
+Droperidol,DB00450,N05,Psycholeptics 
+Dropropizine,DB13785,R05,Cough and cold preparations 
+Dyclonine,DB00645,N01,Anesthetics 
+Dyclonine,DB00645,R02,Throat preparations 
+Dyphylline,DB00651,R03,Drugs for obstructive airway diseases 
+Ebastine,DB11742,R06,Antihistamines for systemic use 
+Econazole,DB01127,D01,Antifungals for dermatological use 
+Econazole,DB01127,G01,Gynecological antiinfectives and antiseptics 
+Edrophonium,DB01010,V04,Diagnostic agents
+Emedastine,DB01084,S01,Ophthalmologicals 
+Enflurane,DB00228,N01,Anesthetics 
+Enoxacin,DB00467,J01,Antibacterials for systemic use 
+Eperisone,DB08992,M03,Muscle relaxants 
+Epinastine,DB00751,R06,Antihistamines for systemic use 
+Epinastine,DB00751,S01,Ophthalmologicals 
+Eprazinone,DB08990,R05,Cough and cold preparations 
+Estazolam,DB01215,N05,Psycholeptics 
+Etafenone,DB13845,C01,Cardiac therapy 
+Ethacrynic acid,DB00903,C03,Diuretics 
+Ethenzamide,DB13544,N02,Analgesics 
+Diethyl Ether,DB13598,N01,Anesthetics 
+Profenamine,DB00392,N04,Anti-parkinson drugs 
+Ethosuximide,DB00593,N03,Antiepileptics 
+Ethotoin,DB00754,N03,Antiepileptics 
+Ethyl loflazepate,DB01545,N05,Psycholeptics 
+Etidronic Acid,DB01077,M05,Drugs for treatment of bone diseases 
+Etilefrine,DB08985,C01,Cardiac therapy 
+Etizolam,DB09166,N05,Psycholeptics 
+Etodolac,DB00749,M01,Antiinflammatory and antirheumatic products 
+Famciclovir,DB00426,J05,Antivirals for systemic use 
+Famciclovir,DB00426,S01,Ophthalmologicals 
+Pepcid,DB00927,A02,Drugs for acid related disorders 
+Felbamate,DB00949,N03,Antiepileptics 
+Felbinac,DB07477,M02,Topical products for joint and muscular pain 
+Felodipine,DB01023,C08,Calcium channel blockers 
+Fenbendazole,DB11410,P02,Anthelmintics 
+Fenbufen,DB08981,M01,Antiinflammatory and antirheumatic products 
+Fendiline,DB08980,C08,Calcium channel blockers 
+Fenfluramine,DB00574,A08,"Antiobesity preparations, excl. diet products "
+Fenfluramine,DB00574,N03,Antiepileptics 
+Fenofibrate,DB01039,C10,Lipid modifying agents 
+Fenoldopam,DB00800,C01,Cardiac therapy 
+Fenoprofen,DB00573,M01,Antiinflammatory and antirheumatic products 
+Fenoterol,DB01288,G02,Other gynecologicals 
+Fenoterol,DB01288,R03,Drugs for obstructive airway diseases 
+Fenoterol,DB01288,R03,Drugs for obstructive airway diseases 
+Fenspiride,DB08979,R03,Drugs for obstructive airway diseases
+Fentanyl,DB00813,N01,Anesthetics 
+Fentanyl,DB00813,N02,Analgesics 
+Fexofenadine,DB00950,R06,Antihistamines for systemic use 
+Fipexide,DB13790,N06,Psychoanaleptics 
+Flavoxate,DB01148,G04,Urologicals 
+Flecainide,DB01195,C01,Cardiac therapy 
+Fleroxacin,DB04576,J01,Antibacterials for systemic use 
+Floctafenine,DB08976,N02,Analgesics
+Fluconazole,DB00196,J02,Antimycotics for systemic use 
+Fluconazole,DB00196,D01,Antifungals for dermatological use 
+Flucytosine,DB01099,D01,Antifungals for dermatological use 
+Flucytosine,DB01099,J02,Antimycotics for systemic use 
+Fludiazepam,DB01567,N05,Psycholeptics 
+Flufenamic Acid,DB02266,M01,Antiinflammatory and antirheumatic products 
+Fluphenazine,DB00623,N05,Psycholeptics 
+Flumazenil,DB01205,V03,All other therapeutic products 
+Flumequine,DB08972,J01,Antibacterials for systemic use 
+Flunitrazepam,DB01544,N05,Psycholeptics 
+Fluorouracil,DB00544,L01,Antineoplastic agents 
+Fluoxetine,DB00472,N06,Psychoanaleptics 
+Flurazepam,DB00690,N05,Psycholeptics 
+Flurbiprofen,DB00712,M01,Antiinflammatory and antirheumatic products 
+Flurbiprofen,DB00712,M02,Topical products for joint and muscular pain 
+Flurbiprofen,DB00712,R02,Throat preparations 
+Flurbiprofen,DB00712,S01,Ophthalmologicals 
+Fluspirilene,DB04842,N05,Psycholeptics 
+Flutamide,DB00499,L02,Endocrine therapy 
+Flutrimazole,DB13425,D01,Antifungals for dermatological use 
+Flutrimazole,DB13425,G01,Gynecological antiinfectives and antiseptics 
+Fomepizole,DB01213,V03,All other therapeutic products 
+Formoterol,DB00983,R03,Drugs for obstructive airway diseases 
+Formoterol,DB00983,R03,Drugs for obstructive airway diseases 
+Foscarnet,DB00529,J05,Antivirals for systemic use 
+Furosemide,DB00695,C03,Diuretics 
+Gabapentin,DB00996,N02,Analgesics 
+Gemfibrozil,DB01241,C10,Lipid modifying agents 
+Gentamicin,DB00798,D06,Antibiotics and chemotherapeutics for dermatological use 
+Gentamicin,DB00798,J01,Antibacterials for systemic use 
+Gentamicin,DB00798,S01,Ophthalmologicals 
+Gentamicin,DB00798,S02,Otologicals 
+Gentamicin,DB00798,S03,Ophthalmological and otological preparations 
+Gliclazide,DB01120,A10,Drugs used in diabetes 
+Glimepiride,DB00222,A10,Drugs used in diabetes 
+Glipizide,DB01067,A10,Drugs used in diabetes 
+Glutethimide,DB01437,N05,Psycholeptics 
+Glyburide,DB01016,A10,Drugs used in diabetes 
+Glycopyrronium bromide,DB00986,D11,Other dermatological preparations 
+Guaiazulene,DB13329,S01,Ophthalmologicals
+Guaifenesin,DB00874,R05,Cough and cold preparations 
+Guanethidine,DB01170,C02,Antihypertensives 
+Guanethidine,DB01170,S01,Ophthalmologicals 
+Guanfacine,DB01018,C02,Antihypertensives 
+Fasudil,DB08162,C04,Peripheral vasodilators 
+Haloperidol,DB00502,N05,Psycholeptics 
+Haloprogin,DB00793,D01,Antifungals for dermatological use 
+Halothane,DB01159,N01,Anesthetics 
+Heptaminol,DB13574,C01,Cardiac therapy 
+Hexachlorophene,DB00756,D08,Antiseptics and disinfectants 
+Miltefosine,DB09031,P01,Antiprotozoals 
+Hexafluorenium,DB00941,M03,Muscle relaxants 
+Hexetidine,DB08958,A01,Stomatological preparations 
+Hexetidine,DB08958,G01,Gynecological antiinfectives and antiseptics 
+Hexobarbital,DB01355,N01,Anesthetics 
+Hexobarbital,DB01355,N05,Psycholeptics 
+Hexoprenaline,DB08957,R03,Drugs for obstructive airway diseases 
+Hexoprenaline,DB08957,R03,Drugs for obstructive airway diseases 
+Hexylresorcinol,DB11254,R02,Throat preparations 
+Hydralazine,DB01275,C02,Antihypertensives 
+Hydrochlorothiazide,DB00999,C03,Diuretics 
+Hydroflumethiazide,DB00774,C03,Diuretics 
+Hydroxychloroquine,DB01611,P01,Antiprotozoals 
+Hydroxyurea,DB01005,L01,Antineoplastic agents
+Hydroxyzine,DB00557,N05,Psycholeptics 
+Ibudilast,DB05266,R03,Drugs for obstructive airway diseases 
+Phenelzine,DB00780,N06,Psychoanaleptics 
+Mephentermine,DB01365,C01,Cardiac therapy 
+Alverine,DB01616,A03,Drugs for functional gastrointestinal disorders 
+Ifenprodil,DB08954,C04,Peripheral vasodilators 
+Ifosfamide,DB01181,L01,Antineoplastic agents 
+Imipramine,DB00458,N06,Psychoanaleptics 
+Amrinone,DB01427,C01,Cardiac therapy 
+Indapamide,DB00808,C03,Diuretics 
+Indomethacin,DB00328,C01,Cardiac therapy
+Indomethacin,DB00328,M02,Topical products for joint and muscular pain 
+Indomethacin,DB00328,S01,Ophthalmologicals 
+Indomethacin,DB00328,M01,Antiinflammatory and antirheumatic products 
+Indoprofen,DB08951,M01,Antiinflammatory and antirheumatic products 
+Inositol niacinate,DB08949,C04,Peripheral vasodilators 
+Iodamide,DB08948,V08,Contrast media 
+Iodixanol,DB01249,V08,Contrast media 
+Iodoquinol,DB09115,G01,Gynecological antiinfectives and antiseptics 
+Iohexol,DB01362,V08,Contrast media 
+Iomeprol,DB11705,V08,Contrast media 
+Iopanoic Acid,DB08946,V08,Contrast media 
+Iopromide,DB09156,V08,Contrast media 
+Iothalamic Acid,DB09133,V08,Contrast media 
+Iotrolan,DB09487,V08,Contrast media 
+Iodipamide,DB04711,V08,Contrast media 
+Iotroxic acid,DB08945,V08,Contrast media 
+Ioversol,DB09134,V08,Contrast media 
+Ioxaglic acid,DB09313,V08,Contrast media 
+Ioxilan,DB09135,V08,Contrast media 
+Ipriflavone,DB13618,M05,Drugs for treatment of bone diseases 
+Iproniazid,DB04818,N06,Psychoanaleptics 
+Irbesartan,DB01029,C09,Agents acting on the renin-angiotensin system 
+Isocarboxazid,DB01247,N06,Psychoanaleptics 
+Isoconazole,DB08943,D01,Antifungals for dermatological use 
+Isoconazole,DB08943,G01,Gynecological antiinfectives and antiseptics 
+Isoetharine,DB00221,R03,Drugs for obstructive airway diseases 
+Isoetharine,DB00221,R03,Drugs for obstructive airway diseases 
+Isoflurane,DB00753,N01,Anesthetics 
+Isoniazid,DB00951,J04,Antimycobacterials 
+Isopropamide,DB01625,A03,Drugs for functional gastrointestinal disorders 
+Propyphenazone,DB13524,N02,Analgesics 
+Isoproterenol,DB01064,C01,Cardiac therapy 
+Isoproterenol,DB01064,R03,Drugs for obstructive airway diseases 
+Isoproterenol,DB01064,R03,Drugs for obstructive airway diseases 
+Isothipendyl,DB08802,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Isothipendyl,DB08802,R06,Antihistamines for systemic use 
+Isradipine,DB00270,C08,Calcium channel blockers 
+Itopride,DB04924,A03,Drugs for functional gastrointestinal disorders 
+Ketamine,DB01221,N01,Anesthetics 
+Ketanserin,DB12465,C02,Antihypertensives 
+"1-[4-[4-[[2-(2,4-Dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]ethanone",DB01026,D01,Antifungals for dermatological use 
+"1-[4-[4-[[2-(2,4-Dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]ethanone",DB01026,G01,Gynecological antiinfectives and antiseptics 
+"1-[4-[4-[[2-(2,4-Dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]ethanone",DB01026,H02,Corticosteroids for systemic use 
+"1-[4-[4-[[2-(2,4-Dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]ethanone",DB01026,J02,Antimycotics for systemic use 
+Kebuzone,DB08940,M01,Antiinflammatory and antirheumatic products 
+Ketoprofen,DB01009,M01,Antiinflammatory and antirheumatic products 
+Ketoprofen,DB01009,M02,Topical products for joint and muscular pain 
+Ketorolac,DB00465,M01,Antiinflammatory and antirheumatic products 
+Ketorolac,DB00465,S01,Ophthalmologicals 
+Ketotifen,DB00920,S01,Ophthalmologicals 
+Ketotifen,DB00920,R06,Antihistamines for systemic use 
+Labetalol,DB00598,C07,Beta blocking agents 
+Lamotrigine,DB00555,N03,Antiepileptics 
+Lansoprazole,DB00448,A02,Drugs for acid related disorders 
+Leflunomide,DB01097,L04,Immunosuppressants 
+Letrozole,DB01006,L02,Endocrine therapy 
+Lidoflazine,DB13766,C08,Calcium channel blockers 
+Linopirdine,DB13806,N06,Psychoanaleptics 
+Lofepramine,DB13411,N06,Psychoanaleptics 
+Lomefloxacin,DB00978,J01,Antibacterials for systemic use 
+Lomefloxacin,DB00978,S01,Ophthalmologicals 
+Lomustine,DB01206,L01,Antineoplastic agents 
+Loperamide,DB00836,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Loratadine,DB00455,R06,Antihistamines for systemic use 
+Lorazepam,DB00186,N05,Psycholeptics 
+Losartan,DB00678,C09,Agents acting on the renin-angiotensin system 
+Loxapine,DB00408,N05,Psycholeptics 
+Loxoprofen,DB09212,M02,Topical products for joint and muscular pain 
+Mafenide,DB06795,D06,Antibiotics and chemotherapeutics for dermatological use 
+Malathion,DB00772,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Manidipine,DB09238,C08,Calcium channel blockers 
+Maprotiline,DB00934,N06,Psychoanaleptics 
+Mazindol,DB00579,A08,"Antiobesity preparations, excl. diet products "
+Mebendazole,DB00643,P02,Anthelmintics 
+Mebeverine,DB12554,A03,Drugs for functional gastrointestinal disorders 
+Mecamylamine,DB00657,C02,Antihypertensives 
+Mechlorethamine,DB00888,L01,Antineoplastic agents 
+Meclizine,DB00737,R06,Antihistamines for systemic use 
+Meclofenamic Acid,DB00939,M01,Antiinflammatory and antirheumatic products 
+Meclofenamic Acid,DB00939,M02,Topical products for joint and muscular pain 
+Meclofenoxate,DB13758,N06,Psychoanaleptics 
+Medazepam,DB13437,N05,Psycholeptics 
+Mefenamic Acid,DB00784,M01,Antiinflammatory and antirheumatic products 
+Lariam,DB00358,P01,Antiprotozoals 
+Mefruside,DB13405,C03,Diuretics 
+Memantine,DB01043,N06,Psychoanaleptics 
+Menadione,DB00170,B02,Antihemorrhagics 
+Mepenzolate,DB04843,A03,Drugs for functional gastrointestinal disorders 
+Meperidine,DB00454,N02,Analgesics 
+Mephenesin,DB13583,M03,Muscle relaxants 
+Mephenytoin,DB00532,N03,Antiepileptics 
+Mepivacaine,DB00961,N01,Anesthetics 
+Meprobamate,DB00371,N05,Psycholeptics 
+Mequitazine,DB01071,R06,Antihistamines for systemic use 
+Mesalamine,DB00244,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Mesoridazine,DB00933,N05,Psycholeptics 
+Metaproterenol,DB00816,R03,Drugs for obstructive airway diseases 
+Metaproterenol,DB00816,R03,Drugs for obstructive airway diseases 
+Metformin,DB00331,A10,Drugs used in diabetes 
+Methadone,DB00333,N07,Other nervous system drugs 
+Methantheline,DB00940,A03,Drugs for functional gastrointestinal disorders 
+Methapyrilene,DB04819,R06,Antihistamines for systemic use 
+Metharbital,DB00463,N03,Antiepileptics 
+Methazolamide,DB00703,S01,Ophthalmologicals 
+Methenamine,DB06799,J01,Antibacterials for systemic use
+Methocarbamol,DB00423,M03,Muscle relaxants 
+Methoxsalen,DB00553,D05,Antipsoriatics 
+Methoxsalen,DB00553,D05,Antipsoriatics 
+Methoxyflurane,DB01028,N02,Analgesics
+Methoxyphenamine,DB13624,R03,Drugs for obstructive airway diseases 
+Methyclothiazide,DB00232,C03,Diuretics 
+Methylphenidate,DB00422,N06,Psychoanaleptics 
+Methyprylon,DB01107,N05,Psycholeptics 
+Meticrane,DB13284,C03,Diuretics 
+Metixene,DB00340,N04,Anti-parkinson drugs 
+Metoclopramide,DB01233,A03,Drugs for functional gastrointestinal disorders 
+Metolazone,DB00524,C03,Diuretics 
+Metoprolol,DB00264,C07,Beta blocking agents 
+Metronidazole,DB00916,A01,Stomatological preparations 
+Metronidazole,DB00916,D06,Antibiotics and chemotherapeutics for dermatological use 
+Metronidazole,DB00916,G01,Gynecological antiinfectives and antiseptics 
+Metronidazole,DB00916,J01,Antibacterials for systemic use 
+Metronidazole,DB00916,P01,Antiprotozoals 
+Metyrapone,DB01011,V04,Diagnostic agents 
+Mexazolam,DB15489,N05,Psycholeptics 
+Mexiletine,DB00379,C01,Cardiac therapy 
+Mianserin,DB06148,N06,Psychoanaleptics 
+Miconazole,DB01110,A01,Stomatological preparations 
+Miconazole,DB01110,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Miconazole,DB01110,D01,Antifungals for dermatological use 
+Miconazole,DB01110,G01,Gynecological antiinfectives and antiseptics 
+Miconazole,DB01110,J02,Antimycotics for systemic use 
+Miconazole,DB01110,S02,Otologicals 
+Midazolam,DB00683,N05,Psycholeptics 
+Midodrine,DB00211,C01,Cardiac therapy 
+Milrinone,DB00235,C01,Cardiac therapy 
+Minaprine,DB00805,N06,Psychoanaleptics 
+Minoxidil,DB00350,C02,Antihypertensives 
+Mirtazapine,DB00370,N06,Psychoanaleptics 
+Mitotane,DB00648,L01,Antineoplastic agents
+Mitoxantrone,DB01204,L01,Antineoplastic agents 
+Moclobemide,DB01171,N06,Psychoanaleptics 
+Modafinil,DB00745,N06,Psychoanaleptics 
+Moperone,DB13554,N05,Psycholeptics 
+Mosapramine,DB13676,N05,Psycholeptics 
+Moxisylyte,DB09205,C04,Peripheral vasodilators 
+Moxisylyte,DB09205,G04,Urologicals 
+Entinostat,DB11841,L01,Antineoplastic agents 
+Diethyltoluamide,DB11282,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Nabumetone,DB00461,M01,Antiinflammatory and antirheumatic products 
+Nadifloxacin,DB12447,D10,Anti-acne preparations 
+Nafronyl,DB13588,C04,Peripheral vasodilators 
+Nalidixic Acid,DB00779,J01,Antibacterials for systemic use 
+Naphazoline,DB06711,R01,Nasal preparations 
+Naphazoline,DB06711,R01,Nasal preparations 
+Naphazoline,DB06711,S01,Ophthalmologicals 
+Naratriptan,DB00952,N02,Analgesics 
+Nefazodone,DB01149,N06,Psychoanaleptics 
+Nefopam,DB12293,N02,Analgesics
+Neostigmine,DB01400,N07,Other nervous system drugs 
+Neostigmine,DB01400,S01,Ophthalmologicals 
+Nevirapine,DB00238,J05,Antivirals for systemic use 
+Nialamide,DB04820,N06,Psychoanaleptics 
+Nicardipine,DB00622,C08,Calcium channel blockers 
+Niceritrol,DB13441,C10,Lipid modifying agents 
+Niclosamide,DB06803,P02,Anthelmintics 
+Nifedipine,DB01115,C08,Calcium channel blockers 
+Nifenazone,DB13407,M02,Topical products for joint and muscular pain 
+Nifenazone,DB13407,N02,Analgesics 
+Niflumic Acid,DB04552,M01,Antiinflammatory and antirheumatic products 
+Niflumic Acid,DB04552,M02,Topical products for joint and muscular pain 
+Nilutamide,DB00665,L02,Endocrine therapy 
+Nilvadipine,DB06712,C08,Calcium channel blockers 
+Nimesulide,DB04743,M01,Antiinflammatory and antirheumatic products 
+Nimesulide,DB04743,M02,Topical products for joint and muscular pain 
+Nimodipine,DB00393,C08,Calcium channel blockers 
+Nisoldipine,DB00401,C08,Calcium channel blockers 
+Nitrazepam,DB01595,N05,Psycholeptics 
+Nitrendipine,DB01054,C08,Calcium channel blockers 
+Nitroglycerin,DB00727,C01,Cardiac therapy 
+Nitroglycerin,DB00727,C05,Vasoprotectives 
+Nizofenone,DB13546,N06,Psychoanaleptics 
+Nomifensine,DB04821,N06,Psychoanaleptics 
+Norfenefrine,DB13378,C01,Cardiac therapy 
+Norfloxacin,DB01059,J01,Antibacterials for systemic use 
+Norfloxacin,DB01059,S01,Ophthalmologicals 
+Nortriptyline,DB00540,N06,Psychoanaleptics 
+Nylidrin,DB06152,C04,Peripheral vasodilators 
+Nylidrin,DB06152,G02,Other gynecologicals 
+Octopamine,DB13251,C01,Cardiac therapy 
+Ofloxacin,DB01165,J01,Antibacterials for systemic use 
+Ofloxacin,DB01165,S01,Ophthalmologicals 
+Ofloxacin,DB01165,S02,Otologicals 
+Omeprazole,DB00338,A02,Drugs for acid related disorders 
+Ondansetron,DB00904,A04,Antiemetics and antinauseants 
+Oxamniquine,DB01096,P02,Anthelmintics 
+Oxaprozin,DB00991,M01,Antiinflammatory and antirheumatic products 
+Oxatomide,DB12877,R06,Antihistamines for systemic use 
+Oxazepam,DB00842,N05,Psycholeptics 
+Oxeladin,DB04822,R05,Cough and cold preparations 
+Oxethazaine,DB12532,C05,Vasoprotectives 
+Oxiracetam,DB13601,N06,Psychoanaleptics 
+Oxolinic Acid,DB13627,J01,Antibacterials for systemic use 
+Oxprenolol,DB01580,C07,Beta blocking agents 
+Oxybuprocaine,DB00892,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Oxybuprocaine,DB00892,S01,Ophthalmologicals 
+Oxybutynin,DB01062,G04,Urologicals 
+Oxymetazoline,DB00935,R01,Nasal preparations 
+Oxymetazoline,DB00935,R01,Nasal preparations 
+Oxymetazoline,DB00935,S01,Ophthalmologicals 
+Oxypertine,DB13403,N05,Psycholeptics 
+Oxyphenbutazone,DB03585,M01,Antiinflammatory and antirheumatic products 
+Oxyphenbutazone,DB03585,M02,Topical products for joint and muscular pain 
+Oxyphenbutazone,DB03585,S01,Ophthalmologicals 
+Oxyphencyclimine,DB00383,A03,Drugs for functional gastrointestinal disorders 
+4-Aminosalicylic acid,DB00233,J04,Antimycobacterials 
+Pamidronic Acid,DB00282,M05,Drugs for treatment of bone diseases 
+Pantoprazole,DB00213,A02,Drugs for acid related disorders 
+Papaverine,DB01113,A03,Drugs for functional gastrointestinal disorders 
+Papaverine,DB01113,G04,Urologicals 
+Pargyline,DB01626,C02,Antihypertensives 
+Pemoline,DB01230,N06,Psychoanaleptics 
+Pentobarbital,DB00312,N05,Psycholeptics 
+Pentoxifylline,DB00806,C04,Peripheral vasodilators 
+Perazine,DB12710,N05,Psycholeptics 
+Perhexiline,DB01074,C08,Calcium channel blockers 
+Periciazine,DB01608,N05,Psycholeptics 
+Perphenazine,DB00850,N05,Psycholeptics 
+Phenacemide,DB01121,N03,Antiepileptics 
+Phenacetin,DB03783,N02,Analgesics 
+Phenazopyridine,DB01438,G04,Urologicals 
+Phenindione,DB00498,B01,Antithrombotic agents 
+Pheniramine,DB01620,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Pheniramine,DB01620,R06,Antihistamines for systemic use 
+Phenobarbital,DB01174,N03,Antiepileptics 
+Phenolphthalein,DB04824,A06,Drugs for constipation 
+Phenolsulfonphthalein,DB13212,V04,Diagnostic agents 
+Phenothrin,DB13717,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Phenoxybenzamine,DB00925,C04,Peripheral vasodilators 
+Phenprobamate,DB13354,M03,Muscle relaxants 
+Phentermine,DB00191,A08,"Antiobesity preparations, excl. diet products "
+Phenylbutazone,DB00812,M01,Antiinflammatory and antirheumatic products 
+Phenylbutazone,DB00812,M02,Topical products for joint and muscular pain 
+Phthalylsulfathiazole,DB13248,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Moxonidine,DB09242,C02,Antihypertensives 
+Picotamide,DB13327,B01,Antithrombotic agents 
+Pimethixene,DB13292,R06,Antihistamines for systemic use 
+Pinacidil,DB06762,C02,Antihypertensives 
+Pindolol,DB00960,C07,Beta blocking agents 
+Pioglitazone,DB01132,A10,Drugs used in diabetes 
+Pipamperone,DB09286,N05,Psycholeptics 
+Pipemidic Acid,DB13823,J01,Antibacterials for systemic use 
+Pipenzolate,DB13844,A03,Drugs for functional gastrointestinal disorders 
+Piperazine,DB00592,P02,Anthelmintics 
+Piperidolate,DB13351,A03,Drugs for functional gastrointestinal disorders 
+Pipobroman,DB00236,L01,Antineoplastic agents 
+Piracetam,DB09210,N06,Psychoanaleptics 
+Pirbuterol,DB01291,R03,Drugs for obstructive airway diseases 
+Pirbuterol,DB01291,R03,Drugs for obstructive airway diseases 
+Pirenzepine,DB00670,A02,Drugs for acid related disorders 
+Piretanide,DB02925,C03,Diuretics 
+Piribedil,DB12478,N04,Anti-parkinson drugs 
+Piromidic Acid,DB13744,J01,Antibacterials for systemic use 
+Potassium Chloride,DB00761,A12,Mineral supplements 
+Potassium Chloride,DB00761,B05,Blood substitutes and perfusion solutions 
+Potassium Iodide,DB06715,R05,Cough and cold preparations 
+Potassium Iodide,DB06715,S01,Ophthalmologicals
+Potassium Iodide,DB06715,V03,All other therapeutic products 
+Practolol,DB01297,C07,Beta blocking agents 
+Pramoxine,DB09345,C05,Vasoprotectives 
+Pramoxine,DB09345,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Pranlukast,DB01411,R03,Drugs for obstructive airway diseases 
+Pranoprofen,DB13514,S01,Ophthalmologicals 
+Prazepam,DB01588,N05,Psycholeptics 
+Praziquantel,DB01058,P02,Anthelmintics 
+Prazosin,DB00457,C02,Antihypertensives 
+Pridinol,DB13642,M03,Muscle relaxants 
+Prilocaine,DB00750,N01,Anesthetics 
+Primaquine,DB01087,P01,Antiprotozoals 
+Primidone,DB00794,N03,Antiepileptics 
+Probenecid,DB01032,M04,Antigout preparations 
+Probucol,DB01599,C10,Lipid modifying agents 
+Procainamide,DB01035,C01,Cardiac therapy 
+Procaine,DB00721,C05,Vasoprotectives 
+Procaine,DB00721,N01,Anesthetics 
+Procaine,DB00721,S01,Ophthalmologicals 
+Procarbazine,DB01168,L01,Antineoplastic agents 
+Prochlorperazine,DB00433,N05,Psycholeptics 
+Procyclidine,DB00387,N04,Anti-parkinson drugs 
+Proglumetacin,DB13527,M01,Antiinflammatory and antirheumatic products 
+Proglumide,DB13431,A02,Drugs for acid related disorders 
+Promazine,DB00420,N05,Psycholeptics 
+Promethazine,DB01069,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Promethazine,DB01069,R06,Antihistamines for systemic use 
+Propafenone,DB01182,C01,Cardiac therapy 
+Propantheline,DB00782,A03,Drugs for functional gastrointestinal disorders 
+Proparacaine,DB00807,S01,Ophthalmologicals 
+Propentofylline,DB06479,N06,Psychoanaleptics 
+Propiomazine,DB00777,N05,Psycholeptics 
+Propiverine,DB12278,G04,Urologicals 
+Propofol,DB00818,N01,Anesthetics 
+Propranolol,DB00571,C07,Beta blocking agents 
+Propyliodone,DB09366,V08,Contrast media 
+Protriptyline,DB00344,N06,Psychoanaleptics 
+Proxyphylline,DB13449,R03,Drugs for obstructive airway diseases 
+Pyridostigmine,DB00545,N07,Other nervous system drugs 
+Pyrilamine,DB06691,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Pyrilamine,DB06691,R06,Antihistamines for systemic use 
+Pyrimethamine,DB00205,P01,Antiprotozoals 
+Pyrithyldione,DB13331,N05,Psycholeptics 
+Quazepam,DB01589,N05,Psycholeptics 
+Quetiapine,DB01224,N05,Psycholeptics 
+Rabeprazole,DB01129,A02,Drugs for acid related disorders 
+Raloxifene,DB00481,G03,Sex hormones and modulators of the genital system 
+Rebamipide,DB11656,A02,Drugs for acid related disorders 
+Resorcinol,DB11085,D10,Anti-acne preparations 
+Resorcinol,DB11085,S01,Ophthalmologicals 
+Rimantadine,DB00478,J05,Antivirals for systemic use 
+Risperidone,DB00734,N05,Psycholeptics 
+Rizatriptan,DB00953,N02,Analgesics 
+Rofecoxib,DB00533,M01,Antiinflammatory and antirheumatic products 
+Ropinirole,DB00268,N04,Anti-parkinson drugs 
+Salicylamide,DB08797,N02,Analgesics 
+Salmeterol,DB00938,R03,Drugs for obstructive airway diseases 
+Salsalate,DB01399,N02,Analgesics 
+Secobarbital,DB00418,N05,Psycholeptics 
+Sennoside,DB11365,A06,Drugs for constipation 
+Sevoflurane,DB01236,N01,Anesthetics 
+Sibutramine,DB01105,A08,"Antiobesity preparations, excl. diet products "
+Sulfadiazine,DB00359,D06,Antibiotics and chemotherapeutics for dermatological use 
+Sulfadiazine,DB00359,J01,Antibacterials for systemic use 
+Simfibrate,DB13433,C10,Lipid modifying agents 
+Linsidomine,DB13400,C01,Cardiac therapy 
+Sodium Chloride,DB09153,A12,Mineral supplements 
+Sodium Chloride,DB09153,B05,Blood substitutes and perfusion solutions 
+Sodium Chloride,DB09153,B05,Blood substitutes and perfusion solutions 
+Sodium Chloride,DB09153,S01,Ophthalmologicals
+Risedronic Acid,DB00884,M05,Drugs for treatment of bone diseases 
+Sotalol,DB00489,C07,Beta blocking agents 
+Imatinib,DB00619,L01,Antineoplastic agents 
+Vorinostat,DB02546,L01,Antineoplastic agents 
+Succinylcholine,DB00202,M03,Muscle relaxants 
+Succinylsulfathiazole,DB13580,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Sulconazole,DB06820,D01,Antifungals for dermatological use 
+Sulfacetamide,DB00634,D10,Anti-acne preparations 
+Sulfacetamide,DB00634,S01,Ophthalmologicals 
+Sulfadimethoxine,DB06150,J01,Antibacterials for systemic use 
+Sulfaguanidine,DB13726,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Sulfamerazine,DB01581,D06,Antibiotics and chemotherapeutics for dermatological use 
+Sulfamerazine,DB01581,J01,Antibacterials for systemic use 
+Sulfameter,DB06821,J01,Antibacterials for systemic use 
+Sulfamethazine,DB01582,J01,Antibacterials for systemic use 
+Sulfamethizole,DB00576,B05,Blood substitutes and perfusion solutions 
+Sulfamethizole,DB00576,D06,Antibiotics and chemotherapeutics for dermatological use 
+Sulfamethizole,DB00576,J01,Antibacterials for systemic use 
+Sulfamethizole,DB00576,S01,Ophthalmologicals 
+Sulfamethoxazole,DB01015,J01,Antibacterials for systemic use 
+Sulfamethoxypyridazine,DB13773,J01,Antibacterials for systemic use 
+Sulfanilamide,DB00259,D06,Antibiotics and chemotherapeutics for dermatological use 
+Sulfanilamide,DB00259,J01,Antibacterials for systemic use 
+Sulfaphenazole,DB06729,J01,Antibacterials for systemic use 
+Sulfaphenazole,DB06729,S01,Ophthalmologicals 
+Sulfapyridine,DB00891,J01,Antibacterials for systemic use 
+Sulfasalazine,DB00795,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Sulfathiazole,DB06147,D06,Antibiotics and chemotherapeutics for dermatological use 
+Sulfathiazole,DB06147,J01,Antibacterials for systemic use 
+Sulfinpyrazone,DB01138,M04,Antigout preparations 
+Sulfisomidine,DB13283,J01,Antibacterials for systemic use 
+Sulfisoxazole,DB00263,J01,Antibacterials for systemic use 
+Sulfisoxazole,DB00263,S01,Ophthalmologicals 
+Sulfobromophthalein,DB13215,V04,Diagnostic agents 
+Sulpiride,DB00391,N05,Psycholeptics 
+Sulthiame,DB08329,N03,Antiepileptics 
+Sultopride,DB13273,N05,Psycholeptics 
+Sumatriptan,DB00669,N02,Analgesics 
+Suprofen,DB00870,M01,Antiinflammatory and antirheumatic products 
+Suxibuzone,DB13232,M02,Topical products for joint and muscular pain 
+Gatifloxacin,DB01044,J01,Antibacterials for systemic use 
+Gatifloxacin,DB01044,S01,Ophthalmologicals 
+Tazarotene,DB00799,D05,Antipsoriatics 
+Tegafur,DB09256,L01,Antineoplastic agents 
+Temazepam,DB00231,N05,Psycholeptics 
+Temozolomide,DB00853,L01,Antineoplastic agents 
+Terazosin,DB01162,G04,Urologicals 
+Terbutaline,DB00871,R03,Drugs for obstructive airway diseases 
+Terbutaline,DB00871,R03,Drugs for obstructive airway diseases 
+Terfenadine,DB00342,R06,Antihistamines for systemic use 
+Tetracaine,DB09085,C05,Vasoprotectives 
+Tetracaine,DB09085,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Tetracaine,DB09085,N01,Anesthetics 
+Tetracaine,DB09085,S01,Ophthalmologicals 
+Tetrahydrozoline,DB06764,R01,Nasal preparations 
+Tetrahydrozoline,DB06764,R01,Nasal preparations 
+Tetrahydrozoline,DB06764,S01,Ophthalmologicals 
+Thalidomide,DB01041,L04,Immunosuppressants 
+Theobromine,DB01412,C03,Diuretics 
+Theobromine,DB01412,R03,Drugs for obstructive airway diseases 
+Thiabendazole,DB00730,D01,Antifungals for dermatological use 
+Thiabendazole,DB00730,P02,Anthelmintics 
+Thiethylperazine,DB00372,R06,Antihistamines for systemic use 
+Thioridazine,DB00679,N05,Psycholeptics 
+Thiotepa,DB04572,L01,Antineoplastic agents 
+Thiram,DB13245,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Thonzylamine,DB11235,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Thonzylamine,DB11235,R01,Nasal preparations 
+Thonzylamine,DB11235,R06,Antihistamines for systemic use 
+Tiapride,DB13025,N05,Psycholeptics 
+Tiaprofenic Acid,DB01600,M01,Antiinflammatory and antirheumatic products 
+Ticlopidine,DB00208,B01,Antithrombotic agents 
+Tinidazole,DB00911,G01,Gynecological antiinfectives and antiseptics 
+Tinidazole,DB00911,J01,Antibacterials for systemic use 
+Tinidazole,DB00911,P01,Antiprotozoals 
+Tioconazole,DB01007,D01,Antifungals for dermatological use 
+Tioconazole,DB01007,G01,Gynecological antiinfectives and antiseptics 
+Tiopronin,DB06823,G04,Urologicals 
+Tipepidine,DB13474,R05,Cough and cold preparations 
+Tizanidine,DB00697,M03,Muscle relaxants 
+Nikethamide,DB13655,R07,Other respiratory system products 
+Tofisopam,DB08811,N05,Psycholeptics 
+Tolazamide,DB00839,A10,Drugs used in diabetes 
+Tolazoline,DB00797,C04,Peripheral vasodilators 
+Tolazoline,DB00797,M02,Topical products for joint and muscular pain 
+Tolbutamide,DB01124,A10,Drugs used in diabetes 
+Tolbutamide,DB01124,V04,Diagnostic agents 
+Tolmetin,DB00500,M01,Antiinflammatory and antirheumatic products 
+Tolmetin,DB00500,M02,Topical products for joint and muscular pain 
+Tolnaftate,DB00525,D01,Antifungals for dermatological use 
+Tolperisone,DB06264,M02,Topical products for joint and muscular pain 
+Tolperisone,DB06264,M03,Muscle relaxants 
+Tramazoline,DB13064,R01,Nasal preparations 
+Tranexamic acid,DB00302,B02,Antihemorrhagics 
+Parnate,DB00752,N06,Psychoanaleptics 
+Trapidil,DB09283,C01,Cardiac therapy 
+Trazodone,DB00656,N06,Psychoanaleptics 
+Trepibutone,DB13311,A03,Drugs for functional gastrointestinal disorders 
+Triamterene,DB00384,C03,Diuretics 
+Triazolam,DB00897,N05,Psycholeptics 
+Trichlormethiazide,DB01021,C03,Diuretics 
+Triclofos,DB06753,N05,Psycholeptics 
+Triclosan,DB08604,D08,Antiseptics and disinfectants 
+Triclosan,DB08604,D09,Medicated dressings 
+Trientine,DB06824,A16,Other alimentary tract and metabolism products 
+Trifluoperazine,DB00831,N05,Psycholeptics 
+Trifluperidol,DB13552,N05,Psycholeptics 
+Triflupromazine,DB00508,N05,Psycholeptics 
+Trihexyphenidyl,DB00376,N04,Anti-parkinson drugs 
+Trimebutine,DB09089,A03,Drugs for functional gastrointestinal disorders 
+Trimeprazine,DB01246,R06,Antihistamines for systemic use 
+Trimethadione,DB00347,N03,Antiepileptics 
+Trimethobenzamide,DB00662,R06,Antihistamines for systemic use 
+Trimethoprim,DB00440,J01,Antibacterials for systemic use 
+Trimetrexate,DB01157,P01,Antiprotozoals 
+Trimipramine,DB00726,N06,Psychoanaleptics 
+Trioxsalen,DB04571,D05,Antipsoriatics 
+Trioxsalen,DB04571,D05,Antipsoriatics 
+Tripelennamine,DB00792,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Tripelennamine,DB00792,R06,Antihistamines for systemic use 
+Troglitazone,DB00197,A10,Drugs used in diabetes 
+Tropicamide,DB00809,S01,Ophthalmologicals 
+Troxipide,DB13419,A02,Drugs for acid related disorders 
+Tuaminoheptane,DB13238,R01,Nasal preparations 
+Tuaminoheptane,DB13238,R01,Nasal preparations 
+Tulobuterol,DB12248,R03,Drugs for obstructive airway diseases 
+Tulobuterol,DB12248,R03,Drugs for obstructive airway diseases 
+Tyropanic acid,DB09340,V08,Contrast media 
+Delavirdine,DB00705,J05,Antivirals for systemic use 
+Undecylenic Acid,DB11117,D01,Antifungals for dermatological use 
+Urapidil,DB12661,C02,Antihypertensives 
+Valethamate,DB13497,A03,Drugs for functional gastrointestinal disorders 
+Venlafaxine,DB00285,N06,Psychoanaleptics 
+Vigabatrin,DB01080,N03,Antiepileptics 
+Viloxazine,DB09185,N06,Psychoanaleptics 
+Xylometazoline,DB06694,R01,Nasal preparations 
+Xylometazoline,DB06694,R01,Nasal preparations 
+Xylometazoline,DB06694,S01,Ophthalmologicals 
+Zafirlukast,DB00549,R03,Drugs for obstructive airway diseases 
+Zaleplon,DB00962,N05,Psycholeptics 
+Zolpidem,DB00425,N05,Psycholeptics 
+Zomepirac,DB04828,M01,Antiinflammatory and antirheumatic products 
+Zonisamide,DB00909,N03,Antiepileptics 
+Zopiclone,DB01198,N05,Psycholeptics 
+Zotepine,DB09225,N05,Psycholeptics 
+Dexamethasone,DB01234,D07,"Corticosteroids, dermatological preparations "
+Dexamethasone,DB01234,S03,Ophthalmological and otological preparations 
+Dexamethasone,DB01234,H02,Corticosteroids for systemic use 
+Dexamethasone,DB01234,D07,"Corticosteroids, dermatological preparations "
+Dexamethasone,DB01234,S01,Ophthalmologicals 
+Dexamethasone,DB01234,A01,Stomatological preparations 
+Dexamethasone,DB01234,S01,Ophthalmologicals 
+Dexamethasone,DB01234,R01,Nasal preparations 
+Dexamethasone,DB01234,S02,Otologicals 
+Dexamethasone,DB01234,D10,Anti-acne preparations 
+Dexamethasone,DB01234,C05,Vasoprotectives 
+Mitomycin,DB00305,L01,Antineoplastic agents 
+Oxyphenonium,DB00219,A03,Drugs for functional gastrointestinal disorders 
+Hydrocortisone,DB00741,D07,"Corticosteroids, dermatological preparations "
+Hydrocortisone,DB00741,S01,Ophthalmologicals 
+Hydrocortisone,DB00741,S02,Otologicals 
+Hydrocortisone,DB00741,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Hydrocortisone,DB00741,S01,Ophthalmologicals 
+Hydrocortisone,DB00741,A01,Stomatological preparations 
+Hydrocortisone,DB00741,H02,Corticosteroids for systemic use 
+Hydrocortisone,DB00741,D07,"Corticosteroids, dermatological preparations "
+Hydrocortisone,DB00741,C05,Vasoprotectives 
+Prednisolone,DB00860,D07,"Corticosteroids, dermatological preparations "
+Prednisolone,DB00860,S01,Ophthalmologicals 
+Prednisolone,DB00860,R01,Nasal preparations 
+Prednisolone,DB00860,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Prednisolone,DB00860,S01,Ophthalmologicals 
+Prednisolone,DB00860,S02,Otologicals 
+Prednisolone,DB00860,A01,Stomatological preparations 
+Prednisolone,DB00860,S03,Ophthalmological and otological preparations 
+Prednisolone,DB00860,H02,Corticosteroids for systemic use 
+Prednisolone,DB00860,D07,"Corticosteroids, dermatological preparations "
+Prednisolone,DB00860,C05,Vasoprotectives 
+Estriol,DB04573,G03,Sex hormones and modulators of the genital system 
+Estriol,DB04573,G03,Sex hormones and modulators of the genital system 
+Estradiol,DB00783,G03,Sex hormones and modulators of the genital system 
+Reserpine,DB00206,C02,Antihypertensives 
+Cephaloridine,DB09008,J01,Antibacterials for systemic use 
+Phentolamine,DB00692,C04,Peripheral vasodilators 
+Phentolamine,DB00692,V03,All other therapeutic products 
+Hexobendine,DB13265,C01,Cardiac therapy 
+Sorbitol,DB01638,A06,Drugs for constipation 
+Sorbitol,DB01638,A06,Drugs for constipation 
+Sorbitol,DB01638,B05,Blood substitutes and perfusion solutions 
+Sorbitol,DB01638,V04,Diagnostic agents 
+Floxuridine,DB00322,L01,Antineoplastic agents 
+Tiratricol,DB03604,H03,Thyroid therapy 
+Epinephrine,DB00668,A01,Stomatological preparations 
+Epinephrine,DB00668,B02,Antihemorrhagics 
+Epinephrine,DB00668,C01,Cardiac therapy 
+Epinephrine,DB00668,C10,Lipid modifying agents 
+Epinephrine,DB00668,R01,Nasal preparations 
+Epinephrine,DB00668,R03,Drugs for obstructive airway diseases 
+Epinephrine,DB00668,S01,Ophthalmologicals 
+Levothyroxine,DB00451,H03,Thyroid therapy 
+Dextroamphetamine,DB01576,N06,Psychoanaleptics 
+Spironolactone,DB00421,C03,Diuretics 
+Cyclobarbital,DB13737,N05,Psycholeptics 
+Aldosterone,DB04630,H02,Corticosteroids for systemic use 
+Allobarbital,DB13577,N05,Psycholeptics 
+Penicillamine,DB00859,M01,Antiinflammatory and antirheumatic products 
+Trichlorfon,DB11473,P02,Anthelmintics 
+Lynestrenol,DB12474,G03,Sex hormones and modulators of the genital system 
+Lynestrenol,DB12474,G03,Sex hormones and modulators of the genital system 
+Norethandrolone,DB12787,A14,Anabolic agents for systemic use 
+Prednisone,DB00635,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Prednisone,DB00635,H02,Corticosteroids for systemic use 
+Estrone,DB00655,G03,Sex hormones and modulators of the genital system 
+Estrone,DB00655,G03,Sex hormones and modulators of the genital system 
+Paramethasone,DB01384,H02,Corticosteroids for systemic use 
+Oxandrolone,DB00621,A14,Anabolic agents for systemic use 
+Prasterone,DB01708,A14,Anabolic agents for systemic use 
+Prasterone,DB01708,G03,Sex hormones and modulators of the genital system
+Camylofin,DB13738,A03,Drugs for functional gastrointestinal disorders 
+Penicillin G Procaine,DB09320,J01,Antibacterials for systemic use 
+Penicillin G,DB01053,J01,Antibacterials for systemic use 
+Penicillin G,DB01053,S01,Ophthalmologicals 
+Idoxuridine,DB00249,D06,Antibiotics and chemotherapeutics for dermatological use 
+Idoxuridine,DB00249,J05,Antivirals for systemic use 
+Idoxuridine,DB00249,S01,Ophthalmologicals 
+Metaraminol,DB00610,C01,Cardiac therapy 
+Pilocarpine,DB01085,N07,Other nervous system drugs 
+Pilocarpine,DB01085,S01,Ophthalmologicals 
+Pentetrazol,DB13415,R07,Other respiratory system products 
+Isoflurophate,DB00677,S01,Ophthalmologicals 
+Chloramphenicol,DB00446,D06,Antibiotics and chemotherapeutics for dermatological use 
+Chloramphenicol,DB00446,D10,Anti-acne preparations 
+Chloramphenicol,DB00446,G01,Gynecological antiinfectives and antiseptics 
+Chloramphenicol,DB00446,J01,Antibacterials for systemic use 
+Chloramphenicol,DB00446,S01,Ophthalmologicals 
+Chloramphenicol,DB00446,S02,Otologicals 
+Chloramphenicol,DB00446,S03,Ophthalmological and otological preparations 
+Glutamine,DB00130,A16,Other alimentary tract and metabolism products 
+Lysine,DB00123,B05,Blood substitutes and perfusion solutions 
+Demecarium,DB00944,S01,Ophthalmologicals 
+Chlorobutanol,DB11386,A04,Antiemetics and antinauseants 
+Physostigmine,DB00981,S01,Ophthalmologicals 
+Physostigmine,DB00981,V03,All other therapeutic products 
+Ethinyl Estradiol,DB00977,L02,Endocrine therapy 
+Ethinyl Estradiol,DB00977,G03,Sex hormones and modulators of the genital system 
+Progesterone,DB00396,G03,Sex hormones and modulators of the genital system 
+Tubocurarine,DB01199,M03,Muscle relaxants 
+Apomorphine,DB00714,G04,Urologicals 
+Apomorphine,DB00714,N04,Anti-parkinson drugs 
+Aminopyrine,DB01424,N02,Analgesics 
+Methyltestosterone,DB06710,G03,Sex hormones and modulators of the genital system 
+Methyltestosterone,DB06710,G03,Sex hormones and modulators of the genital system 
+Testosterone,DB00624,G03,Sex hormones and modulators of the genital system 
+Thiazinamium,DB13420,R06,Antihistamines for systemic use 
+Cephalothin,DB00456,J01,Antibacterials for systemic use 
+Kanamycin,DB01172,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Kanamycin,DB01172,J01,Antibacterials for systemic use 
+Kanamycin,DB01172,S01,Ophthalmologicals 
+Phenylephrine,DB00388,C01,Cardiac therapy 
+Phenylephrine,DB00388,R01,Nasal preparations 
+Phenylephrine,DB00388,R01,Nasal preparations 
+Phenylephrine,DB00388,R01,Nasal preparations 
+Phenylephrine,DB00388,S01,Ophthalmologicals 
+Phenylephrine,DB00388,S01,Ophthalmologicals 
+Levodopa,DB01235,N04,Anti-parkinson drugs 
+Cysteamine,DB00847,A16,Other alimentary tract and metabolism products 
+Cysteamine,DB00847,S01,Ophthalmologicals
+Penthienate,DB13695,A03,Drugs for functional gastrointestinal disorders 
+Acepromazine,DB01614,N05,Psycholeptics 
+Methoxamine,DB00723,C01,Cardiac therapy 
+Methicillin,DB01603,J01,Antibacterials for systemic use 
+Niridazole,DB13661,P02,Anthelmintics 
+Cloxacillin,DB01147,J01,Antibacterials for systemic use 
+Methylene Blue,DB09241,V04,Diagnostic agents 
+Methylene Blue,DB09241,V03,All other therapeutic products 
+Aurothioglucose,DB09121,M01,Antiinflammatory and antirheumatic products 
+Calcium Acetate,DB00258,V03,All other therapeutic products 
+Diphemanil,DB13720,A03,Drugs for functional gastrointestinal disorders 
+Methionine,DB00134,V03,All other therapeutic products 
+Edetate Sodium,DB13404,S01,Ophthalmologicals
+Mebutamate,DB06797,N05,Psycholeptics 
+Colchicine,DB08117,M04,Antigout preparations 
+Uracil Mustard,DB00791,L01,Antineoplastic agents 
+Oxacillin,DB00713,J01,Antibacterials for systemic use 
+Chloroform,DB11387,N01,Anesthetics 
+Fluocinolone Acetonide,DB00591,C05,Vasoprotectives 
+Fluocinolone Acetonide,DB00591,D07,"Corticosteroids, dermatological preparations "
+Fluocinolone Acetonide,DB00591,S01,Ophthalmologicals 
+Fluocinolone Acetonide,DB00591,S02,Otologicals 
+Sodium Citrate,DB09154,B05,Blood substitutes and perfusion solutions 
+Norethindrone,DB00717,G03,Sex hormones and modulators of the genital system 
+Norethindrone,DB00717,G03,Sex hormones and modulators of the genital system 
+Cycloserine,DB00260,J04,Antimycobacterials 
+Triaziquone,DB13304,L01,Antineoplastic agents 
+Benziodarone,DB13277,C01,Cardiac therapy 
+Hydroxyprogesterone,DB14570,G03,Sex hormones and modulators of the genital system 
+Ampicillin,DB00415,J01,Antibacterials for systemic use 
+Ampicillin,DB00415,S01,Ophthalmologicals 
+Mannitol,DB00742,B05,Blood substitutes and perfusion solutions 
+Mannitol,DB00742,A06,Drugs for constipation 
+Mannitol,DB00742,B05,Blood substitutes and perfusion solutions 
+Mannitol,DB00742,V04,Diagnostic agents
+Mannitol,DB00742,R05,Cough and cold preparations 
+Cytarabine,DB00987,L01,Antineoplastic agents 
+Trifluridine,DB00432,S01,Ophthalmologicals 
+Mephenoxalone,DB13754,N05,Psycholeptics 
+Ticlatone,DB13613,D01,Antifungals for dermatological use 
+Methaqualone,DB04833,N05,Psycholeptics 
+Trypan Blue free acid,DB09158,S01,Ophthalmologicals 
+Methandrostenolone,DB13586,A14,Anabolic agents for systemic use 
+Methandrostenolone,DB13586,D11,Other dermatological preparations 
+Chlorquinaldol,DB13306,D08,Antiseptics and disinfectants 
+Chlorquinaldol,DB13306,G01,Gynecological antiinfectives and antiseptics 
+Chlorquinaldol,DB13306,P01,Antiprotozoals 
+Chlorquinaldol,DB13306,R02,Throat preparations 
+Tryptophan,DB00150,N06,Psychoanaleptics 
+Quinethazone,DB01325,C03,Diuretics 
+Ethyl Chloride,DB13259,N01,Anesthetics 
+Iodoform,DB13813,D09,Medicated dressings 
+Fluoxymesterone,DB01185,G03,Sex hormones and modulators of the genital system 
+Aprobarbital,DB01352,N05,Psycholeptics 
+Piperidione,DB13224,R05,Cough and cold preparations 
+Butethal,DB01353,N05,Psycholeptics 
+Chlorphenoxamine,DB09007,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Chlorphenoxamine,DB09007,R06,Antihistamines for systemic use 
+Methsuximide,DB05246,N03,Antiepileptics 
+Carbromal,DB13817,N05,Psycholeptics 
+3-Methyl-1-pentyn-3-ol,DB13733,N05,Psycholeptics 
+Tromethamine,DB03754,B05,Blood substitutes and perfusion solutions 
+Tromethamine,DB03754,B05,Blood substitutes and perfusion solutions 
+Pentaerythritol tetranitrate,DB06154,C01,Cardiac therapy 
+Emylcamate,DB13572,N05,Psycholeptics 
+Trichloroethylene,DB13323,N01,Anesthetics 
+Methylhomatropine bromide,DB00725,A03,Drugs for functional gastrointestinal disorders 
+Diphacinone,DB13347,B01,Antithrombotic agents 
+Cyclizine,DB01176,R06,Antihistamines for systemic use 
+Buclizine,DB00354,R06,Antihistamines for systemic use 
+Methylprednisolone,DB00959,D07,"Corticosteroids, dermatological preparations "
+Methylprednisolone,DB00959,D10,Anti-acne preparations 
+Methylprednisolone,DB00959,H02,Corticosteroids for systemic use 
+Thiopropazate,DB13557,N05,Psycholeptics 
+Phanquinone,DB13469,P01,Antiprotozoals 
+Acetrizoic acid,DB09347,V08,Contrast media 
+Brompheniramine,DB00835,R06,Antihistamines for systemic use 
+Phensuximide,DB00832,N03,Antiepileptics 
+Dimethisoquin,DB13683,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Penicillin V,DB00417,J01,Antibacterials for systemic use 
+Isosorbide Dinitrate,DB00883,C01,Cardiac therapy 
+Isosorbide Dinitrate,DB00883,C05,Vasoprotectives 
+Aminacrine,DB11561,D08,Antiseptics and disinfectants 
+Pseudoephedrine,DB00852,R01,Nasal preparations 
+Diethylpropion,DB00937,A08,"Antiobesity preparations, excl. diet products "
+Synephrine,DB09203,C01,Cardiac therapy 
+Synephrine,DB09203,S01,Ophthalmologicals 
+Styramate,DB13357,M03,Muscle relaxants 
+Ethohexadiol,DB13826,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Adrenalone,DB13394,A01,Stomatological preparations 
+Adrenalone,DB13394,B02,Antihemorrhagics 
+3-Pyridinemethanol,DB04145,C04,Peripheral vasodilators 
+3-Pyridinemethanol,DB04145,C10,Lipid modifying agents 
+Cyclopentamine,DB08999,R01,Nasal preparations 
+Triethanolamine,DB13747,D03,Preparations for treatment of wounds and ulcers 
+Boric Acid,DB11326,S02,Otologicals 
+Chlorphenesin,DB00856,D01,Antifungals for dermatological use 
+Benzonatate,DB00868,R05,Cough and cold preparations 
+Betazole,DB00272,V04,Diagnostic agents 
+Deanol,DB13352,N06,Psychoanaleptics 
+Vinyl ether,DB13690,N01,Anesthetics 
+Ergotamine,DB00696,N02,Analgesics 
+Methylergonovine,DB00353,G02,Other gynecologicals 
+Desaspidin,DB13567,P02,Anthelmintics 
+Phenformin,DB00914,A10,Drugs used in diabetes 
+Mephobarbital,DB00849,N03,Antiepileptics 
+Talbutal,DB00306,N05,Psycholeptics 
+Paramethadione,DB00617,N03,Antiepileptics 
+Sulfadicramide,DB13214,S01,Ophthalmologicals 
+Pentaerythritol,DB13526,A06,Drugs for constipation 
+Phenyl salicylate,DB11071,G04,Urologicals 
+Framycetin,DB00452,A01,Stomatological preparations 
+Framycetin,DB00452,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Framycetin,DB00452,B05,Blood substitutes and perfusion solutions 
+Framycetin,DB00452,D06,Antibiotics and chemotherapeutics for dermatological use 
+Framycetin,DB00452,D09,Medicated dressings 
+Framycetin,DB00452,J01,Antibacterials for systemic use 
+Framycetin,DB00452,R01,Nasal preparations 
+Framycetin,DB00452,R02,Throat preparations 
+Framycetin,DB00452,S01,Ophthalmologicals 
+Framycetin,DB00452,S02,Otologicals 
+Framycetin,DB00452,S03,Ophthalmological and otological preparations 
+Efloxate,DB13333,C01,Cardiac therapy 
+Arsthinol,DB08928,P01,Antiprotozoals 
+Deserpidine,DB01089,C02,Antihypertensives 
+Dimethyl Phthalate,DB13336,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Proxazole,DB13819,A03,Drugs for functional gastrointestinal disorders 
+Cinchophen,DB13551,M04,Antigout preparations 
+Chloroprocaine,DB01161,N01,Anesthetics 
+Diamthazole,DB13858,D01,Antifungals for dermatological use 
+Dextrothyroxine,DB00509,C10,Lipid modifying agents 
+Benzododecinium,DB13282,D09,Medicated dressings 
+Benzyldimethyltetradecylammonium,DB13774,R02,Throat preparations 
+Dibutyl succinate,DB13332,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Anileridine,DB00913,N01,Anesthetics 
+Azapetine,DB13727,C04,Peripheral vasodilators 
+Yohimbine,DB01392,G04,Urologicals 
+Nafcillin,DB00607,J01,Antibacterials for systemic use 
+Methohexital,DB00474,N01,Anesthetics 
+Methohexital,DB00474,N05,Psycholeptics 
+Sulfalene,DB00664,J01,Antibacterials for systemic use 
+Dydrogesterone,DB00378,G03,Sex hormones and modulators of the genital system 
+Fluocortolone,DB08971,C05,Vasoprotectives 
+Fluocortolone,DB08971,D07,"Corticosteroids, dermatological preparations "
+Fluocortolone,DB08971,D07,"Corticosteroids, dermatological preparations "
+Fluocortolone,DB08971,H02,Corticosteroids for systemic use 
+Calcium Gluconate,DB11126,A12,Mineral supplements 
+Ephedrine,DB01364,C01,Cardiac therapy 
+Ephedrine,DB01364,R01,Nasal preparations 
+Ephedrine,DB01364,R01,Nasal preparations 
+Ephedrine,DB01364,R03,Drugs for obstructive airway diseases 
+Ephedrine,DB01364,S01,Ophthalmologicals 
+"3,5-Diiodo-L-tyrosine",DB03374,H03,Thyroid therapy 
+Piritramide,DB12492,N02,Analgesics 
+Ethamivan,DB08989,R07,Other respiratory system products 
+Paraoxon,DB13495,S01,Ophthalmologicals 
+Opipramol,DB12930,N06,Psychoanaleptics 
+Dibenzepin,DB13225,N06,Psychoanaleptics 
+Thioproperazine,DB01622,N05,Psycholeptics 
+Aminophylline,DB01223,R03,Drugs for obstructive airway diseases 
+Azacitidine,DB00928,L01,Antineoplastic agents 
+Triflusal,DB08814,B01,Antithrombotic agents 
+Fenyramidol,DB13414,M03,Muscle relaxants 
+Carbutamide,DB13406,A10,Drugs used in diabetes 
+Glymidine,DB01382,A10,Drugs used in diabetes 
+Fluocinonide,DB01047,C05,Vasoprotectives 
+Fluocinonide,DB01047,D07,"Corticosteroids, dermatological preparations "
+Galantamine,DB00674,N06,Psychoanaleptics 
+Hexapropymate,DB13662,N05,Psycholeptics 
+Bucladesine,DB13242,C01,Cardiac therapy 
+Betamethasone,DB00443,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Betamethasone,DB00443,C05,Vasoprotectives 
+Betamethasone,DB00443,D07,"Corticosteroids, dermatological preparations "
+Betamethasone,DB00443,D07,"Corticosteroids, dermatological preparations "
+Betamethasone,DB00443,H02,Corticosteroids for systemic use 
+Betamethasone,DB00443,R01,Nasal preparations 
+Betamethasone,DB00443,R03,Drugs for obstructive airway diseases 
+Betamethasone,DB00443,S01,Ophthalmologicals 
+Betamethasone,DB00443,S01,Ophthalmologicals 
+Betamethasone,DB00443,S02,Otologicals 
+Betamethasone,DB00443,S03,Ophthalmological and otological preparations 
+Prenylamine,DB04825,C01,Cardiac therapy 
+Perflubron,DB05791,V08,Contrast media 
+Fluorometholone,DB00324,C05,Vasoprotectives 
+Fluorometholone,DB00324,D07,"Corticosteroids, dermatological preparations "
+Fluorometholone,DB00324,D07,"Corticosteroids, dermatological preparations "
+Fluorometholone,DB00324,D10,Anti-acne preparations 
+Fluorometholone,DB00324,S01,Ophthalmologicals 
+Fluorometholone,DB00324,S01,Ophthalmologicals 
+Nandrolone,DB13169,A14,Anabolic agents for systemic use 
+Nandrolone,DB13169,S01,Ophthalmologicals
+Etilamfetamine,DB13285,A08,"Antiobesity preparations, excl. diet products "
+Pentyl nitrite,DB01612,V03,All other therapeutic products 
+Pipradrol,DB11584,N06,Psychoanaleptics 
+Normethadone,DB11609,R05,Cough and cold preparations 
+Propoxyphene,DB00647,N02,Analgesics 
+Ketobemidone,DB06738,N02,Analgesics 
+Enoxolone,DB13089,D03,Preparations for treatment of wounds and ulcers 
+Chenodiol,DB06777,A05,Bile and liver therapy 
+Dichloralphenazone,DB01495,N05,Psycholeptics 
+Emetine,DB13393,P01,Antiprotozoals 
+Dihydralazine,DB12945,C02,Antihypertensives 
+Cytisinicline,DB09028,N07,Other nervous system drugs 
+Oxycinchophen,DB13596,M01,Antiinflammatory and antirheumatic products 
+Captodiame,DB09014,N05,Psycholeptics 
+"1,6-di-O-phosphono-beta-D-fructofuranose",DB04551,C01,Cardiac therapy
+Phenylpropanolamine,DB00397,R01,Nasal preparations 
+Melarsoprol,DB12864,P01,Antiprotozoals 
+Beclamide,DB09011,N03,Antiepileptics 
+Dixanthogen,DB13712,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Heptabarbital,DB01354,N05,Psycholeptics 
+Dihydroergotamine,DB00320,N02,Analgesics 
+Echothiophate,DB01057,S01,Ophthalmologicals 
+Podofilox,DB01179,D06,Antibiotics and chemotherapeutics for dermatological use 
+Dimethoxanate,DB13794,R05,Cough and cold preparations 
+Ethadione,DB13799,N03,Antiepileptics 
+Androstanolone,DB02901,A14,Anabolic agents for systemic use 
+Androstanolone,DB02901,G03,Sex hormones and modulators of the genital system 
+Dimenhydrinate,DB00985,R06,Antihistamines for systemic use 
+Apronalide,DB13221,N05,Psycholeptics 
+Chlormethiazole,DB06470,N05,Psycholeptics 
+Methamphetamine,DB01577,N06,Psychoanaleptics 
+Levocarnitine,DB00583,A16,Other alimentary tract and metabolism products 
+Poldine,DB13507,A03,Drugs for functional gastrointestinal disorders 
+Magnesium Carbonate,DB09481,A02,Drugs for acid related disorders 
+Magnesium Carbonate,DB09481,A06,Drugs for constipation 
+Eosin,DB13706,D08,Antiseptics and disinfectants 
+Metabutethamine,DB13578,N01,Anesthetics 
+Zinc Acetate,DB14487,A16,Other alimentary tract and metabolism products 
+Phenoperidine,DB13605,N01,Anesthetics 
+Ferrous Carbonate,DB13698,B03,Antianemic preparations 
+Metahexamide,DB13675,A10,Drugs used in diabetes 
+Formestane,DB08905,L02,Endocrine therapy 
+Chlorotrianisene,DB00269,G03,Sex hormones and modulators of the genital system 
+Phenindamine,DB01619,R06,Antihistamines for systemic use 
+Lactulose,DB00581,A06,Drugs for constipation 
+Diloxanide,DB08792,P01,Antiprotozoals 
+Succinimide,DB13376,G04,Urologicals 
+Trolnitrate,DB13719,C01,Cardiac therapy 
+Calcium levulinate,DB13800,A12,Mineral supplements 
+Dibrompropamidine,DB13548,D08,Antiseptics and disinfectants 
+Dibrompropamidine,DB13548,S01,Ophthalmologicals 
+Acetylcysteine,DB06151,V03,All other therapeutic products 
+Acetylcysteine,DB06151,S01,Ophthalmologicals
+Acetylcysteine,DB06151,R05,Cough and cold preparations 
+Clopamide,DB13792,C03,Diuretics 
+Benzydamine,DB09084,A01,Stomatological preparations 
+Benzydamine,DB09084,G02,Other gynecologicals 
+Benzydamine,DB09084,M01,Antiinflammatory and antirheumatic products 
+Benzydamine,DB09084,M02,Topical products for joint and muscular pain 
+Benzydamine,DB09084,R02,Throat preparations 
+Erythromycin,DB00199,D10,Anti-acne preparations 
+Erythromycin,DB00199,J01,Antibacterials for systemic use 
+Erythromycin,DB00199,S01,Ophthalmologicals 
+Butaperazine,DB13213,N05,Psycholeptics 
+Chromonar,DB13279,C01,Cardiac therapy 
+Docosanol,DB00632,D06,Antibiotics and chemotherapeutics for dermatological use 
+Dodecafluoropentane,DB11625,V08,Contrast media 
+Sulfamoxole,DB08798,J01,Antibacterials for systemic use 
+Norgestrel,DB00367,G03,Sex hormones and modulators of the genital system 
+Norgestrel,DB00367,G03,Sex hormones and modulators of the genital system 
+Calcium citrate,DB11093,A12,Mineral supplements 
+Calcium lactate,DB13231,A12,Mineral supplements 
+Norgestrienone,DB13563,G03,Sex hormones and modulators of the genital system 
+Lormetazepam,DB13872,N05,Psycholeptics 
+Vinblastine,DB00570,L01,Antineoplastic agents 
+Potassium Citrate,DB09125,A12,Mineral supplements 
+Diphenoxylate,DB01081,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Oxolamine,DB13216,R05,Cough and cold preparations 
+Ethylestrenol,DB01493,A14,Anabolic agents for systemic use 
+Canrenone,DB12221,C03,Diuretics 
+Citicoline,DB04290,N06,Psychoanaleptics 
+Pyrrolnitrin,DB13603,D01,Antifungals for dermatological use 
+Ethambutol,DB00330,J04,Antimycobacterials 
+4-Amino-3-phenylbutanoic acid,DB13455,N06,Psychoanaleptics 
+Bucetin,DB13278,N02,Analgesics 
+Pyrithioxin,DB13084,N06,Psychoanaleptics 
+Citiolone,DB13442,A05,Bile and liver therapy 
+Fencamfamin,DB01463,N06,Psychoanaleptics 
+Prolintane,DB13438,N06,Psychoanaleptics 
+Zolimidine,DB13593,A02,Drugs for acid related disorders 
+Prothipendyl,DB12958,N05,Psycholeptics 
+Methdilazine,DB00902,R06,Antihistamines for systemic use 
+Ethynodiol,DB13866,G03,Sex hormones and modulators of the genital system 
+Sodium 1-glycerophosphate,DB09561,B05,Blood substitutes and perfusion solutions 
+Vancomycin,DB00512,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Vancomycin,DB00512,J01,Antibacterials for systemic use 
+Vancomycin,DB00512,S01,Ophthalmologicals 
+Glycyrrhizin,DB13751,A05,Bile and liver therapy 
+Propanidid,DB13234,N01,Anesthetics 
+Mesterolone,DB13587,G03,Sex hormones and modulators of the genital system 
+Levomethadyl Acetate,DB01227,N07,Other nervous system drugs 
+Fluanisone,DB13665,N05,Psycholeptics 
+Flurandrenolide,DB00846,D07,"Corticosteroids, dermatological preparations "
+Vincamine,DB13374,C04,Peripheral vasodilators 
+Melperone,DB09224,N05,Psycholeptics 
+Spectinomycin,DB00919,J01,Antibacterials for systemic use
+Abametapir,DB11932,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+2-(4-Chlorophenoxy)ethanol,DB11368,D01,Antifungals for dermatological use 
+Ethoglucid,DB13339,L01,Antineoplastic agents 
+Dronabinol,DB00470,A04,Antiemetics and antinauseants 
+Aluminum nicotinate,DB13576,C10,Lipid modifying agents 
+Bamifylline,DB13203,R03,Drugs for obstructive airway diseases 
+Amiloride,DB00594,C03,Diuretics 
+Clothiapine,DB13256,N05,Psycholeptics 
+Pimozide,DB01100,N05,Psycholeptics 
+Benperidol,DB12867,N05,Psycholeptics 
+Hydroxyethylpromethazine,DB13840,R06,Antihistamines for systemic use 
+Clorexolone,DB13617,C03,Diuretics 
+Flumethasone,DB00663,D07,"Corticosteroids, dermatological preparations "
+Flumethasone,DB00663,D07,"Corticosteroids, dermatological preparations "
+Guanoxan,DB13211,C02,Antihypertensives 
+Mofebutazone,DB13629,M01,Antiinflammatory and antirheumatic products 
+Mofebutazone,DB13629,M02,Topical products for joint and muscular pain 
+Fluorescein,DB00693,S01,Ophthalmologicals 
+Dexbrompheniramine,DB00405,R06,Antihistamines for systemic use 
+Dixyrazine,DB13784,N05,Psycholeptics 
+Proxibarbal,DB13253,N05,Psycholeptics 
+Sulfur Hexafluoride,DB11104,V08,Contrast media 
+Ioglycamic Acid,DB13741,V08,Contrast media 
+Ethamsylate,DB13483,B02,Antihemorrhagics 
+Acadesine,DB04944,C01,Cardiac therapy
+Acetophenazine,DB01063,N05,Psycholeptics 
+Stavudine,DB00649,J05,Antivirals for systemic use 
+Iobenzamic acid,DB13428,V08,Contrast media 
+Dicloxacillin,DB00485,J01,Antibacterials for systemic use 
+Narcobarbital,DB13229,N01,Anesthetics 
+Iproclozide,DB09247,N06,Psychoanaleptics 
+Chloralodol,DB01534,N05,Psycholeptics 
+Bumadizone,DB13286,M01,Antiinflammatory and antirheumatic products 
+Reposal,DB13805,N05,Psycholeptics 
+Oxomemazine,DB13820,R06,Antihistamines for systemic use 
+Fenethylline,DB01482,N06,Psychoanaleptics 
+Sulfametomidine,DB13485,J01,Antibacterials for systemic use 
+Tenonitrozole,DB13659,P01,Antiprotozoals 
+Streptomycin,DB01082,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Streptomycin,DB01082,J01,Antibacterials for systemic use 
+Bephenium,DB13462,P02,Anthelmintics 
+Azatadine,DB00719,R06,Antihistamines for systemic use 
+Nitroxoline,DB01422,J01,Antibacterials for systemic use
+Uridine triacetate,DB09144,A16,Other alimentary tract and metabolism products 
+Valnoctamide,DB13099,N05,Psycholeptics 
+Cladribine,DB00242,L01,Antineoplastic agents 
+Cladribine,DB00242,L04,Immunosuppressants 
+Tridihexethyl,DB00505,A03,Drugs for functional gastrointestinal disorders 
+"2,4,6-Tribromo-3-methylphenol",DB13513,D01,Antifungals for dermatological use 
+Carbenicillin,DB00578,J01,Antibacterials for systemic use 
+Dehydroemetine,DB13865,P01,Antiprotozoals 
+Benorilate,DB13657,N02,Analgesics 
+Trimetazidine,DB09069,C01,Cardiac therapy
+Floxacillin,DB00301,J01,Antibacterials for systemic use 
+Vidarabine,DB00194,J05,Antivirals for systemic use 
+Vidarabine,DB00194,S01,Ophthalmologicals 
+Xenysalate,DB13815,D11,Other dermatological preparations 
+Iprindole,DB13496,N06,Psychoanaleptics 
+Teclozan,DB13205,P01,Antiprotozoals 
+Iopydol,DB13389,V08,Contrast media 
+Butriptyline,DB09016,N06,Psychoanaleptics 
+Mefenorex,DB13852,A08,"Antiobesity preparations, excl. diet products "
+Chlordantoin,DB13516,G01,Gynecological antiinfectives and antiseptics 
+Dihexyverine,DB13678,A03,Drugs for functional gastrointestinal disorders 
+Ambuphylline,DB13812,R03,Drugs for obstructive airway diseases 
+Dimethindene,DB08801,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Dimethindene,DB08801,R06,Antihistamines for systemic use 
+Carbasalate calcium,DB13612,B01,Antithrombotic agents 
+Carbasalate calcium,DB13612,N02,Analgesics 
+4-Dimethylaminophenol,DB13549,V03,All other therapeutic products 
+Diisopromine,DB13476,A03,Drugs for functional gastrointestinal disorders 
+Levomethadone,DB13515,N07,Other nervous system drugs 
+Isometheptene,DB06706,A03,Drugs for functional gastrointestinal disorders 
+Sodium aurothiomalate,DB09276,M01,Antiinflammatory and antirheumatic products 
+Butanilicaine,DB13328,N01,Anesthetics 
+Olsalazine,DB01250,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Pipazethate,DB08796,R05,Cough and cold preparations 
+Mebhydrolin,DB13808,R06,Antihistamines for systemic use 
+Nimorazole,DB12172,P01,Antiprotozoals 
+Olaflur,DB13290,A01,Stomatological preparations 
+Creatinolfosfate,DB13071,C01,Cardiac therapy
+Tiadenol,DB13348,C10,Lipid modifying agents 
+Terodiline,DB13725,G04,Urologicals 
+Melevodopa,DB13313,N04,Anti-parkinson drugs 
+Trimethaphan,DB01116,C02,Antihypertensives 
+Molindone,DB01618,N05,Psycholeptics 
+Silver,DB12965,D08,Antiseptics and disinfectants 
+Helium,DB09155,V03,All other therapeutic products 
+Xenon,DB13453,N01,Anesthetics 
+Aluminum Chloride,DB11081,D10,Anti-acne preparations 
+Zalcitabine,DB00943,J05,Antivirals for systemic use 
+Magnesium Sulfate,DB00653,A06,Drugs for constipation 
+Magnesium Sulfate,DB00653,A12,Mineral supplements 
+Magnesium Sulfate,DB00653,B05,Blood substitutes and perfusion solutions 
+Magnesium Sulfate,DB00653,V04,Diagnostic agents 
+Mercuric Chloride,DB13765,D08,Antiseptics and disinfectants 
+Hexocyclium,DB06787,A03,Drugs for functional gastrointestinal disorders 
+Sodium Monofluorophosphate,DB09484,A01,Stomatological preparations 
+Sodium Monofluorophosphate,DB09484,A12,Mineral supplements 
+Ferrous Sulfate,DB13257,B03,Antianemic preparations 
+Zinc Sulfate,DB09322,B05,Blood substitutes and perfusion solutions 
+Zinc Sulfate,DB09322,A12,Mineral supplements 
+Sodium Sulfate,DB09472,A06,Drugs for constipation 
+Sodium Sulfate,DB09472,A12,Mineral supplements 
+Trimagnesium phosphate,DB13862,B05,Blood substitutes and perfusion solutions 
+Calcium Phosphate,DB11348,A12,Mineral supplements 
+Cupric Sulfate,DB06778,V03,All other therapeutic products 
+Silver Nitrate,DB11080,D08,Antiseptics and disinfectants 
+Mercuric iodide,DB04445,D08,Antiseptics and disinfectants 
+Stannous Fluoride,DB11092,A01,Stomatological preparations 
+Tetrazepam,DB13324,M03,Muscle relaxants 
+Iocarmic acid,DB13755,V08,Contrast media 
+Stanozolol,DB06718,A14,Anabolic agents for systemic use 
+Chloropyramine,DB08800,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Chloropyramine,DB08800,R06,Antihistamines for systemic use 
+Melitracen,DB13384,N06,Psychoanaleptics 
+Clodronic Acid,DB00720,M05,Drugs for treatment of bone diseases 
+"2-Methyl-2-propylpropane-1,3-diyl dinitrate",DB13408,C01,Cardiac therapy 
+Nicofuranose,DB13422,C10,Lipid modifying agents 
+Ammonium Chloride,DB06767,B05,Blood substitutes and perfusion solutions 
+Ammonium Chloride,DB06767,G04,Urologicals 
+Reproterol,DB12846,R03,Drugs for obstructive airway diseases 
+Reproterol,DB12846,R03,Drugs for obstructive airway diseases 
+Febarbamate,DB13303,M03,Muscle relaxants 
+Hydrocortisone Butyrate,DB14540,D07,"Corticosteroids, dermatological preparations "
+Diacerein,DB11994,M01,Antiinflammatory and antirheumatic products 
+Metopimazine,DB13591,A04,Antiemetics and antinauseants 
+Technetium Tc-99m,DB14227,V09,Diagnostic radiopharmaceuticals 
+Technetium Tc-99m,DB14227,V09,Diagnostic radiopharmaceuticals 
+Xipamide,DB13803,C03,Diuretics 
+Selegiline,DB01037,N04,Anti-parkinson drugs 
+Levamisole,DB00848,P02,Anthelmintics 
+Clobutinol,DB09004,R05,Cough and cold preparations 
+Clemastine,DB00283,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Clemastine,DB00283,R06,Antihistamines for systemic use 
+Thiamphenicol,DB08621,J01,Antibacterials for systemic use 
+Pizotyline,DB06153,N02,Analgesics 
+Cephalexin,DB00567,J01,Antibacterials for systemic use 
+Imolamine,DB09284,C01,Cardiac therapy 
+Iocetamic Acid,DB09403,V08,Contrast media 
+Isosorbide Mononitrate,DB01020,C01,Cardiac therapy 
+Gestrinone,DB11619,G03,Sex hormones and modulators of the genital system 
+Thenalidine,DB04826,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Thenalidine,DB04826,R06,Antihistamines for systemic use 
+Ornidazole,DB13026,G01,Gynecological antiinfectives and antiseptics 
+Ornidazole,DB13026,J01,Antibacterials for systemic use 
+Ornidazole,DB13026,P01,Antiprotozoals 
+Etamiphylline,DB13592,R03,Drugs for obstructive airway diseases 
+Danazol,DB01406,G03,Sex hormones and modulators of the genital system 
+Benzoctamine,DB09021,N05,Psycholeptics 
+Deslanoside,DB01078,C01,Cardiac therapy 
+Metizoline,DB13614,R01,Nasal preparations 
+Bisoxatin,DB09219,A06,Drugs for constipation 
+Metergoline,DB13520,G02,Other gynecologicals 
+Lisuride,DB00589,G02,Other gynecologicals 
+Lisuride,DB00589,N02,Analgesics 
+Fentiazac,DB13217,M01,Antiinflammatory and antirheumatic products 
+Fentiazac,DB13217,M02,Topical products for joint and muscular pain 
+Butamirate,DB13731,R05,Cough and cold preparations 
+Ditazole,DB08994,B01,Antithrombotic agents 
+Streptozocin,DB00428,L01,Antineoplastic agents 
+Taurolidine,DB12473,B05,Blood substitutes and perfusion solutions 
+Dextilidine,DB13787,N02,Analgesics 
+Daunorubicin,DB00694,L01,Antineoplastic agents 
+Lofexidine,DB04948,N07,Other nervous system drugs 
+Cephapirin,DB01139,J01,Antibacterials for systemic use 
+Dexetimide,DB08997,N04,Anti-parkinson drugs 
+Butalamine,DB13681,C04,Peripheral vasodilators 
+Alclofenac,DB13167,M01,Antiinflammatory and antirheumatic products 
+Trimethyldiphenylpropylamine,DB13361,A03,Drugs for functional gastrointestinal disorders 
+Carbimazole,DB00389,H03,Thyroid therapy 
+Bromocriptine,DB01200,G02,Other gynecologicals 
+Bromocriptine,DB01200,N04,Anti-parkinson drugs 
+Paraldehyde,DB09117,N05,Psycholeptics 
+Triamcinolone,DB00620,A01,Stomatological preparations 
+Triamcinolone,DB00620,C05,Vasoprotectives 
+Triamcinolone,DB00620,D07,"Corticosteroids, dermatological preparations "
+Triamcinolone,DB00620,D07,"Corticosteroids, dermatological preparations "
+Triamcinolone,DB00620,H02,Corticosteroids for systemic use 
+Triamcinolone,DB00620,R01,Nasal preparations 
+Triamcinolone,DB00620,R03,Drugs for obstructive airway diseases 
+Triamcinolone,DB00620,S01,Ophthalmologicals 
+Oxyphenisatin,DB04823,A06,Drugs for constipation 
+Methiodal,DB13321,V08,Contrast media 
+Fludrocortisone,DB00687,H02,Corticosteroids for systemic use 
+Ursodiol,DB01586,A05,Bile and liver therapy 
+Metipranolol,DB01214,S01,Ophthalmologicals 
+Proquazone,DB13649,M01,Antiinflammatory and antirheumatic products 
+Dimetofrine,DB13494,C01,Cardiac therapy 
+Silybin,DB09298,A05,Bile and liver therapy 
+Benznidazole,DB11989,P01,Antiprotozoals 
+Halazepam,DB00801,N05,Psycholeptics 
+Doxorubicin,DB00997,L01,Antineoplastic agents 
+Fedrilate,DB13825,R05,Cough and cold preparations 
+Bevonium,DB13542,A03,Drugs for functional gastrointestinal disorders 
+Zinc Cation,DB14532,A16,Other alimentary tract and metabolism products 
+Carticaine,DB09009,N01,Anesthetics 
+Glisoxepide,DB01289,A10,Drugs used in diabetes 
+Dexchlorpheniramine,DB13679,R06,Antihistamines for systemic use 
+Ribostamycin,DB03615,J01,Antibacterials for systemic use 
+Cefazolin,DB01327,J01,Antibacterials for systemic use 
+Cambendazole,DB11380,B01,Antithrombotic agents 
+Pivampicillin,DB01604,J01,Antibacterials for systemic use 
+Ritodrinium,DB00867,G02,Other gynecologicals 
+Amoxicillin,DB01060,J01,Antibacterials for systemic use 
+Timolol,DB00373,C07,Beta blocking agents 
+Timolol,DB00373,S01,Ophthalmologicals 
+Indoramin,DB08950,C02,Antihypertensives 
+Penfluridol,DB13791,N05,Psycholeptics 
+Carfecillin,DB13506,G01,Gynecological antiinfectives and antiseptics 
+Oxametacin,DB13308,M01,Antiinflammatory and antirheumatic products 
+Tramadol,DB00193,N02,Analgesics 
+Ketazolam,DB01587,N05,Psycholeptics 
+Almitrine,DB01430,R07,Other respiratory system products 
+Nicergoline,DB00699,C04,Peripheral vasodilators 
+Emepronium,DB13505,G04,Urologicals 
+Tymazoline,DB08803,R01,Nasal preparations 
+Oxcarbazepine,DB00776,N03,Antiepileptics 
+Difenoxin,DB01501,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Prednimustine,DB12832,L01,Antineoplastic agents 
+Toloxatone,DB09245,N06,Psychoanaleptics 
+Ioxitalamic Acid,DB13444,V08,Contrast media 
+Moricizine,DB00680,C01,Cardiac therapy 
+Ademetionine,DB00118,A16,Other alimentary tract and metabolism products 
+Amineptine,DB04836,N06,Psychoanaleptics 
+Bitolterol,DB00901,R03,Drugs for obstructive airway diseases 
+Zidovudine,DB00495,J05,Antivirals for systemic use 
+Etofenamate,DB08984,M02,Topical products for joint and muscular pain 
+Feprazone,DB13364,M01,Antiinflammatory and antirheumatic products 
+Feprazone,DB13364,M02,Topical products for joint and muscular pain 
+Iodoxamic acid,DB13539,V08,Contrast media 
+Flubendazole,DB08974,P02,Anthelmintics 
+Ciclobendazole,DB13465,P02,Anthelmintics 
+Levormeloxifene,DB13310,G03,Sex hormones and modulators of the genital system 
+Pirprofen,DB13722,M01,Antiinflammatory and antirheumatic products 
+Morclofone,DB13558,R05,Cough and cold preparations 
+Guanazodine,DB13604,C02,Antihypertensives 
+Medifoxamine,DB13219,N06,Psychoanaleptics 
+Sisomicin,DB12604,J01,Antibacterials for systemic use 
+Bunaftine,DB13652,C01,Cardiac therapy 
+Amdinocillin,DB01163,J01,Antibacterials for systemic use 
+Tobramycin,DB00684,J01,Antibacterials for systemic use 
+Tobramycin,DB00684,S01,Ophthalmologicals 
+Paclitaxel,DB01229,L01,Antineoplastic agents 
+Etoposide,DB00773,L01,Antineoplastic agents 
+Promegestone,DB13602,G03,Sex hormones and modulators of the genital system 
+Dobutamine,DB00841,C01,Cardiac therapy 
+Zipeprol,DB13564,R05,Cough and cold preparations 
+Tertatolol,DB13775,C07,Beta blocking agents 
+Ticarcillin,DB01607,J01,Antibacterials for systemic use 
+Carbuterol,DB13625,R03,Drugs for obstructive airway diseases 
+Carbuterol,DB13625,R03,Drugs for obstructive airway diseases 
+Trimazosin,DB09206,C02,Antihypertensives 
+Camazepam,DB01489,N05,Psycholeptics 
+Halofantrine,DB01218,P01,Antiprotozoals 
+Imidazole salicylate,DB13860,N02,Analgesics 
+Penbutolol,DB01359,C07,Beta blocking agents 
+Etidocaine,DB08987,N01,Anesthetics 
+Ribavirin,DB00811,J05,Antivirals for systemic use 
+Adinazolam,DB00546,N05,Psycholeptics 
+Amikacin,DB00479,D06,Antibiotics and chemotherapeutics for dermatological use 
+Amikacin,DB00479,J01,Antibacterials for systemic use 
+Amikacin,DB00479,S01,Ophthalmologicals 
+Cridanimod,DB13674,L03,Immunostimulants 
+Cephradine,DB01333,J01,Antibacterials for systemic use 
+Ticrynafen,DB04831,C03,Diuretics 
+Doxefazepam,DB13837,N05,Psycholeptics 
+Methyldopa,DB00968,C02,Antihypertensives 
+Tocainide,DB01056,C01,Cardiac therapy 
+Bezafibrate,DB01393,C10,Lipid modifying agents 
+Nadolol,DB01203,C07,Beta blocking agents 
+Diltiazem,DB00343,C05,Vasoprotectives 
+Diltiazem,DB00343,C08,Calcium channel blockers 
+Nimustine,DB13069,L01,Antineoplastic agents 
+Levobunolol,DB01210,S01,Ophthalmologicals 
+Lonidamine,DB06266,L01,Antineoplastic agents
+Vecuronium,DB01339,M03,Muscle relaxants 
+Dexibuprofen,DB09213,M01,Antiinflammatory and antirheumatic products 
+Benoxaprofen,DB04812,M01,Antiinflammatory and antirheumatic products 
+Permethrin,DB04930,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Pinazepam,DB13335,N05,Psycholeptics 
+Deltamethrin,DB13600,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Etoperidone,DB09194,N06,Psychoanaleptics 
+Pirfenidone,DB04951,L04,Immunosuppressants 
+Pinaverium,DB09090,A03,Drugs for functional gastrointestinal disorders 
+Desogestrel,DB00304,G03,Sex hormones and modulators of the genital system 
+Meptazinol,DB13478,N02,Analgesics 
+Muzolimine,DB13801,C03,Diuretics 
+Nitazoxanide,DB00507,P01,Antiprotozoals 
+Sufentanil,DB00708,N01,Anesthetics 
+Torsemide,DB00214,C03,Diuretics 
+Epirubicin,DB00445,L01,Antineoplastic agents 
+Cefmetazole,DB00274,J01,Antibacterials for systemic use 
+Desflurane,DB01189,N01,Anesthetics 
+Tiropramide,DB13091,A03,Drugs for functional gastrointestinal disorders 
+Prenalterol,DB13777,C01,Cardiac therapy 
+Sequifenadine,DB13566,R06,Antihistamines for systemic use 
+Lorcainide,DB13653,C01,Cardiac therapy 
+Idarubicin,DB01177,L01,Antineoplastic agents 
+Ceforanide,DB00923,J01,Antibacterials for systemic use 
+Cefonicid,DB01328,J01,Antibacterials for systemic use 
+Piperacillin,DB00319,J01,Antibacterials for systemic use 
+Cefotiam,DB00229,J01,Antibacterials for systemic use 
+Domiodol,DB13768,R05,Cough and cold preparations 
+Paroxetine,DB00715,N06,Psychoanaleptics 
+Captopril,DB01197,C09,Agents acting on the renin-angiotensin system 
+Bopindolol,DB08807,C07,Beta blocking agents 
+Progabide,DB00837,N03,Antiepileptics 
+Cefoperazone,DB01329,J01,Antibacterials for systemic use 
+Lodoxamide,DB06794,S01,Ophthalmologicals 
+Butoconazole,DB00639,G01,Gynecological antiinfectives and antiseptics 
+Latamoxef,DB04570,J01,Antibacterials for systemic use 
+Nicorandil,DB09220,C01,Cardiac therapy 
+Ketoconazole,DB05667,D01,Antifungals for dermatological use 
+Ketoconazole,DB05667,G01,Gynecological antiinfectives and antiseptics 
+Ketoconazole,DB05667,H02,Corticosteroids for systemic use 
+Ketoconazole,DB05667,J02,Antimycotics for systemic use 
+Endralazine,DB13435,C02,Antihypertensives 
+Pergolide,DB01186,N04,Anti-parkinson drugs 
+Cefadroxil,DB01140,J01,Antibacterials for systemic use 
+Veralipride,DB13523,N05,Psycholeptics 
+Encainide,DB01228,C01,Cardiac therapy 
+Triclabendazole,DB12245,P02,Anthelmintics 
+Nedocromil,DB00716,R01,Nasal preparations 
+Nedocromil,DB00716,R03,Drugs for obstructive airway diseases 
+Nedocromil,DB00716,S01,Ophthalmologicals 
+Doxofylline,DB09273,R03,Drugs for obstructive airway diseases 
+Cefaclor,DB00833,J01,Antibacterials for systemic use 
+Pefloxacin,DB00487,J01,Antibacterials for systemic use 
+Octenidine,DB12624,A01,Stomatological preparations 
+Octenidine,DB12624,R02,Throat preparations 
+Alfentanil,DB00802,N01,Anesthetics 
+Miglustat,DB00419,A16,Other alimentary tract and metabolism products 
+Pramiracetam,DB13247,N06,Psychoanaleptics 
+Fenticonazole,DB13434,D01,Antifungals for dermatological use 
+Fenticonazole,DB13434,G01,Gynecological antiinfectives and antiseptics 
+Cefotetan,DB01330,J01,Antibacterials for systemic use 
+Lovastatin,DB00227,C10,Lipid modifying agents 
+Flupirtine,DB06623,N02,Analgesics
+Tolrestat,DB02383,A10,Drugs used in diabetes 
+Enoximone,DB04880,C01,Cardiac therapy 
+Stepronin,DB01423,R05,Cough and cold preparations 
+Amorolfine,DB09056,D01,Antifungals for dermatological use 
+Levocabastine,DB01106,R01,Nasal preparations 
+Levocabastine,DB01106,S01,Ophthalmologicals 
+Simvastatin,DB00641,C10,Lipid modifying agents 
+Remoxipride,DB00409,N05,Psycholeptics 
+Balsalazide,DB01014,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Pravastatin,DB00175,C10,Lipid modifying agents 
+Cabergoline,DB00248,G02,Other gynecologicals 
+Cabergoline,DB00248,N04,Anti-parkinson drugs 
+Bambuterol,DB01408,R03,Drugs for obstructive airway diseases 
+Atomoxetine,DB00289,N06,Psychoanaleptics 
+Quinapril,DB00881,C09,Agents acting on the renin-angiotensin system 
+Cicletanine,DB12766,C03,Diuretics 
+Gepirone,DB12184,N06,Psychoanaleptics 
+Mifepristone,DB00834,G03,Sex hormones and modulators of the genital system 
+Itraconazole,DB01167,J02,Antimycotics for systemic use 
+Gusperimus,DB12692,L04,Immunosuppressants 
+Dopexamine,DB12313,C01,Cardiac therapy 
+Iopentol,DB13861,V08,Contrast media 
+Cilazapril,DB01340,C09,Agents acting on the renin-angiotensin system 
+Fosphenytoin,DB01320,N03,Antiepileptics 
+Fluorodopa F-18,DB13848,V09,Diagnostic radiopharmaceuticals 
+Ranolazine,DB00243,C01,Cardiac therapy
+Finasteride,DB01216,G04,Urologicals 
+Imiquimod,DB00724,D06,Antibiotics and chemotherapeutics for dermatological use 
+Rufloxacin,DB13772,J01,Antibacterials for systemic use 
+Idanpramine,DB13276,A03,Drugs for functional gastrointestinal disorders 
+Rotigotine,DB05271,N04,Anti-parkinson drugs 
+Esmolol,DB00187,C07,Beta blocking agents 
+Temafloxacin,DB01405,J01,Antibacterials for systemic use 
+Sertindole,DB06144,N05,Psycholeptics 
+Adapalene,DB00210,D10,Anti-acne preparations 
+Exemestane,DB00990,L02,Endocrine therapy 
+Sparfloxacin,DB01208,J01,Antibacterials for systemic use 
+Clopidogrel,DB00758,B01,Antithrombotic agents 
+Cidofovir,DB00369,J05,Antivirals for systemic use 
+Tiagabine,DB00906,N03,Antiepileptics 
+Mibefradil,DB01388,C08,Calcium channel blockers 
+Topotecan,DB01030,L01,Antineoplastic agents 
+Tenidap,DB13481,M01,Antiinflammatory and antirheumatic products 
+Gadoteridol,DB00597,V08,Contrast media 
+Bromfenac,DB00963,S01,Ophthalmologicals 
+Gemcitabine,DB00441,L01,Antineoplastic agents 
+Temoporfin,DB11630,L01,Antineoplastic agents 
+Ibutilide,DB00308,C01,Cardiac therapy 
+Arbutamine,DB01102,C01,Cardiac therapy 
+Aripiprazole,DB01238,N05,Psycholeptics 
+Remifentanil,DB00899,N01,Anesthetics 
+Atorvastatin,DB01076,C10,Lipid modifying agents 
+Lamivudine,DB00709,J05,Antivirals for systemic use 
+Duloxetine,DB00476,N06,Psychoanaleptics 
+Irinotecan,DB00762,L01,Antineoplastic agents 
+Valsartan,DB00177,C09,Agents acting on the renin-angiotensin system 
+Ibandronic Acid,DB00710,M05,Drugs for treatment of bone diseases 
+Ziprasidone,DB00246,N05,Psycholeptics 
+Zanamivir,DB00558,J05,Antivirals for systemic use 
+Zolmitriptan,DB00315,N02,Analgesics 
+Adefovir Dipivoxil,DB00718,J05,Antivirals for systemic use 
+Emtricitabine,DB00879,J05,Antivirals for systemic use 
+Tasosartan,DB01349,C09,Agents acting on the renin-angiotensin system 
+Tiludronic Acid,DB01133,M05,Drugs for treatment of bone diseases 
+Tirofiban,DB00775,B01,Antithrombotic agents 
+Capecitabine,DB01101,L01,Antineoplastic agents 
+Adenosine,DB00640,C01,Cardiac therapy
+Ferric citrate,DB09162,V03,All other therapeutic products 
+Bezitramide,DB01459,N02,Analgesics 
+Calcium beta-glycerophosphate,DB11264,A12,Mineral supplements 
+Azidamfenicol,DB13294,S01,Ophthalmologicals 
+Calcium Gluceptate,DB00326,A12,Mineral supplements 
+Cyamemazine,DB09000,N05,Psycholeptics 
+Pipotiazine,DB01621,N05,Psycholeptics 
+Cisatracurium,DB00565,M03,Muscle relaxants 
+Trovafloxacin,DB00685,J01,Antibacterials for systemic use 
+Methylprednisolone Aceponate,DB14643,D07,"Corticosteroids, dermatological preparations "
+Efavirenz,DB00625,J05,Antivirals for systemic use 
+Nelfinavir,DB00220,J05,Antivirals for systemic use 
+Tromantadine,DB13288,D06,Antibiotics and chemotherapeutics for dermatological use 
+Tromantadine,DB13288,J05,Antivirals for systemic use 
+Aluminum Phosphate,DB14517,A02,Drugs for acid related disorders 
+Propamidine,DB13296,D08,Antiseptics and disinfectants 
+Propamidine,DB13296,S01,Ophthalmologicals 
+N-Methylnicotinamide,DB08840,A05,Bile and liver therapy 
+Meglumine Antimoniate,DB13732,P01,Antiprotozoals 
+Plerixafor,DB06809,L03,Immunostimulants 
+Amprenavir,DB00701,J05,Antivirals for systemic use 
+Oseltamivir,DB00198,J05,Antivirals for systemic use 
+Ibacitabine,DB13776,D06,Antibiotics and chemotherapeutics for dermatological use 
+Hexamidine,DB03808,D08,Antiseptics and disinfectants 
+Hexamidine,DB03808,R01,Nasal preparations 
+Hexamidine,DB03808,R02,Throat preparations 
+Hexamidine,DB03808,S01,Ophthalmologicals 
+Hexamidine,DB03808,S03,Ophthalmological and otological preparations 
+Gallium Citrate Ga-67,DB06784,V09,Diagnostic radiopharmaceuticals 
+Ioglicic acid,DB13701,V08,Contrast media 
+Iopamidol,DB08947,V08,Contrast media 
+4-(Aminomethyl)benzoic acid,DB13244,B02,Antihemorrhagics 
+Imipraminoxide,DB13782,N06,Psychoanaleptics 
+Tilbroquinol,DB13222,P01,Antiprotozoals 
+Iprazochrome,DB13541,N02,Analgesics 
+Quifenadine,DB13713,R06,Antihistamines for systemic use 
+Talastine,DB13349,R06,Antihistamines for systemic use 
+Bendamustine,DB06769,L01,Antineoplastic agents 
+Erdosteine,DB05057,R05,Cough and cold preparations 
+Droxicam,DB09215,M01,Antiinflammatory and antirheumatic products 
+Mepixanox,DB13579,R07,Other respiratory system products 
+Viminol,DB13353,N02,Analgesics
+Trofosfamide,DB12902,L01,Antineoplastic agents 
+Caroverine,DB13835,A03,Drugs for functional gastrointestinal disorders 
+Etofamide,DB13258,P01,Antiprotozoals 
+"4,4'-[1,4-Phenylenebis(methylidynenitrilo)]bis[3-isoxazolidinone]",DB12954,J04,Antimycobacterials 
+Chlorproethazine,DB13382,N05,Psycholeptics 
+Ceftezole,DB13821,J01,Antibacterials for systemic use 
+Tretoquinol,DB13692,R03,Drugs for obstructive airway diseases 
+Tretoquinol,DB13692,R03,Drugs for obstructive airway diseases 
+Etofibrate,DB08983,C10,Lipid modifying agents 
+Pirisudanol,DB13412,N06,Psychoanaleptics 
+Oxaceprol,DB13363,M01,Antiinflammatory and antirheumatic products 
+Ritiometan,DB13267,R01,Nasal preparations 
+Cloranolol,DB13508,C07,Beta blocking agents 
+Tedisamil,DB06200,C01,Cardiac therapy 
+Levodropropizine,DB12472,R05,Cough and cold preparations 
+Sertaconazole,DB01153,D01,Antifungals for dermatological use 
+Sertaconazole,DB01153,G01,Gynecological antiinfectives and antiseptics 
+Flomoxef,DB11935,J01,Antibacterials for systemic use 
+Lercanidipine,DB00528,C08,Calcium channel blockers 
+Faropenem,DB12190,J01,Antibacterials for systemic use
+Mizolastine,DB12523,R06,Antihistamines for systemic use 
+Pidotimod,DB11364,L03,Immunostimulants 
+Prulifloxacin,DB11892,J01,Antibacterials for systemic use 
+Pazufloxacin,DB11774,J01,Antibacterials for systemic use 
+Indanazoline,DB13827,R01,Nasal preparations 
+Repaglinide,DB00912,A10,Drugs used in diabetes 
+Iobitridol,DB12407,V08,Contrast media 
+Telmisartan,DB00966,C09,Agents acting on the renin-angiotensin system 
+Benzilone,DB13369,A03,Drugs for functional gastrointestinal disorders 
+Cortivazol,DB13003,H02,Corticosteroids for systemic use 
+Propatyl Nitrate,DB13255,C01,Cardiac therapy 
+Dexfenfluramine,DB01191,A08,"Antiobesity preparations, excl. diet products "
+Gold (198Au) colloidal,DB13427,V10,Therapeutic radiopharmaceuticals 
+Xenon Xe-133,DB09315,V09,Diagnostic radiopharmaceuticals 
+Edoxudine,DB13421,D06,Antibiotics and chemotherapeutics for dermatological use 
+"Krypton, Kr-81m",DB09443,V09,Diagnostic radiopharmaceuticals 
+Cetiedil,DB13753,C04,Peripheral vasodilators 
+Gallamine,DB13584,M03,Muscle relaxants 
+"3,5-Dibromo-L-tyrosine",DB07637,H03,Thyroid therapy 
+Sulbentine,DB13671,D01,Antifungals for dermatological use 
+Dipyrocetyl,DB13839,N02,Analgesics 
+Histapyrrodine,DB13479,R06,Antihistamines for systemic use 
+Difetarsone,DB13599,P01,Antiprotozoals 
+Diiodohydroxypropane,DB13383,D08,Antiseptics and disinfectants 
+Fenquizone,DB13708,C03,Diuretics 
+Ibopamine,DB13316,C01,Cardiac therapy 
+Ibopamine,DB13316,S01,Ophthalmologicals 
+Sertraline,DB01104,N06,Psychoanaleptics 
+Ronifibrate,DB13460,C10,Lipid modifying agents 
+Arbekacin,DB06696,J01,Antibacterials for systemic use 
+Ibuproxam,DB08955,M01,Antiinflammatory and antirheumatic products 
+Lonazolac,DB13432,M01,Antiinflammatory and antirheumatic products 
+Letosteine,DB08939,R05,Cough and cold preparations 
+Rilmenidine,DB11738,C02,Antihypertensives 
+Zoledronate,DB00399,M05,Drugs for treatment of bone diseases 
+Guacetisal,DB13538,N02,Analgesics 
+Brodimoprim,DB13795,J01,Antibacterials for systemic use 
+Talinolol,DB11770,C07,Beta blocking agents 
+Budipine,DB13502,N04,Anti-parkinson drugs 
+Protiofate,DB13632,G01,Gynecological antiinfectives and antiseptics 
+Nomegestrol,DB11636,G03,Sex hormones and modulators of the genital system 
+Fexinidazole,DB12265,P01,Antiprotozoals 
+Artemisinin,DB13132,P01,Antiprotozoals 
+Brinzolamide,DB01194,S01,Ophthalmologicals 
+Dienogest,DB09123,G03,Sex hormones and modulators of the genital system 
+Propacetamol,DB09288,N02,Analgesics 
+Cinitapride,DB08810,A03,Drugs for functional gastrointestinal disorders 
+Flunoxaprofen,DB13317,G02,Other gynecologicals 
+Flunoxaprofen,DB13317,M01,Antiinflammatory and antirheumatic products 
+Tianeptine,DB09289,N06,Psychoanaleptics 
+Drospirenone,DB01395,G03,Sex hormones and modulators of the genital system 
+Cloricromen,DB13367,B01,Antithrombotic agents 
+Pivagabine,DB12951,N06,Psychoanaleptics 
+Artemether,DB06697,P01,Antiprotozoals 
+Hydrocortisone Aceponate,DB14538,D07,"Corticosteroids, dermatological preparations "
+Sulfaperin,DB13320,J01,Antibacterials for systemic use 
+Fluindione,DB13136,B01,Antithrombotic agents 
+Oxabolone cipionate,DB13185,A14,Anabolic agents for systemic use 
+Isobromindione,DB13545,M04,Antigout preparations 
+Triheptanoin,DB11677,A16,Other alimentary tract and metabolism products 
+Clofenamide,DB13663,C03,Diuretics 
+Morinamide,DB13417,J04,Antimycobacterials 
+Pentifylline,DB13634,C04,Peripheral vasodilators 
+Clorindione,DB13275,B01,Antithrombotic agents 
+Moxaverine,DB12251,A03,Drugs for functional gastrointestinal disorders 
+Valpromide,DB04165,N03,Antiepileptics 
+Cloridarol,DB13291,C01,Cardiac therapy 
+Cefminox,DB09062,J01,Antibacterials for systemic use 
+Acamprosate,DB00659,N07,Other nervous system drugs 
+Sodium Phosphate P-32,DB09370,V10,Therapeutic radiopharmaceuticals 
+Methscopolamine,DB11315,A03,Drugs for functional gastrointestinal disorders 
+Methscopolamine,DB11315,S01,Ophthalmologicals 
+Meprotixol,DB13822,R05,Cough and cold preparations 
+Barbexaclone,DB09001,N03,Antiepileptics 
+Vinburnine,DB13793,C04,Peripheral vasodilators 
+Flurithromycin,DB13338,J01,Antibacterials for systemic use 
+Tiracizine,DB13635,C01,Cardiac therapy
+Nebivolol,DB04861,C07,Beta blocking agents 
+Dofetilide,DB00204,C01,Cardiac therapy 
+Biapenem,DB13028,J01,Antibacterials for systemic use 
+"10-(4-aminobutyl)-N-(1-amino-3-hydroxy-1-oxobutan-2-yl)-19-[(2-amino-3-naphthalen-2-ylpropanoyl)amino]-16-[(4-hydroxyphenyl)methyl]-13-(1H-indol-3-ylmethyl)-6,9,12,15,18-pentaoxo-7-propan-2-yl-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carboxamide",DB06791,H01,Pituitary and hypothalamic hormones and analogues 
+Dapoxetine,DB04884,G04,Urologicals 
+Iloperidone,DB04946,N05,Psycholeptics 
+Dexrazoxane,DB00380,V03,All other therapeutic products 
+Clobetasone,DB13158,D07,"Corticosteroids, dermatological preparations "
+Clobetasone,DB13158,S01,Ophthalmologicals 
+Epicillin,DB13300,J01,Antibacterials for systemic use 
+Masoprocol,DB00179,L01,Antineoplastic agents
+Diflorasone,DB00223,D07,"Corticosteroids, dermatological preparations "
+Loperamide oxide,DB14661,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Talampicillin,DB13814,J01,Antibacterials for systemic use 
+Fenpiverinium,DB13759,A03,Drugs for functional gastrointestinal disorders 
+Voriconazole,DB00582,J02,Antimycotics for systemic use 
+Chlorbenzoxamine,DB13788,A03,Drugs for functional gastrointestinal disorders 
+Mebutizide,DB13430,C03,Diuretics 
+Moroxydine,DB13597,J05,Antivirals for systemic use 
+Meladrazine,DB13272,G04,Urologicals 
+Naftazone,DB13680,C05,Vasoprotectives 
+Mepindolol,DB13530,C07,Beta blocking agents 
+Cefazedone,DB13778,J01,Antibacterials for systemic use 
+Ranimustine,DB13832,L01,Antineoplastic agents 
+Aceclofenac,DB06736,M01,Antiinflammatory and antirheumatic products 
+Aceclofenac,DB06736,M02,Topical products for joint and muscular pain 
+Methoserpidine,DB13631,C02,Antihypertensives 
+Clometocillin,DB13686,J01,Antibacterials for systemic use 
+Secnidazole,DB12834,P01,Antiprotozoals 
+Clefamide,DB13512,P01,Antiprotozoals 
+Chlormidazole,DB13611,D01,Antifungals for dermatological use 
+Guanoclor,DB13779,C02,Antihypertensives 
+Theodrenaline,DB12927,C01,Cardiac therapy 
+Fenoxazoline,DB13736,R01,Nasal preparations 
+Niaprazine,DB13687,N05,Psycholeptics 
+Amezinium Metilsulfate,DB13330,C01,Cardiac therapy 
+Rimazolium,DB13289,N02,Analgesics
+Aspoxicillin,DB13816,J01,Antibacterials for systemic use 
+Epanolol,DB13757,C07,Beta blocking agents 
+Eberconazole,DB13656,D01,Antifungals for dermatological use 
+Pheneturide,DB13362,N03,Antiepileptics 
+Cyclobutyrol,DB13493,A05,Bile and liver therapy 
+Bamipine,DB13489,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Bamipine,DB13489,R06,Antihistamines for systemic use 
+Terlipressin,DB02638,H01,Pituitary and hypothalamic hormones and analogues 
+Fenoverine,DB13042,A03,Drugs for functional gastrointestinal disorders 
+Morniflumate,DB09285,M01,Antiinflammatory and antirheumatic products 
+Vinylbital,DB13770,N05,Psycholeptics 
+Tolonidine,DB13429,C02,Antihypertensives 
+Tioxolone,DB13343,D10,Anti-acne preparations 
+Tolpropamine,DB13305,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Tiemonium iodide,DB13666,A03,Drugs for functional gastrointestinal disorders 
+Tritoqualine,DB13711,R06,Antihistamines for systemic use 
+Levomepromazine,DB01403,N05,Psycholeptics 
+Grepafloxacin,DB00365,J01,Antibacterials for systemic use 
+Oleandomycin,DB11442,J01,Antibacterials for systemic use 
+Clevudine,DB06683,J05,Antivirals for systemic use 
+Doripenem,DB06211,J01,Antibacterials for systemic use 
+Atovaquone,DB01117,P01,Antiprotozoals 
+5-Bromo-4'-chlorosalicylanilide,DB13696,D01,Antifungals for dermatological use 
+Rivastigmine,DB00989,N06,Psychoanaleptics 
+Frovatriptan,DB00998,N02,Analgesics 
+Eletriptan,DB00216,N02,Analgesics 
+Rosiglitazone,DB00412,A10,Drugs used in diabetes 
+Ethylbenzhydramine methyl iodide,DB13769,A03,Drugs for functional gastrointestinal disorders 
+Bexarotene,DB00307,L01,Antineoplastic agents 
+Agomelatine,DB06594,N06,Psychoanaleptics 
+Flunisolide,DB00180,R01,Nasal preparations 
+Flunisolide,DB00180,R03,Drugs for obstructive airway diseases 
+Etofylline nicotinate,DB13842,C04,Peripheral vasodilators 
+Tetramethrin,DB13752,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Clarithromycin,DB01211,J01,Antibacterials for systemic use 
+Dibunate,DB13796,R05,Cough and cold preparations 
+D-Methionine,DB02893,V03,All other therapeutic products 
+Nicotine,DB00184,N07,Other nervous system drugs 
+Moexipril,DB00691,C09,Agents acting on the renin-angiotensin system 
+Hydroquinidine,DB15300,C01,Cardiac therapy 
+Cephacetrile,DB01414,J01,Antibacterials for systemic use 
+Gliquidone,DB01251,A10,Drugs used in diabetes 
+Levobupivacaine,DB01002,N01,Anesthetics 
+Zofenopril,DB13166,C09,Agents acting on the renin-angiotensin system 
+Argatroban,DB00278,B01,Antithrombotic agents 
+Allopregnanolone,DB11859,N06,Psychoanaleptics 
+Levoverbenone,DB13391,R05,Cough and cold preparations 
+Propicillin,DB13660,J01,Antibacterials for systemic use 
+Dextromoramide,DB01529,N02,Analgesics 
+Droxidopa,DB06262,C01,Cardiac therapy 
+Demegestone,DB13857,G03,Sex hormones and modulators of the genital system 
+Quinupramine,DB13246,N06,Psychoanaleptics 
+Carbenicillin indanyl,DB09319,J01,Antibacterials for systemic use 
+Dimetacrine,DB08996,N06,Psychoanaleptics 
+Acetoxolone,DB13640,A02,Drugs for acid related disorders 
+Difenpiramide,DB13371,M01,Antiinflammatory and antirheumatic products 
+Gestonorone,DB13230,G03,Sex hormones and modulators of the genital system 
+Gestonorone,DB13230,L02,Endocrine therapy 
+Phenglutarimide,DB13413,N04,Anti-parkinson drugs 
+Fulvestrant,DB00947,L02,Endocrine therapy 
+Alfaxalone,DB11371,N01,Anesthetics 
+Rimonabant,DB06155,A08,"Antiobesity preparations, excl. diet products "
+Bosentan,DB00559,C02,Antihypertensives 
+Cyfluthrin,DB13828,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Indobufen,DB12545,B01,Antithrombotic agents 
+Dihydroergocristine,DB13345,C04,Peripheral vasodilators 
+Racecadotril,DB11696,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents"
+Perindopril,DB00790,C09,Agents acting on the renin-angiotensin system 
+Ethacizine,DB13645,C01,Cardiac therapy 
+Fingolimod,DB05286,L04,Immunosuppressants 
+Trabectedin,DB05109,L01,Antineoplastic agents 
+Tadalafil,DB00820,G04,Urologicals 
+Dimethylaminopropionylphenothiazine,DB13672,A03,Drugs for functional gastrointestinal disorders 
+Landiolol,DB12212,C07,Beta blocking agents 
+Amdinocillin Pivoxil,DB01605,J01,Antibacterials for systemic use 
+Paliperidone,DB01267,N05,Psycholeptics 
+Nitisinone,DB00348,A16,Other alimentary tract and metabolism products 
+Tafenoquine,DB06608,P01,Antiprotozoals 
+Clofarabine,DB00631,L01,Antineoplastic agents 
+Ammonia N-13,DB09326,V09,Diagnostic radiopharmaceuticals 
+Pramipexole,DB00413,N04,Anti-parkinson drugs 
+Mosapride,DB11675,A03,Drugs for functional gastrointestinal disorders 
+Valdecoxib,DB00580,M01,Antiinflammatory and antirheumatic products 
+Parecoxib,DB08439,M01,Antiinflammatory and antirheumatic products 
+Prenoxdiazine,DB13397,R05,Cough and cold preparations 
+Carglumic Acid,DB06775,A16,Other alimentary tract and metabolism products 
+Hydroquinine,DB13718,C01,Cardiac therapy 
+Hydroquinine,DB13718,M09,Other drugs for disorders of the musculo-skeletal system 
+Mitiglinide,DB01252,A10,Drugs used in diabetes 
+Ezogabine,DB04953,N03,Antiepileptics 
+Scintadren,DB13622,V09,Diagnostic radiopharmaceuticals 
+Mebicar,DB13522,N06,Psychoanaleptics 
+Efaproxiral,DB08486,L01,Antineoplastic agents 
+Eprozinol,DB13395,R03,Drugs for obstructive airway diseases
+Almotriptan,DB00918,N02,Analgesics 
+Etoricoxib,DB01628,M01,Antiinflammatory and antirheumatic products 
+Tazobactam,DB01606,J01,Antibacterials for systemic use 
+Gefitinib,DB00317,L01,Antineoplastic agents 
+Meldonium,DB13723,C01,Cardiac therapy
+l-Alanyl-l-glutamine,DB11876,B05,Blood substitutes and perfusion solutions 
+Desloratadine,DB00967,R06,Antihistamines for systemic use 
+Garenoxacin,DB06160,J01,Antibacterials for systemic use 
+Glutathione,DB00143,V03,All other therapeutic products 
+Desvenlafaxine,DB06700,N06,Psychoanaleptics 
+Methotrexate,DB00563,L04,Immunosuppressants 
+Methotrexate,DB00563,L01,Antineoplastic agents 
+Reboxetine,DB00234,N06,Psychoanaleptics 
+Cefbuperazone,DB13638,J01,Antibacterials for systemic use 
+Tamsulosin,DB00706,G04,Urologicals 
+Rufinamide,DB06201,N03,Antiepileptics 
+Sulbactam,DB09324,J01,Antibacterials for systemic use 
+Dexpanthenol,DB09357,A11,Vitamins
+Dexpanthenol,DB09357,D03,Preparations for treatment of wounds and ulcers 
+Dexpanthenol,DB09357,S01,Ophthalmologicals
+Arbidol,DB13609,J05,Antivirals for systemic use 
+Fosamprenavir,DB01319,J05,Antivirals for systemic use 
+Safinamide,DB06654,N04,Anti-parkinson drugs 
+Abiraterone,DB05812,L02,Endocrine therapy 
+Ivabradine,DB09083,C01,Cardiac therapy
+Rupatadine,DB11614,R06,Antihistamines for systemic use 
+Febuxostat,DB04854,M04,Antigout preparations 
+Pixantrone,DB06193,L01,Antineoplastic agents 
+Pomalidomide,DB08910,L04,Immunosuppressants 
+Escitalopram,DB01175,N06,Psychoanaleptics 
+Pralatrexate,DB06813,L01,Antineoplastic agents 
+Docetaxel,DB01248,L01,Antineoplastic agents 
+Atazanavir,DB01072,J05,Antivirals for systemic use 
+Lonafarnib,DB06448,A16,Other alimentary tract and metabolism products 
+Levofloxacin,DB01137,J01,Antibacterials for systemic use 
+Levofloxacin,DB01137,S01,Ophthalmologicals 
+Ezetimibe,DB00973,C10,Lipid modifying agents 
+Ertapenem,DB00303,J01,Antibacterials for systemic use 
+Nepafenac,DB06802,S01,Ophthalmologicals 
+Lumiracoxib,DB01283,M01,Antiinflammatory and antirheumatic products 
+Conivaptan,DB00872,C03,Diuretics 
+Moxifloxacin,DB00218,J01,Antibacterials for systemic use 
+Moxifloxacin,DB00218,S01,Ophthalmologicals 
+Clevidipine,DB04920,C08,Calcium channel blockers 
+Solifenacin,DB01591,G04,Urologicals 
+Dexmethylphenidate,DB06701,N06,Psychoanaleptics 
+Peramivir,DB06614,J05,Antivirals for systemic use 
+Bazedoxifene,DB06401,G03,Sex hormones and modulators of the genital system 
+Hyoscyamine,DB00424,A03,Drugs for functional gastrointestinal disorders 
+Xamoterol,DB13781,C01,Cardiac therapy 
+Iofetamine (123I),DB09480,V09,Diagnostic radiopharmaceuticals 
+Naproxen,DB00788,G02,Other gynecologicals 
+Naproxen,DB00788,M01,Antiinflammatory and antirheumatic products 
+Naproxen,DB00788,M02,Topical products for joint and muscular pain 
+Cinacalcet,DB01012,H05,Calcium homeostasis 
+Lactitol,DB12942,A06,Drugs for constipation 
+Lubiprostone,DB01046,A06,Drugs for constipation 
+Methyl Aminolevulinate,DB00992,L01,Antineoplastic agents 
+Gadoteric acid,DB09132,V08,Contrast media 
+Camphor (synthetic),DB01744,C01,Cardiac therapy
+Telbivudine,DB01265,J05,Antivirals for systemic use 
+Clofibride,DB13849,C10,Lipid modifying agents 
+Butylscopolamine,DB09300,A03,Drugs for functional gastrointestinal disorders 
+Tidiacic arginine,DB13748,A05,Bile and liver therapy 
+Sodium aurotiosulfate,DB13743,M01,Antiinflammatory and antirheumatic products 
+Tixocortol,DB09091,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Tixocortol,DB09091,R01,Nasal preparations 
+Plicamycin,DB06810,L01,Antineoplastic agents 
+Difemerine,DB13380,A03,Drugs for functional gastrointestinal disorders 
+Arginine glutamate,DB13207,A05,Bile and liver therapy 
+Cerium oxalate,DB13519,A04,Antiemetics and antinauseants 
+Paromomycin,DB01421,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Anidulafungin,DB00362,J02,Antimycotics for systemic use 
+Xenon Xe-127,DB09461,V09,Diagnostic radiopharmaceuticals 
+Tenitramine,DB13637,C01,Cardiac therapy 
+Lanthanum Carbonate,DB06792,V03,All other therapeutic products 
+Ferric Maltol,DB15598,B03,Antianemic preparations 
+"6,10-Methano-6H-pyrazino[2,3-h][3]benzazepine, 7,8,9,10-tetrahydro-",DB01273,N07,Other nervous system drugs 
+"6,10-Methano-6H-pyrazino[2,3-h][3]benzazepine, 7,8,9,10-tetrahydro-",DB01273,S01,Ophthalmologicals
+Iron-59 citrate,DB13582,V09,Diagnostic radiopharmaceuticals 
+Biotin,DB00121,A11,Vitamins
+Temocillin,DB12343,J01,Antibacterials for systemic use 
+angiotensin II,DB11842,C01,Cardiac therapy 
+Atropine,DB00572,A03,Drugs for functional gastrointestinal disorders 
+Atropine,DB00572,S01,Ophthalmologicals 
+Esatenolol,DB13443,C07,Beta blocking agents 
+Ropivacaine,DB00296,N01,Anesthetics 
+Migalastat,DB05018,A16,Other alimentary tract and metabolism products 
+Erlotinib,DB00530,L01,Antineoplastic agents 
+Esketamine,DB11823,N01,Anesthetics 
+Esketamine,DB11823,N06,Psychoanaleptics 
+Melagatran,DB13616,B01,Antithrombotic agents 
+Bilastine,DB11591,R06,Antihistamines for systemic use 
+Bilastine,DB11591,S01,Ophthalmologicals 
+Sulfamazone,DB13556,J01,Antibacterials for systemic use 
+Deflazacort,DB11921,H02,Corticosteroids for systemic use 
+Carbocysteine,DB04339,R05,Cough and cold preparations 
+Etravirine,DB06414,J05,Antivirals for systemic use 
+Tribenoside,DB13227,C05,Vasoprotectives 
+Tribenoside,DB13227,C05,Vasoprotectives 
+Fenpiprane,DB13439,A03,Drugs for functional gastrointestinal disorders 
+Troleandomycin,DB13179,J01,Antibacterials for systemic use 
+Deptropine,DB13466,R06,Antihistamines for systemic use 
+Dronedarone,DB04855,C01,Cardiac therapy 
+Ramelteon,DB00980,N05,Psycholeptics 
+Droxypropine,DB13436,R05,Cough and cold preparations 
+Lapatinib,DB01259,L01,Antineoplastic agents 
+Darunavir,DB01264,J05,Antivirals for systemic use 
+Iclaprim,DB06358,J01,Antibacterials for systemic use 
+Lurasidone,DB08815,N05,Psycholeptics 
+Dapivirine,DB08639,G01,Gynecological antiinfectives and antiseptics 
+Deferasirox,DB01609,V03,All other therapeutic products 
+Sitaxentan,DB06268,C02,Antihypertensives 
+Sorafenib,DB00398,L01,Antineoplastic agents 
+Lenalidomide,DB00480,L04,Immunosuppressants 
+Lasofoxifene,DB06202,G03,Sex hormones and modulators of the genital system 
+Regadenoson,DB06213,C01,Cardiac therapy
+Lacosamide,DB06218,N03,Antiepileptics 
+Gedocarnil,DB13534,N05,Psycholeptics 
+Gepefrine,DB13703,C01,Cardiac therapy 
+Demecolcine,DB13318,L01,Antineoplastic agents 
+Cholic Acid,DB02659,A05,Bile and liver therapy 
+Cortisone,DB14681,H02,Corticosteroids for systemic use 
+Cortisone,DB14681,S01,Ophthalmologicals 
+Allylestrenol,DB01431,G03,Sex hormones and modulators of the genital system 
+Epimestrol,DB13386,G03,Sex hormones and modulators of the genital system 
+Medrysone,DB00253,S01,Ophthalmologicals 
+Estramustine,DB01196,L01,Antineoplastic agents
+Pheneticillin,DB13337,J01,Antibacterials for systemic use 
+Noscapine,DB06174,R05,Cough and cold preparations 
+Omacetaxine Mepesuccinate,DB04865,L01,Antineoplastic agents
+Rosoxacin,DB00817,J01,Antibacterials for systemic use 
+Formocortal,DB13664,S01,Ophthalmologicals 
+Bortezomib,DB00188,L01,Antineoplastic agents 
+Ritonavir,DB00503,J05,Antivirals for systemic use 
+Oxaflozane,DB13457,N06,Psychoanaleptics 
+D-Glucosamine,DB01296,M01,Antiinflammatory and antirheumatic products 
+Norepinephrine,DB00368,C01,Cardiac therapy 
+Oxitriptan,DB02959,N06,Psychoanaleptics 
+Bekanamycin,DB13673,J01,Antibacterials for systemic use 
+Dihydrostreptomycin,DB11512,S01,Ophthalmologicals 
+Ouabain,DB01092,C01,Cardiac therapy 
+Pentostatin,DB00552,L01,Antineoplastic agents
+Quinidine,DB00908,C01,Cardiac therapy 
+Meropenem,DB00760,J01,Antibacterials for systemic use 
+Griseofulvin,DB00400,D01,Antifungals for dermatological use 
+Griseofulvin,DB00400,D01,Antifungals for dermatological use 
+Cefoxitin,DB01331,J01,Antibacterials for systemic use 
+Digitoxin,DB01396,C01,Cardiac therapy 
+Saquinavir,DB01232,J05,Antivirals for systemic use 
+Silver Sulfadiazine,DB05245,D06,Antibiotics and chemotherapeutics for dermatological use 
+Pentazocine,DB00652,N02,Analgesics 
+Pancuronium,DB01337,M03,Muscle relaxants 
+Abacavir,DB01048,J05,Antivirals for systemic use 
+Netilmicin,DB00955,J01,Antibacterials for systemic use 
+Netilmicin,DB00955,S01,Ophthalmologicals 
+Miglitol,DB00491,A10,Drugs used in diabetes 
+Mometasone,DB00764,D07,"Corticosteroids, dermatological preparations "
+Mometasone,DB00764,D07,"Corticosteroids, dermatological preparations "
+Mometasone,DB00764,R01,Nasal preparations 
+Mometasone,DB00764,R03,Drugs for obstructive airway diseases 
+Metyrosine,DB00765,C02,Antihypertensives 
+Terconazole,DB00251,G01,Gynecological antiinfectives and antiseptics 
+Bacampicillin,DB01602,J01,Antibacterials for systemic use 
+Linezolid,DB00601,J01,Antibacterials for systemic use
+Cathine,DB01486,A08,"Antiobesity preparations, excl. diet products "
+Cymarine,DB13240,C01,Cardiac therapy 
+Visnadine,DB13355,C04,Peripheral vasodilators 
+Mersalyl acid,DB09338,C03,Diuretics 
+Hetacillin,DB00739,J01,Antibacterials for systemic use 
+Zinc Gluconate,DB11248,A12,Mineral supplements 
+Barnidipine,DB09227,C08,Calcium channel blockers 
+Eplerenone,DB00700,C03,Diuretics 
+Temocapril,DB08836,C09,Agents acting on the renin-angiotensin system 
+Tolterodine,DB01036,G04,Urologicals 
+Ergonovine,DB01253,G02,Other gynecologicals 
+Difluprednate,DB06781,D07,"Corticosteroids, dermatological preparations "
+Halcinonide,DB06786,D07,"Corticosteroids, dermatological preparations "
+Metildigoxin,DB13401,C01,Cardiac therapy 
+Terguride,DB13399,G02,Other gynecologicals 
+Vinpocetine,DB12131,N06,Psychoanaleptics 
+Amcinonide,DB00288,D07,"Corticosteroids, dermatological preparations "
+Tibolone,DB09070,G03,Sex hormones and modulators of the genital system 
+Gadoversetamide,DB00538,V08,Contrast media 
+Voglibose,DB04878,A10,Drugs used in diabetes 
+Sultamicillin,DB12127,J01,Antibacterials for systemic use 
+Darifenacin,DB00496,G04,Urologicals 
+Tretinoin,DB00755,D10,Anti-acne preparations 
+Tretinoin,DB00755,L01,Antineoplastic agents 
+Fumaric Acid,DB01677,D05,Antipsoriatics 
+Retinol,DB00162,R01,Nasal preparations 
+Retinol,DB00162,S01,Ophthalmologicals
+Retinol,DB00162,A11,Vitamins 
+Retinol,DB00162,D10,Anti-acne preparations 
+Tacrolimus,DB00864,D11,Other dermatological preparations 
+Tacrolimus,DB00864,L04,Immunosuppressants 
+Cerivastatin,DB00439,C10,Lipid modifying agents 
+Rosuvastatin,DB01098,C10,Lipid modifying agents 
+Cocaine,DB00907,N01,Anesthetics 
+Cocaine,DB00907,R02,Throat preparations 
+Cocaine,DB00907,S01,Ophthalmologicals 
+Cocaine,DB00907,S02,Otologicals 
+Mycophenolic Acid,DB01024,L04,Immunosuppressants 
+Mupirocin,DB00410,D06,Antibiotics and chemotherapeutics for dermatological use 
+Mupirocin,DB00410,R01,Nasal preparations 
+Brivudine,DB03312,J05,Antivirals for systemic use 
+Fosfomycin,DB00828,J01,Antibacterials for systemic use
+Fosfomycin,DB00828,S02,Otologicals 
+Azithromycin,DB00207,S01,Ophthalmologicals 
+Azithromycin,DB00207,J01,Antibacterials for systemic use 
+Obeticholic Acid,DB05990,A05,Bile and liver therapy 
+Diethylstilbestrol,DB00255,G03,Sex hormones and modulators of the genital system 
+Diethylstilbestrol,DB00255,G03,Sex hormones and modulators of the genital system 
+Diethylstilbestrol,DB00255,L02,Endocrine therapy 
+Octreotide,DB00104,H01,Pituitary and hypothalamic hormones and analogues 
+Alitretinoin,DB00523,D11,Other dermatological preparations 
+Alitretinoin,DB00523,L01,Antineoplastic agents 
+Roflumilast,DB01656,R03,Drugs for obstructive airway diseases
+Demoxytocin,DB13798,H01,Pituitary and hypothalamic hormones and analogues 
+Iodocholesterol (131I),DB13797,V09,Diagnostic radiopharmaceuticals 
+Fluciclovine (18F),DB13146,V09,Diagnostic radiopharmaceuticals 
+Aclarubicin,DB11617,L01,Antineoplastic agents 
+Decitabine,DB01262,L01,Antineoplastic agents 
+Colfosceril palmitate,DB09114,R07,Other respiratory system products 
+Pantethine,DB11190,A11,Vitamins
+Teniposide,DB00444,L01,Antineoplastic agents 
+Valrubicin,DB00385,L01,Antineoplastic agents 
+Pretomanid,DB05154,J04,Antimycobacterials 
+Cefamandole,DB01326,J01,Antibacterials for systemic use 
+Dactinomycin,DB00970,L01,Antineoplastic agents 
+Tiazofurin,DB13243,L01,Antineoplastic agents
+Melphalan,DB01042,L01,Antineoplastic agents 
+Posaconazole,DB01263,J02,Antimycotics for systemic use 
+Dibekacin,DB13270,J01,Antibacterials for systemic use 
+Dibekacin,DB13270,S01,Ophthalmologicals 
+Maribavir,DB06234,J05,Antivirals for systemic use 
+Micafungin,DB01141,J02,Antimycotics for systemic use 
+Brincidofovir,DB12151,J05,Antivirals for systemic use 
+Delafloxacin,DB11943,J01,Antibacterials for systemic use 
+Efinaconazole,DB09040,D01,Antifungals for dermatological use 
+Favipiravir,DB12466,J05,Antivirals for systemic use 
+Riboflavin,DB00140,A11,Vitamins
+Riboflavin,DB00140,S01,Ophthalmologicals
+Laninamivir,DB12791,J05,Antivirals for systemic use 
+Potassium Permanganate,DB13831,D08,Antiseptics and disinfectants 
+Potassium Permanganate,DB13831,V03,All other therapeutic products 
+Sodium Bicarbonate,DB01390,B05,Blood substitutes and perfusion solutions 
+Sodium Bicarbonate,DB01390,B05,Blood substitutes and perfusion solutions 
+Potassium Bicarbonate,DB11098,A12,Mineral supplements 
+Potassium Perchlorate,DB09418,H03,Thyroid therapy 
+Potassium Acetate,DB14498,B05,Blood substitutes and perfusion solutions 
+Sodium Acetate,DB09395,B05,Blood substitutes and perfusion solutions 
+Ipidacrine,DB13668,N06,Psychoanaleptics 
+Tolfenamic acid,DB09216,M01,Antiinflammatory and antirheumatic products 
+Urea C-13,DB09510,V04,Diagnostic agents
+Hydrocortisone Probutate,DB14543,D07,"Corticosteroids, dermatological preparations "
+Carbenoxolone,DB02329,A02,Drugs for acid related disorders 
+Cefpiramide,DB00430,J01,Antibacterials for systemic use 
+Dimethyl Fumarate,DB08908,L04,Immunosuppressants 
+Protirelin,DB09421,V04,Diagnostic agents 
+Cannabidiol,DB09061,N03,Antiepileptics 
+Sparteine,DB06727,C01,Cardiac therapy 
+Buprenorphine,DB00921,N02,Analgesics 
+Buprenorphine,DB00921,N07,Other nervous system drugs 
+Lypressin,DB14642,H01,Pituitary and hypothalamic hormones and analogues 
+Nilotinib,DB04868,L01,Antineoplastic agents 
+Mezlocillin,DB00948,J01,Antibacterials for systemic use 
+Cefsulodin,DB13499,J01,Antibacterials for systemic use 
+Trilostane,DB01108,H02,Corticosteroids for systemic use 
+Methylatropine,DB13833,A03,Drugs for functional gastrointestinal disorders 
+Bucillamine,DB12160,M01,Antiinflammatory and antirheumatic products 
+lanatoside C,DB13467,C01,Cardiac therapy 
+Polidocanol,DB06811,C05,Vasoprotectives 
+Oxtriphylline,DB01303,R03,Drugs for obstructive airway diseases 
+Mitobronitol,DB13543,L01,Antineoplastic agents 
+Tropisetron,DB11699,A04,Antiemetics and antinauseants 
+Norcholestenol iodomethyl ((sup 131)I),DB13487,V09,Diagnostic radiopharmaceuticals 
+Benidipine,DB09231,C08,Calcium channel blockers 
+Leuprolide,DB00007,L02,Endocrine therapy 
+Fludarabine,DB01073,L01,Antineoplastic agents 
+Choline Alfoscerate,DB04660,N07,Other nervous system drugs 
+Propylthiouracil,DB00550,H03,Thyroid therapy 
+Prothionamide,DB12667,J04,Antimycobacterials 
+Chlorprothixene,DB01239,N05,Psycholeptics 
+Cidoxepin,DB01142,D04,"Antipruritics, incl. antihistamines, anesthetics, etc. "
+Cidoxepin,DB01142,N06,Psychoanaleptics 
+Dienestrol,DB00890,G03,Sex hormones and modulators of the genital system 
+Dienestrol,DB00890,G03,Sex hormones and modulators of the genital system 
+Etomidate,DB00292,N01,Anesthetics 
+Mercaptopurine,DB01033,L01,Antineoplastic agents 
+Mesulfen,DB13356,D10,Anti-acne preparations 
+Mesulfen,DB13356,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Methisazone,DB13641,J05,Antivirals for systemic use 
+Methylthiouracil,DB13644,H03,Thyroid therapy 
+Dexketoprofen,DB09214,M01,Antiinflammatory and antirheumatic products 
+Dexketoprofen,DB09214,M02,Topical products for joint and muscular pain 
+Benzylthiouracil,DB13804,H03,Thyroid therapy 
+"8-hydroxy-5-[(1R,2S)-1-hydroxy-2-[(propan-2-yl)amino]butyl]-1,2-dihydroquinolin-2-one",DB01366,R03,Drugs for obstructive airway diseases 
+"8-hydroxy-5-[(1R,2S)-1-hydroxy-2-[(propan-2-yl)amino]butyl]-1,2-dihydroquinolin-2-one",DB01366,R03,Drugs for obstructive airway diseases 
+Pyrantel,DB11156,P02,Anthelmintics 
+Flunarizine,DB04841,N07,Other nervous system drugs 
+Thiothixene,DB01623,N05,Psycholeptics 
+Eszopiclone,DB00402,N05,Psycholeptics 
+Benztropine,DB00245,N04,Anti-parkinson drugs 
+Methimazole,DB00763,H03,Thyroid therapy 
+Sulindac,DB00605,M01,Antiinflammatory and antirheumatic products 
+Zucapsaicin,DB09120,M02,Topical products for joint and muscular pain 
+Capsaicin,DB06774,M02,Topical products for joint and muscular pain 
+Capsaicin,DB06774,N01,Anesthetics 
+Enclomiphene,DB06735,G03,Sex hormones and modulators of the genital system 
+Levocetirizine,DB06282,R06,Antihistamines for systemic use 
+Terbinafine,DB00857,D01,Antifungals for dermatological use 
+Terbinafine,DB00857,D01,Antifungals for dermatological use 
+Ambazone,DB13697,R02,Throat preparations 
+Idrocilamide,DB13297,M02,Topical products for joint and muscular pain 
+Drotaverine,DB06751,A03,Drugs for functional gastrointestinal disorders 
+Thioguanine,DB00352,L01,Antineoplastic agents 
+Digoxin,DB00390,C01,Cardiac therapy 
+Tamoxifen,DB00675,L02,Endocrine therapy 
+Ethionamide,DB00609,J04,Antimycobacterials 
+Fusidic Acid,DB02703,S01,Ophthalmologicals 
+Fusidic Acid,DB02703,D06,Antibiotics and chemotherapeutics for dermatological use 
+Fusidic Acid,DB02703,D09,Medicated dressings 
+Fusidic Acid,DB02703,J01,Antibacterials for systemic use 
+Hyoscine,DB00747,A04,Antiemetics and antinauseants 
+Hyoscine,DB00747,N05,Psycholeptics 
+Hyoscine,DB00747,S01,Ophthalmologicals 
+Artemotil,DB13851,P01,Antiprotozoals 
+Lincomycin,DB01627,J01,Antibacterials for systemic use 
+Sulfathiourea,DB13699,J01,Antibacterials for systemic use 
+Thiopental,DB00599,N01,Anesthetics 
+Thiopental,DB00599,N05,Psycholeptics 
+Tiocarlide,DB13608,J04,Antimycobacterials 
+Sulbutiamine,DB13416,A11,Vitamins 
+Telithromycin,DB00976,J01,Antibacterials for systemic use 
+Maraviroc,DB04835,J05,Antivirals for systemic use 
+Luliconazole,DB08933,D01,Antifungals for dermatological use 
+Toremifene,DB00539,L02,Endocrine therapy 
+Telaprevir,DB05521,J05,Antivirals for systemic use 
+Nelarabine,DB01280,L01,Antineoplastic agents 
+"Mercuric Chloride, Ammoniated",DB13344,D08,Antiseptics and disinfectants 
+S-Benzoylthiamine monophosphate,DB11748,A11,Vitamins 
+Dezocine,DB01209,N02,Analgesics 
+Dapiprazole,DB00298,S01,Ophthalmologicals 
+Cinolazepam,DB01594,N05,Psycholeptics 
+Nizax,DB00585,A02,Drugs for acid related disorders 
+Dolasetron,DB00757,A04,Antiemetics and antinauseants 
+Levosimendan,DB00922,C01,Cardiac therapy 
+Loprazolam,DB13643,N05,Psycholeptics 
+"N-(1,3-Benzodioxol-5-ylmethyl)-N'-[2-[[[5-[(dimethylamino)methyl]-2-furanyl]methyl]thio]ethyl]-2-nitro-1,1-ethenediamine",DB13760,A02,Drugs for acid related disorders 
+Nicofetamide,DB13531,A03,Drugs for functional gastrointestinal disorders 
+Omoconazole,DB13684,D01,Antifungals for dermatological use 
+Omoconazole,DB13684,G01,Gynecological antiinfectives and antiseptics 
+Orlistat,DB01083,A08,"Antiobesity preparations, excl. diet products "
+Sulfatolamide,DB13547,G01,Gynecological antiinfectives and antiseptics 
+Quinine,DB00468,P01,Antiprotozoals 
+Tropatepine,DB13252,N04,Anti-parkinson drugs 
+Amrubicin,DB06263,L01,Antineoplastic agents 
+"N-[(3S,6S,9S,11R,15S,18S,20R,21S,24S,25S)-3-[(1R)-3-amino-1-hydroxypropyl]-21-[(2-aminoethyl)amino]-6-[(1S,2S)-1,2-dihydroxy-2-(4-hydroxyphenyl)ethyl]-11,20,25-trihydroxy-15-[(1R)-1-hydroxyethyl]-2,5,8,14,17,23-hexaoxo-1,4,7,13,16,22-hexaazatricyclo[22.3.0.0^{9,13}]heptacosan-18-yl]-10,12-dimethyltetradecanamide",DB00520,J02,Antimycotics for systemic use 
+Ospemifene,DB04938,G03,Sex hormones and modulators of the genital system 
+Magnesium Orotate,DB13786,A12,Mineral supplements 
+Micronomicin,DB13274,S01,Ophthalmologicals 
+Isepamicin,DB13540,J01,Antibacterials for systemic use 
+Methenolone,DB13710,A14,Anabolic agents for systemic use 
+Dimemorfan,DB13810,R05,Cough and cold preparations 
+Neltenexine,DB13239,R05,Cough and cold preparations 
+Nepinalone,DB13445,R05,Cough and cold preparations 
+Prucalopride,DB06480,A06,Drugs for constipation 
+Rasagiline,DB01367,N04,Anti-parkinson drugs 
+Dasatinib,DB01254,L01,Antineoplastic agents 
+Vandetanib,DB05294,L01,Antineoplastic agents 
+Telavancin,DB06402,J01,Antibacterials for systemic use 
+Arformoterol,DB01274,R03,Drugs for obstructive airway diseases 
+Arformoterol,DB01274,R03,Drugs for obstructive airway diseases 
+Fusafungine,DB08965,R02,Throat preparations 
+Neocitrullamon,DB13396,N03,Antiepileptics 
+2-(Chloromethyl)oxirane; prop-2-en-1-amine,DB00658,V03,All other therapeutic products 
+Quinagolide,DB09097,G02,Other gynecologicals 
+Ioflupane I-123,DB08824,V09,Diagnostic radiopharmaceuticals 
+Hidrosmin,DB13490,C05,Vasoprotectives 
+Sitagliptin,DB01261,A10,Drugs used in diabetes 
+Flosequinan,DB13228,C01,Cardiac therapy 
+Tolcapone,DB00323,N04,Anti-parkinson drugs 
+Noxythiolin,DB13838,B05,Blood substitutes and perfusion solutions 
+Elvitegravir,DB09101,J05,Antivirals for systemic use 
+Dinoprostone,DB00917,G02,Other gynecologicals 
+Dinoprost,DB12789,G02,Other gynecologicals 
+Calcitriol,DB00136,D05,Antipsoriatics 
+Calcitriol,DB00136,A11,Vitamins 
+Beta-Carotene,DB06755,A11,Vitamins 
+Beta-Carotene,DB06755,D02,Emollients and protectives 
+Hymecromone,DB07118,A05,Bile and liver therapy 
+Alprostadil,DB00770,C01,Cardiac therapy 
+Alprostadil,DB00770,G04,Urologicals 
+Ergocalciferol,DB00153,A11,Vitamins 
+Cholecalciferol,DB00169,A11,Vitamins 
+Rutin,DB01698,C05,Vasoprotectives 
+Amphotericin B,DB00681,A01,Stomatological preparations 
+Amphotericin B,DB00681,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Amphotericin B,DB00681,G01,Gynecological antiinfectives and antiseptics 
+Amphotericin B,DB00681,J02,Antimycotics for systemic use 
+Budesonide,DB01222,R03,Drugs for obstructive airway diseases 
+Budesonide,DB01222,R01,Nasal preparations 
+Budesonide,DB01222,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Budesonide,DB01222,D07,"Corticosteroids, dermatological preparations "
+Cefprozil,DB01150,J01,Antibacterials for systemic use 
+Oxymetholone,DB06412,A14,Anabolic agents for systemic use 
+Pyrvinium,DB06816,P02,Anthelmintics 
+Eprosartan,DB00876,C09,Agents acting on the renin-angiotensin system 
+Montelukast,DB00471,R03,Drugs for obstructive airway diseases 
+Mivacurium,DB01226,M03,Muscle relaxants 
+Olopatadine,DB00768,R01,Nasal preparations 
+Olopatadine,DB00768,S01,Ophthalmologicals 
+Ethchlorvynol,DB00189,N05,Psycholeptics 
+Entacapone,DB00494,N04,Anti-parkinson drugs 
+Oxantel,DB13670,P02,Anthelmintics 
+Paricalcitol,DB00910,H05,Calcium homeostasis 
+Doxercalciferol,DB06410,H05,Calcium homeostasis 
+Diosmin,DB08995,C05,Vasoprotectives 
+Flupentixol,DB00875,N05,Psycholeptics 
+Ubidecarenone,DB09270,C01,Cardiac therapy
+Lafutidine,DB12770,A02,Drugs for acid related disorders 
+Cilnidipine,DB09232,C08,Calcium channel blockers 
+Josamycin,DB01321,J01,Antibacterials for systemic use 
+Midecamycin,DB13456,J01,Antibacterials for systemic use 
+Pecilocin,DB13459,D01,Antifungals for dermatological use 
+Alfacalcidol,DB01436,A11,Vitamins 
+Gefarnate,DB12079,A02,Drugs for acid related disorders 
+Fungichromin,DB13571,G01,Gynecological antiinfectives and antiseptics 
+Rokitamycin,DB13409,J01,Antibacterials for systemic use 
+Travoprost,DB00287,S01,Ophthalmologicals 
+Gemeprost,DB08964,G02,Other gynecologicals 
+Ceftibuten,DB01415,J01,Antibacterials for systemic use 
+Acotiamide,DB12482,A03,Drugs for functional gastrointestinal disorders 
+Menatetrenone,DB12148,M05,Drugs for treatment of bone diseases 
+Isotretinoin,DB00982,D10,Anti-acne preparations 
+Isotretinoin,DB00982,D10,Anti-acne preparations 
+Misoprostol,DB00929,A02,Drugs for acid related disorders 
+Misoprostol,DB00929,G02,Other gynecologicals 
+Epoprostenol,DB01240,B01,Antithrombotic agents 
+Triprolidine,DB00427,R06,Antihistamines for systemic use 
+Fondaparinux,DB00569,B01,Antithrombotic agents 
+Pitavastatin,DB08860,C10,Lipid modifying agents 
+Cinepazide,DB12123,C04,Peripheral vasodilators 
+Ethanolamine Oleate,DB06689,C05,Vasoprotectives 
+Homatropine,DB11181,S01,Ophthalmologicals 
+Calcifediol,DB00146,H05,Calcium homeostasis 
+Calcifediol,DB00146,A11,Vitamins 
+Tacalcitol,DB13689,D05,Antipsoriatics 
+Codeine,DB00318,R05,Cough and cold preparations 
+cyclosporin A,DB00091,L04,Immunosuppressants 
+cyclosporin A,DB00091,S01,Ophthalmologicals
+Natamycin,DB00826,A01,Stomatological preparations 
+Natamycin,DB00826,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Natamycin,DB00826,D01,Antifungals for dermatological use 
+Natamycin,DB00826,G01,Gynecological antiinfectives and antiseptics 
+Natamycin,DB00826,S01,Ophthalmologicals 
+Acetyldigitoxin,DB00511,C01,Cardiac therapy 
+Acitretin,DB00459,D05,Antipsoriatics 
+Acrivastine,DB09488,R06,Antihistamines for systemic use 
+Cefroxadine,DB11367,J01,Antibacterials for systemic use 
+Chlormadinone,DB13528,G03,Sex hormones and modulators of the genital system 
+Cloprednol,DB13843,H02,Corticosteroids for systemic use 
+Dihydrocodeine,DB01551,N02,Analgesics 
+Dorzolamide,DB00869,S01,Ophthalmologicals 
+trans-Dothiepin,DB09167,N06,Psychoanaleptics 
+Erythrityl Tetranitrate,DB01613,C01,Cardiac therapy 
+Granisetron,DB00889,A04,Antiemetics and antinauseants 
+Hydrocodone,DB00956,R05,Cough and cold preparations 
+Hydromorphone,DB00327,N02,Analgesics 
+Diodone,DB13568,V08,Contrast media 
+Levetiracetam,DB01202,N03,Antiepileptics 
+Loracarbef,DB00447,J01,Antibacterials for systemic use 
+Meprednisone,DB09383,H02,Corticosteroids for systemic use 
+Nabilone,DB00486,A04,Antiemetics and antinauseants 
+Nalmefene,DB06230,N07,Other nervous system drugs 
+Nalorphine,DB11490,V03,All other therapeutic products 
+Naloxone,DB01183,A06,Drugs for constipation 
+Naloxone,DB01183,V03,All other therapeutic products 
+Normethandrone,DB13533,G03,Sex hormones and modulators of the genital system 
+Oxycodone,DB00497,N02,Analgesics 
+Oxymorphone,DB01192,N02,Analgesics 
+Phytonadione,DB01022,B02,Antihemorrhagics 
+Proscillaridin,DB13307,C01,Cardiac therapy 
+Sirolimus,DB00877,L01,Antineoplastic agents 
+Sirolimus,DB00877,L04,Immunosuppressants 
+Sirolimus,DB00877,S01,Ophthalmologicals
+Topiramate,DB00273,N03,Antiepileptics 
+Trospium,DB00209,G04,Urologicals 
+Vinbarbital,DB13377,N05,Psycholeptics 
+Calcipotriene,DB02300,D05,Antipsoriatics 
+Morphine,DB00295,N02,Analgesics 
+Acipimox,DB09055,C10,Lipid modifying agents 
+Alclometasone,DB00240,D07,"Corticosteroids, dermatological preparations "
+Alclometasone,DB00240,S01,Ophthalmologicals 
+Bimatoprost,DB00905,S01,Ophthalmologicals 
+Istradefylline,DB11757,N04,Anti-parkinson drugs
+Clobetasol,DB11750,D07,"Corticosteroids, dermatological preparations "
+Clocortolone,DB00838,D07,"Corticosteroids, dermatological preparations "
+Desmopressin,DB00035,H01,Pituitary and hypothalamic hormones and analogues 
+Desonide,DB01260,D07,"Corticosteroids, dermatological preparations "
+Desonide,DB01260,S01,Ophthalmologicals 
+Desoximetasone,DB00547,D07,"Corticosteroids, dermatological preparations "
+Desoximetasone,DB00547,D07,"Corticosteroids, dermatological preparations "
+Dexmedetomidine,DB00633,N05,Psycholeptics 
+Dihydrotachysterol,DB01070,A11,Vitamins 
+Fluticasone,DB13867,R03,Drugs for obstructive airway diseases 
+Fluticasone,DB13867,D07,"Corticosteroids, dermatological preparations "
+Fluticasone,DB13867,R01,Nasal preparations 
+Goserelin,DB00014,L02,Endocrine therapy 
+Halobetasol,DB00596,D07,"Corticosteroids, dermatological preparations "
+Iloprost,DB01088,B01,Antithrombotic agents 
+Lacidipine,DB09236,C08,Calcium channel blockers 
+Latanoprost,DB00654,S01,Ophthalmologicals 
+Unoprostone,DB06826,S01,Ophthalmologicals 
+Nalbuphine,DB00844,N02,Analgesics 
+Nateglinide,DB00731,A10,Drugs used in diabetes 
+Pholcodine,DB09209,R05,Cough and cold preparations 
+Rimexolone,DB00896,H02,Corticosteroids for systemic use 
+Rimexolone,DB00896,S01,Ophthalmologicals 
+Spirapril,DB01348,C09,Agents acting on the renin-angiotensin system 
+Stiripentol,DB09118,N03,Antiepileptics 
+Vinorelbine,DB00361,L01,Antineoplastic agents 
+vitamin B12,DB00115,B03,Antianemic preparations 
+Zuclopenthixol,DB01624,N05,Psycholeptics 
+Silodosin,DB06207,G04,Urologicals 
+Sulprostone,DB12708,G02,Other gynecologicals 
+Furazolidone,DB00614,G01,Gynecological antiinfectives and antiseptics 
+Fluvoxamine,DB00176,N06,Psychoanaleptics 
+Bosutinib,DB06616,L01,Antineoplastic agents 
+Sunitinib,DB01268,L01,Antineoplastic agents 
+Palbociclib,DB09073,L01,Antineoplastic agents 
+Nifuroxazide,DB13855,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Mitoguazone,DB12967,L01,Antineoplastic agents
+Romidepsin,DB06176,L01,Antineoplastic agents 
+Molsidomine,DB09282,C01,Cardiac therapy 
+Oxiconazole,DB00239,D01,Antifungals for dermatological use 
+Oxiconazole,DB00239,G01,Gynecological antiinfectives and antiseptics 
+Octinoxate,DB09496,D02,Emollients and protectives 
+Ethylmorphine,DB01466,R05,Cough and cold preparations 
+Ethylmorphine,DB01466,S01,Ophthalmologicals
+Bleomycin,DB00290,L01,Antineoplastic agents 
+Naltrexone,DB00704,N07,Other nervous system drugs 
+Dextromethorphan,DB00514,R05,Cough and cold preparations 
+Cefodizime,DB13470,J01,Antibacterials for systemic use 
+Cefixime,DB00671,J01,Antibacterials for systemic use 
+Delapril,DB13312,C09,Agents acting on the renin-angiotensin system 
+Lisinopril,DB00722,C09,Agents acting on the renin-angiotensin system 
+Benazepril,DB00542,C09,Agents acting on the renin-angiotensin system 
+Ramipril,DB00178,C09,Agents acting on the renin-angiotensin system 
+Indinavir,DB00224,J05,Antivirals for systemic use 
+Nicomorphine,DB13454,N02,Analgesics 
+Zimeldine,DB04832,N06,Psychoanaleptics 
+1-(4-(4-Chlorophenyl)-3-phenylbut-2-enyl)pyrrolidine,DB13846,R06,Antihistamines for systemic use 
+Strontium Chloride Sr-89,DB09498,V10,Therapeutic radiopharmaceuticals 
+Bedaquiline,DB08903,J04,Antimycobacterials 
+Enalapril,DB00584,C09,Agents acting on the renin-angiotensin system 
+Citomid,DB00541,L01,Antineoplastic agents 
+Nitrofurazone,DB00336,B05,Blood substitutes and perfusion solutions 
+Nitrofurazone,DB00336,D08,Antiseptics and disinfectants 
+Nitrofurazone,DB00336,D09,Medicated dressings 
+Nitrofurazone,DB00336,P01,Antiprotozoals 
+Nitrofurazone,DB00336,S01,Ophthalmologicals 
+Nitrofurazone,DB00336,S02,Otologicals 
+Heroin,DB01452,N07,Other nervous system drugs 
+Acetyldihydrocodeine,DB01538,R05,Cough and cold preparations 
+Imidapril,DB11783,C09,Agents acting on the renin-angiotensin system 
+Cefuroxime,DB01112,J01,Antibacterials for systemic use 
+Cefuroxime,DB01112,S01,Ophthalmologicals 
+Ceftriaxone,DB01212,J01,Antibacterials for systemic use 
+Cefepime,DB01413,J01,Antibacterials for systemic use 
+Cefpirome,DB13682,J01,Antibacterials for systemic use 
+Ceftazidime,DB00438,J01,Antibacterials for systemic use 
+Tenofovir Disoproxil,DB00300,J05,Antivirals for systemic use 
+Trandolapril,DB00519,C09,Agents acting on the renin-angiotensin system 
+Troxerutin,DB13124,C05,Vasoprotectives 
+Pregabalin,DB00230,N02,Analgesics 
+Cefetamet,DB13504,J01,Antibacterials for systemic use 
+Alvimopan,DB06274,A06,Drugs for constipation 
+Oxyfedrine,DB13398,C01,Cardiac therapy 
+(-)-Cafedrine,DB12926,C01,Cardiac therapy 
+Aliskiren,DB09026,C09,Agents acting on the renin-angiotensin system 
+Cefotaxime,DB00493,J01,Antibacterials for systemic use 
+Etozolin,DB08982,C03,Diuretics 
+Picloxydine,DB13607,S01,Ophthalmologicals 
+Piprozolin,DB13202,A05,Bile and liver therapy 
+Magnesium Citrate,DB11110,A06,Drugs for constipation 
+Magnesium Citrate,DB11110,A12,Mineral supplements 
+Magnesium Citrate,DB11110,B05,Blood substitutes and perfusion solutions 
+Proguanil,DB01131,P01,Antiprotozoals 
+Motretinide,DB13368,D10,Anti-acne preparations 
+Fazadinium Bromide,DB13745,M03,Muscle relaxants 
+Rifamycin,DB11753,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Rifamycin,DB11753,D06,Antibiotics and chemotherapeutics for dermatological use 
+Rifamycin,DB11753,J04,Antimycobacterials 
+Rifamycin,DB11753,S01,Ophthalmologicals 
+Rifamycin,DB11753,S02,Otologicals 
+Remikiren,DB00212,C09,Agents acting on the renin-angiotensin system 
+Cefpodoxime,DB01416,J01,Antibacterials for systemic use 
+Palonosetron,DB00377,A04,Antiemetics and antinauseants 
+Cefatrizine,DB13266,J01,Antibacterials for systemic use 
+Hexaminolevulinate,DB06261,V04,Diagnostic agents
+Imidafenacin,DB09262,G04,Urologicals 
+Ferrous Fumarate,DB14491,B03,Antianemic preparations 
+Mycostatin,DB00646,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Mycostatin,DB00646,D01,Antifungals for dermatological use 
+Mycostatin,DB00646,G01,Gynecological antiinfectives and antiseptics 
+Nifuratel,DB13724,G01,Gynecological antiinfectives and antiseptics 
+Cinepazet,DB13342,C01,Cardiac therapy 
+Cefcapene,DB13461,J01,Antibacterials for systemic use 
+Azanidazole,DB13350,G01,Gynecological antiinfectives and antiseptics 
+Azanidazole,DB13350,P01,Antiprotozoals 
+Rifaximin,DB01220,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Rifaximin,DB01220,D06,Antibiotics and chemotherapeutics for dermatological use 
+Spiramycin A,DB06145,J01,Antibacterials for systemic use 
+Everolimus,DB01590,L01,Antineoplastic agents 
+Everolimus,DB01590,L04,Immunosuppressants 
+Nalfurafine,DB13471,V03,All other therapeutic products 
+Ixabepilone,DB04845,L01,Antineoplastic agents 
+Propenidazole,DB13319,G01,Gynecological antiinfectives and antiseptics 
+Propenidazole,DB13319,P01,Antiprotozoals 
+Axitinib,DB06626,L01,Antineoplastic agents 
+Rilpivirine,DB08864,J05,Antivirals for systemic use 
+Ferrous tartrate,DB13639,B03,Antianemic preparations 
+Belotecan,DB12459,L01,Antineoplastic agents 
+Dirithromycin,DB00954,J01,Antibacterials for systemic use 
+Azlocillin,DB01061,J01,Antibacterials for systemic use 
+Delamanid,DB11637,J04,Antimycobacterials 
+Pimecrolimus,DB00337,D11,Other dermatological preparations 
+Ceftizoxime,DB01332,J01,Antibacterials for systemic use 
+Carumonam,DB13553,J01,Antibacterials for systemic use 
+Nitrofurantoin,DB00698,J01,Antibacterials for systemic use 
+Suloctidil,DB13340,C04,Peripheral vasodilators 
+Metampicillin,DB13836,J01,Antibacterials for systemic use 
+Prednicarbate,DB01130,D07,"Corticosteroids, dermatological preparations "
+Nifurtimox,DB11820,P01,Antiprotozoals 
+Gadopentetate,DB00789,V08,Contrast media 
+Furagin,DB13475,J01,Antibacterials for systemic use 
+Dantrolene,DB01219,M03,Muscle relaxants 
+Rulide,DB00778,J01,Antibacterials for systemic use 
+Cefdinir,DB00535,J01,Antibacterials for systemic use 
+Fumagillin,DB02640,P01,Antiprotozoals 
+Cisapride,DB00604,A03,Drugs for functional gastrointestinal disorders 
+Etonogestrel,DB00294,G03,Sex hormones and modulators of the genital system 
+Levomilnacipran,DB08918,N06,Psychoanaleptics 
+Artesunate,DB09274,P01,Antiprotozoals 
+Vapreotide,DB04894,H01,Pituitary and hypothalamic hormones and analogues 
+Cilansetron,DB04885,A03,Drugs for functional gastrointestinal disorders 
+Treprostinil,DB00374,B01,Antithrombotic agents 
+Ciclesonide,DB01410,R03,Drugs for obstructive airway diseases 
+Ciclesonide,DB01410,R01,Nasal preparations 
+Icatibant,DB06196,B06,Other hematological agents 
+Strontium Ranelate,DB09267,M05,Drugs for treatment of bone diseases 
+Vorozole,DB13767,L02,Endocrine therapy 
+Dutasteride,DB01126,G04,Urologicals 
+Ganaxolone,DB05087,N03,Antiepileptics 
+Vilazodone,DB06684,N06,Psychoanaleptics 
+Prasugrel,DB06209,B01,Antithrombotic agents 
+Retapamulin,DB01256,D06,Antibiotics and chemotherapeutics for dermatological use 
+Carisbamate,DB12338,N03,Antiepileptics 
+Cotecxin,DB11638,P01,Antiprotozoals 
+Isavuconazole,DB11633,J02,Antimycotics for systemic use 
+Voclosporin,DB11693,L04,Immunosuppressants 
+Ambrisentan,DB06403,C02,Antihypertensives 
+Vildagliptin,DB04876,A10,Drugs used in diabetes 
+Indacaterol,DB05039,R03,Drugs for obstructive airway diseases 
+Fesoterodine,DB06702,G04,Urologicals 
+Tibezonium Iodide,DB13702,A01,Stomatological preparations 
+Sugammadex,DB06206,V03,All other therapeutic products 
+Belinostat,DB05015,L01,Antineoplastic agents 
+Ingenol Mebutate,DB05013,D06,Antibiotics and chemotherapeutics for dermatological use 
+Panobinostat,DB06603,L01,Antineoplastic agents 
+Bentiromide,DB00522,V04,Diagnostic agents 
+Acetyl-L-Carnitine,DB08842,N06,Psychoanaleptics 
+Anecortave,DB12081,S01,Ophthalmologicals 
+Phosphocreatine,DB13191,C01,Cardiac therapy
+Chlorhexidine,DB00878,A01,Stomatological preparations 
+Chlorhexidine,DB00878,B05,Blood substitutes and perfusion solutions 
+Chlorhexidine,DB00878,D08,Antiseptics and disinfectants 
+Chlorhexidine,DB00878,D09,Medicated dressings 
+Chlorhexidine,DB00878,R02,Throat preparations 
+Chlorhexidine,DB00878,S01,Ophthalmologicals 
+Chlorhexidine,DB00878,S02,Otologicals 
+Chlorhexidine,DB00878,S03,Ophthalmological and otological preparations 
+Guanoxabenz,DB13410,C02,Antihypertensives 
+Thioacetazone,DB12829,J04,Antimycobacterials 
+Esomeprazole,DB00736,A02,Drugs for acid related disorders 
+Cefmenoxime,DB00267,J01,Antibacterials for systemic use 
+Cefmenoxime,DB00267,S01,Ophthalmologicals 
+Cefmenoxime,DB00267,S02,Otologicals 
+Nifurzide,DB13325,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Nifurtoinol,DB13730,J01,Antibacterials for systemic use 
+Cefozopran,DB13667,J01,Antibacterials for systemic use 
+Gemifloxacin,DB01155,J01,Antibacterials for systemic use 
+Exanta,DB04898,B01,Antithrombotic agents 
+Tenofovir Alafenamide,DB09299,J05,Antivirals for systemic use 
+Dexlansoprazole,DB05351,A02,Drugs for acid related disorders 
+Fozitec,DB00492,C09,Agents acting on the renin-angiotensin system 
+Armodafinil,DB06413,N06,Psychoanaleptics 
+Macimorelin,DB13074,V04,Diagnostic agents 
+Fosravuconazole,DB15204,D01,Antifungals for dermatological use 
+Plitidepsin,DB04977,L01,Antineoplastic agents
+Desfesoterodine,DB15578,G04,Urologicals 
+Levamlodipine,DB09237,C08,Calcium channel blockers 
+Lenvatinib,DB09078,L01,Antineoplastic agents 
+Lobeglitazone,DB09198,A10,Drugs used in diabetes 
+Midostaurin,DB06595,L01,Antineoplastic agents 
+Moxidectin,DB11431,P02,Anthelmintics 
+Sincalide,DB09142,V04,Diagnostic agents 
+(18F)fluoroethyltyrosine,DB15405,V09,Diagnostic radiopharmaceuticals 
+Brivaracetam,DB05541,N03,Antiepileptics 
+Tapentadol,DB06204,N02,Analgesics 
+Polmacoxib,DB12399,M01,Antiinflammatory and antirheumatic products 
+Quingestanol,DB13685,G03,Sex hormones and modulators of the genital system 
+Halometasone,DB13728,D07,"Corticosteroids, dermatological preparations "
+Cannabinoids,DB14011,N02,Analgesics
+Avatrombopag,DB11995,B02,Antihemorrhagics 
+Monoxerutin,DB13764,C05,Vasoprotectives 
+Ceftaroline Fosamil,DB06590,J01,Antibacterials for systemic use
+Lomitapide,DB08827,C10,Lipid modifying agents 
+Pentagastrin,DB00183,V04,Diagnostic agents 
+Cangrelor,DB06441,B01,Antithrombotic agents 
+Cabazitaxel,DB06772,L01,Antineoplastic agents 
+Fluticasone Furoate,DB08906,R01,Nasal preparations 
+Fluticasone Furoate,DB08906,R03,Drugs for obstructive airway diseases 
+Fabomotizole,DB13623,N05,Psycholeptics 
+Ripasudil,DB13165,S01,Ophthalmologicals 
+Ozenoxacin,DB12924,D06,Antibiotics and chemotherapeutics for dermatological use 
+Loteprednol,DB00873,S01,Ophthalmologicals 
+Mirabegron,DB08893,G04,Urologicals 
+Remimazolam,DB12404,N05,Psycholeptics 
+Tafluprost,DB08819,S01,Ophthalmologicals 
+Avanafil,DB06237,G04,Urologicals 
+Fimasartan,DB09279,C09,Agents acting on the renin-angiotensin system 
+Cefditoren,DB01066,J01,Antibacterials for systemic use 
+Ticagrelor,DB08816,B01,Antithrombotic agents 
+Rivaroxaban,DB06228,B01,Antithrombotic agents 
+Eslicarbazepine,DB14575,N03,Antiepileptics 
+Treosulfan,DB11678,L01,Antineoplastic agents 
+Naproxcinod,DB06682,M01,Antiinflammatory and antirheumatic products 
+Dapagliflozin,DB06292,A10,Drugs used in diabetes 
+Dexrabeprazole,DB13762,A02,Drugs for acid related disorders 
+Tivozanib,DB11800,L01,Antineoplastic agents 
+Selexipag,DB11362,B01,Antithrombotic agents 
+Neratinib,DB11828,L01,Antineoplastic agents 
+Thiocolchicoside,DB11582,M03,Muscle relaxants 
+Casopitant,DB06634,A04,Antiemetics and antinauseants 
+Perampanel,DB08883,N03,Antiepileptics 
+Tofacitinib,DB08895,L04,Immunosuppressants 
+Vernakalant,DB06217,C01,Cardiac therapy 
+Rucaparib,DB12332,L01,Antineoplastic agents 
+Cediranib,DB04849,L01,Antineoplastic agents 
+Elobixibat,DB12486,A06,Drugs for constipation 
+Pasireotide,DB06663,H01,Pituitary and hypothalamic hormones and analogues 
+Ingavirin,DB11944,J05,Antivirals for systemic use 
+Medrogestone,DB09124,G03,Sex hormones and modulators of the genital system 
+Vosaroxin,DB11999,L01,Antineoplastic agents
+Vortioxetine,DB09068,N06,Psychoanaleptics 
+Enprostil,DB13824,A02,Drugs for acid related disorders 
+Aluminum Oxide,DB11342,D10,Anti-acne preparations 
+Fidaxomicin,DB08874,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Pimavanserin,DB05316,N05,Psycholeptics 
+Masitinib,DB11526,L01,Antineoplastic agents 
+Vorapaxar,DB09030,B01,Antithrombotic agents 
+Candeptin,DB01152,G01,Gynecological antiinfectives and antiseptics 
+Linagliptin,DB08882,A10,Drugs used in diabetes 
+Pazopanib,DB06589,L01,Antineoplastic agents 
+Selumetinib,DB11689,L01,Antineoplastic agents 
+Solriamfetol,DB14754,N06,Psychoanaleptics 
+Besifloxacin,DB06771,S01,Ophthalmologicals 
+Apixaban,DB06605,B01,Antithrombotic agents 
+Afatinib,DB08916,L01,Antineoplastic agents 
+Tasimelteon,DB09071,N05,Psycholeptics 
+Penamecillin,DB13739,J01,Antibacterials for systemic use 
+Etanautine,DB13636,N04,Anti-parkinson drugs 
+Betrixaban,DB12364,B01,Antithrombotic agents 
+Edoxaban,DB09075,B01,Antithrombotic agents 
+Binimetinib,DB11967,L01,Antineoplastic agents 
+Rolapitant,DB09291,A04,Antiemetics and antinauseants 
+Boceprevir,DB08873,J05,Antivirals for systemic use 
+Fentonium,DB08978,A03,Drugs for functional gastrointestinal disorders 
+Relugolix,DB11853,L02,Endocrine therapy 
+Angiotensin Amide,DB13517,C01,Cardiac therapy 
+Quinbolone,DB13484,A14,Anabolic agents for systemic use 
+Ciclonicate,DB13709,C04,Peripheral vasodilators 
+Aurotioprol,DB13763,M01,Antiinflammatory and antirheumatic products 
+Ipragliflozin,DB11698,A10,Drugs used in diabetes 
+Ferrous succinate,DB14489,B03,Antianemic preparations 
+Bempedoic Acid,DB11936,C10,Lipid modifying agents 
+Glycerol Phenylbutyrate,DB08909,A16,Other alimentary tract and metabolism products 
+Vinflunine,DB11641,L01,Antineoplastic agents 
+Dimethyl carbate,DB13204,P03,"Ectoparasiticides, incl. scabicides, insecticides and repellents "
+Cariprazine,DB06016,N05,Psycholeptics 
+Latanoprostene Bunod,DB11660,S01,Ophthalmologicals 
+Regorafenib,DB08896,L01,Antineoplastic agents 
+Tedizolid,DB14569,J01,Antibacterials for systemic use
+"(1S,3S,5S)-2-[(2S)-2-amino-2-[(1r,3R,5R,7S)-3-hydroxyadamantan-1-yl]acetyl]-2-azabicyclo[3.1.0]hexane-3-carbonitrile",DB07465,A10,Drugs used in diabetes 
+Saxagliptin,DB06335,A10,Drugs used in diabetes 
+Eluxadoline,DB09272,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Elagolix,DB11979,H01,Pituitary and hypothalamic hormones and analogues 
+Roxadustat,DB04847,B03,Antianemic preparations
+Pirarubicin,DB11616,L01,Antineoplastic agents 
+Riociguat,DB08931,C02,Antihypertensives 
+Fostemsavir,DB11796,J05,Antivirals for systemic use 
+Eribulin,DB08871,L01,Antineoplastic agents
+Ponesimod,DB12016,L04,Immunosuppressants 
+Amenamevir,DB11701,J05,Antivirals for systemic use 
+Technetium Tc 99m Disofenin,DB09164,V09,Diagnostic radiopharmaceuticals 
+Technetium Tc 99m mebrofenin,DB09137,V09,Diagnostic radiopharmaceuticals 
+Alogliptin,DB06203,A10,Drugs used in diabetes 
+Tavaborole,DB09041,D01,Antifungals for dermatological use 
+Florbetaben F-18,DB09148,V09,Diagnostic radiopharmaceuticals 
+Olodaterol,DB09080,R03,Drugs for obstructive airway diseases 
+Thebacon,DB13458,R05,Cough and cold preparations 
+Dacomitinib,DB11963,L01,Antineoplastic agents 
+Trifarotene,DB12808,D10,Anti-acne preparations 
+Ridaforolimus,DB06233,L01,Antineoplastic agents 
+Carfilzomib,DB08889,L01,Antineoplastic agents 
+Apremilast,DB05676,L04,Immunosuppressants 
+Magnesium levulinate,DB14514,A12,Mineral supplements 
+Lisdexamfetamine,DB01255,N06,Psychoanaleptics 
+Lasmiditan,DB11732,N02,Analgesics 
+Idelalisib,DB09054,L01,Antineoplastic agents 
+Crizotinib,DB08865,L01,Antineoplastic agents 
+Lorcaserin,DB04871,A08,"Antiobesity preparations, excl. diet products "
+Fostamatinib,DB12010,B02,Antihemorrhagics 
+Trametinib,DB08911,L01,Antineoplastic agents 
+Clascoterone,DB12499,D10,Anti-acne preparations 
+Revefenacin,DB11855,R03,Drugs for obstructive airway diseases 
+alpha-Acetyldigoxin,DB13691,C01,Cardiac therapy 
+Fluprednidene,DB08970,D07,"Corticosteroids, dermatological preparations "
+Fluprednidene,DB08970,D07,"Corticosteroids, dermatological preparations "
+Empagliflozin,DB09038,A10,Drugs used in diabetes 
+Teneligliptin,DB11950,A10,Drugs used in diabetes 
+Gemigliptin,DB12412,A10,Drugs used in diabetes 
+Moxestrol,DB13418,G03,Sex hormones and modulators of the genital system 
+Diflucortolone,DB09095,D07,"Corticosteroids, dermatological preparations "
+Diflucortolone,DB09095,D07,"Corticosteroids, dermatological preparations "
+Veliparib,DB07232,L01,Antineoplastic agents 
+Cenobamate,DB06119,N03,Antiepileptics 
+Lifitegrast,DB11611,S01,Ophthalmologicals
+Brexpiprazole,DB09128,N05,Psycholeptics 
+Luseogliflozin,DB12214,A10,Drugs used in diabetes 
+Setmelanotide,DB11700,A08,"Antiobesity preparations, excl. diet products "
+Nemonoxacin,DB06600,J01,Antibacterials for systemic use 
+Peruvoside,DB13756,C01,Cardiac therapy 
+Glibornuride,DB08962,A10,Drugs used in diabetes 
+Ferrous aspartate,DB13220,B03,Antianemic preparations 
+Ulipristal,DB08867,G03,Sex hormones and modulators of the genital system 
+Ulipristal,DB08867,G03,Sex hormones and modulators of the genital system 
+Ornipressin,DB13464,H01,Pituitary and hypothalamic hormones and analogues 
+Azidocillin,DB08795,J01,Antibacterials for systemic use 
+Flutemetamol F-18,DB09151,V09,Diagnostic radiopharmaceuticals 
+Enzalutamide,DB08899,L02,Endocrine therapy 
+Vonoprazan,DB11739,A02,Drugs for acid related disorders 
+Macitentan,DB08932,C02,Antihypertensives 
+Asunaprevir,DB11586,J05,Antivirals for systemic use 
+Tecovirimat,DB12020,J05,Antivirals for systemic use 
+Ceruletide,DB00403,V04,Diagnostic agents 
+Bivalirudin,DB00006,B01,Antithrombotic agents 
+Somatostatin,DB09099,H01,Pituitary and hypothalamic hormones and analogues 
+Ganirelix,DB06785,H01,Pituitary and hypothalamic hormones and analogues 
+Abarelix,DB00106,L02,Endocrine therapy 
+Degarelix,DB06699,L02,Endocrine therapy 
+Oritavancin,DB04911,J01,Antibacterials for systemic use 
+Linaclotide,DB08890,A06,Drugs for constipation 
+Afamelanotide,DB04931,D02,Emollients and protectives 
+Methylmethionine sulfonium chloride,DB13250,A02,Drugs for acid related disorders 
+Cobimetinib,DB05239,L01,Antineoplastic agents 
+Carbetocin,DB01282,H01,Pituitary and hypothalamic hormones and analogues 
+Thimerosal,DB11590,D08,Antiseptics and disinfectants 
+Fedratinib,DB12500,L01,Antineoplastic agents 
+Potassium gluconate,DB13620,A12,Mineral supplements 
+Magnesium pidolate,DB13301,A12,Mineral supplements 
+Alcaftadine,DB06766,S01,Ophthalmologicals 
+Bietaserpine,DB13575,C02,Antihypertensives 
+Prednylidene,DB13208,H02,Corticosteroids for systemic use 
+Sulbenicillin,DB13693,J01,Antibacterials for systemic use 
+Ethybenztropine,DB13468,N04,Anti-parkinson drugs 
+Gitoformate,DB13537,C01,Cardiac therapy 
+Flumedroxone,DB13610,N02,Analgesics 
+Mannosulfan,DB13334,L01,Antineoplastic agents 
+Alcuronium,DB13648,M03,Muscle relaxants 
+Lumateperone,DB06077,N05,Psycholeptics 
+Aluminium acetoacetate,DB13280,A02,Drugs for acid related disorders 
+Daptomycin,DB00080,J01,Antibacterials for systemic use
+Icotinib,DB11737,L01,Antineoplastic agents 
+Technetium (99mTc) sestamibi,DB09161,V09,Diagnostic radiopharmaceuticals 
+Fluocortin,DB13223,D07,"Corticosteroids, dermatological preparations "
+Ferrous Gluconate,DB14488,B03,Antianemic preparations 
+Vadadustat,DB12255,B03,Antianemic preparations
+Tirbanibulin,DB06137,D06,Antibiotics and chemotherapeutics for dermatological use 
+Eliglustat,DB09039,A16,Other alimentary tract and metabolism products 
+Iodohippurate Sodium I-131,DB09382,V09,Diagnostic radiopharmaceuticals 
+Sodium Oxybate,DB09072,N01,Anesthetics 
+Sodium Chlorite,DB13210,D03,Preparations for treatment of wounds and ulcers 
+Potassium lactate,DB09483,B05,Blood substitutes and perfusion solutions 
+"(1R,2R,4S)-4-[(2R)-2-[(1R,9S,12S,15R,18R,19R,21R,23S,30S,32S,35R)-1,18-dihydroxy-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-2,3,10,14,20-pentaoxo-11,36-dioxa-4-azatricyclo[30.3.1.0^{4,9}]hexatriaconta-16,24,26,28-tetraen-12-yl]propyl]-2-methoxycyclohexyl 3-hydroxy-2-(hydroxymethyl)-2-methylpropanoate",DB06287,L01,Antineoplastic agents 
+Olaparib,DB09074,L01,Antineoplastic agents 
+Gefapixant,DB15097,R05,Cough and cold preparations 
+Sonidegib,DB09143,L01,Antineoplastic agents 
+Vismodegib,DB08828,L01,Antineoplastic agents 
+Difelikefalin,DB11938,V03,All other therapeutic products 
+Canagliflozin,DB08907,A10,Drugs used in diabetes 
+Imeglimin,DB12509,A10,Drugs used in diabetes 
+Ibrutinib,DB09053,L01,Antineoplastic agents 
+Florbetapir F-18,DB09149,V09,Diagnostic radiopharmaceuticals 
+Ponatinib,DB08901,L01,Antineoplastic agents 
+Sotagliflozin,DB12713,A10,Drugs used in diabetes 
+Omniscan,DB00225,V08,Contrast media 
+Apalutamide,DB11901,L02,Endocrine therapy 
+Quizartinib,DB12874,L01,Antineoplastic agents 
+Rociverine,DB13581,A03,Drugs for functional gastrointestinal disorders 
+Niraparib,DB11793,L01,Antineoplastic agents 
+Suvorexant,DB09034,N05,Psycholeptics 
+Evogliptin,DB12625,A10,Drugs used in diabetes 
+Telotristat,DB14218,A16,Other alimentary tract and metabolism products 
+Triptorelin,DB06825,L02,Endocrine therapy 
+Cetrorelix,DB00050,H01,Pituitary and hypothalamic hormones and analogues 
+Nafarelin,DB00666,H01,Pituitary and hypothalamic hormones and analogues 
+Cabozantinib,DB08875,L01,Antineoplastic agents 
+Ruxolitinib,DB08877,D11,Other dermatological preparations 
+Ruxolitinib,DB08877,L01,Antineoplastic agents 
+"(2R)-5'-methyl-4-azaspiro[bicyclo[2.2.2]octane-2,2'-[1,4]oxathiolane]",DB00185,N07,Other nervous system drugs 
+Bicillin L-A,DB09323,J01,Antibacterials for systemic use 
+Entrectinib,DB11986,L01,Antineoplastic agents 
+Capmatinib,DB11791,L01,Antineoplastic agents 
+Pexidartinib,DB12978,L01,Antineoplastic agents 
+Cobicistat,DB09065,V03,All other therapeutic products 
+Daclatasvir,DB09102,J05,Antivirals for systemic use 
+Glasdegib,DB11978,L01,Antineoplastic agents 
+Tepotinib,DB15133,L01,Antineoplastic agents 
+Ixazomib,DB09570,L01,Antineoplastic agents 
+Solithromycin,DB09308,J01,Antibacterials for systemic use 
+Faldaprevir,DB11808,J05,Antivirals for systemic use 
+Vemurafenib,DB08881,L01,Antineoplastic agents 
+Plazomicin,DB12615,J01,Antibacterials for systemic use 
+Osilodrostat,DB11837,H02,Corticosteroids for systemic use 
+Colistina,DB00803,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Colistina,DB00803,J01,Antibacterials for systemic use 
+Baricitinib,DB11817,L04,Immunosuppressants 
+Dabrafenib,DB08912,L01,Antineoplastic agents 
+Crisaborole,DB05219,D11,Other dermatological preparations 
+Siponimod,DB12371,L04,Immunosuppressants 
+Grazoprevir,DB11575,J05,Antivirals for systemic use 
+Ribociclib,DB11730,L01,Antineoplastic agents 
+Ertugliflozin,DB11827,A10,Drugs used in diabetes 
+Letermovir,DB12070,J05,Antivirals for systemic use 
+Sofosbuvir,DB08934,J05,Antivirals for systemic use 
+Larotrectinib,DB14723,L01,Antineoplastic agents 
+Pacritinib,DB11697,L01,Antineoplastic agents 
+Abemaciclib,DB12001,L01,Antineoplastic agents 
+Copper usnate,DB13830,G01,Gynecological antiinfectives and antiseptics 
+Ibrexafungerp,DB12471,J02,Antimycotics for systemic use 
+Rimiterol,DB13559,R03,Drugs for obstructive airway diseases 
+Gilteritinib,DB12141,L01,Antineoplastic agents 
+Alectinib,DB11363,L01,Antineoplastic agents 
+Filgotinib,DB14845,L04,Immunosuppressants 
+Avacopan,DB15011,L04,Immunosuppressants 
+Lusutrombopag,DB13125,B02,Antihemorrhagics 
+Venetoclax,DB11581,L01,Antineoplastic agents
+Duvelisib,DB11952,L01,Antineoplastic agents 
+Encorafenib,DB11718,L01,Antineoplastic agents 
+Tucatinib,DB11652,L01,Antineoplastic agents 
+Rimegepant,DB12457,N02,Analgesics 
+Surufatinib,DB15106,L01,Antineoplastic agents 
+Ozanimod,DB12612,L04,Immunosuppressants 
+Piflufolastat F-18,DB14805,V09,Diagnostic radiopharmaceuticals 
+Infigratinib,DB11886,L01,Antineoplastic agents 
+Itacitinib,DB12154,L04,Immunosuppressants 
+Lesinurad,DB11560,M04,Antigout preparations 
+Ascorbic Acid,DB00126,B03,Antianemic preparations 
+Ascorbic Acid,DB00126,G01,Gynecological antiinfectives and antiseptics 
+Ascorbic Acid,DB00126,A11,Vitamins 
+Ascorbic Acid,DB00126,S01,Ophthalmologicals
+Raltegravir,DB06817,J05,Antivirals for systemic use 
+Doxycycline,DB00254,J01,Antibacterials for systemic use 
+Doxycycline,DB00254,A01,Stomatological preparations 
+Vericiguat,DB15456,C01,Cardiac therapy 
+Tetracycline,DB00759,A01,Stomatological preparations 
+Tetracycline,DB00759,D06,Antibiotics and chemotherapeutics for dermatological use 
+Tetracycline,DB00759,J01,Antibacterials for systemic use 
+Tetracycline,DB00759,S01,Ophthalmologicals 
+Tetracycline,DB00759,S02,Otologicals 
+Tetracycline,DB00759,S03,Ophthalmological and otological preparations 
+Chlortetracycline,DB09093,A01,Stomatological preparations 
+Chlortetracycline,DB09093,D06,Antibiotics and chemotherapeutics for dermatological use 
+Chlortetracycline,DB09093,J01,Antibacterials for systemic use 
+Chlortetracycline,DB09093,S01,Ophthalmologicals 
+Oxytetracycline,DB00595,A01,Stomatological preparations 
+Oxytetracycline,DB00595,D06,Antibiotics and chemotherapeutics for dermatological use 
+Oxytetracycline,DB00595,G01,Gynecological antiinfectives and antiseptics 
+Oxytetracycline,DB00595,J01,Antibacterials for systemic use 
+Oxytetracycline,DB00595,S01,Ophthalmologicals 
+Minocycline,DB01017,A01,Stomatological preparations 
+Minocycline,DB01017,D10,Anti-acne preparations 
+Minocycline,DB01017,J01,Antibacterials for systemic use 
+Methacycline,DB00931,J01,Antibacterials for systemic use 
+Dicumarol,DB00266,B01,Antithrombotic agents 
+Piroxicam,DB00554,M01,Antiinflammatory and antirheumatic products 
+Piroxicam,DB00554,M02,Topical products for joint and muscular pain 
+Piroxicam,DB00554,S01,Ophthalmologicals 
+Roquinimex,DB11366,L03,Immunostimulants 
+Acenocoumarol,DB01418,B01,Antithrombotic agents 
+Meclocycline,DB13092,D10,Anti-acne preparations 
+Meloxicam,DB00814,M01,Antiinflammatory and antirheumatic products 
+Tenoxicam,DB00469,M01,Antiinflammatory and antirheumatic products 
+Warfarin,DB00682,B01,Antithrombotic agents 
+Clomocycline,DB00453,J01,Antibacterials for systemic use 
+Demeclocycline,DB00618,D06,Antibiotics and chemotherapeutics for dermatological use 
+Demeclocycline,DB00618,J01,Antibacterials for systemic use 
+Phenprocoumon,DB00946,B01,Antithrombotic agents 
+Sarecycline,DB12035,J01,Antibacterials for systemic use 
+Tipranavir,DB00932,J05,Antivirals for systemic use 
+Rolitetracycline,DB01301,J01,Antibacterials for systemic use 
+Teriflunomide,DB08880,L04,Immunosuppressants 
+Ethyl Biscoumacetate,DB08794,B01,Antithrombotic agents 
+Penimepicycline,DB13264,J01,Antibacterials for systemic use 
+Choline salicylate,DB14006,N02,Analgesics 
+Tigecycline,DB00560,J01,Antibacterials for systemic use 
+Lornoxicam,DB06725,M01,Antiinflammatory and antirheumatic products 
+Omadacycline,DB12455,J01,Antibacterials for systemic use 
+Lymecycline,DB00256,J01,Antibacterials for systemic use 
+Tioclomarol,DB13451,B01,Antithrombotic agents 
+Cabotegravir,DB11751,J05,Antivirals for systemic use 
+Dolutegravir,DB08930,J05,Antivirals for systemic use 
+Eravacycline,DB12329,J01,Antibacterials for systemic use 
+Naldemedine,DB11691,A06,Drugs for constipation 
+Olmutinib,DB13164,L01,Antineoplastic agents 
+Dasabuvir,DB09183,J05,Antivirals for systemic use 
+Alpelisib,DB12015,L01,Antineoplastic agents 
+Fluperolone,DB13491,D07,"Corticosteroids, dermatological preparations "
+Lemborexant,DB11951,N05,Psycholeptics 
+Calcium carbimide,DB09116,N07,Other nervous system drugs 
+Naloxegol,DB09049,A06,Drugs for constipation 
+Zorubicin,DB11618,L01,Antineoplastic agents 
+Lurbinectedin,DB12674,L01,Antineoplastic agents
+Rociletinib,DB11907,L01,Antineoplastic agents 
+Ceritinib,DB09063,L01,Antineoplastic agents 
+Dorzagliatin,DB15123,A10,Drugs used in diabetes 
+Peficitinib,DB11708,L04,Immunosuppressants 
+Coblopasvir,DB15315,J05,Antivirals for systemic use 
+Doravirine,DB12301,J05,Antivirals for systemic use 
+Upadacitinib,DB15091,L04,Immunosuppressants 
+Mirogabalin,DB11825,N02,Analgesics 
+Oliceridine,DB14881,N02,Analgesics 
+Tazemetostat,DB12887,L01,Antineoplastic agents
+Netarsudil,DB13931,S01,Ophthalmologicals 
+Darolutamide,DB12941,L02,Endocrine therapy 
+Erdafitinib,DB12147,L01,Antineoplastic agents 
+Trilaciclib,DB15442,V03,All other therapeutic products 
+Brigatinib,DB12267,L01,Antineoplastic agents 
+Ubrogepant,DB15328,N02,Analgesics 
+Adenosylcobalamin,DB11191,B03,Antianemic preparations 
+Axlon,DB00200,B03,Antianemic preparations 
+Axlon,DB00200,V03,All other therapeutic products 
+Plecanatide,DB13170,A06,Drugs for constipation 
+Ridaura,DB00995,M01,Antiinflammatory and antirheumatic products 
+Flortaucipir F-18,DB14914,V09,Diagnostic radiopharmaceuticals 
+MeCbl,DB03614,B03,Antianemic preparations 
+Selinexor,DB11942,L01,Antineoplastic agents
+Osimertinib,DB09330,L01,Antineoplastic agents 
+Etelcalcetide,DB12865,H05,Calcium homeostasis 
+Ripretinib,DB14840,L01,Antineoplastic agents 
+Montmorillonite,DB13654,A07,"Antidiarrheals, intestinal antiinflammatory/antiinfective agents "
+Aloxiprin,DB13509,B01,Antithrombotic agents 
+Aloxiprin,DB13509,N02,Analgesics 
+Acetylglycinamide chloral hydrate,DB13402,N05,Psycholeptics 
+Magnesium D-gluconate (1:2) hydrate,DB13749,A12,Mineral supplements 
+Tenapanor,DB11761,A06,Drugs for constipation 
+Futibatinib,DB15149,L01,Antineoplastic agents 
+Ivosidenib,DB14568,L01,Antineoplastic agents
+Elbasvir,DB11574,J05,Antivirals for systemic use 
+Lorlatinib,DB12130,L01,Antineoplastic agents 
+Asciminib,DB12597,L01,Antineoplastic agents 
+Bis(sitafloxacin) trihydrate,DB13261,J01,Antibacterials for systemic use 
+Tetragalacturonic acid hydroxymethylester,DB13621,B02,Antihemorrhagics 
+Umbralisib,DB14989,L01,Antineoplastic agents 
+Diroximel Fumarate,DB14783,L04,Immunosuppressants 
+Technetium Tc-99M sulfur colloid,DB09397,V09,Diagnostic radiopharmaceuticals 
+Ferric sodium citrate,DB13771,B03,Antianemic preparations 
+Lorajmine,DB13651,C01,Cardiac therapy 
+Prajmaline,DB13555,C01,Cardiac therapy 
+Padeliporfin,DB15575,L01,Antineoplastic agents 
+Fluclorolone,DB13856,D07,"Corticosteroids, dermatological preparations "
+Samarium Sm 153 lexidronam,DB05273,V10,Therapeutic radiopharmaceuticals 
+Calcium pangamate,DB13590,A12,Mineral supplements 
+Lutetium Lu 177 Dotatate,DB13985,V10,Therapeutic radiopharmaceuticals 
+Aluminium acetotartrate,DB13789,S02,Otologicals 
+Oteseconazole,DB13055,J02,Antimycotics for systemic use 
+Cefiderocol,DB14879,J01,Antibacterials for systemic use
+Abrocitinib,DB14973,D11,Other dermatological preparations 
+Pegvaliase,DB12839,A16,Other alimentary tract and metabolism products 
+Parsaclisib,DB14867,L01,Antineoplastic agents 
+Pemigatinib,DB15102,L01,Antineoplastic agents 
+Enasidenib,DB13874,L01,Antineoplastic agents
+Daprodustat,DB11682,B03,Antianemic preparations
+Sucroferric oxyhydroxide,DB09146,B03,Antianemic preparations 
+Sucroferric oxyhydroxide,DB09146,V03,All other therapeutic products 
+Sodium ferric EDTA,DB13381,B03,Antianemic preparations 
+(+)-Iron(II) L-ascorbate,DB14490,B03,Antianemic preparations 
+Rhenium Re-186 sulfide,DB13847,V10,Therapeutic radiopharmaceuticals 
+Mavacamten,DB14921,C01,Cardiac therapy
+Avapritinib,DB15233,L01,Antineoplastic agents 
+Ferric Ammonium Citrate,DB09501,V08,Contrast media 
+Mazaticol,DB13448,N04,Anti-parkinson drugs 
+"(1R,4R,7Z,15R,17R)-N-cyclopropylsulfonyl-17-[7-methoxy-8-methyl-2-(4-propan-2-yl-1,3-thiazol-2-yl)quinolin-4-yl]oxy-13-methyl-2,14-dioxo-3,13-diazatricyclo[13.3.0.04,6]octadec-7-ene-4-carboxamide",DB06290,J05,Antivirals for systemic use 
+Remdesivir,DB14761,J05,Antivirals for systemic use 
+Baloxavir Marboxil,DB13997,J05,Antivirals for systemic use 
+Pyostacine,DB11476,D06,Antibiotics and chemotherapeutics for dermatological use 
+Pyostacine,DB11476,J01,Antibacterials for systemic use 
+2-[2-[Bis(carboxylatomethyl)amino]ethyl-[2-[carboxymethyl-(1-carboxy-2-phenylmethoxyethyl)amino]ethyl]amino]acetate;gadolinium(3+),DB00743,V08,Contrast media 
+Gadoxetate,DB08884,V08,Contrast media 
+Technetium (99Mtc) Medronic Acid,DB09138,V09,Diagnostic radiopharmaceuticals 
+Technetium Tc 99m tetrofosmin,DB09160,V09,Diagnostic radiopharmaceuticals 
+Technetium (99mTc) etifenin,DB13183,V09,Diagnostic radiopharmaceuticals 
+Entecavir,DB00442,J05,Antivirals for systemic use 
+Acyclovir,DB00787,D06,Antibiotics and chemotherapeutics for dermatological use 
+Acyclovir,DB00787,J05,Antivirals for systemic use 
+Acyclovir,DB00787,S01,Ophthalmologicals 
+Inosine,DB04335,S01,Ophthalmologicals
+Inosine,DB04335,D06,Antibiotics and chemotherapeutics for dermatological use 
+Inosine,DB04335,G01,Gynecological antiinfectives and antiseptics 
+Sapropterin,DB00360,A16,Other alimentary tract and metabolism products 
+Folic Acid,DB00158,B03,Antianemic preparations 
+Folic Acid,DB00158,V04,Diagnostic agents
+Rifampin,DB01045,J04,Antimycobacterials 
+Clozapine,DB00363,N05,Psycholeptics 
+Dacarbazine,DB00851,L01,Antineoplastic agents 
+Didanosine,DB00900,J05,Antivirals for systemic use 
+Ganciclovir,DB01004,J05,Antivirals for systemic use 
+Ganciclovir,DB01004,S01,Ophthalmologicals 
+Valacyclovir,DB00577,J05,Antivirals for systemic use 
+Sildenafil,DB00203,G04,Urologicals 
+Olanzapine,DB00334,N05,Psycholeptics 
+Pralidoxime,DB00733,V03,All other therapeutic products 
+Penciclovir,DB00299,D06,Antibiotics and chemotherapeutics for dermatological use 
+Penciclovir,DB00299,J05,Antivirals for systemic use 
+Raltitrexed,DB00293,L01,Antineoplastic agents 
+Vardenafil,DB00862,G04,Urologicals 
+Allopurinol,DB00437,M04,Antigout preparations 
+Rifapentine,DB01201,J04,Antimycobacterials 
+Anagrelide,DB00261,L01,Antineoplastic agents
+Tegaserod,DB01079,A06,Drugs for constipation 
+Azilsartan medoxomil,DB08822,C09,Agents acting on the renin-angiotensin system 
+Pemetrexed,DB00642,L01,Antineoplastic agents 
+Obidoxime,DB13750,V03,All other therapeutic products 
+Bentazepam,DB14719,N05,Psycholeptics 
+Valganciclovir,DB01610,J05,Antivirals for systemic use 
+Aprepitant,DB00673,A04,Antiemetics and antinauseants 
+Ceftobiprole medocaril free acid,DB14733,J01,Antibacterials for systemic use
+Udenafil,DB06267,G04,Urologicals 
+Etifoxine,DB08986,N05,Psycholeptics 
+Nintedanib,DB09079,L01,Antineoplastic agents 
+Fenozolone,DB13341,N06,Psychoanaleptics 
+Tisopurine,DB13807,M04,Antigout preparations 
+Eltrombopag,DB06210,B02,Antihemorrhagics 
+Epacadostat,DB11717,L01,Antineoplastic agents
+Talazoparib,DB11760,L01,Antineoplastic agents 
+Pamiparib,DB14769,L01,Antineoplastic agents 
+Copanlisib,DB12483,L01,Antineoplastic agents 
+Pafolacianine,DB15413,V04,Diagnostic agents
+Dabigatran Etexilate,DB06695,B01,Antithrombotic agents 
+Opicapone,DB11632,N04,Anti-parkinson drugs 
+Sotorasib,DB15569,L01,Antineoplastic agents

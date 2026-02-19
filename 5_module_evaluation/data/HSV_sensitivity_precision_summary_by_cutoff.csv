@@ -1,0 +1,4 @@
+cutoff,best_sensitivity_module,best_sensitivity,best_precision_module,best_precision
+4,CC_Host_Nucleus,0.11235955056179775,BP_Assembly_and_Packaging,0.125
+5,CC_Host_Nucleus,0.11235955056179775,BP_Assembly_and_Packaging,0.11904761904761904
+6,CC_Host_Nucleus,0.06179775280898876,BP_Assembly_and_Packaging,0.22727272727272727

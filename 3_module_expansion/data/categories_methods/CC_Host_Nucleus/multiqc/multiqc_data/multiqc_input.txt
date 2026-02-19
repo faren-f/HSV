@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Host_Nucleus.uniprot_ppi	277	26

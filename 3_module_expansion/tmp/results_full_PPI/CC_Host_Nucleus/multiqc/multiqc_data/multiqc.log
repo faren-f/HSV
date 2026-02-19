@@ -1,0 +1,14 @@
+[2026-01-03 18:13:03,529] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yml
+[2026-01-03 18:13:03,623] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.33 now available!
+[2026-01-03 18:13:03,624] multiqc.core.file_search                           [INFO   ]  Search path: /home/bbc8731/nextflow_work/ef/9136590b2520c2e4f8514f2d2a2f8a
+[2026-01-03 18:13:03,625] multiqc.core.file_search                           [INFO   ]  Only using modules: custom_content
+[2026-01-03 18:13:03,682] multiqc.modules.custom_content.custom_content      [INFO   ]  drugstone_link: Found 35 samples (PlotType.TABLE)
+[2026-01-03 18:13:03,682] multiqc.modules.custom_content.custom_content      [INFO   ]  nf-core-diseasemodulediscovery-summary: Found 1 sample (html)
+[2026-01-03 18:13:03,697] multiqc.modules.custom_content.custom_content      [INFO   ]  input: Found 1 samples (PlotType.BAR)
+[2026-01-03 18:13:03,703] multiqc.modules.custom_content.custom_content      [INFO   ]  input: Found 6 samples (PlotType.TABLE)
+[2026-01-03 18:13:03,708] multiqc.modules.custom_content.custom_content      [INFO   ]  warn_drugstone_max_nodes: Found 7 samples (PlotType.TABLE)
+[2026-01-03 18:13:03,708] multiqc.modules.custom_content.custom_content      [INFO   ]  topology: Found 42 General Statistics columns
+[2026-01-03 18:13:03,709] multiqc.modules.custom_content.custom_content      [INFO   ]  nf-core-diseasemodulediscovery-methods-description: Found 1 sample (html)
+[2026-01-03 18:13:03,713] multiqc.modules.custom_content.custom_content      [INFO   ]  warn_visualization_max_nodes: Found 7 samples (PlotType.TABLE)
+[2026-01-03 18:13:03,717] multiqc.core.file_search                           [INFO   ]  Only using modules: drugstone_link, nf-core-diseasemodulediscovery-summary, input, warn_drugstone_max_nodes, nf-core-diseasemodulediscovery-methods-description, warn_visualization_max_nodes
+[2026-01-03 18:13:03,718] multiqc.core.write_results                         [INFO   ]  Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag

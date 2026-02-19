@@ -1,0 +1,2 @@
+Network	nodes	edges	components	largest_component	diameter	self_loops	duplicate_edges
+uniprot_ppi	17666	329215	8	17649	7.0	0	0

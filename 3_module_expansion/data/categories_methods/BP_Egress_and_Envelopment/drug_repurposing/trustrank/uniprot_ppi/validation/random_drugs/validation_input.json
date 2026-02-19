@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-02-13 20:09:01",
+  "method": "uniprot_ppi",
+  "drug_set": "random_drugs",
+  "num_predicted": 100,
+  "num_true": 33,
+  "predicted_sample": [
+    [
+      "drugbank.DB02107",
+      9.378083141869894e-05
+    ],
+    [
+      "drugbank.DB12010",
+      5.772563507844562e-05
+    ],
+    [
+      "drugbank.DB01268",
+      5.083984815451751e-05
+    ],
+    [
+      "drugbank.DB14487",
+      4.759700867736437e-05
+    ],
+    [
+      "drugbank.DB01593",
+      4.759700867736436e-05
+    ]
+  ],
+  "true_sample": [
+    "drugbank.DB03971",
+    "drugbank.DB07020",
+    "drugbank.DB03490",
+    "drugbank.DB08777",
+    "drugbank.DB01147"
+  ]
+}

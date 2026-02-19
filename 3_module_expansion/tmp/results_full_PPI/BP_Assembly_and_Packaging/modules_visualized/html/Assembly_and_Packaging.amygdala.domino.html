@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "component_id": 0, "id": "P63172", "is_seed": 1, "label": "P63172", "shape": "dot", "size": 10, "spd": 0.02912621359223301, "submodule": 3, "title": "\n            P63172\n\n            submodule: 3.0\nis_seed: 1.0\nspd: 0.02912621359223301\ncomponent_id: 0.0\n        ", "x": 347.7842465149743, "y": 1219.1903458942204}, {"color": "blue", "component_id": 0, "id": "Q9Y4X4", "is_seed": 0, "label": "Q9Y4X4", "shape": "dot", "size": 10, "spd": 0.2, "submodule": 3, "title": "\n            Q9Y4X4\n\n            submodule: 3.0\nis_seed: 0.0\nspd: 0.2\ncomponent_id: 0.0\n        ", "x": 349.16845662361317, "y": 1305.2953674049143}, {"color": "red", "component_id": 0, "id": "P51808", "is_seed": 1, "label": "P51808", "shape": "dot", "size": 10, "spd": 0.1111111111111111, "submodule": 3, "title": "\n            P51808\n\n            submodule: 3.0\nis_seed: 1.0\nspd: 0.1111111111111111\ncomponent_id: 0.0\n        ", "x": 384.78894203417474, "y": 1143.5401896830008}, {"color": "blue", "component_id": 0, "id": "O14576", "is_seed": 0, "label": "O14576", "shape": "dot", "size": 10, "spd": 0.041666666666666664, "submodule": 3, "title": "\n            O14576\n\n            submodule: 3.0\nis_seed: 0.0\nspd: 0.041666666666666664\ncomponent_id: 0.0\n        ", "x": 312.1465167254612, "y": 1145.7281978279689}, {"color": "red", "component_id": 1, "id": "P51617", "is_seed": 1, "label": "P51617", "shape": "dot", "size": 10, "spd": 0.06451612903225806, "submodule": 1, "title": "\n            P51617\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.06451612903225806\ncomponent_id: 1.0\n        ", "x": -163.60317057735915, "y": 880.4875885088446}, {"color": "blue", "component_id": 1, "id": "Q8IV45", "is_seed": 0, "label": "Q8IV45", "shape": "dot", "size": 10, "spd": 0.058823529411764705, "submodule": 1, "title": "\n            Q8IV45\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.058823529411764705\ncomponent_id: 1.0\n        ", "x": -240.75570935450395, "y": 750.5566716080417}, {"color": "red", "component_id": 1, "id": "Q9Y6K9", "is_seed": 1, "label": "Q9Y6K9", "shape": "dot", "size": 10, "spd": 0.025210084033613446, "submodule": 1, "title": "\n            Q9Y6K9\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.025210084033613446\ncomponent_id: 1.0\n        ", "x": -168.0029444280138, "y": 997.8388877845218}, {"color": "red", "component_id": 1, "id": "Q9Y4K3", "is_seed": 1, "label": "Q9Y4K3", "shape": "dot", "size": 10, "spd": 0.03143418467583497, "submodule": 1, "title": "\n            Q9Y4K3\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.03143418467583497\ncomponent_id: 1.0\n        ", "x": -213.41981406028967, "y": 924.7720558416754}, {"color": "red", "component_id": 1, "id": "Q9NYJ8", "is_seed": 1, "label": "Q9NYJ8", "shape": "dot", "size": 10, "spd": 0.09900990099009901, "submodule": 1, "title": "\n            Q9NYJ8\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.09900990099009901\ncomponent_id: 1.0\n        ", "x": -90.98326939178878, "y": 977.1881454275912}, {"color": "red", "component_id": 1, "id": "Q15750", "is_seed": 1, "label": "Q15750", "shape": "dot", "size": 10, "spd": 0.08333333333333333, "submodule": 1, "title": "\n            Q15750\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.08333333333333333\ncomponent_id: 1.0\n        ", "x": -56.65376800089307, "y": 957.7223371821478}, {"color": "blue", "component_id": 1, "id": "Q15306", "is_seed": 0, "label": "Q15306", "shape": "dot", "size": 10, "spd": 0.1, "submodule": 1, "title": "\n            Q15306\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.1\ncomponent_id: 1.0\n        ", "x": -142.98782717879394, "y": 812.1082139862843}, {"color": "blue", "component_id": 1, "id": "O14920", "is_seed": 0, "label": "O14920", "shape": "dot", "size": 10, "spd": 0.040697674418604654, "submodule": 1, "title": "\n            O14920\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.040697674418604654\ncomponent_id: 1.0\n        ", "x": -112.9873387749046, "y": 910.8175758584164}, {"color": "blue", "component_id": 1, "id": "O14836", "is_seed": 0, "label": "O14836", "shape": "dot", "size": 10, "spd": 0.06896551724137931, "submodule": 1, "title": "\n            O14836\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.06896551724137931\ncomponent_id: 1.0\n        ", "x": -278.537605922954, "y": 892.125327747454}, {"color": "blue", "component_id": 1, "id": "Q8N5C8", "is_seed": 0, "label": "Q8N5C8", "shape": "dot", "size": 10, "spd": 0.23809523809523808, "submodule": 1, "title": "\n            Q8N5C8\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.23809523809523808\ncomponent_id: 1.0\n        ", "x": -142.30753864195555, "y": 954.5616501069728}, {"color": "blue", "component_id": 1, "id": "Q86V59", "is_seed": 0, "label": "Q86V59", "shape": "dot", "size": 10, "spd": 0.42857142857142855, "submodule": 5, "title": "\n            Q86V59\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.42857142857142855\ncomponent_id: 1.0\n        ", "x": -168.67028209431777, "y": 1170.0841896827326}, {"color": "blue", "component_id": 1, "id": "Q96P71", "is_seed": 0, "label": "Q96P71", "shape": "dot", "size": 10, "spd": 0.14285714285714285, "submodule": 1, "title": "\n            Q96P71\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.14285714285714285\ncomponent_id: 1.0\n        ", "x": -220.01438858460608, "y": 1074.0300070907103}, {"color": "blue", "component_id": 1, "id": "O76080", "is_seed": 0, "label": "O76080", "shape": "dot", "size": 10, "spd": 0.1, "submodule": 1, "title": "\n            O76080\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.1\ncomponent_id: 1.0\n        ", "x": -224.16584663505046, "y": 868.9113077016608}, {"color": "blue", "component_id": 1, "id": "Q9UQ90", "is_seed": 0, "label": "Q9UQ90", "shape": "dot", "size": 10, "spd": 0.05405405405405406, "submodule": 5, "title": "\n            Q9UQ90\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.05405405405405406\ncomponent_id: 1.0\n        ", "x": -289.8797729524954, "y": 1395.350502062913}, {"color": "red", "component_id": 1, "id": "Q8ND90", "is_seed": 1, "label": "Q8ND90", "shape": "dot", "size": 10, "spd": 0.08849557522123894, "submodule": 5, "title": "\n            Q8ND90\n\n            submodule: 5.0\nis_seed: 1.0\nspd: 0.08849557522123894\ncomponent_id: 1.0\n        ", "x": -162.48258200272517, "y": 1334.0170236633078}, {"color": "red", "component_id": 1, "id": "Q5JR59", "is_seed": 1, "label": "Q5JR59", "shape": "dot", "size": 10, "spd": 0.08053691275167785, "submodule": 5, "title": "\n            Q5JR59\n\n            submodule: 5.0\nis_seed: 1.0\nspd: 0.08053691275167785\ncomponent_id: 1.0\n        ", "x": -335.97849038432474, "y": 1492.9200114998273}, {"color": "blue", "component_id": 1, "id": "Q96JP0", "is_seed": 0, "label": "Q96JP0", "shape": "dot", "size": 10, "spd": 0.09090909090909091, "submodule": 5, "title": "\n            Q96JP0\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.09090909090909091\ncomponent_id: 1.0\n        ", "x": -86.0497866421545, "y": 1315.4380993278778}, {"color": "blue", "component_id": 1, "id": "Q96IZ5", "is_seed": 0, "label": "Q96IZ5", "shape": "dot", "size": 10, "spd": 0.16666666666666666, "submodule": 5, "title": "\n            Q96IZ5\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.16666666666666666\ncomponent_id: 1.0\n        ", "x": -123.10160612180758, "y": 1417.8490639217584}, {"color": "blue", "component_id": 1, "id": "Q96BY2", "is_seed": 0, "label": "Q96BY2", "shape": "dot", "size": 10, "spd": 0.08, "submodule": 5, "title": "\n            Q96BY2\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.08\ncomponent_id: 1.0\n        ", "x": -181.40338852153346, "y": 1245.4258294039455}, {"color": "blue", "component_id": 1, "id": "Q9H0A9", "is_seed": 0, "label": "Q9H0A9", "shape": "dot", "size": 10, "spd": 0.07692307692307693, "submodule": 5, "title": "\n            Q9H0A9\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.07692307692307693\ncomponent_id: 1.0\n        ", "x": -256.5948598785077, "y": 1301.196889197736}, {"color": "blue", "component_id": 1, "id": "Q86VK4", "is_seed": 0, "label": "Q86VK4", "shape": "dot", "size": 10, "spd": 0.25, "submodule": 5, "title": "\n            Q86VK4\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.25\ncomponent_id: 1.0\n        ", "x": -192.1019229626468, "y": 1466.872169828256}, {"color": "blue", "component_id": 1, "id": "Q14D33", "is_seed": 0, "label": "Q14D33", "shape": "dot", "size": 10, "spd": 0.21428571428571427, "submodule": 5, "title": "\n            Q14D33\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.21428571428571427\ncomponent_id: 1.0\n        ", "x": -220.42221149831133, "y": 1426.3829798331226}, {"color": "red", "component_id": 1, "id": "O14964", "is_seed": 1, "label": "O14964", "shape": "dot", "size": 10, "spd": 0.028985507246376812, "submodule": 2, "title": "\n            O14964\n\n            submodule: 2.0\nis_seed: 1.0\nspd: 0.028985507246376812\ncomponent_id: 1.0\n        ", "x": -28.432728619879427, "y": 1265.9033208243482}, {"color": "blue", "component_id": 1, "id": "O95872", "is_seed": 0, "label": "O95872", "shape": "dot", "size": 10, "spd": 0.13333333333333333, "submodule": 5, "title": "\n            O95872\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.13333333333333333\ncomponent_id: 1.0\n        ", "x": -58.82224566756204, "y": 1405.1695299649562}, {"color": "red", "component_id": 1, "id": "Q08379", "is_seed": 1, "label": "Q08379", "shape": "dot", "size": 10, "spd": 0.042483660130718956, "submodule": 5, "title": "\n            Q08379\n\n            submodule: 5.0\nis_seed: 1.0\nspd: 0.042483660130718956\ncomponent_id: 1.0\n        ", "x": -91.68364092615695, "y": 1497.0706921018884}, {"color": "blue", "component_id": 1, "id": "Q5H9K5", "is_seed": 0, "label": "Q5H9K5", "shape": "dot", "size": 10, "spd": 0.16666666666666666, "submodule": 5, "title": "\n            Q5H9K5\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.16666666666666666\ncomponent_id: 1.0\n        ", "x": 32.292946378259856, "y": 1589.9142771782936}, {"color": "blue", "component_id": 1, "id": "Q9NPJ8", "is_seed": 0, "label": "Q9NPJ8", "shape": "dot", "size": 10, "spd": 0.10526315789473684, "submodule": 5, "title": "\n            Q9NPJ8\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.10526315789473684\ncomponent_id: 1.0\n        ", "x": 35.52800108169713, "y": 1491.8565586676018}, {"color": "blue", "component_id": 1, "id": "Q8IXS8", "is_seed": 0, "label": "Q8IXS8", "shape": "dot", "size": 10, "spd": 0.25, "submodule": 5, "title": "\n            Q8IXS8\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.25\ncomponent_id: 1.0\n        ", "x": -88.88228834582948, "y": 1584.7408024808433}, {"color": "blue", "component_id": 1, "id": "Q9UPN6", "is_seed": 0, "label": "Q9UPN6", "shape": "dot", "size": 10, "spd": 0.10526315789473684, "submodule": 5, "title": "\n            Q9UPN6\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.10526315789473684\ncomponent_id: 1.0\n        ", "x": -234.8316796679124, "y": 1520.018368776505}, {"color": "blue", "component_id": 1, "id": "Q96S90", "is_seed": 0, "label": "Q96S90", "shape": "dot", "size": 10, "spd": 0.5, "submodule": 5, "title": "\n            Q96S90\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.5\ncomponent_id: 1.0\n        ", "x": -212.17238906198114, "y": 1571.1645093103057}, {"color": "blue", "component_id": 1, "id": "Q96M11", "is_seed": 0, "label": "Q96M11", "shape": "dot", "size": 10, "spd": 0.3333333333333333, "submodule": 5, "title": "\n            Q96M11\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.3333333333333333\ncomponent_id: 1.0\n        ", "x": -124.8724532221769, "y": 1642.9988021890158}, {"color": "blue", "component_id": 1, "id": "Q0P5N6", "is_seed": 0, "label": "Q0P5N6", "shape": "dot", "size": 10, "spd": 0.3333333333333333, "submodule": 5, "title": "\n            Q0P5N6\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.3333333333333333\ncomponent_id: 1.0\n        ", "x": -33.81820888287678, "y": 1635.1242153866037}, {"color": "blue", "component_id": 1, "id": "P57771", "is_seed": 0, "label": "P57771", "shape": "dot", "size": 10, "spd": 0.5, "submodule": 5, "title": "\n            P57771\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.5\ncomponent_id: 1.0\n        ", "x": -8.294649707240954, "y": 1535.148021984963}, {"color": "red", "component_id": 1, "id": "Q99816", "is_seed": 1, "label": "Q99816", "shape": "dot", "size": 10, "spd": 0.017964071856287425, "submodule": 2, "title": "\n            Q99816\n\n            submodule: 2.0\nis_seed: 1.0\nspd: 0.017964071856287425\ncomponent_id: 1.0\n        ", "x": 99.75693991580043, "y": 1315.1007238375792}, {"color": "blue", "component_id": 1, "id": "Q86XT2", "is_seed": 0, "label": "Q86XT2", "shape": "dot", "size": 10, "spd": 0.2222222222222222, "submodule": 2, "title": "\n            Q86XT2\n\n            submodule: 2.0\nis_seed: 0.0\nspd: 0.2222222222222222\ncomponent_id: 1.0\n        ", "x": 73.04533200942565, "y": 1247.3666883980811}, {"color": "blue", "component_id": 1, "id": "A6NHR9", "is_seed": 0, "label": "A6NHR9", "shape": "dot", "size": 10, "spd": 0.03333333333333333, "submodule": 2, "title": "\n            A6NHR9\n\n            submodule: 2.0\nis_seed: 0.0\nspd: 0.03333333333333333\ncomponent_id: 1.0\n        ", "x": 190.84675973999424, "y": 1371.1108587763354}, {"color": "red", "component_id": 1, "id": "P49116", "is_seed": 1, "label": "P49116", "shape": "dot", "size": 10, "spd": 0.10638297872340426, "submodule": 1, "title": "\n            P49116\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.10638297872340426\ncomponent_id: 1.0\n        ", "x": -66.71541155401515, "y": 870.4893992553783}, {"color": "blue", "component_id": 1, "id": "Q8TF05", "is_seed": 0, "label": "Q8TF05", "shape": "dot", "size": 10, "spd": 0.06896551724137931, "submodule": 1, "title": "\n            Q8TF05\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.06896551724137931\ncomponent_id: 1.0\n        ", "x": -313.48806976393826, "y": 1113.463952026702}, {"color": "blue", "component_id": 1, "id": "Q8NFM7", "is_seed": 0, "label": "Q8NFM7", "shape": "dot", "size": 10, "spd": 0.14285714285714285, "submodule": 1, "title": "\n            Q8NFM7\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.14285714285714285\ncomponent_id: 1.0\n        ", "x": -181.02169020211082, "y": 762.0673991387442}, {"color": "blue", "component_id": 1, "id": "Q99706", "is_seed": 0, "label": "Q99706", "shape": "dot", "size": 10, "spd": 0.16666666666666666, "submodule": 1, "title": "\n            Q99706\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.16666666666666666\ncomponent_id: 1.0\n        ", "x": -357.1278029840652, "y": 888.8350116331524}, {"color": "blue", "component_id": 1, "id": "Q5VYS4", "is_seed": 0, "label": "Q5VYS4", "shape": "dot", "size": 10, "spd": 1.0, "submodule": 1, "title": "\n            Q5VYS4\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 1.0\ncomponent_id: 1.0\n        ", "x": -354.6211041331485, "y": 963.725427505601}, {"color": "blue", "component_id": 1, "id": "Q96G61", "is_seed": 0, "label": "Q96G61", "shape": "dot", "size": 10, "spd": 1.0, "submodule": 1, "title": "\n            Q96G61\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 1.0\ncomponent_id: 1.0\n        ", "x": -293.88394488713504, "y": 999.6582220003942}, {"color": "blue", "component_id": 1, "id": "P30954", "is_seed": 0, "label": "P30954", "shape": "dot", "size": 10, "spd": 1.0, "submodule": 1, "title": "\n            P30954\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 1.0\ncomponent_id: 1.0\n        ", "x": -311.0511730456778, "y": 817.5730610345688}, {"color": "blue", "component_id": 1, "id": "Q8IXQ5", "is_seed": 0, "label": "Q8IXQ5", "shape": "dot", "size": 10, "spd": 0.10526315789473684, "submodule": 1, "title": "\n            Q8IXQ5\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.10526315789473684\ncomponent_id: 1.0\n        ", "x": 27.681963219439794, "y": 806.716411432455}, {"color": "blue", "component_id": 1, "id": "Q8N4J0", "is_seed": 0, "label": "Q8N4J0", "shape": "dot", "size": 10, "spd": 0.0967741935483871, "submodule": 1, "title": "\n            Q8N4J0\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.0967741935483871\ncomponent_id: 1.0\n        ", "x": 10.961431833855412, "y": 896.1901976414422}, {"color": "blue", "component_id": 1, "id": "Q10589", "is_seed": 0, "label": "Q10589", "shape": "dot", "size": 10, "spd": 0.21428571428571427, "submodule": 1, "title": "\n            Q10589\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.21428571428571427\ncomponent_id: 1.0\n        ", "x": -61.261564569885685, "y": 1096.6241376944522}, {"color": "blue", "component_id": 1, "id": "Q12765", "is_seed": 0, "label": "Q12765", "shape": "dot", "size": 10, "spd": 0.2, "submodule": 1, "title": "\n            Q12765\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.2\ncomponent_id: 1.0\n        ", "x": -8.246593870303641, "y": 1084.2636840336322}, {"color": "blue", "component_id": 1, "id": "Q49A92", "is_seed": 0, "label": "Q49A92", "shape": "dot", "size": 10, "spd": 0.2, "submodule": 5, "title": "\n            Q49A92\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.2\ncomponent_id: 1.0\n        ", "x": -431.0253856958492, "y": 1435.176470257816}, {"color": "blue", "component_id": 1, "id": "Q9UIC8", "is_seed": 0, "label": "Q9UIC8", "shape": "dot", "size": 10, "spd": 0.1111111111111111, "submodule": 1, "title": "\n            Q9UIC8\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.1111111111111111\ncomponent_id: 1.0\n        ", "x": 73.56173300684567, "y": 957.2048214306689}, {"color": "red", "component_id": 2, "id": "Q01484", "is_seed": 1, "label": "Q01484", "shape": "dot", "size": 10, "spd": 0.06060606060606061, "submodule": 4, "title": "\n            Q01484\n\n            submodule: 4.0\nis_seed: 1.0\nspd: 0.06060606060606061\ncomponent_id: 2.0\n        ", "x": -511.36591777015144, "y": 697.4274511591519}, {"color": "blue", "component_id": 2, "id": "Q92823", "is_seed": 0, "label": "Q92823", "shape": "dot", "size": 10, "spd": 0.1111111111111111, "submodule": 4, "title": "\n            Q92823\n\n            submodule: 4.0\nis_seed: 0.0\nspd: 0.1111111111111111\ncomponent_id: 2.0\n        ", "x": -463.6478939141909, "y": 628.1087363199057}, {"color": "blue", "component_id": 2, "id": "O00165", "is_seed": 0, "label": "O00165", "shape": "dot", "size": 10, "spd": 0.014598540145985401, "submodule": 4, "title": "\n            O00165\n\n            submodule: 4.0\nis_seed: 0.0\nspd: 0.014598540145985401\ncomponent_id: 2.0\n        ", "x": -561.1220318441308, "y": 769.9873831643557}, {"color": "blue", "component_id": 1, "id": "Q16204", "is_seed": 0, "label": "Q16204", "shape": "dot", "size": 10, "spd": 0.03389830508474576, "submodule": 5, "title": "\n            Q16204\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.03389830508474576\ncomponent_id: 1.0\n        ", "x": -359.8842422329696, "y": 1297.794540975876}, {"color": "blue", "component_id": 1, "id": "Q96MS0", "is_seed": 0, "label": "Q96MS0", "shape": "dot", "size": 10, "spd": 0.16666666666666666, "submodule": 5, "title": "\n            Q96MS0\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.16666666666666666\ncomponent_id: 1.0\n        ", "x": -396.88686447335317, "y": 1548.0186530292558}, {"color": "blue", "component_id": 1, "id": "Q8TB37", "is_seed": 0, "label": "Q8TB37", "shape": "dot", "size": 10, "spd": 0.2, "submodule": 5, "title": "\n            Q8TB37\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.2\ncomponent_id: 1.0\n        ", "x": -394.1432615399317, "y": 1628.5651485784683}, {"color": "blue", "component_id": 1, "id": "Q8WWX9", "is_seed": 0, "label": "Q8WWX9", "shape": "dot", "size": 10, "spd": 0.3333333333333333, "submodule": 5, "title": "\n            Q8WWX9\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.3333333333333333\ncomponent_id: 1.0\n        ", "x": -462.0125464597293, "y": 1576.937905241312}, {"color": "blue", "component_id": 1, "id": "Q08AG5", "is_seed": 0, "label": "Q08AG5", "shape": "dot", "size": 10, "spd": 0.5, "submodule": 5, "title": "\n            Q08AG5\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.5\ncomponent_id: 1.0\n        ", "x": -472.80486012643297, "y": 1498.4167820046812}, {"color": "blue", "component_id": 1, "id": "Q09FC8", "is_seed": 0, "label": "Q09FC8", "shape": "dot", "size": 10, "spd": 1.0, "submodule": 5, "title": "\n            Q09FC8\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 1.0\ncomponent_id: 1.0\n        ", "x": -320.4005067956003, "y": 1615.5789572726367}, {"color": "red", "component_id": 2, "id": "Q9UPY8", "is_seed": 1, "label": "Q9UPY8", "shape": "dot", "size": 10, "spd": 0.03333333333333333, "submodule": 4, "title": "\n            Q9UPY8\n\n            submodule: 4.0\nis_seed: 1.0\nspd: 0.03333333333333333\ncomponent_id: 2.0\n        ", "x": -601.3644724846374, "y": 844.1571646573124}]);
+                  edges = new vis.DataSet([{"from": "P63172", "to": "Q9Y4X4", "width": 1}, {"from": "P63172", "to": "P51808", "width": 1}, {"from": "P63172", "to": "O14576", "width": 1}, {"from": "P51617", "to": "Q8IV45", "width": 1}, {"from": "P51617", "to": "Q9Y6K9", "width": 1}, {"from": "P51617", "to": "Q9Y4K3", "width": 1}, {"from": "P51617", "to": "Q9NYJ8", "width": 1}, {"from": "P51617", "to": "Q15750", "width": 1}, {"from": "P51617", "to": "Q15306", "width": 1}, {"from": "P51617", "to": "O14920", "width": 1}, {"from": "P51617", "to": "O14836", "width": 1}, {"from": "Q9Y6K9", "to": "Q9Y4K3", "width": 1}, {"from": "Q9Y6K9", "to": "Q8N5C8", "width": 1}, {"from": "Q9Y6K9", "to": "Q86V59", "width": 1}, {"from": "Q9Y6K9", "to": "Q9NYJ8", "width": 1}, {"from": "Q9Y6K9", "to": "Q15750", "width": 1}, {"from": "Q9Y6K9", "to": "Q96P71", "width": 1}, {"from": "Q9Y6K9", "to": "O14920", "width": 1}, {"from": "Q9Y6K9", "to": "O76080", "width": 1}, {"from": "Q9UQ90", "to": "Q8ND90", "width": 1}, {"from": "Q9UQ90", "to": "Q5JR59", "width": 1}, {"from": "Q8ND90", "to": "Q96JP0", "width": 1}, {"from": "Q8ND90", "to": "Q96IZ5", "width": 1}, {"from": "Q8ND90", "to": "Q96BY2", "width": 1}, {"from": "Q8ND90", "to": "Q9H0A9", "width": 1}, {"from": "Q8ND90", "to": "Q86V59", "width": 1}, {"from": "Q8ND90", "to": "Q86VK4", "width": 1}, {"from": "Q8ND90", "to": "Q14D33", "width": 1}, {"from": "Q8ND90", "to": "O14964", "width": 1}, {"from": "Q8ND90", "to": "O95872", "width": 1}, {"from": "Q08379", "to": "Q5H9K5", "width": 1}, {"from": "Q08379", "to": "Q86VK4", "width": 1}, {"from": "Q08379", "to": "Q9NPJ8", "width": 1}, {"from": "Q08379", "to": "Q8IXS8", "width": 1}, {"from": "Q08379", "to": "Q14D33", "width": 1}, {"from": "Q08379", "to": "Q96IZ5", "width": 1}, {"from": "Q08379", "to": "Q9UPN6", "width": 1}, {"from": "Q08379", "to": "Q96S90", "width": 1}, {"from": "Q08379", "to": "Q96M11", "width": 1}, {"from": "Q08379", "to": "Q0P5N6", "width": 1}, {"from": "Q08379", "to": "P57771", "width": 1}, {"from": "Q08379", "to": "O14964", "width": 1}, {"from": "Q08379", "to": "O95872", "width": 1}, {"from": "Q99816", "to": "Q86XT2", "width": 1}, {"from": "Q99816", "to": "O14964", "width": 1}, {"from": "Q99816", "to": "A6NHR9", "width": 1}, {"from": "Q9Y4K3", "to": "Q8N5C8", "width": 1}, {"from": "Q9Y4K3", "to": "Q9NYJ8", "width": 1}, {"from": "Q9Y4K3", "to": "Q15750", "width": 1}, {"from": "Q9Y4K3", "to": "P49116", "width": 1}, {"from": "Q9Y4K3", "to": "Q8TF05", "width": 1}, {"from": "Q9Y4K3", "to": "Q15306", "width": 1}, {"from": "Q9Y4K3", "to": "Q8NFM7", "width": 1}, {"from": "Q9Y4K3", "to": "Q99706", "width": 1}, {"from": "Q9Y4K3", "to": "O14920", "width": 1}, {"from": "Q9Y4K3", "to": "O76080", "width": 1}, {"from": "Q9Y4K3", "to": "O14836", "width": 1}, {"from": "Q9Y4K3", "to": "Q5VYS4", "width": 1}, {"from": "Q9Y4K3", "to": "Q96G61", "width": 1}, {"from": "Q9Y4K3", "to": "P30954", "width": 1}, {"from": "Q8N5C8", "to": "Q9NYJ8", "width": 1}, {"from": "Q8N5C8", "to": "Q15750", "width": 1}, {"from": "Q8N5C8", "to": "O14920", "width": 1}, {"from": "Q8IXQ5", "to": "Q8N4J0", "width": 1}, {"from": "Q8IXQ5", "to": "P49116", "width": 1}, {"from": "Q86V59", "to": "Q96BY2", "width": 1}, {"from": "Q9NYJ8", "to": "Q15750", "width": 1}, {"from": "Q9NYJ8", "to": "P49116", "width": 1}, {"from": "Q9NYJ8", "to": "Q8N4J0", "width": 1}, {"from": "Q9NYJ8", "to": "Q10589", "width": 1}, {"from": "Q9NYJ8", "to": "Q12765", "width": 1}, {"from": "Q9NYJ8", "to": "O14920", "width": 1}, {"from": "Q49A92", "to": "Q5JR59", "width": 1}, {"from": "Q15750", "to": "Q8N4J0", "width": 1}, {"from": "Q15750", "to": "Q9UIC8", "width": 1}, {"from": "Q15750", "to": "P49116", "width": 1}, {"from": "Q15750", "to": "Q10589", "width": 1}, {"from": "Q15750", "to": "Q12765", "width": 1}, {"from": "Q15750", "to": "O14920", "width": 1}, {"from": "Q01484", "to": "Q92823", "width": 1}, {"from": "Q01484", "to": "O00165", "width": 1}, {"from": "P49116", "to": "O14920", "width": 1}, {"from": "Q16204", "to": "Q5JR59", "width": 1}, {"from": "Q16204", "to": "Q8TF05", "width": 1}, {"from": "Q86VK4", "to": "Q5JR59", "width": 1}, {"from": "Q96MS0", "to": "Q5JR59", "width": 1}, {"from": "Q9NPJ8", "to": "P57771", "width": 1}, {"from": "Q5JR59", "to": "Q9UPN6", "width": 1}, {"from": "Q5JR59", "to": "Q8TB37", "width": 1}, {"from": "Q5JR59", "to": "Q8WWX9", "width": 1}, {"from": "Q5JR59", "to": "Q96S90", "width": 1}, {"from": "Q5JR59", "to": "Q14D33", "width": 1}, {"from": "Q5JR59", "to": "Q08AG5", "width": 1}, {"from": "Q5JR59", "to": "Q09FC8", "width": 1}, {"from": "Q9UPY8", "to": "O00165", "width": 1}, {"from": "Q86XT2", "to": "O14964", "width": 1}, {"from": "Q10589", "to": "O14964", "width": 1}, {"from": "O14964", "to": "Q12765", "width": 1}, {"from": "P51808", "to": "O14576", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics",
+            "interaction",
+            "manipulation"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

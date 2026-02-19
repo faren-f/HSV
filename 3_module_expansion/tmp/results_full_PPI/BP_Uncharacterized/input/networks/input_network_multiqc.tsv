@@ -1,0 +1,2 @@
+Network	nodes	edges	components	largest_component	diameter	self_loops	duplicate_edges
+dorsal_root_ganglia	12092	239169	2	12090	8.0	0	0

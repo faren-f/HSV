@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Entry_and_Uncoating.uniprot_ppi.domino	57	54	22	1	9.0	6	27	0
+Entry_and_Uncoating.uniprot_ppi.rwr	284	1932	60	1	6.0	1	284	0
+Entry_and_Uncoating.uniprot_ppi.no_tool	60	9	60	0	0	51	4	45
+Entry_and_Uncoating.uniprot_ppi.robust_bias_aware	220	365	60	1	8.0	3	214	1
+Entry_and_Uncoating.uniprot_ppi.robust	227	383	60	1	8.0	3	221	1
+Entry_and_Uncoating.uniprot_ppi.firstneighbor	3383	82292	60	1	5.0	1	3383	0
+Entry_and_Uncoating.uniprot_ppi.diamond	260	2648	60	2	6.0	25	235	23

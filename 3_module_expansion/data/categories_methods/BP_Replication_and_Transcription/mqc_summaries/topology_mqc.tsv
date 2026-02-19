@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Replication_and_Transcription.uniprot_ppi.robust_bias_aware	186	231	152	1	11.0	5	182	4
+Replication_and_Transcription.uniprot_ppi.firstneighbor	8024	226680	152	1	5.0	1	8024	0
+Replication_and_Transcription.uniprot_ppi.domino	328	1586	73	1	6.0	1	328	0
+Replication_and_Transcription.uniprot_ppi.rwr	354	7479	152	1	7.0	1	354	0
+Replication_and_Transcription.uniprot_ppi.diamond	352	10444	152	1	4.0	9	344	8
+Replication_and_Transcription.uniprot_ppi.no_tool	152	769	152	0	6.0	14	139	13
+Replication_and_Transcription.uniprot_ppi.robust	186	238	152	1	17.0	5	182	4

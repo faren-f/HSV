@@ -1,0 +1,1261 @@
+Jan-02 15:39:08.616 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/bbc8731/diseasemodulediscovery/main.nf -profile singularity --input input_dir/test_sheet.csv --outdir final_res/test_sheet --id_space uniprot
+Jan-02 15:39:08.770 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.2
+Jan-02 15:39:08.799 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/bbc8731/.nextflow/plugins; core-plugins: nf-amazon@3.4.2,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.3,nf-k8s@1.2.2,nf-tower@1.17.3,nf-wave@1.16.1
+Jan-02 15:39:08.827 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-02 15:39:08.828 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-02 15:39:08.832 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jan-02 15:39:08.851 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Jan-02 15:39:09.010 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-02 15:39:09.053 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/bbc8731/diseasemodulediscovery/nextflow.config
+Jan-02 15:39:09.058 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/bbc8731/diseasemodulediscovery/nextflow.config
+Jan-02 15:39:09.094 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `singularity`
+Jan-02 15:39:10.712 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, test_samplesheet, denbi_qbic, alice, mjolnir_globe, uppmax, giga, test_symbol, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, iris, tes, scw, unc_longleaf, tigem, tubingen_apg, apollo, ipop_up, vsc_calcua, pdc_kth, ceci_nic5, ccga_cau, humantechnopole, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, rki, ucl_myriad, utd_ganymede, charliecloud, fred_hutch, seattlechildrens, icr_davros, ceres, arm, munin, rosalind, hasta, cfc, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, test_prepared_networks, marvin, lrz_cm4, shifter, biohpc_gen, mana, mamba, york_viking, test_ensembl, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, cannon, genotoul, nci_gadi, abims, eva_grace, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, alliance_canada, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, seg_globe, mssm, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, seadragon, crukmi, csiro_petrichor, qmul_apocrita, wave, docker, engaging, gis, hypatia, psmn, eva, unity, cropdiversityhpc, nygc, fgcz, conda, crg, singularity, mpcdf_viper, pe2, dirac, self_hosted_runner, tufts, uw_hyak_pedslabs, binac2, debug, hki_genie, genouest, cbe, unsw_katana, utd_juno, gitpod, phoenix, seawulf, uod_hpc, fub_curta, lovelace, uct_hpc, aws_tower, binac, fsu_draco]
+Jan-02 15:39:10.750 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-schema@2.2.0]
+Jan-02 15:39:10.750 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-02 15:39:10.751 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-schema@2.2.0]
+Jan-02 15:39:10.966 [main] DEBUG n.plugin.HttpPluginRepository - Registry request: https://registry.nextflow.io/api/v1/plugins/dependencies?plugins=nf-schema%402.2.0&nextflowVersion=25.10.2
+- code: 200
+- body: {"plugins":[{"id":"nf-schema","downloadCount":105166,"downloadGhCount":496446,"releases":[{"version":"2.2.0","url":"https://registry.nextflow.io/api/v1/plugins/nf-schema/2.2.0/download/nf-schema-2.2.0.zip","date":"2024-10-30T10:21:53.008264Z","sha512sum":"3977d51aa1a99ae597fe1aed67fa4cac57ee718121468a7a6920765fc8ea923479224285d77607f04610157d7cd7c430bd2a689f5923efdb9279c6668a44e715","requires":">=23.10.0","dependsOn":[],"downloadCount":3069,"downloadGhCount":52258,"status":"PUBLISHED","spec":null,"description":null}],"projectUrl":"https://github.com/nextflow-io/nf-schema","provider":"nextflow-io","description":null}]}
+Jan-02 15:39:11.019 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-schema version: 2.2.0
+Jan-02 15:39:11.030 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-schema@2.2.0' resolved
+Jan-02 15:39:11.030 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-schema@2.2.0'
+Jan-02 15:39:11.039 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-schema@2.2.0
+Jan-02 15:39:11.047 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/bbc8731/.nextflow/secrets/store.json
+Jan-02 15:39:11.050 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@6e00837f] - activable => nextflow.secret.LocalSecretsProvider@6e00837f
+Jan-02 15:39:11.053 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jan-02 15:39:11.080 [main] DEBUG nextflow.cli.CmdRun - Launching `/home/bbc8731/diseasemodulediscovery/main.nf` [cheesy_yonath] DSL2 - revision: 5448d58b0b
+Jan-02 15:39:11.157 [main] DEBUG nextflow.Session - Session UUID: c24ea64e-9c20-45ce-9df1-100a8e23f318
+Jan-02 15:39:11.157 [main] DEBUG nextflow.Session - Run name: cheesy_yonath
+Jan-02 15:39:11.158 [main] DEBUG nextflow.Session - Executor pool size: 128
+Jan-02 15:39:11.170 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-02 15:39:11.176 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-02 15:39:11.205 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.2 build 10555
+  Created: 28-11-2025 19:24 UTC (20:24 CEST)
+  System: Linux 6.6.69-1-longterm
+  Runtime: Groovy 4.0.28 on OpenJDK 64-Bit Server VM 17.0.17-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 2893886@lascar [134.100.85.27]
+  CPUs: 128 - Mem: 503.3 GB (177.9 GB) - Swap: 2 GB (2 GB)
+Jan-02 15:39:11.232 [main] DEBUG nextflow.Session - Work-dir: /home/bbc8731/HSV1-2_pipeline/3_module_expansion/work [xfs]
+Jan-02 15:39:11.269 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-02 15:39:11.281 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jan-02 15:39:11.285 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Jan-02 15:39:11.362 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-02 15:39:11.375 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 129; maxThreads: 1000
+Jan-02 15:39:11.442 [main] DEBUG nextflow.Session - Session start
+Jan-02 15:39:11.450 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: final_res/test_sheet/pipeline_info/execution_trace_2026-01-02_15-39-09.txt
+Jan-02 15:39:11.650 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-02 15:39:16.043 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Jan-02 15:39:16.074 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Jan-02 15:39:16.075 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Jan-02 15:39:16.076 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Jan-02 15:39:16.315 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Jan-02 15:39:16.438 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Jan-02 15:39:16.439 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Jan-02 15:39:16.441 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Jan-02 15:39:16.441 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Jan-02 15:39:16.594 [main] INFO  nextflow.Nextflow - 
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/diseasemodulediscovery 1.0dev[0m
+-[2m----------------------------------------------------[0m-
+[1mInput/output options[0m
+  [0;34minput              : [0;32minput_dir/test_sheet.csv[0m
+  [0;34mid_space           : [0;32muniprot[0m
+  [0;34moutdir             : [0;32mfinal_res/test_sheet[0m
+
+[1mGeneric options[0m
+  [0;34mtrace_report_suffix: [0;32m2026-01-02_15-39-09[0m
+
+[1mCore Nextflow options[0m
+  [0;34mrunName            : [0;32mcheesy_yonath[0m
+  [0;34mcontainerEngine    : [0;32msingularity[0m
+  [0;34mcontainer          : [0;32mghcr.io/repo4eu/modulediscovery_python_dependencies:v0.1.0[0m
+  [0;34mlaunchDir          : [0;32m/home/bbc8731/HSV1-2_pipeline/3_module_expansion[0m
+  [0;34mworkDir            : [0;32m/home/bbc8731/HSV1-2_pipeline/3_module_expansion/work[0m
+  [0;34mprojectDir         : [0;32m/home/bbc8731/diseasemodulediscovery[0m
+  [0;34muserName           : [0;32mbbc8731[0m
+  [0;34mprofile            : [0;32msingularity[0m
+  [0;34mconfigFiles        : [0;32m[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+* The nf-core framework
+    https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+    https://github.com/nf-core/diseasemodulediscovery/blob/main/CITATIONS.md
+
+Jan-02 15:39:16.596 [main] DEBUG nextflow.validation.SchemaValidator - Starting parameters validation
+Jan-02 15:39:16.704 [main] DEBUG nextflow.validation.SchemaEvaluator - Started validating /home/bbc8731/HSV1-2_pipeline/3_module_expansion/input_dir/test_sheet.csv
+Jan-02 15:39:16.743 [main] DEBUG nextflow.validation.SchemaEvaluator - Validation of file 'input_dir/test_sheet.csv' passed!
+Jan-02 15:39:16.745 [main] DEBUG nextflow.validation.SchemaValidator - Finishing parameters validation
+Jan-02 15:39:16.804 [main] INFO  nextflow.Nextflow - Creating network and seeds channels based on tuples in the sample sheet
+Jan-02 15:39:16.830 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+Jan-02 15:39:16.832 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+Jan-02 15:39:16.840 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:16.841 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:16.849 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-02 15:39:16.854 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=128; memory=503.3 GB; capacity=128; pollInterval=100ms; dumpInterval=5m
+Jan-02 15:39:16.856 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-02 15:39:16.874 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:16.932 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+Jan-02 15:39:16.933 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:INPUTCHECK` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+Jan-02 15:39:16.936 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:16.936 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:16.937 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK': maxForks=0; fair=false; array=0
+Jan-02 15:39:16.965 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+Jan-02 15:39:16.966 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+Jan-02 15:39:16.969 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:16.969 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:16.970 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:16.983 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+Jan-02 15:39:16.989 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:16.989 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:16.990 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.004 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+Jan-02 15:39:17.007 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.007 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.008 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.011 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+Jan-02 15:39:17.012 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+Jan-02 15:39:17.014 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.014 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.015 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.023 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+Jan-02 15:39:17.026 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.027 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.027 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.043 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+Jan-02 15:39:17.043 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:DOMINO_DOMINO` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+Jan-02 15:39:17.046 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.046 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.047 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.059 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+Jan-02 15:39:17.059 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+Jan-02 15:39:17.062 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.062 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.063 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.079 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+Jan-02 15:39:17.079 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:ROBUST` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+Jan-02 15:39:17.082 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.082 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.082 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.099 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+Jan-02 15:39:17.100 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+Jan-02 15:39:17.103 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.103 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.104 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.120 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+Jan-02 15:39:17.121 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:ROBUSTBIASAWARE` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+Jan-02 15:39:17.123 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.123 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.124 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.142 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+Jan-02 15:39:17.145 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.145 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.146 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.160 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+Jan-02 15:39:17.160 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+Jan-02 15:39:17.163 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.163 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.163 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.175 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+Jan-02 15:39:17.177 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.177 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.178 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.200 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+Jan-02 15:39:17.204 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.204 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.205 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.217 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.217 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.218 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.237 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+Jan-02 15:39:17.238 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:NETWORKANNOTATION` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+Jan-02 15:39:17.240 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.241 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.241 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.245 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+Jan-02 15:39:17.245 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:SAVEMODULES` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+Jan-02 15:39:17.247 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.248 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.248 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.285 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+Jan-02 15:39:17.286 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:VISUALIZEMODULES` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+Jan-02 15:39:17.288 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.288 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.289 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.310 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+Jan-02 15:39:17.314 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.314 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.314 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.328 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+Jan-02 15:39:17.328 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:BIOPAX_PARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+Jan-02 15:39:17.330 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.330 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.331 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.339 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+Jan-02 15:39:17.340 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:BIOPAX_VALIDATOR` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+Jan-02 15:39:17.342 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.342 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.342 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.351 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.351 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.351 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.355 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.355 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.356 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.363 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+Jan-02 15:39:17.364 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:MODULEOVERLAP` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+Jan-02 15:39:17.366 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.366 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.366 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.378 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+Jan-02 15:39:17.379 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GPROFILER2_GOST` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+Jan-02 15:39:17.381 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.382 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.382 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.396 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+Jan-02 15:39:17.396 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:DIGEST` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+Jan-02 15:39:17.398 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.398 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.399 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.421 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+Jan-02 15:39:17.422 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:DRUGPREDICTIONS` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+Jan-02 15:39:17.424 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.424 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.425 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.486 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+Jan-02 15:39:17.487 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:MULTIQC` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+Jan-02 15:39:17.489 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:39:17.489 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:39:17.489 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC': maxForks=0; fair=false; array=0
+Jan-02 15:39:17.508 [main] DEBUG nextflow.Session - Config process names validation disabled as requested
+Jan-02 15:39:17.511 [main] DEBUG nextflow.Session - Igniting dataflow network (70)
+Jan-02 15:39:17.512 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+Jan-02 15:39:17.513 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+Jan-02 15:39:17.514 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+Jan-02 15:39:17.514 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+Jan-02 15:39:17.515 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+Jan-02 15:39:17.516 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+Jan-02 15:39:17.516 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+Jan-02 15:39:17.516 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+Jan-02 15:39:17.516 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+Jan-02 15:39:17.517 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+Jan-02 15:39:17.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+Jan-02 15:39:17.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules
+Jan-02 15:39:17.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network
+Jan-02 15:39:17.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+Jan-02 15:39:17.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+Jan-02 15:39:17.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+Jan-02 15:39:17.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+Jan-02 15:39:17.526 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+Jan-02 15:39:17.528 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_0e9ad3c25737f75c: /home/bbc8731/diseasemodulediscovery/modules/local/robust_bias_aware/main.nf
+  Script_cb17d5f8e4982d86: /home/bbc8731/diseasemodulediscovery/modules/local/diamond/main.nf
+  Script_0cffca513d0f10cb: /home/bbc8731/diseasemodulediscovery/modules/local/drugstoneexport/main.nf
+  Script_f7d5579009b932d8: /home/bbc8731/diseasemodulediscovery/modules/local/moduleoverlap/main.nf
+  Script_0fdb2e5f8575be0c: /home/bbc8731/diseasemodulediscovery/modules/nf-core/multiqc/main.nf
+  Script_67c06bd28634ae84: /home/bbc8731/diseasemodulediscovery/main.nf
+  Script_e37282cef4831990: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_proximity/main.nf
+  Script_99f25d4fa3aaae72: /home/bbc8731/diseasemodulediscovery/modules/local/seedpermutation/main.nf
+  Script_02ddaee312807064: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_firstneighbor/main.nf
+  Script_bc751ccf681a8b22: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_biopax/main.nf
+  Script_cb1c3b44ee19b9f8: /home/bbc8731/diseasemodulediscovery/modules/local/networkpermutationevaluation/main.nf
+  Script_3dbba2640bf49bb4: /home/bbc8731/diseasemodulediscovery/modules/local/robust/main.nf
+  Script_946b727087839a11: /home/bbc8731/diseasemodulediscovery/modules/local/seedpermutationevaluation/main.nf
+  Script_4e440f330df49de9: /home/bbc8731/diseasemodulediscovery/modules/local/savemodules/main.nf
+  Script_2b0437721afecdaf: /home/bbc8731/diseasemodulediscovery/modules/local/biopax/parser/main.nf
+  Script_7b0c4e6dccde5100: /home/bbc8731/diseasemodulediscovery/modules/nf-core/gprofiler2/gost/main.nf
+  Script_7c1bdd3099376c6a: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_seedpermutation/main.nf
+  Script_a513ad7fe08cd938: /home/bbc8731/diseasemodulediscovery/modules/local/drugpredictions/main.nf
+  Script_da4cc6714732e852: /home/bbc8731/diseasemodulediscovery/modules/local/domino/domino/main.nf
+  Script_750db7ed1cec863e: /home/bbc8731/diseasemodulediscovery/subworkflows/local/utils_nfcore_diseasemodulediscovery_pipeline/main.nf
+  Script_6abc5969f43143bd: /home/bbc8731/diseasemodulediscovery/modules/local/graphtoolparser/main.nf
+  Script_46e63b4023053b5f: /home/bbc8731/diseasemodulediscovery/subworkflows/local/networkexpansion/main.nf
+  Script_fb8672b75dc90f99: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_networkpermutation/main.nf
+  Script_486e97a14fcaa785: /home/bbc8731/diseasemodulediscovery/modules/local/gt2tsv/main.nf
+  Script_dfc947ec0d21095e: /home/bbc8731/diseasemodulediscovery/modules/local/rwr/main.nf
+  Script_476e28942edda745: /home/bbc8731/diseasemodulediscovery/modules/local/domino/slicer/main.nf
+  Script_215a636da7ab24a2: /home/bbc8731/diseasemodulediscovery/subworkflows/nf-core/utils_nfschema_plugin/main.nf
+  Script_5c4e8d4051efa81e: /home/bbc8731/diseasemodulediscovery/subworkflows/nf-core/utils_nfcore_pipeline/main.nf
+  Script_717b1fbf89520f88: /home/bbc8731/diseasemodulediscovery/modules/local/networkannotation/main.nf
+  Script_aa7fe0c2a2cc64bf: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_diamond/main.nf
+  Script_30543c9169be0e83: /home/bbc8731/diseasemodulediscovery/modules/local/inputcheck/main.nf
+  Script_d5101ba1f86292b0: /home/bbc8731/diseasemodulediscovery/modules/local/biopax/validator/main.nf
+  Script_5175ac7289bd9a9e: /home/bbc8731/diseasemodulediscovery/modules/local/proximity/main.nf
+  Script_183c12615e77c3f5: /home/bbc8731/diseasemodulediscovery/modules/local/shortest_paths/main.nf
+  Script_5ef539657f51fe0c: /home/bbc8731/diseasemodulediscovery/modules/local/topology/main.nf
+  Script_d22cd99c998212de: /home/bbc8731/diseasemodulediscovery/workflows/diseasemodulediscovery.nf
+  Script_74f4575afc598403: /home/bbc8731/diseasemodulediscovery/modules/local/firstneighbor/main.nf
+  Script_80a4e48642be5138: /home/bbc8731/diseasemodulediscovery/modules/local/moduleparser/main.nf
+  Script_4f612cfd8c52e8cd: /home/bbc8731/diseasemodulediscovery/subworkflows/nf-core/utils_nextflow_pipeline/main.nf
+  Script_b5594051a8c0b804: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_robust_bias_aware/main.nf
+  Script_2bcd7dacdd70a3d2: /home/bbc8731/diseasemodulediscovery/modules/local/networkpermutation/main.nf
+  Script_e118e432307aa8f7: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_robust/main.nf
+  Script_47edac9ba61d54af: /home/bbc8731/diseasemodulediscovery/modules/local/digest/main.nf
+  Script_3bee3754cf528927: /home/bbc8731/diseasemodulediscovery/modules/local/prefixlines/main.nf
+  Script_22c04bbcc1bd5ba7: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_domino/main.nf
+  Script_3b44a77cde12c53d: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_rwr/main.nf
+  Script_e60bb03f380d8df6: /home/bbc8731/diseasemodulediscovery/modules/local/visualizemodules/main.nf
+Jan-02 15:39:17.528 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-02 15:39:17.528 [main] DEBUG nextflow.Session - Session await
+Jan-02 15:39:17.530 [Actor Thread 126] ERROR nextflow.extension.DataflowHelper - @unknown
+java.io.FileNotFoundException: /tmp/nxf-4693303623501117680/index/data/LOCK (No space left on device)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at org.iq80.leveldb.impl.DbLock.<init>(DbLock.java:45)
+	at org.iq80.leveldb.impl.DbImpl.<init>(DbImpl.java:169)
+	at org.iq80.leveldb.impl.Iq80DBFactory.open(Iq80DBFactory.java:83)
+	at nextflow.sort.LevelDbSort.create(LevelDbSort.java:48)
+	at nextflow.file.SortFileCollector.createStoreAndIndex(SortFileCollector.groovy:174)
+	at nextflow.file.SortFileCollector.add(SortFileCollector.groovy:204)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.CollectFileOp.processItem(CollectFileOp.groovy:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1339)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovy.lang.Closure.call(Closure.java:422)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$_subscribeImpl_closure2.doCall(DataflowHelper.groovy:287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:280)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:120)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Jan-02 15:39:17.531 [Actor Thread 124] ERROR nextflow.extension.DataflowHelper - @unknown
+java.io.FileNotFoundException: /tmp/nxf-15341740725291986856/data/000003.log (No space left on device)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at org.iq80.leveldb.impl.MMapLogWriter.<init>(MMapLogWriter.java:65)
+	at org.iq80.leveldb.impl.Logs.createLogWriter(Logs.java:36)
+	at org.iq80.leveldb.impl.DbImpl.<init>(DbImpl.java:219)
+	at org.iq80.leveldb.impl.Iq80DBFactory.open(Iq80DBFactory.java:83)
+	at nextflow.file.SortFileCollector.createStoreAndIndex(SortFileCollector.groovy:163)
+	at nextflow.file.SortFileCollector.add(SortFileCollector.groovy:204)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.CollectFileOp.processItem(CollectFileOp.groovy:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1339)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovy.lang.Closure.call(Closure.java:422)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$_subscribeImpl_closure2.doCall(DataflowHelper.groovy:287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:280)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:120)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Jan-02 15:39:17.530 [Actor Thread 125] ERROR nextflow.extension.DataflowHelper - @unknown
+java.io.FileNotFoundException: /tmp/nxf-12369784609183523939/data/000001.dbtmp (No space left on device)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.iq80.leveldb.impl.Filename.writeStringToFileSync(Filename.java:186)
+	at org.iq80.leveldb.impl.Filename.setCurrentFile(Filename.java:172)
+	at org.iq80.leveldb.impl.VersionSet.initializeIfNeeded(VersionSet.java:116)
+	at org.iq80.leveldb.impl.VersionSet.<init>(VersionSet.java:92)
+	at org.iq80.leveldb.impl.DbImpl.<init>(DbImpl.java:180)
+	at org.iq80.leveldb.impl.Iq80DBFactory.open(Iq80DBFactory.java:83)
+	at nextflow.file.SortFileCollector.createStoreAndIndex(SortFileCollector.groovy:163)
+	at nextflow.file.SortFileCollector.add(SortFileCollector.groovy:204)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.CollectFileOp.processItem(CollectFileOp.groovy:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1339)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1094)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovy.lang.Closure.call(Closure.java:422)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$_subscribeImpl_closure2.doCall(DataflowHelper.groovy:287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:280)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:120)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Jan-02 15:39:17.537 [Actor Thread 126] DEBUG nextflow.Session - Session aborted -- Cause: /tmp/nxf-4693303623501117680/index/data/LOCK (No space left on device)
+Jan-02 15:39:17.545 [Actor Thread 125] DEBUG nextflow.Session - Session aborted -- Cause: /tmp/nxf-12369784609183523939/data/000001.dbtmp (No space left on device)
+Jan-02 15:39:17.550 [Actor Thread 124] DEBUG nextflow.Session - Session aborted -- Cause: /tmp/nxf-15341740725291986856/data/000003.log (No space left on device)
+Jan-02 15:39:17.566 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-02 15:39:17.589 [Actor Thread 126] DEBUG nextflow.Session - The following nodes are still active:
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) closed; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: n
+  port 2: (value) bound ; channel: alpha
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: prefix
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: scaling
+  port 2: (value) bound ; channel: symmetrical
+  port 3: (value) bound ; channel: r
+  port 4: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: id_space
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (value) bound ; channel: add_variants
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: biopax_files
+  port 1: (value) bound ; channel: validate_online
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: ids
+  port 1: (value) OPEN  ; channel: inputs
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: gmt_file
+  port 2: (queue) OPEN  ; channel: background_file
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: target_type
+  port 2: (queue) OPEN  ; channel: network
+  port 3: (value) bound ; channel: network_type
+  port 4: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (queue) OPEN  ; channel: algorithm
+  port 3: (value) bound ; channel: includeIndirectDrugs
+  port 4: (value) bound ; channel: includeNonApprovedDrugs
+  port 5: (value) bound ; channel: result_size
+  port 6: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: multiqc_files
+  port 1: (value) bound ; channel: multiqc_config
+  port 2: (value) bound ; channel: extra_multiqc_config
+  port 3: (value) bound ; channel: multiqc_logo
+  port 4: (value) bound ; channel: replace_names
+  port 5: (value) bound ; channel: sample_names
+  port 6: (cntrl) -     ; channel: $
+
+Jan-02 15:39:17.589 [Actor Thread 125] DEBUG nextflow.Session - The following nodes are still active:
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) closed; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: n
+  port 2: (value) bound ; channel: alpha
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: prefix
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: scaling
+  port 2: (value) bound ; channel: symmetrical
+  port 3: (value) bound ; channel: r
+  port 4: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: id_space
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (value) bound ; channel: add_variants
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: biopax_files
+  port 1: (value) bound ; channel: validate_online
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: ids
+  port 1: (value) OPEN  ; channel: inputs
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: gmt_file
+  port 2: (queue) OPEN  ; channel: background_file
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: target_type
+  port 2: (queue) OPEN  ; channel: network
+  port 3: (value) bound ; channel: network_type
+  port 4: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (queue) OPEN  ; channel: algorithm
+  port 3: (value) bound ; channel: includeIndirectDrugs
+  port 4: (value) bound ; channel: includeNonApprovedDrugs
+  port 5: (value) bound ; channel: result_size
+  port 6: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: multiqc_files
+  port 1: (value) bound ; channel: multiqc_config
+  port 2: (value) bound ; channel: extra_multiqc_config
+  port 3: (value) bound ; channel: multiqc_logo
+  port 4: (value) bound ; channel: replace_names
+  port 5: (value) bound ; channel: sample_names
+  port 6: (cntrl) -     ; channel: $
+
+Jan-02 15:39:17.590 [Actor Thread 124] DEBUG nextflow.Session - The following nodes are still active:
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) closed; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: n
+  port 2: (value) bound ; channel: alpha
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: prefix
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: format
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: scaling
+  port 2: (value) bound ; channel: symmetrical
+  port 3: (value) bound ; channel: r
+  port 4: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: id_space
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (value) bound ; channel: add_variants
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: biopax_files
+  port 1: (value) bound ; channel: validate_online
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: ids
+  port 1: (value) OPEN  ; channel: inputs
+  port 2: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: gmt_file
+  port 2: (queue) OPEN  ; channel: background_file
+  port 3: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: target_type
+  port 2: (queue) OPEN  ; channel: network
+  port 3: (value) bound ; channel: network_type
+  port 4: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: idspace
+  port 2: (queue) OPEN  ; channel: algorithm
+  port 3: (value) bound ; channel: includeIndirectDrugs
+  port 4: (value) bound ; channel: includeNonApprovedDrugs
+  port 5: (value) bound ; channel: result_size
+  port 6: (cntrl) -     ; channel: $
+
+[process] NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: multiqc_files
+  port 1: (value) bound ; channel: multiqc_config
+  port 2: (value) bound ; channel: extra_multiqc_config
+  port 3: (value) bound ; channel: multiqc_logo
+  port 4: (value) bound ; channel: replace_names
+  port 5: (value) bound ; channel: sample_names
+  port 6: (cntrl) -     ; channel: $
+
+Jan-02 15:39:17.591 [Actor Thread 124] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jan-02 15:39:17.591 [Actor Thread 125] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jan-02 15:39:17.596 [Actor Thread 126] INFO  nextflow.Nextflow - -[0;35m[nf-core/diseasemodulediscovery][0;31m Pipeline completed with errors[0m-
+Jan-02 15:39:17.600 [Actor Thread 126] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jan-02 15:39:17.610 [Actor Thread 118] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (1); work-dir=null
+  error [java.lang.IllegalStateException]: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: /tmp/bbc8731/singularity_cache/.ghcr.io-repo4eu-modulediscovery_python_dependencies-v0.1.0.img.lock (No space left on device)
+Jan-02 15:39:17.614 [Actor Thread 121] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Jan-02 15:39:17.891 [Actor Thread 126] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jan-02 15:39:17.891 [Actor Thread 124] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jan-02 15:39:17.891 [Actor Thread 125] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jan-02 15:39:18.362 [Actor Thread 126] WARN  nextflow.trace.ReportObserver - Failed to render execution report -- see the log file for details
+nextflow.exception.AbortOperationException: Report file already exists: final_res/test_sheet/pipeline_info/execution_report_2026-01-02_15-39-09.html -- enable the 'report.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:67)
+	at nextflow.trace.ReportObserver.renderHtml(ReportObserver.groovy:243)
+	at nextflow.trace.ReportObserver.onFlowComplete(ReportObserver.groovy:129)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.abort(Session.groovy:834)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$3.onException(DataflowHelper.groovy:270)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.fireOnException(DataflowProcessor.java:331)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.reportError(DataflowProcessor.java:293)
+	at groovyx.gpars.dataflow.operator.DataflowProcessorActor.reportException(DataflowProcessorActor.java:125)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:122)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.FileAlreadyExistsException: final_res/test_sheet/pipeline_info/execution_report_2026-01-02_15-39-09.html
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3008)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:64)
+	... 22 common frames omitted
+Jan-02 15:39:18.362 [Actor Thread 125] WARN  nextflow.trace.ReportObserver - Failed to render execution report -- see the log file for details
+nextflow.exception.AbortOperationException: Report file already exists: final_res/test_sheet/pipeline_info/execution_report_2026-01-02_15-39-09.html -- enable the 'report.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:67)
+	at nextflow.trace.ReportObserver.renderHtml(ReportObserver.groovy:243)
+	at nextflow.trace.ReportObserver.onFlowComplete(ReportObserver.groovy:129)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.abort(Session.groovy:834)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$3.onException(DataflowHelper.groovy:270)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.fireOnException(DataflowProcessor.java:331)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.reportError(DataflowProcessor.java:293)
+	at groovyx.gpars.dataflow.operator.DataflowProcessorActor.reportException(DataflowProcessorActor.java:125)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:122)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.FileAlreadyExistsException: final_res/test_sheet/pipeline_info/execution_report_2026-01-02_15-39-09.html
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3008)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:64)
+	... 22 common frames omitted
+Jan-02 15:39:18.363 [Actor Thread 126] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jan-02 15:39:18.363 [Actor Thread 125] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jan-02 15:39:18.378 [Actor Thread 124] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jan-02 15:39:18.436 [Actor Thread 126] WARN  nextflow.trace.TimelineObserver - Failed to render execution timeline -- see the log file for details
+nextflow.exception.AbortOperationException: Timeline file already exists: final_res/test_sheet/pipeline_info/execution_timeline_2026-01-02_15-39-09.html -- enable the 'timeline.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:67)
+	at nextflow.trace.TimelineObserver.renderHtml(TimelineObserver.groovy:164)
+	at nextflow.trace.TimelineObserver.onFlowComplete(TimelineObserver.groovy:91)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.abort(Session.groovy:834)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$3.onException(DataflowHelper.groovy:270)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.fireOnException(DataflowProcessor.java:331)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.reportError(DataflowProcessor.java:293)
+	at groovyx.gpars.dataflow.operator.DataflowProcessorActor.reportException(DataflowProcessorActor.java:125)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:122)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.FileAlreadyExistsException: final_res/test_sheet/pipeline_info/execution_timeline_2026-01-02_15-39-09.html
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3008)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:64)
+	... 22 common frames omitted
+Jan-02 15:39:18.436 [Actor Thread 126] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jan-02 15:39:18.436 [Actor Thread 125] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jan-02 15:39:18.436 [Actor Thread 124] WARN  nextflow.trace.TimelineObserver - Failed to render execution timeline -- see the log file for details
+nextflow.exception.AbortOperationException: Timeline file already exists: final_res/test_sheet/pipeline_info/execution_timeline_2026-01-02_15-39-09.html -- enable the 'timeline.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:67)
+	at nextflow.trace.TimelineObserver.renderHtml(TimelineObserver.groovy:164)
+	at nextflow.trace.TimelineObserver.onFlowComplete(TimelineObserver.groovy:91)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.abort(Session.groovy:834)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.extension.DataflowHelper$3.onException(DataflowHelper.groovy:270)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.fireOnException(DataflowProcessor.java:331)
+	at groovyx.gpars.dataflow.operator.DataflowProcessor.reportError(DataflowProcessor.java:293)
+	at groovyx.gpars.dataflow.operator.DataflowProcessorActor.reportException(DataflowProcessorActor.java:125)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:122)
+	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
+	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.FileAlreadyExistsException: final_res/test_sheet/pipeline_info/execution_timeline_2026-01-02_15-39-09.html
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3008)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:64)
+	... 22 common frames omitted
+Jan-02 15:39:18.436 [Actor Thread 124] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jan-02 15:39:18.441 [Actor Thread 126] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
+Jan-02 15:39:18.441 [Actor Thread 125] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
+Jan-02 15:39:18.442 [Actor Thread 124] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
+Jan-02 15:39:18.442 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-02 15:39:18.442 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-02 15:39:18.443 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jan-02 15:39:18.446 [Actor Thread 93] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 64] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 119] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 123] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 122] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 118] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 47] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.446 [Actor Thread 54] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.475 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jan-02 15:39:18.865 [main] WARN  nextflow.trace.ReportObserver - Failed to render execution report -- see the log file for details
+nextflow.exception.AbortOperationException: Report file already exists: final_res/test_sheet/pipeline_info/execution_report_2026-01-02_15-39-09.html -- enable the 'report.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:67)
+	at nextflow.trace.ReportObserver.renderHtml(ReportObserver.groovy:243)
+	at nextflow.trace.ReportObserver.onFlowComplete(ReportObserver.groovy:129)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.destroy(Session.groovy:724)
+	at nextflow.script.ScriptRunner.shutdown(ScriptRunner.groovy:263)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:147)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:429)
+	at nextflow.cli.Launcher.run(Launcher.groovy:515)
+	at nextflow.cli.Launcher.main(Launcher.groovy:675)
+Caused by: java.nio.file.FileAlreadyExistsException: final_res/test_sheet/pipeline_info/execution_report_2026-01-02_15-39-09.html
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3008)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:64)
+	... 12 common frames omitted
+Jan-02 15:39:18.865 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jan-02 15:39:18.905 [main] WARN  nextflow.trace.TimelineObserver - Failed to render execution timeline -- see the log file for details
+nextflow.exception.AbortOperationException: Timeline file already exists: final_res/test_sheet/pipeline_info/execution_timeline_2026-01-02_15-39-09.html -- enable the 'timeline.overwrite' option in your config file to overwrite existing files
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:67)
+	at nextflow.trace.TimelineObserver.renderHtml(TimelineObserver.groovy:164)
+	at nextflow.trace.TimelineObserver.onFlowComplete(TimelineObserver.groovy:91)
+	at nextflow.Session$_notifyFlowComplete_lambda39.doCall(Session.groovy:1121)
+	at nextflow.Session.notifyEvent(Session.groovy:1151)
+	at nextflow.Session.notifyFlowComplete(Session.groovy:1121)
+	at nextflow.Session.shutdown0(Session.groovy:779)
+	at nextflow.Session.destroy(Session.groovy:724)
+	at nextflow.script.ScriptRunner.shutdown(ScriptRunner.groovy:263)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:147)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:429)
+	at nextflow.cli.Launcher.run(Launcher.groovy:515)
+	at nextflow.cli.Launcher.main(Launcher.groovy:675)
+Caused by: java.nio.file.FileAlreadyExistsException: final_res/test_sheet/pipeline_info/execution_timeline_2026-01-02_15-39-09.html
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:3008)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:64)
+	... 12 common frames omitted
+Jan-02 15:39:18.905 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jan-02 15:39:18.911 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-02 15:39:18.928 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-schema@2.2.0'
+Jan-02 15:39:18.929 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-schema
+Jan-02 15:39:18.933 [main] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-4693303623501117680
+Jan-02 15:39:18.935 [main] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.936 [main] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-15341740725291986856
+Jan-02 15:39:18.936 [main] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.936 [main] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-12369784609183523939
+Jan-02 15:39:18.936 [main] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:39:18.937 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

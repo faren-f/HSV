@@ -1,0 +1,34 @@
+,Drug,Drug_Bank_ID,Approval Status
+0,Acetylsalicylic acid,DB00945,Approved
+1,Amiloride,DB00594,Approved
+2,Amodiaquine,DB00613,Approved
+3,Berberine,DB04115,Investigational
+4,Betulinic Acid,DB12480,Investigational
+5,Bortezomib,DB00188,Approved
+6,Cepharanthine,DB16824,Approved (Japan)
+7,Emetine,DB13393,Approved
+8,Emodin,DB07715,Investigational
+9,Etanercept,DB00005,Approved
+10,Flavopiridol,DB03496,Investigational
+11,Homoharringtonine,DB04865,Approved
+12,Ilaprazole,DB11964,Investigational
+13,Indomethacin,DB00328,Approved
+14,Leflunomide,DB01097,Approved
+15,Merimepodib (also VX-497),DB04862,Investigational
+16,Mitoxantrone,DB01204,Approved
+17,Monensin,DB11430,Approved
+18,Navitoclax,DB12340,Investigational
+19,Nelfinavir,DB00220,Approved
+20,Niclosamide,DB06803,Approved
+21,Nitroprusside,DB00325,Approved
+22,Novobiocin,DB01051,Approved
+23,Obatoclax,DB12191,Investigational
+24,Podofilox,DB01179,Approved
+25,Quercetin,DB04216,Investigational
+26,Raloxifene,DB00481,Approved
+27,Regorafenib,DB08896,Approved
+28,Resveratrol,DB02709,Investigational
+29,Seliciclib,DB06195,Investigational
+30,Sorafenib,DB00398,Approved
+31,Tamoxifen,DB00675,Approved
+32,Umifenovir,DB13609,Approved

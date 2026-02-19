@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Uncharacterized.uniprot_ppi	23	0

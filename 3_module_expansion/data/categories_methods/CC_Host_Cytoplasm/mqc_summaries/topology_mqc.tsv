@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Host_Cytoplasm.uniprot_ppi.robust	95	137	41	1	11.0	3	93	2
+Host_Cytoplasm.uniprot_ppi.no_tool	41	17	41	0	0	26	10	21
+Host_Cytoplasm.uniprot_ppi.diamond	241	2708	41	2	6.0	12	229	10
+Host_Cytoplasm.uniprot_ppi.domino	20	23	8	1	5.0	2	11	0
+Host_Cytoplasm.uniprot_ppi.robust_bias_aware	95	138	41	1	10.0	4	92	3
+Host_Cytoplasm.uniprot_ppi.firstneighbor	2974	82882	41	1	5.0	1	2974	0
+Host_Cytoplasm.uniprot_ppi.rwr	196	1532	41	1	6.0	1	196	0

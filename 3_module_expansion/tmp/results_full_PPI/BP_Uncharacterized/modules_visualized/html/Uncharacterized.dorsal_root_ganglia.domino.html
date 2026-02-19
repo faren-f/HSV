@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "component_id": 0, "id": "Q15427", "is_seed": 1, "label": "Q15427", "shape": "dot", "size": 10, "spd": 0.008928571428571428, "submodule": 2, "title": "\n            Q15427\n\n            submodule: 2.0\nis_seed: 1.0\nspd: 0.008928571428571428\ncomponent_id: 0.0\n        ", "x": 305.12897362712664, "y": -457.72658152656857}, {"color": "blue", "component_id": 0, "id": "Q6P2Q9", "is_seed": 0, "label": "Q6P2Q9", "shape": "dot", "size": 10, "spd": 0.011363636363636364, "submodule": 2, "title": "\n            Q6P2Q9\n\n            submodule: 2.0\nis_seed: 0.0\nspd: 0.011363636363636364\ncomponent_id: 0.0\n        ", "x": 249.86686149502225, "y": -439.9778676926794}, {"color": "blue", "component_id": 1, "id": "P51795", "is_seed": 0, "label": "P51795", "shape": "dot", "size": 10, "spd": 0.09090909090909091, "submodule": 6, "title": "\n            P51795\n\n            submodule: 6.0\nis_seed: 0.0\nspd: 0.09090909090909091\ncomponent_id: 1.0\n        ", "x": 476.9102022391961, "y": -526.8172228273261}, {"color": "red", "component_id": 1, "id": "O00308", "is_seed": 1, "label": "O00308", "shape": "dot", "size": 10, "spd": 0.01744186046511628, "submodule": 6, "title": "\n            O00308\n\n            submodule: 6.0\nis_seed: 1.0\nspd: 0.01744186046511628\ncomponent_id: 1.0\n        ", "x": 408.9369600804732, "y": -555.9876522780154}, {"color": "blue", "component_id": 0, "id": "Q92917", "is_seed": 0, "label": "Q92917", "shape": "dot", "size": 10, "spd": 0.06451612903225806, "submodule": 2, "title": "\n            Q92917\n\n            submodule: 2.0\nis_seed: 0.0\nspd: 0.06451612903225806\ncomponent_id: 0.0\n        ", "x": 201.22838797352622, "y": -476.28166470242735}, {"color": "red", "component_id": 0, "id": "Q9P1W9", "is_seed": 1, "label": "Q9P1W9", "shape": "dot", "size": 10, "spd": 0.05, "submodule": 2, "title": "\n            Q9P1W9\n\n            submodule: 2.0\nis_seed: 1.0\nspd: 0.05\ncomponent_id: 0.0\n        ", "x": 181.03759143160173, "y": -529.9842102519284}, {"color": "red", "component_id": 2, "id": "P17980", "is_seed": 1, "label": "P17980", "shape": "dot", "size": 10, "spd": 0.005494505494505495, "submodule": 4, "title": "\n            P17980\n\n            submodule: 4.0\nis_seed: 1.0\nspd: 0.005494505494505495\ncomponent_id: 2.0\n        ", "x": 279.9640441046046, "y": -876.803822682726}, {"color": "blue", "component_id": 2, "id": "Q8NE28", "is_seed": 0, "label": "Q8NE28", "shape": "dot", "size": 10, "spd": 0.25, "submodule": 4, "title": "\n            Q8NE28\n\n            submodule: 4.0\nis_seed: 0.0\nspd: 0.25\ncomponent_id: 2.0\n        ", "x": 336.5408480907476, "y": -882.2267446500359}, {"color": "red", "component_id": 3, "id": "Q9HD26", "is_seed": 1, "label": "Q9HD26", "shape": "dot", "size": 10, "spd": 0.009259259259259259, "submodule": 5, "title": "\n            Q9HD26\n\n            submodule: 5.0\nis_seed: 1.0\nspd: 0.009259259259259259\ncomponent_id: 3.0\n        ", "x": 545.592805014522, "y": -643.7940812162929}, {"color": "blue", "component_id": 3, "id": "Q0P5P2", "is_seed": 0, "label": "Q0P5P2", "shape": "dot", "size": 10, "spd": 0.5, "submodule": 5, "title": "\n            Q0P5P2\n\n            submodule: 5.0\nis_seed: 0.0\nspd: 0.5\ncomponent_id: 3.0\n        ", "x": 554.98517065295, "y": -701.4855687425442}, {"color": "red", "component_id": 4, "id": "Q96JM7", "is_seed": 1, "label": "Q96JM7", "shape": "dot", "size": 10, "spd": 0.024390243902439025, "submodule": 3, "title": "\n            Q96JM7\n\n            submodule: 3.0\nis_seed: 1.0\nspd: 0.024390243902439025\ncomponent_id: 4.0\n        ", "x": 81.01245652990497, "y": -575.4660133750667}, {"color": "blue", "component_id": 4, "id": "Q96S99", "is_seed": 0, "label": "Q96S99", "shape": "dot", "size": 10, "spd": 0.5, "submodule": 3, "title": "\n            Q96S99\n\n            submodule: 3.0\nis_seed: 0.0\nspd: 0.5\ncomponent_id: 4.0\n        ", "x": 115.47531601993045, "y": -620.8934683965887}, {"color": "blue", "component_id": 1, "id": "Q15012", "is_seed": 0, "label": "Q15012", "shape": "dot", "size": 10, "spd": 0.1, "submodule": 6, "title": "\n            Q15012\n\n            submodule: 6.0\nis_seed: 0.0\nspd: 0.1\ncomponent_id: 1.0\n        ", "x": 417.42392431184277, "y": -483.04982057479475}, {"color": "red", "component_id": 1, "id": "Q9BSJ6", "is_seed": 1, "label": "Q9BSJ6", "shape": "dot", "size": 10, "spd": 0.034482758620689655, "submodule": 1, "title": "\n            Q9BSJ6\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.034482758620689655\ncomponent_id: 1.0\n        ", "x": 55.51006599574031, "y": -737.8161755915917}, {"color": "red", "component_id": 1, "id": "O95273", "is_seed": 1, "label": "O95273", "shape": "dot", "size": 10, "spd": 0.05194805194805195, "submodule": 1, "title": "\n            O95273\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.05194805194805195\ncomponent_id: 1.0\n        ", "x": 118.03373927904563, "y": -771.7138108476786}, {"color": "blue", "component_id": 1, "id": "Q9P2Z0", "is_seed": 0, "label": "Q9P2Z0", "shape": "dot", "size": 10, "spd": 0.16666666666666666, "submodule": 1, "title": "\n            Q9P2Z0\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.16666666666666666\ncomponent_id: 1.0\n        ", "x": 134.6388461075846, "y": -838.9286482882469}, {"color": "blue", "component_id": 1, "id": "Q9ULM2", "is_seed": 0, "label": "Q9ULM2", "shape": "dot", "size": 10, "spd": 0.1, "submodule": 1, "title": "\n            Q9ULM2\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.1\ncomponent_id: 1.0\n        ", "x": 195.1599097259554, "y": -725.7065262107232}, {"color": "red", "component_id": 1, "id": "Q9NQZ6", "is_seed": 1, "label": "Q9NQZ6", "shape": "dot", "size": 10, "spd": 0.14285714285714285, "submodule": 1, "title": "\n            Q9NQZ6\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.14285714285714285\ncomponent_id: 1.0\n        ", "x": 271.9443378648363, "y": -677.7307566540594}, {"color": "blue", "component_id": 1, "id": "Q9H1Q7", "is_seed": 0, "label": "Q9H1Q7", "shape": "dot", "size": 10, "spd": 0.16666666666666666, "submodule": 1, "title": "\n            Q9H1Q7\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.16666666666666666\ncomponent_id: 1.0\n        ", "x": 457.9907084905377, "y": -680.061167831077}, {"color": "red", "component_id": 1, "id": "O15162", "is_seed": 1, "label": "O15162", "shape": "dot", "size": 10, "spd": 0.038834951456310676, "submodule": 1, "title": "\n            O15162\n\n            submodule: 1.0\nis_seed: 1.0\nspd: 0.038834951456310676\ncomponent_id: 1.0\n        ", "x": 401.1967504337988, "y": -706.8329368606077}, {"color": "blue", "component_id": 1, "id": "P0C7X2", "is_seed": 0, "label": "P0C7X2", "shape": "dot", "size": 10, "spd": 0.06521739130434782, "submodule": 1, "title": "\n            P0C7X2\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.06521739130434782\ncomponent_id: 1.0\n        ", "x": 355.68787609317644, "y": -636.8149105635316}, {"color": "blue", "component_id": 1, "id": "Q9HB63", "is_seed": 0, "label": "Q9HB63", "shape": "dot", "size": 10, "spd": 0.125, "submodule": 1, "title": "\n            Q9HB63\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.125\ncomponent_id: 1.0\n        ", "x": 443.9245239822347, "y": -767.0366757299323}, {"color": "blue", "component_id": 1, "id": "Q8NEP9", "is_seed": 0, "label": "Q8NEP9", "shape": "dot", "size": 10, "spd": 0.2, "submodule": 1, "title": "\n            Q8NEP9\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.2\ncomponent_id: 1.0\n        ", "x": 56.895082856618835, "y": -815.2042773808729}, {"color": "blue", "component_id": 1, "id": "P78381", "is_seed": 0, "label": "P78381", "shape": "dot", "size": 10, "spd": 0.25, "submodule": 1, "title": "\n            P78381\n\n            submodule: 1.0\nis_seed: 0.0\nspd: 0.25\ncomponent_id: 1.0\n        ", "x": 362.2096027164864, "y": -757.6492887290765}]);
+                  edges = new vis.DataSet([{"from": "Q15427", "to": "Q6P2Q9", "width": 1}, {"from": "P51795", "to": "O00308", "width": 1}, {"from": "Q92917", "to": "Q9P1W9", "width": 1}, {"from": "Q92917", "to": "Q6P2Q9", "width": 1}, {"from": "P17980", "to": "Q8NE28", "width": 1}, {"from": "Q9HD26", "to": "Q0P5P2", "width": 1}, {"from": "Q96JM7", "to": "Q96S99", "width": 1}, {"from": "Q15012", "to": "O00308", "width": 1}, {"from": "Q9BSJ6", "to": "O95273", "width": 1}, {"from": "Q9P2Z0", "to": "O95273", "width": 1}, {"from": "Q9ULM2", "to": "Q9NQZ6", "width": 1}, {"from": "Q9ULM2", "to": "O95273", "width": 1}, {"from": "Q9H1Q7", "to": "O15162", "width": 1}, {"from": "Q9NQZ6", "to": "P0C7X2", "width": 1}, {"from": "O00308", "to": "P0C7X2", "width": 1}, {"from": "P0C7X2", "to": "O15162", "width": 1}, {"from": "Q9HB63", "to": "O15162", "width": 1}, {"from": "O95273", "to": "Q8NEP9", "width": 1}, {"from": "O15162", "to": "P78381", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics",
+            "interaction",
+            "manipulation"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

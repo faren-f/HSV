@@ -1,0 +1,29 @@
+target_id,symbol,modality,label,value
+ENSG00000141510,TP53,SM,Approved Drug,False
+ENSG00000141510,TP53,SM,Advanced Clinical,True
+ENSG00000141510,TP53,SM,Phase 1 Clinical,False
+ENSG00000141510,TP53,SM,Structure with Ligand,True
+ENSG00000141510,TP53,SM,High-Quality Ligand,True
+ENSG00000141510,TP53,SM,High-Quality Pocket,False
+ENSG00000141510,TP53,SM,Med-Quality Pocket,True
+ENSG00000141510,TP53,SM,Druggable Family,True
+ENSG00000141510,TP53,AB,Approved Drug,False
+ENSG00000141510,TP53,AB,Advanced Clinical,False
+ENSG00000141510,TP53,AB,Phase 1 Clinical,False
+ENSG00000141510,TP53,AB,UniProt loc high conf,False
+ENSG00000141510,TP53,AB,GO CC high conf,False
+ENSG00000141510,TP53,AB,UniProt loc med conf,False
+ENSG00000141510,TP53,AB,UniProt SigP or TMHMM,False
+ENSG00000141510,TP53,AB,GO CC med conf,False
+ENSG00000141510,TP53,AB,Human Protein Atlas loc,False
+ENSG00000141510,TP53,PR,Approved Drug,False
+ENSG00000141510,TP53,PR,Advanced Clinical,False
+ENSG00000141510,TP53,PR,Phase 1 Clinical,False
+ENSG00000141510,TP53,PR,Literature,False
+ENSG00000141510,TP53,PR,UniProt Ubiquitination,True
+ENSG00000141510,TP53,PR,Database Ubiquitination,True
+ENSG00000141510,TP53,PR,Half-life Data,False
+ENSG00000141510,TP53,PR,Small Molecule Binder,True
+ENSG00000141510,TP53,OC,Approved Drug,False
+ENSG00000141510,TP53,OC,Advanced Clinical,True
+ENSG00000141510,TP53,OC,Phase 1 Clinical,False

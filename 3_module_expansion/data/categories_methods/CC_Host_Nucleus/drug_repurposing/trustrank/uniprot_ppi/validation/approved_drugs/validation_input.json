@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-02-13 20:09:07",
+  "method": "uniprot_ppi",
+  "drug_set": "approved_drugs",
+  "num_predicted": 100,
+  "num_true": 33,
+  "predicted_sample": [
+    [
+      "drugbank.DB04855",
+      7.155287739337206e-05
+    ],
+    [
+      "drugbank.DB09083",
+      6.130419255089772e-05
+    ],
+    [
+      "drugbank.DB12010",
+      5.7345577855417556e-05
+    ],
+    [
+      "drugbank.DB01268",
+      5.267650764308077e-05
+    ],
+    [
+      "drugbank.DB09079",
+      4.378736087642851e-05
+    ]
+  ],
+  "true_sample": [
+    "drugbank.DB00945",
+    "drugbank.DB00594",
+    "drugbank.DB00613",
+    "drugbank.DB04115",
+    "drugbank.DB12480"
+  ]
+}

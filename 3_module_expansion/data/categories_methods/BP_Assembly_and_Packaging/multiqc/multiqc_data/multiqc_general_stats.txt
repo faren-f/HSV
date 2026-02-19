@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Assembly_and_Packaging.uniprot_ppi.diamond	242	6209	42	5.0	4	239	2	3
+Assembly_and_Packaging.uniprot_ppi.domino	84	120	22	11.0	2	80	1	0
+Assembly_and_Packaging.uniprot_ppi.firstneighbor	4327	123527	42	5.0	1	4327	1	0
+Assembly_and_Packaging.uniprot_ppi.no_tool	42	44	42	3.0	18	21	0	16
+Assembly_and_Packaging.uniprot_ppi.robust	80	119	42	6.0	8	73	1	7
+Assembly_and_Packaging.uniprot_ppi.robust_bias_aware	81	117	42	7.0	8	74	1	7
+Assembly_and_Packaging.uniprot_ppi.rwr	104	502	42	5.0	1	104	1	0

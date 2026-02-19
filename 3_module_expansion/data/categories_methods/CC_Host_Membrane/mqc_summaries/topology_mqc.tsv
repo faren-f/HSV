@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Host_Membrane.uniprot_ppi.firstneighbor	7789	215585	190	1	6.0	1	7789	0
+Host_Membrane.uniprot_ppi.rwr	496	6729	190	1	6.0	1	496	0
+Host_Membrane.uniprot_ppi.diamond	390	11001	190	2	5.0	33	358	32
+Host_Membrane.uniprot_ppi.no_tool	190	321	190	0	7.0	74	111	69
+Host_Membrane.uniprot_ppi.robust_bias_aware	422	640	190	1	14.0	10	412	8
+Host_Membrane.uniprot_ppi.robust	423	647	190	1	13.0	13	410	11
+Host_Membrane.uniprot_ppi.domino	240	847	49	1	7.0	1	240	0

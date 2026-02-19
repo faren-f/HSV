@@ -1,0 +1,11 @@
+module,pathway_id,pathway_name,pathway_database,module_size,pathway_size,overlap,p_value,fold_enrichment,fdr,significant
+BP_Assembly_and_Packaging/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,372,301,37,2.56360955021097e-26,9.871360396278845,2.56360955021097e-25,True
+CC_Host_Nucleus/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,1105,301,40,9.050345298698414e-13,3.5926584981442877,4.5251726493492065e-12,True
+CC_Virion_Components/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,347,301,20,3.5006784294893523e-10,5.720299193731179,1.1668928098297842e-09,True
+BP_Egress_and_Envelopment/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,973,301,29,1.4119505634641965e-07,2.9580354977655112,3.529876408660491e-07,True
+BP_Replication_and_Transcription/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,743,301,24,4.612000224442241e-07,3.2058312035930863,9.224000448884482e-07,True
+BP_Immune_Evasion/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,689,301,21,6.303065313109303e-06,3.0249506694280917,1.0505108855182172e-05,True
+CC_Host_Membrane/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,921,301,24,1.8380397940725263e-05,2.5862460198367674,2.6257711343893236e-05,True
+BP_Entry_and_Uncoating/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,566,301,14,0.0018147573858459606,2.454877516178981,0.0022684467323074507,True
+CC_Host_Cytoplasm/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,409,301,9,0.023055702584423406,2.1839235185846544,0.025617447316026005,True
+BP_Uncharacterized/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,313,301,6,0.09732458741837506,1.9025020641131494,0.09732458741837506,False

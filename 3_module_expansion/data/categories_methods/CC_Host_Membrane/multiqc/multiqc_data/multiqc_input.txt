@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Host_Membrane.uniprot_ppi	191	6

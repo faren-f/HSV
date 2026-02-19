@@ -1,0 +1,22 @@
+ensembl_id,symbol,Advanced Clinical,Approved Drug,Druggable Family,High-Quality Ligand,High-Quality Pocket,Med-Quality Pocket,Phase 1 Clinical,Structure with Ligand,uniprot_id,druggability_rank
+ENSG00000116478,HDAC1,False,True,True,True,False,False,False,True,Q13547,1
+ENSG00000109320,NFKB1,True,False,True,True,False,False,False,True,P19838,2
+ENSG00000184216,IRAK1,False,False,True,True,False,False,False,True,P51617,4
+ENSG00000177885,GRB2,False,False,False,True,True,False,False,True,P62993,4
+ENSG00000148400,NOTCH1,False,False,True,True,False,True,False,True,P46531,4
+ENSG00000177463,NR2C2,False,False,True,True,False,True,False,False,P49116,4
+ENSG00000100324,TAB1,False,False,True,True,True,False,False,True,Q15750,4
+ENSG00000161405,IKZF3,False,False,False,True,False,False,False,False,Q9UKT9,4
+ENSG00000269335,IKBKG,False,False,True,True,False,False,False,True,Q9Y6K9,4
+ENSG00000196361,ELAVL3,False,False,False,True,False,False,False,False,Q14576,4
+ENSG00000129559,NEDD8,False,False,False,False,False,False,False,True,Q15843,5
+ENSG00000150991,UBC,False,False,False,False,True,False,False,True,P0CG48,5
+ENSG00000074319,TSG101,False,False,False,False,True,False,False,True,Q99816,5
+ENSG00000144591,GMPPA,False,False,False,False,False,False,False,True,Q96IJ6,5
+ENSG00000185359,HGS,False,False,False,False,False,False,False,True,O14964,5
+ENSG00000143368,SF3B4,False,False,False,False,False,False,False,True,Q15427,5
+ENSG00000136436,CALCOCO2,False,False,False,False,False,False,False,True,Q13137,5
+ENSG00000146425,DYNLT1,False,False,False,False,False,False,False,True,P63172,5
+ENSG00000084764,MAPRE3,False,False,False,False,False,False,False,True,Q9UPY8,5
+ENSG00000132341,RAN,False,False,False,False,False,True,False,True,P62826,5
+ENSG00000105401,CDC37,False,False,False,False,False,False,False,True,Q16543,5

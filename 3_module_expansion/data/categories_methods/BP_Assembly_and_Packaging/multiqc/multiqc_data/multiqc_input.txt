@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Assembly_and_Packaging.uniprot_ppi	42	2

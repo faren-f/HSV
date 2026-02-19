@@ -1,0 +1,6 @@
+Sample	drugstone_link	link_raw
+Egress_and_Envelopment.uniprot_ppi.diamond	<a href=https://drugst.one/?id=e18c45db4dc6447cbd7a5e199777fac0>Egress_and_Envelopment.uniprot_ppi.diamond</a>	https://drugst.one/?id=e18c45db4dc6447cbd7a5e199777fac0
+Egress_and_Envelopment.uniprot_ppi.domino	<a href=https://drugst.one/?id=261316d87ca642cc857c0fccfde42946>Egress_and_Envelopment.uniprot_ppi.domino</a>	https://drugst.one/?id=261316d87ca642cc857c0fccfde42946
+Egress_and_Envelopment.uniprot_ppi.no_tool	<a href=https://drugst.one/?id=954b18e8abd44335997f572498e82be7>Egress_and_Envelopment.uniprot_ppi.no_tool</a>	https://drugst.one/?id=954b18e8abd44335997f572498e82be7
+Egress_and_Envelopment.uniprot_ppi.robust	<a href=https://drugst.one/?id=5edd4087c2274143b36f48f85fa54d1e>Egress_and_Envelopment.uniprot_ppi.robust</a>	https://drugst.one/?id=5edd4087c2274143b36f48f85fa54d1e
+Egress_and_Envelopment.uniprot_ppi.robust_bias_aware	<a href=https://drugst.one/?id=b33d42f9007f41eebcc970738d0da23e>Egress_and_Envelopment.uniprot_ppi.robust_bias_aware</a>	https://drugst.one/?id=b33d42f9007f41eebcc970738d0da23e

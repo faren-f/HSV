@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Host_Cytoplasm.uniprot_ppi	41	0

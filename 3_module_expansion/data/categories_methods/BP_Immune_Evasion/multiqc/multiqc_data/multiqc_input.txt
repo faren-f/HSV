@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Immune_Evasion.uniprot_ppi	144	16

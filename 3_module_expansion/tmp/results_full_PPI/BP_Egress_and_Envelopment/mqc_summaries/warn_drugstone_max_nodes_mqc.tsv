@@ -1,0 +1,8 @@
+Module	Nodes
+Egress_and_Envelopment.salivary_gland.firstneighbor	6245
+Egress_and_Envelopment.dorsal_root_ganglia.firstneighbor	6377
+Egress_and_Envelopment.hypothalamus.firstneighbor	6160
+Egress_and_Envelopment.amygdala.firstneighbor	6123
+Egress_and_Envelopment.brain.firstneighbor	6249
+Egress_and_Envelopment.uniprot_ppi.firstneighbor	8253
+Egress_and_Envelopment.uniprot_ppi.rwr	616

@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Entry_and_Uncoating.uniprot_ppi.diamond	260	2648	60	6.0	25	235	2	23
+Entry_and_Uncoating.uniprot_ppi.domino	57	54	22	9.0	6	27	1	0
+Entry_and_Uncoating.uniprot_ppi.firstneighbor	3383	82292	60	5.0	1	3383	1	0
+Entry_and_Uncoating.uniprot_ppi.no_tool	60	9	60	0	51	4	0	45
+Entry_and_Uncoating.uniprot_ppi.robust	227	383	60	8.0	3	221	1	1
+Entry_and_Uncoating.uniprot_ppi.robust_bias_aware	220	365	60	8.0	3	214	1	1
+Entry_and_Uncoating.uniprot_ppi.rwr	284	1932	60	6.0	1	284	1	0

@@ -1,0 +1,8 @@
+Module	Nodes
+Host_Nucleus.salivary_gland.firstneighbor	7067
+Host_Nucleus.hypothalamus.firstneighbor	6977
+Host_Nucleus.dorsal_root_ganglia.firstneighbor	7139
+Host_Nucleus.amygdala.firstneighbor	7007
+Host_Nucleus.brain.firstneighbor	7054
+Host_Nucleus.uniprot_ppi.firstneighbor	9380
+Host_Nucleus.uniprot_ppi.rwr	710

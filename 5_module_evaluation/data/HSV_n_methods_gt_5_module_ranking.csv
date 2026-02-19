@@ -1,0 +1,11 @@
+rank,module,primary_ranking_score,rank_metric_used,significant_pathways_count (FDR<0.05),score_weighted_sumlog,score_mean_log10_p,max_fold_enrichment,min_p_value
+1,"('CC_Host_Nucleus/consensus/uniprot_ppi.tsv',)",12.200086679327843,weighted_sumlog,1,12.200086679327843,12.200086679327843,8.101811511121303,6.308314264605797e-13
+2,"('BP_Replication_and_Transcription/consensus/uniprot_ppi.tsv',)",6.39402239570486,weighted_sumlog,1,6.39402239570486,6.39402239570486,7.182362507392075,4.036245783121489e-07
+3,"('BP_Assembly_and_Packaging/consensus/uniprot_ppi.tsv',)",4.209443728835447,weighted_sumlog,1,4.209443728835447,4.209443728835447,11.8151417870519,6.173852807892848e-05
+4,"('CC_Host_Membrane/consensus/uniprot_ppi.tsv',)",3.8706778271646787,weighted_sumlog,1,3.8706778271646787,3.8706778271646787,4.701182732111177,0.00013468591245509843
+5,"('CC_Virion_Components/consensus/uniprot_ppi.tsv',)",3.841373057544099,weighted_sumlog,1,3.841373057544099,3.8413730575440996,9.924719101123596,0.00014408771110377977
+6,"('BP_Immune_Evasion/consensus/uniprot_ppi.tsv',)",3.8074868821404637,weighted_sumlog,1,3.8074868821404637,3.8074868821404633,6.0941257638478215,0.00015578050876046835
+7,"('BP_Egress_and_Envelopment/consensus/uniprot_ppi.tsv',)",2.99916007678022,weighted_sumlog,1,2.99916007678022,2.99916007678022,3.950136955671083,0.001001935866059061
+8,"('BP_Entry_and_Uncoating/consensus/uniprot_ppi.tsv',)",2.478156343404209,weighted_sumlog,1,2.478156343404209,2.478156343404209,6.508012525326948,0.0033253981940649714
+9,"('CC_Host_Cytoplasm/consensus/uniprot_ppi.tsv',)",1.1931867888394632,weighted_sumlog,0,1.1931867888394632,1.1931867888394632,4.8413263907919974,0.06409338534415258
+10,"('BP_Uncharacterized/consensus/uniprot_ppi.tsv',)",0.0,weighted_sumlog,0,0.0,0.0,0.0,1.0

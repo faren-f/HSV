@@ -1,0 +1,7 @@
+Sample	Seeds	Not in network
+Virion_Components.amygdala	45	6
+Virion_Components.brain	46	5
+Virion_Components.dorsal_root_ganglia	45	6
+Virion_Components.hypothalamus	47	4
+Virion_Components.salivary_gland	46	5
+Virion_Components.uniprot_ppi	50	1

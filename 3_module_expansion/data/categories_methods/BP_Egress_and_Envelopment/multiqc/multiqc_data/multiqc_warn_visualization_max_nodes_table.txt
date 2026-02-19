@@ -1,0 +1,3 @@
+Sample	Nodes
+Egress_and_Envelopment.uniprot_ppi.firstneighbor	8253
+Egress_and_Envelopment.uniprot_ppi.rwr	616

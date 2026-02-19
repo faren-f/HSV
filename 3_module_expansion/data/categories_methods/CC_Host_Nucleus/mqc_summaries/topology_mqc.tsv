@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Host_Nucleus.uniprot_ppi.firstneighbor	9380	253226	245	1	5.0	1	9380	0
+Host_Nucleus.uniprot_ppi.domino	420	2201	107	1	6.0	1	420	0
+Host_Nucleus.uniprot_ppi.rwr	710	22241	245	1	6.0	1	710	0
+Host_Nucleus.uniprot_ppi.robust	286	354	245	1	12.0	5	282	4
+Host_Nucleus.uniprot_ppi.no_tool	245	1568	245	0	6.0	17	229	16
+Host_Nucleus.uniprot_ppi.robust_bias_aware	286	350	245	1	13.0	6	281	5
+Host_Nucleus.uniprot_ppi.diamond	445	14378	245	1	5.0	10	436	9

@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Replication_and_Transcription.uniprot_ppi.diamond	352	10444	152	4.0	9	344	1	8
+Replication_and_Transcription.uniprot_ppi.domino	328	1586	73	6.0	1	328	1	0
+Replication_and_Transcription.uniprot_ppi.firstneighbor	8024	226680	152	5.0	1	8024	1	0
+Replication_and_Transcription.uniprot_ppi.no_tool	152	769	152	6.0	14	139	0	13
+Replication_and_Transcription.uniprot_ppi.robust	186	238	152	17.0	5	182	1	4
+Replication_and_Transcription.uniprot_ppi.robust_bias_aware	186	231	152	11.0	5	182	1	4
+Replication_and_Transcription.uniprot_ppi.rwr	354	7479	152	7.0	1	354	1	0

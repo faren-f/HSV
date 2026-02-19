@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Immune_Evasion.uniprot_ppi.diamond	312	12258	112	5.0	3	310	1	2
+Immune_Evasion.uniprot_ppi.domino	288	1188	63	8.0	1	288	1	0
+Immune_Evasion.uniprot_ppi.firstneighbor	5837	175605	112	5.0	1	5837	1	0
+Immune_Evasion.uniprot_ppi.no_tool	112	325	112	6.0	23	89	0	21
+Immune_Evasion.uniprot_ppi.robust	202	290	112	11.0	4	198	1	2
+Immune_Evasion.uniprot_ppi.robust_bias_aware	202	293	112	11.0	5	197	1	3
+Immune_Evasion.uniprot_ppi.rwr	320	7270	112	5.0	1	320	1	0

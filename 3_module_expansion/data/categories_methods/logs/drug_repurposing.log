@@ -1,0 +1,471 @@
+2026-02-13 19:23:08,842 - INFO - Processing module: BP_Assembly_and_Packaging
+2026-02-13 19:23:08,842 - INFO - Building drug-protein network...
+2026-02-13 19:23:09,062 - INFO - Network build completed
+2026-02-13 19:23:10,513 - INFO - Graph saved to licensed/PPDr-for-ranking.graphml
+2026-02-13 19:23:10,516 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:23:10,520 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:23:10,678 - INFO - Job 198d3573-ddbe-42e8-a902-02b0cf1c03a1: completed
+2026-02-13 19:23:10,680 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:23:10,683 - INFO - Got 65 predicted drugs
+2026-02-13 19:23:10,684 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 19:23:10,684 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 19:23:41,051 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:23:41,054 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 19:23:41,055 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 19:23:41,312 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:23:41,313 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 19:23:41,314 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:24:11,675 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:24:11,678 - INFO - Processing module: BP_Egress_and_Envelopment
+2026-02-13 19:24:11,679 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:24:11,684 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:24:11,863 - INFO - Job 492ac567-d90b-4b12-adab-8963a69e937c: completed
+2026-02-13 19:24:11,866 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:24:11,870 - INFO - Got 100 predicted drugs
+2026-02-13 19:24:11,870 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:24:11,870 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1515 (5/33)
+2026-02-13 19:24:42,247 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:24:42,249 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:24:42,250 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1515 (5/33)
+2026-02-13 19:24:42,493 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:24:42,496 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:24:42,496 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:25:12,859 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:25:12,862 - INFO - Processing module: BP_Entry_and_Uncoating
+2026-02-13 19:25:12,863 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:25:12,866 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:25:13,022 - INFO - Job 737362d9-2757-4748-9018-d82818275c54: completed
+2026-02-13 19:25:13,024 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:25:13,028 - INFO - Got 62 predicted drugs
+2026-02-13 19:25:13,028 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 19:25:13,028 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0606 (2/33)
+2026-02-13 19:25:43,385 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:25:43,388 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 19:25:43,388 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0606 (2/33)
+2026-02-13 19:25:43,635 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:25:43,637 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 19:25:43,637 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:26:13,997 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:26:14,000 - INFO - Processing module: BP_Immune_Evasion
+2026-02-13 19:26:14,000 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:26:14,004 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:26:14,180 - INFO - Job 43075d09-d8e1-47b8-9ae6-cd041da19c6c: completed
+2026-02-13 19:26:14,182 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:26:14,187 - INFO - Got 100 predicted drugs
+2026-02-13 19:26:14,187 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:26:14,187 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1818 (6/33)
+2026-02-13 19:26:44,554 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:26:44,557 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:26:44,558 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1818 (6/33)
+2026-02-13 19:26:44,797 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:26:44,799 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:26:44,799 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:27:15,159 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:27:15,161 - INFO - Processing module: BP_Replication_and_Transcription
+2026-02-13 19:27:15,161 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:27:15,165 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:27:15,343 - INFO - Job 39e93e91-1994-4d2e-b64f-227087b74ec2: completed
+2026-02-13 19:27:15,346 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:27:15,350 - INFO - Got 100 predicted drugs
+2026-02-13 19:27:15,350 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:27:15,351 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.2121 (7/33)
+2026-02-13 19:27:45,715 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:27:45,717 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:27:45,718 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.2121 (7/33)
+2026-02-13 19:27:45,958 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:27:45,960 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:27:45,961 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:28:16,331 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:28:16,333 - INFO - Processing module: BP_Uncharacterized
+2026-02-13 19:28:16,334 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:28:16,338 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:28:16,493 - INFO - Job 80c3efb3-3343-4d9a-acc6-b9daffd96784: completed
+2026-02-13 19:28:16,495 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:28:16,497 - INFO - Got 11 predicted drugs
+2026-02-13 19:28:16,497 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 19:28:16,497 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:28:46,855 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:28:46,858 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 19:28:46,858 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:28:47,096 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:28:47,099 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 19:28:47,099 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:29:17,455 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:29:17,459 - INFO - Processing module: CC_Host_Cytoplasm
+2026-02-13 19:29:17,459 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:29:17,463 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:29:17,626 - INFO - Job b6dc9089-8013-471d-bcbb-2d97fff04eb7: completed
+2026-02-13 19:29:17,628 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:29:17,632 - INFO - Got 104 predicted drugs
+2026-02-13 19:29:17,632 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 19:29:17,633 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 19:29:47,998 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:29:47,999 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 19:29:48,000 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 19:29:48,244 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:29:48,246 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 19:29:48,247 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:30:18,607 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:30:18,609 - INFO - Processing module: CC_Host_Membrane
+2026-02-13 19:30:18,610 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:30:18,613 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:30:18,791 - INFO - Job 36915137-e85f-47d4-9aa8-daf47ec8da2b: completed
+2026-02-13 19:30:18,794 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:30:18,798 - INFO - Got 100 predicted drugs
+2026-02-13 19:30:18,798 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:30:18,799 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1818 (6/33)
+2026-02-13 19:30:49,158 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:30:49,160 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:30:49,161 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1818 (6/33)
+2026-02-13 19:30:49,403 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:30:49,405 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:30:49,406 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:31:19,759 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:31:19,762 - INFO - Processing module: CC_Host_Nucleus
+2026-02-13 19:31:19,762 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:31:19,766 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:31:19,944 - INFO - Job 01c932ce-f9b1-40ee-b41a-1e5e6d67987d: completed
+2026-02-13 19:31:19,947 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:31:19,950 - INFO - Got 100 predicted drugs
+2026-02-13 19:31:19,951 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:31:19,951 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.2727 (9/33)
+2026-02-13 19:31:50,315 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:31:50,316 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:31:50,317 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.2727 (9/33)
+2026-02-13 19:31:50,562 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:31:50,564 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 19:31:50,566 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:32:20,924 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:32:20,927 - INFO - Processing module: CC_Virion_Components
+2026-02-13 19:32:20,927 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 19:32:20,931 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 19:32:21,093 - INFO - Job cf111f5d-71b3-4f52-be7a-450e3fe9dd94: completed
+2026-02-13 19:32:21,095 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 19:32:21,098 - INFO - Got 62 predicted drugs
+2026-02-13 19:32:21,098 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 19:32:21,098 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 19:32:51,457 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.5 min)
+2026-02-13 19:32:51,458 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 19:32:51,459 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 19:32:51,697 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 19:32:51,699 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 19:32:51,700 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 19:33:22,061 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.5 min)
+2026-02-13 19:33:22,064 - INFO - Processing module: .ipynb_checkpoints
+2026-02-13 19:33:22,064 - WARNING - Node file not found for uniprot_ppi: /home/bbc8731/HSV/3_module_expansion/data/categories_methods/.ipynb_checkpoints/consensus/uniprot_ppi.tsv
+2026-02-13 19:33:22,064 - INFO - Processing module: logs
+2026-02-13 19:33:22,064 - WARNING - Node file not found for uniprot_ppi: /home/bbc8731/HSV/3_module_expansion/data/categories_methods/logs/consensus/uniprot_ppi.tsv
+2026-02-13 20:07:55,769 - INFO - Processing module: BP_Assembly_and_Packaging
+2026-02-13 20:07:55,769 - INFO - Building drug-protein network...
+2026-02-13 20:07:55,926 - INFO - Network build completed
+2026-02-13 20:07:57,389 - INFO - Graph saved to licensed/PPDr-for-ranking.graphml
+2026-02-13 20:07:57,392 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:07:57,396 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:07:57,580 - INFO - Job 198d3573-ddbe-42e8-a902-02b0cf1c03a1: completed
+2026-02-13 20:07:57,582 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:07:57,585 - INFO - Got 65 predicted drugs
+2026-02-13 20:07:57,586 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 20:07:57,586 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:07:57,871 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:57,874 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 20:07:57,875 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:07:58,112 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:58,114 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 20:07:58,115 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:07:58,357 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:58,361 - INFO - Processing module: BP_Egress_and_Envelopment
+2026-02-13 20:07:58,361 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:07:58,365 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:07:58,538 - INFO - Job 492ac567-d90b-4b12-adab-8963a69e937c: completed
+2026-02-13 20:07:58,539 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:07:58,544 - INFO - Got 100 predicted drugs
+2026-02-13 20:07:58,544 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:07:58,544 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1515 (5/33)
+2026-02-13 20:07:58,783 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:58,785 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:07:58,786 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1515 (5/33)
+2026-02-13 20:07:59,027 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:59,030 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:07:59,030 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:07:59,273 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:59,275 - INFO - Processing module: BP_Entry_and_Uncoating
+2026-02-13 20:07:59,276 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:07:59,279 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:07:59,436 - INFO - Job 737362d9-2757-4748-9018-d82818275c54: completed
+2026-02-13 20:07:59,438 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:07:59,442 - INFO - Got 62 predicted drugs
+2026-02-13 20:07:59,442 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:07:59,443 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0606 (2/33)
+2026-02-13 20:07:59,681 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:59,682 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:07:59,683 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0606 (2/33)
+2026-02-13 20:07:59,920 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:07:59,922 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:07:59,923 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:00,161 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:00,163 - INFO - Processing module: BP_Immune_Evasion
+2026-02-13 20:08:00,164 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:00,167 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:00,337 - INFO - Job 43075d09-d8e1-47b8-9ae6-cd041da19c6c: completed
+2026-02-13 20:08:00,339 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:00,344 - INFO - Got 100 predicted drugs
+2026-02-13 20:08:00,344 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:00,345 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:08:00,587 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:00,589 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:00,590 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:08:00,833 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:00,835 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:00,837 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:01,065 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:01,068 - INFO - Processing module: BP_Replication_and_Transcription
+2026-02-13 20:08:01,068 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:01,071 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:01,246 - INFO - Job 39e93e91-1994-4d2e-b64f-227087b74ec2: completed
+2026-02-13 20:08:01,248 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:01,254 - INFO - Got 100 predicted drugs
+2026-02-13 20:08:01,254 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:01,255 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.2121 (7/33)
+2026-02-13 20:08:01,496 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:01,498 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:01,499 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.2121 (7/33)
+2026-02-13 20:08:01,742 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:01,744 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:01,745 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:01,992 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:01,995 - INFO - Processing module: BP_Uncharacterized
+2026-02-13 20:08:01,996 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:01,999 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:02,151 - INFO - Job 80c3efb3-3343-4d9a-acc6-b9daffd96784: completed
+2026-02-13 20:08:02,153 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:02,156 - INFO - Got 11 predicted drugs
+2026-02-13 20:08:02,156 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 20:08:02,156 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:02,392 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:02,394 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 20:08:02,395 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:02,629 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:02,632 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 20:08:02,632 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:02,865 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:02,867 - INFO - Processing module: CC_Host_Cytoplasm
+2026-02-13 20:08:02,868 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:02,870 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:03,028 - INFO - Job b6dc9089-8013-471d-bcbb-2d97fff04eb7: completed
+2026-02-13 20:08:03,030 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:03,035 - INFO - Got 104 predicted drugs
+2026-02-13 20:08:03,035 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 20:08:03,036 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:08:03,274 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:03,276 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 20:08:03,276 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:08:03,517 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:03,519 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 20:08:03,519 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:03,761 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:03,762 - INFO - Processing module: CC_Host_Membrane
+2026-02-13 20:08:03,763 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:03,766 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:03,937 - INFO - Job 36915137-e85f-47d4-9aa8-daf47ec8da2b: completed
+2026-02-13 20:08:03,939 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:03,943 - INFO - Got 100 predicted drugs
+2026-02-13 20:08:03,943 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:03,944 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:08:04,183 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:04,185 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:04,186 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:08:04,429 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:04,431 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:04,432 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:04,663 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:04,666 - INFO - Processing module: CC_Host_Nucleus
+2026-02-13 20:08:04,667 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:04,670 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:04,837 - INFO - Job 01c932ce-f9b1-40ee-b41a-1e5e6d67987d: completed
+2026-02-13 20:08:04,839 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:04,843 - INFO - Got 100 predicted drugs
+2026-02-13 20:08:04,844 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:04,844 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.2727 (9/33)
+2026-02-13 20:08:05,065 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:05,066 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:05,067 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.2727 (9/33)
+2026-02-13 20:08:05,307 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:05,309 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:08:05,310 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:05,550 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:05,553 - INFO - Processing module: CC_Virion_Components
+2026-02-13 20:08:05,553 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:08:05,556 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:08:05,712 - INFO - Job cf111f5d-71b3-4f52-be7a-450e3fe9dd94: completed
+2026-02-13 20:08:05,714 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:08:05,718 - INFO - Got 62 predicted drugs
+2026-02-13 20:08:05,718 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:08:05,718 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:08:05,956 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:05,958 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:08:05,959 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:08:06,196 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:06,198 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:08:06,198 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:08:06,433 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:08:06,436 - INFO - Processing module: .ipynb_checkpoints
+2026-02-13 20:08:06,436 - WARNING - Node file not found for uniprot_ppi: /home/bbc8731/HSV/3_module_expansion/data/categories_methods/.ipynb_checkpoints/consensus/uniprot_ppi.tsv
+2026-02-13 20:08:06,436 - INFO - Processing module: logs
+2026-02-13 20:08:06,436 - WARNING - Node file not found for uniprot_ppi: /home/bbc8731/HSV/3_module_expansion/data/categories_methods/logs/consensus/uniprot_ppi.tsv
+2026-02-13 20:08:58,607 - INFO - Processing module: BP_Assembly_and_Packaging
+2026-02-13 20:08:58,607 - INFO - Building drug-protein network...
+2026-02-13 20:08:58,766 - INFO - Network build completed
+2026-02-13 20:09:00,252 - INFO - Graph saved to licensed/PPDr-for-ranking.graphml
+2026-02-13 20:09:00,255 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:00,259 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:00,416 - INFO - Job 198d3573-ddbe-42e8-a902-02b0cf1c03a1: completed
+2026-02-13 20:09:00,418 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:00,422 - INFO - Got 65 predicted drugs
+2026-02-13 20:09:00,422 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 20:09:00,423 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:09:00,665 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:00,668 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 20:09:00,668 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:09:00,908 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:00,910 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 65, True: 33
+2026-02-13 20:09:00,911 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:01,148 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:01,152 - INFO - Processing module: BP_Egress_and_Envelopment
+2026-02-13 20:09:01,152 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:01,157 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:01,329 - INFO - Job 492ac567-d90b-4b12-adab-8963a69e937c: completed
+2026-02-13 20:09:01,331 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:01,336 - INFO - Got 100 predicted drugs
+2026-02-13 20:09:01,336 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:01,336 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1515 (5/33)
+2026-02-13 20:09:01,578 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:01,579 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:01,580 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1515 (5/33)
+2026-02-13 20:09:01,818 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:01,821 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:01,821 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:02,064 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:02,067 - INFO - Processing module: BP_Entry_and_Uncoating
+2026-02-13 20:09:02,067 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:02,070 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:02,222 - INFO - Job 737362d9-2757-4748-9018-d82818275c54: completed
+2026-02-13 20:09:02,223 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:02,227 - INFO - Got 62 predicted drugs
+2026-02-13 20:09:02,227 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:09:02,227 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0606 (2/33)
+2026-02-13 20:09:02,465 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:02,468 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:09:02,468 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0606 (2/33)
+2026-02-13 20:09:02,706 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:02,707 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:09:02,708 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:02,946 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:02,950 - INFO - Processing module: BP_Immune_Evasion
+2026-02-13 20:09:02,950 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:02,953 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:03,130 - INFO - Job 43075d09-d8e1-47b8-9ae6-cd041da19c6c: completed
+2026-02-13 20:09:03,133 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:03,136 - INFO - Got 100 predicted drugs
+2026-02-13 20:09:03,137 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:03,137 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:09:03,378 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:03,379 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:03,380 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:09:03,629 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:03,631 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:03,631 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:03,873 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:03,875 - INFO - Processing module: BP_Replication_and_Transcription
+2026-02-13 20:09:03,875 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:03,879 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:04,052 - INFO - Job 39e93e91-1994-4d2e-b64f-227087b74ec2: completed
+2026-02-13 20:09:04,054 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:04,060 - INFO - Got 100 predicted drugs
+2026-02-13 20:09:04,060 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:04,060 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.2121 (7/33)
+2026-02-13 20:09:04,305 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:04,307 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:04,307 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.2121 (7/33)
+2026-02-13 20:09:04,547 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:04,549 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:04,550 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:04,784 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:04,787 - INFO - Processing module: BP_Uncharacterized
+2026-02-13 20:09:04,788 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:04,790 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:04,928 - INFO - Job 80c3efb3-3343-4d9a-acc6-b9daffd96784: completed
+2026-02-13 20:09:04,929 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:04,932 - INFO - Got 11 predicted drugs
+2026-02-13 20:09:04,932 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 20:09:04,932 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:05,160 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:05,162 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 20:09:05,163 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:05,397 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:05,399 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 11, True: 33
+2026-02-13 20:09:05,400 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:05,635 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:05,637 - INFO - Processing module: CC_Host_Cytoplasm
+2026-02-13 20:09:05,637 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:05,641 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:05,801 - INFO - Job b6dc9089-8013-471d-bcbb-2d97fff04eb7: completed
+2026-02-13 20:09:05,803 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:05,807 - INFO - Got 104 predicted drugs
+2026-02-13 20:09:05,808 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 20:09:05,808 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:09:06,054 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:06,056 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 20:09:06,056 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:09:06,298 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:06,300 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 104, True: 33
+2026-02-13 20:09:06,301 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:06,541 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:06,544 - INFO - Processing module: CC_Host_Membrane
+2026-02-13 20:09:06,545 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:06,547 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:06,722 - INFO - Job 36915137-e85f-47d4-9aa8-daf47ec8da2b: completed
+2026-02-13 20:09:06,724 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:06,728 - INFO - Got 100 predicted drugs
+2026-02-13 20:09:06,728 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:06,729 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:09:06,967 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:06,969 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:06,970 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.1818 (6/33)
+2026-02-13 20:09:07,208 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:07,210 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:07,211 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:07,456 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:07,459 - INFO - Processing module: CC_Host_Nucleus
+2026-02-13 20:09:07,459 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:07,462 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:07,638 - INFO - Job 01c932ce-f9b1-40ee-b41a-1e5e6d67987d: completed
+2026-02-13 20:09:07,641 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:07,646 - INFO - Got 100 predicted drugs
+2026-02-13 20:09:07,647 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:07,647 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.2727 (9/33)
+2026-02-13 20:09:07,897 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:07,899 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:07,900 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.2727 (9/33)
+2026-02-13 20:09:08,140 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:08,142 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 100, True: 33
+2026-02-13 20:09:08,143 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:08,383 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:08,385 - INFO - Processing module: CC_Virion_Components
+2026-02-13 20:09:08,385 - INFO - Processing tissue: uniprot_ppi
+2026-02-13 20:09:08,388 - INFO - Running trustrank for uniprot_ppi
+2026-02-13 20:09:08,543 - INFO - Job cf111f5d-71b3-4f52-be7a-450e3fe9dd94: completed
+2026-02-13 20:09:08,545 - INFO - trustrank for uniprot_ppi: completed (0.0 min)
+2026-02-13 20:09:08,549 - INFO - Got 62 predicted drugs
+2026-02-13 20:09:08,549 - INFO - [uniprot_ppi][approved_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:09:08,549 - INFO - [uniprot_ppi][approved_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:09:08,793 - INFO - [uniprot_ppi][approved_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:08,795 - INFO - [uniprot_ppi][approved_experimental_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:09:08,796 - INFO - [uniprot_ppi][approved_experimental_drugs] Recall = 0.0303 (1/33)
+2026-02-13 20:09:09,038 - INFO - [uniprot_ppi][approved_experimental_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:09,040 - INFO - [uniprot_ppi][random_drugs] Starting validation - Predicted: 62, True: 33
+2026-02-13 20:09:09,042 - INFO - [uniprot_ppi][random_drugs] Recall = 0.0000 (0/33)
+2026-02-13 20:09:09,281 - INFO - [uniprot_ppi][random_drugs] Validation complete (0.0 min)
+2026-02-13 20:09:09,285 - INFO - Processing module: .ipynb_checkpoints
+2026-02-13 20:09:09,285 - WARNING - Node file not found for uniprot_ppi: /home/bbc8731/HSV/3_module_expansion/data/categories_methods/.ipynb_checkpoints/consensus/uniprot_ppi.tsv
+2026-02-13 20:09:09,285 - INFO - Processing module: logs
+2026-02-13 20:09:09,286 - WARNING - Node file not found for uniprot_ppi: /home/bbc8731/HSV/3_module_expansion/data/categories_methods/logs/consensus/uniprot_ppi.tsv

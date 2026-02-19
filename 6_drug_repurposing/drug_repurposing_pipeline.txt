@@ -1,0 +1,31 @@
+## run drug repurposing pipeline guideline
+
+1) Read inputs (main): gets base_dir + 3 drug-list files from command line.
+
+2) Create pipeline object: NeDRexDrugRepurposing(base_dir, true_drugs_files) sets up logging, gets an API key, and loads the “true drug” lists.
+
+3) Check API: check_api_status() makes sure NeDRex API responds.
+
+4) Find modules: module_dirs = base_dir/* (each subfolder is one module).
+
+5) For each module: process_module(module_dir)
+
+-- ensures the drug–protein network graph exists (builds + downloads it once if missing)
+-- creates drug_repurposing/ output folder inside the module
+-- runs the configured method(s) (here only cami)
+
+6) Pick the module protein file: _process_method() finds the file starting with cami_v3... in that module folder.
+
+7) Load proteins: read_node_file() reads the TSV and takes the gene column; then it prefixes each with uniprot..
+
+8) Submit ranking job: _run_algorithm() → submit_algorithm('trustrank', proteins) sends seeds to NeDRex and gets a job uid.
+
+9) Monitor job: _monitor_job() polls the API until completed or failed, showing a progress bar.
+
+10) Save results: on completion, _handle_completed_job() writes results.json.
+
+11) Extract predicted drugs: _extract_predicted_drugs() pulls drug names from the API result.
+
+12) Validate predictions: _run_validations() compares predicted drugs to each true-drug list by calling the validation API, monitors it, and saves validation JSON outputs.
+
+13) Error handling: if anything fails, it logs and writes an error.json (or validation error files) in the right folder.

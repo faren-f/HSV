@@ -1,0 +1,33 @@
+DB00945	# Acetylsalicylic acid
+DB00594	# Amiloride
+DB00613	# Amodiaquine
+DB04115	# Berberine
+DB12480	# Betulinic Acid
+DB00188	# Bortezomib
+DB16824	# Cepharanthine
+DB13393	# Emetine
+DB07715	# Emodin
+DB00005	# Etanercept
+DB03496	# Flavopiridol
+DB04865	# Homoharringtonine
+DB11964	# Ilaprazole
+DB00328	# Indomethacin
+DB01097	# Leflunomide
+DB04862	# Merimepodib (also VX-497)
+DB01204	# Mitoxantrone
+DB11430	# Monensin
+DB12340	# Navitoclax
+DB00220	# Nelfinavir
+DB06803	# Niclosamide
+DB00325	# Nitroprusside
+DB01051	# Novobiocin
+DB12191	# Obatoclax
+DB01179	# Podofilox
+DB04216	# Quercetin
+DB00481	# Raloxifene
+DB08896	# Regorafenib
+DB02709	# Resveratrol
+DB06195	# Seliciclib
+DB00398	# Sorafenib
+DB00675	# Tamoxifen
+DB13609	# Umifenovir

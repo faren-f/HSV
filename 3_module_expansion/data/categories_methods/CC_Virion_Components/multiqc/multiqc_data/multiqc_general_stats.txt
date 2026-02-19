@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Virion_Components.uniprot_ppi.diamond	250	4201	50	4.0	9	242	2	8
+Virion_Components.uniprot_ppi.domino	57	94	23	10.0	1	57	1	0
+Virion_Components.uniprot_ppi.firstneighbor	3994	120266	50	5.0	1	3994	1	0
+Virion_Components.uniprot_ppi.no_tool	50	62	50	0	21	29	0	19
+Virion_Components.uniprot_ppi.robust	108	158	50	8.0	3	106	1	2
+Virion_Components.uniprot_ppi.robust_bias_aware	109	160	50	9.0	2	108	1	1
+Virion_Components.uniprot_ppi.rwr	87	441	50	6.0	1	87	1	0

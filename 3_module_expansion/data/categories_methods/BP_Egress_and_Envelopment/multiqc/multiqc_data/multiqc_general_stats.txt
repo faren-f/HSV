@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Egress_and_Envelopment.uniprot_ppi.diamond	400	11079	200	6.0	33	368	2	32
+Egress_and_Envelopment.uniprot_ppi.domino	259	957	57	8.0	1	259	1	0
+Egress_and_Envelopment.uniprot_ppi.firstneighbor	8253	227705	200	5.0	1	8253	1	0
+Egress_and_Envelopment.uniprot_ppi.no_tool	200	491	200	7.0	59	136	0	54
+Egress_and_Envelopment.uniprot_ppi.robust	386	563	200	13.0	8	378	1	6
+Egress_and_Envelopment.uniprot_ppi.robust_bias_aware	382	569	200	11.0	10	372	1	8
+Egress_and_Envelopment.uniprot_ppi.rwr	616	11335	200	6.0	1	616	1	0

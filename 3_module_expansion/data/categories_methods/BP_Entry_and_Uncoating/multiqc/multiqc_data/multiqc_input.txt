@@ -1,0 +1,2 @@
+Sample	Seeds	Not in network
+Entry_and_Uncoating.uniprot_ppi	60	3

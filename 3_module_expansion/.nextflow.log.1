@@ -1,0 +1,408 @@
+Jan-02 15:41:08.044 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/bbc8731/diseasemodulediscovery/main.nf -profile singularity --input input_dir/test_sheet.csv --outdir final_res/test_sheet --id_space uniprot
+Jan-02 15:41:08.206 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.2
+Jan-02 15:41:08.257 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/bbc8731/.nextflow/plugins; core-plugins: nf-amazon@3.4.2,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.3,nf-k8s@1.2.2,nf-tower@1.17.3,nf-wave@1.16.1
+Jan-02 15:41:08.284 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-02 15:41:08.285 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-02 15:41:08.289 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jan-02 15:41:08.309 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Jan-02 15:41:08.464 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-02 15:41:08.502 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/bbc8731/diseasemodulediscovery/nextflow.config
+Jan-02 15:41:08.506 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/bbc8731/diseasemodulediscovery/nextflow.config
+Jan-02 15:41:08.539 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `singularity`
+Jan-02 15:41:10.043 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, test_samplesheet, denbi_qbic, alice, mjolnir_globe, uppmax, giga, test_symbol, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, iris, tes, scw, unc_longleaf, tigem, tubingen_apg, apollo, ipop_up, vsc_calcua, pdc_kth, ceci_nic5, ccga_cau, humantechnopole, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, rki, ucl_myriad, utd_ganymede, charliecloud, fred_hutch, seattlechildrens, icr_davros, ceres, arm, munin, rosalind, hasta, cfc, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, test_prepared_networks, marvin, lrz_cm4, shifter, biohpc_gen, mana, mamba, york_viking, test_ensembl, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, cannon, genotoul, nci_gadi, abims, eva_grace, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, alliance_canada, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, seg_globe, mssm, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, seadragon, crukmi, csiro_petrichor, qmul_apocrita, wave, docker, engaging, gis, hypatia, psmn, eva, unity, cropdiversityhpc, nygc, fgcz, conda, crg, singularity, mpcdf_viper, pe2, dirac, self_hosted_runner, tufts, uw_hyak_pedslabs, binac2, debug, hki_genie, genouest, cbe, unsw_katana, utd_juno, gitpod, phoenix, seawulf, uod_hpc, fub_curta, lovelace, uct_hpc, aws_tower, binac, fsu_draco]
+Jan-02 15:41:10.085 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-schema@2.2.0]
+Jan-02 15:41:10.087 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-02 15:41:10.087 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-schema@2.2.0]
+Jan-02 15:41:10.303 [main] DEBUG n.plugin.HttpPluginRepository - Registry request: https://registry.nextflow.io/api/v1/plugins/dependencies?plugins=nf-schema%402.2.0&nextflowVersion=25.10.2
+- code: 200
+- body: {"plugins":[{"id":"nf-schema","downloadCount":105166,"downloadGhCount":496446,"releases":[{"version":"2.2.0","url":"https://registry.nextflow.io/api/v1/plugins/nf-schema/2.2.0/download/nf-schema-2.2.0.zip","date":"2024-10-30T10:21:53.008264Z","sha512sum":"3977d51aa1a99ae597fe1aed67fa4cac57ee718121468a7a6920765fc8ea923479224285d77607f04610157d7cd7c430bd2a689f5923efdb9279c6668a44e715","requires":">=23.10.0","dependsOn":[],"downloadCount":3069,"downloadGhCount":52258,"status":"PUBLISHED","spec":null,"description":null}],"projectUrl":"https://github.com/nextflow-io/nf-schema","provider":"nextflow-io","description":null}]}
+Jan-02 15:41:10.356 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-schema version: 2.2.0
+Jan-02 15:41:10.366 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-schema@2.2.0' resolved
+Jan-02 15:41:10.366 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-schema@2.2.0'
+Jan-02 15:41:10.374 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-schema@2.2.0
+Jan-02 15:41:10.382 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/bbc8731/.nextflow/secrets/store.json
+Jan-02 15:41:10.386 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@11399548] - activable => nextflow.secret.LocalSecretsProvider@11399548
+Jan-02 15:41:10.388 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jan-02 15:41:10.406 [main] DEBUG nextflow.cli.CmdRun - Launching `/home/bbc8731/diseasemodulediscovery/main.nf` [fervent_linnaeus] DSL2 - revision: 5448d58b0b
+Jan-02 15:41:10.471 [main] DEBUG nextflow.Session - Session UUID: f0db48b9-7396-490a-80e3-60464b156e33
+Jan-02 15:41:10.471 [main] DEBUG nextflow.Session - Run name: fervent_linnaeus
+Jan-02 15:41:10.472 [main] DEBUG nextflow.Session - Executor pool size: 128
+Jan-02 15:41:10.483 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-02 15:41:10.489 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-02 15:41:10.513 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.2 build 10555
+  Created: 28-11-2025 19:24 UTC (20:24 CEST)
+  System: Linux 6.6.69-1-longterm
+  Runtime: Groovy 4.0.28 on OpenJDK 64-Bit Server VM 17.0.17-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 2894287@lascar [134.100.85.27]
+  CPUs: 128 - Mem: 503.3 GB (177.8 GB) - Swap: 2 GB (2 GB)
+Jan-02 15:41:10.535 [main] DEBUG nextflow.Session - Work-dir: /cosybio_scratch/bbc8731/nextflow_work [nfs]
+Jan-02 15:41:10.575 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-02 15:41:10.588 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jan-02 15:41:10.592 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Jan-02 15:41:10.682 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-02 15:41:10.696 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 129; maxThreads: 1000
+Jan-02 15:41:10.761 [main] DEBUG nextflow.Session - Session start
+Jan-02 15:41:10.772 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: final_res/test_sheet/pipeline_info/execution_trace_2026-01-02_15-41-09.txt
+Jan-02 15:41:10.992 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-02 15:41:19.882 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Jan-02 15:41:19.922 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Jan-02 15:41:19.925 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Jan-02 15:41:19.926 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Jan-02 15:41:20.375 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Jan-02 15:41:20.904 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Jan-02 15:41:20.905 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Jan-02 15:41:20.907 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Jan-02 15:41:20.908 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Jan-02 15:41:21.187 [main] INFO  nextflow.Nextflow - 
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/diseasemodulediscovery 1.0dev[0m
+-[2m----------------------------------------------------[0m-
+[1mInput/output options[0m
+  [0;34minput              : [0;32minput_dir/test_sheet.csv[0m
+  [0;34mid_space           : [0;32muniprot[0m
+  [0;34moutdir             : [0;32mfinal_res/test_sheet[0m
+
+[1mGeneric options[0m
+  [0;34mtrace_report_suffix: [0;32m2026-01-02_15-41-09[0m
+
+[1mCore Nextflow options[0m
+  [0;34mrunName            : [0;32mfervent_linnaeus[0m
+  [0;34mcontainerEngine    : [0;32msingularity[0m
+  [0;34mcontainer          : [0;32mghcr.io/repo4eu/modulediscovery_python_dependencies:v0.1.0[0m
+  [0;34mlaunchDir          : [0;32m/home/bbc8731/HSV1-2_pipeline/3_module_expansion[0m
+  [0;34mworkDir            : [0;32m/cosybio_scratch/bbc8731/nextflow_work[0m
+  [0;34mprojectDir         : [0;32m/home/bbc8731/diseasemodulediscovery[0m
+  [0;34muserName           : [0;32mbbc8731[0m
+  [0;34mprofile            : [0;32msingularity[0m
+  [0;34mconfigFiles        : [0;32m[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+* The nf-core framework
+    https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+    https://github.com/nf-core/diseasemodulediscovery/blob/main/CITATIONS.md
+
+Jan-02 15:41:21.190 [main] DEBUG nextflow.validation.SchemaValidator - Starting parameters validation
+Jan-02 15:41:21.337 [main] DEBUG nextflow.validation.SchemaEvaluator - Started validating /home/bbc8731/HSV1-2_pipeline/3_module_expansion/input_dir/test_sheet.csv
+Jan-02 15:41:21.385 [main] DEBUG nextflow.validation.SchemaEvaluator - Validation of file 'input_dir/test_sheet.csv' passed!
+Jan-02 15:41:21.387 [main] DEBUG nextflow.validation.SchemaValidator - Finishing parameters validation
+Jan-02 15:41:21.461 [main] INFO  nextflow.Nextflow - Creating network and seeds channels based on tuples in the sample sheet
+Jan-02 15:41:21.501 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+Jan-02 15:41:21.503 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+Jan-02 15:41:21.515 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.515 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.526 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-02 15:41:21.533 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=128; memory=503.3 GB; capacity=128; pollInterval=100ms; dumpInterval=5m
+Jan-02 15:41:21.536 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-02 15:41:21.559 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.664 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+Jan-02 15:41:21.665 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:INPUTCHECK` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+Jan-02 15:41:21.669 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.669 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.671 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.709 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+Jan-02 15:41:21.709 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+Jan-02 15:41:21.712 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.712 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.713 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.731 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+Jan-02 15:41:21.737 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.737 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.738 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.757 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+Jan-02 15:41:21.760 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.761 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.762 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.765 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+Jan-02 15:41:21.766 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+Jan-02 15:41:21.769 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.769 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.770 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.785 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+Jan-02 15:41:21.789 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.789 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.790 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.814 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+Jan-02 15:41:21.816 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:DOMINO_DOMINO` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+Jan-02 15:41:21.819 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.819 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.821 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.835 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+Jan-02 15:41:21.836 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+Jan-02 15:41:21.839 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.840 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.840 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.863 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+Jan-02 15:41:21.863 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:ROBUST` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+Jan-02 15:41:21.866 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.866 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.866 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.884 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+Jan-02 15:41:21.885 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+Jan-02 15:41:21.888 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.888 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.889 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.909 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+Jan-02 15:41:21.909 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:ROBUSTBIASAWARE` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+Jan-02 15:41:21.911 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.912 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.912 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.935 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+Jan-02 15:41:21.938 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.938 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.938 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.958 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+Jan-02 15:41:21.958 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GRAPHTOOLPARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+Jan-02 15:41:21.961 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.961 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.961 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:21.977 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+Jan-02 15:41:21.980 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:21.980 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:21.981 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.012 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+Jan-02 15:41:22.016 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.017 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.018 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.033 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.034 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.034 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.059 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+Jan-02 15:41:22.060 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:NETWORKANNOTATION` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+Jan-02 15:41:22.064 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.064 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.064 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.068 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+Jan-02 15:41:22.069 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:SAVEMODULES` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+Jan-02 15:41:22.071 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.071 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.072 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.122 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+Jan-02 15:41:22.123 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:VISUALIZEMODULES` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+Jan-02 15:41:22.125 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.125 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.126 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.152 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+Jan-02 15:41:22.154 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.155 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.155 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.169 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+Jan-02 15:41:22.169 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:BIOPAX_PARSER` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+Jan-02 15:41:22.171 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.171 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.172 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.183 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+Jan-02 15:41:22.184 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:BIOPAX_VALIDATOR` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+Jan-02 15:41:22.186 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.186 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.187 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.199 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.199 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.200 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.204 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.204 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.205 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.216 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+Jan-02 15:41:22.217 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:MODULEOVERLAP` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+Jan-02 15:41:22.219 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.219 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.220 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.236 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+Jan-02 15:41:22.237 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:GPROFILER2_GOST` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+Jan-02 15:41:22.240 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.240 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.241 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.261 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+Jan-02 15:41:22.262 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:DIGEST` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+Jan-02 15:41:22.263 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.264 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.265 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.297 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+Jan-02 15:41:22.298 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:DRUGPREDICTIONS` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+Jan-02 15:41:22.300 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.300 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.300 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.440 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+Jan-02 15:41:22.441 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:MULTIQC` matches process NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+Jan-02 15:41:22.444 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-02 15:41:22.444 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-02 15:41:22.444 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC': maxForks=0; fair=false; array=0
+Jan-02 15:41:22.471 [main] DEBUG nextflow.Session - Config process names validation disabled as requested
+Jan-02 15:41:22.476 [main] DEBUG nextflow.Session - Igniting dataflow network (70)
+Jan-02 15:41:22.478 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER
+Jan-02 15:41:22.478 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:INPUTCHECK
+Jan-02 15:41:22.478 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:GRAPHTOOLPARSER
+Jan-02 15:41:22.478 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND:DIAMOND
+Jan-02 15:41:22.478 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:PREFIXLINES
+Jan-02 15:41:22.478 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:GRAPHTOOLPARSER
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_SLICER
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO:DOMINO_DOMINO
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:GRAPHTOOLPARSER
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST:ROBUST
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:GRAPHTOOLPARSER
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE:ROBUSTBIASAWARE
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR:FIRSTNEIGHBOR
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:GRAPHTOOLPARSER
+Jan-02 15:41:22.479 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR:RWR
+Jan-02 15:41:22.481 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:MODULEPARSER
+Jan-02 15:41:22.481 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:TOPOLOGY
+Jan-02 15:41:22.481 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKANNOTATION
+Jan-02 15:41:22.481 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:SAVEMODULES
+Jan-02 15:41:22.481 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:VISUALIZEMODULES
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGSTONEEXPORT
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_PARSER
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT_BIOPAX:BIOPAX_VALIDATOR
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Modules
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GT2TSV_Network
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MODULEOVERLAP
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GPROFILER2_GOST
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DIGEST
+Jan-02 15:41:22.482 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:DRUGPREDICTIONS
+Jan-02 15:41:22.490 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:MULTIQC
+Jan-02 15:41:22.492 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_0e9ad3c25737f75c: /home/bbc8731/diseasemodulediscovery/modules/local/robust_bias_aware/main.nf
+  Script_cb17d5f8e4982d86: /home/bbc8731/diseasemodulediscovery/modules/local/diamond/main.nf
+  Script_0cffca513d0f10cb: /home/bbc8731/diseasemodulediscovery/modules/local/drugstoneexport/main.nf
+  Script_f7d5579009b932d8: /home/bbc8731/diseasemodulediscovery/modules/local/moduleoverlap/main.nf
+  Script_0fdb2e5f8575be0c: /home/bbc8731/diseasemodulediscovery/modules/nf-core/multiqc/main.nf
+  Script_67c06bd28634ae84: /home/bbc8731/diseasemodulediscovery/main.nf
+  Script_e37282cef4831990: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_proximity/main.nf
+  Script_99f25d4fa3aaae72: /home/bbc8731/diseasemodulediscovery/modules/local/seedpermutation/main.nf
+  Script_02ddaee312807064: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_firstneighbor/main.nf
+  Script_bc751ccf681a8b22: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_biopax/main.nf
+  Script_cb1c3b44ee19b9f8: /home/bbc8731/diseasemodulediscovery/modules/local/networkpermutationevaluation/main.nf
+  Script_3dbba2640bf49bb4: /home/bbc8731/diseasemodulediscovery/modules/local/robust/main.nf
+  Script_4e440f330df49de9: /home/bbc8731/diseasemodulediscovery/modules/local/savemodules/main.nf
+  Script_946b727087839a11: /home/bbc8731/diseasemodulediscovery/modules/local/seedpermutationevaluation/main.nf
+  Script_2b0437721afecdaf: /home/bbc8731/diseasemodulediscovery/modules/local/biopax/parser/main.nf
+  Script_7b0c4e6dccde5100: /home/bbc8731/diseasemodulediscovery/modules/nf-core/gprofiler2/gost/main.nf
+  Script_7c1bdd3099376c6a: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_seedpermutation/main.nf
+  Script_a513ad7fe08cd938: /home/bbc8731/diseasemodulediscovery/modules/local/drugpredictions/main.nf
+  Script_da4cc6714732e852: /home/bbc8731/diseasemodulediscovery/modules/local/domino/domino/main.nf
+  Script_750db7ed1cec863e: /home/bbc8731/diseasemodulediscovery/subworkflows/local/utils_nfcore_diseasemodulediscovery_pipeline/main.nf
+  Script_6abc5969f43143bd: /home/bbc8731/diseasemodulediscovery/modules/local/graphtoolparser/main.nf
+  Script_46e63b4023053b5f: /home/bbc8731/diseasemodulediscovery/subworkflows/local/networkexpansion/main.nf
+  Script_fb8672b75dc90f99: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_networkpermutation/main.nf
+  Script_486e97a14fcaa785: /home/bbc8731/diseasemodulediscovery/modules/local/gt2tsv/main.nf
+  Script_dfc947ec0d21095e: /home/bbc8731/diseasemodulediscovery/modules/local/rwr/main.nf
+  Script_476e28942edda745: /home/bbc8731/diseasemodulediscovery/modules/local/domino/slicer/main.nf
+  Script_215a636da7ab24a2: /home/bbc8731/diseasemodulediscovery/subworkflows/nf-core/utils_nfschema_plugin/main.nf
+  Script_5c4e8d4051efa81e: /home/bbc8731/diseasemodulediscovery/subworkflows/nf-core/utils_nfcore_pipeline/main.nf
+  Script_717b1fbf89520f88: /home/bbc8731/diseasemodulediscovery/modules/local/networkannotation/main.nf
+  Script_aa7fe0c2a2cc64bf: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_diamond/main.nf
+  Script_30543c9169be0e83: /home/bbc8731/diseasemodulediscovery/modules/local/inputcheck/main.nf
+  Script_d5101ba1f86292b0: /home/bbc8731/diseasemodulediscovery/modules/local/biopax/validator/main.nf
+  Script_5175ac7289bd9a9e: /home/bbc8731/diseasemodulediscovery/modules/local/proximity/main.nf
+  Script_183c12615e77c3f5: /home/bbc8731/diseasemodulediscovery/modules/local/shortest_paths/main.nf
+  Script_5ef539657f51fe0c: /home/bbc8731/diseasemodulediscovery/modules/local/topology/main.nf
+  Script_d22cd99c998212de: /home/bbc8731/diseasemodulediscovery/workflows/diseasemodulediscovery.nf
+  Script_74f4575afc598403: /home/bbc8731/diseasemodulediscovery/modules/local/firstneighbor/main.nf
+  Script_80a4e48642be5138: /home/bbc8731/diseasemodulediscovery/modules/local/moduleparser/main.nf
+  Script_4f612cfd8c52e8cd: /home/bbc8731/diseasemodulediscovery/subworkflows/nf-core/utils_nextflow_pipeline/main.nf
+  Script_b5594051a8c0b804: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_robust_bias_aware/main.nf
+  Script_2bcd7dacdd70a3d2: /home/bbc8731/diseasemodulediscovery/modules/local/networkpermutation/main.nf
+  Script_e118e432307aa8f7: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_robust/main.nf
+  Script_47edac9ba61d54af: /home/bbc8731/diseasemodulediscovery/modules/local/digest/main.nf
+  Script_3bee3754cf528927: /home/bbc8731/diseasemodulediscovery/modules/local/prefixlines/main.nf
+  Script_22c04bbcc1bd5ba7: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_domino/main.nf
+  Script_3b44a77cde12c53d: /home/bbc8731/diseasemodulediscovery/subworkflows/local/gt_rwr/main.nf
+  Script_e60bb03f380d8df6: /home/bbc8731/diseasemodulediscovery/modules/local/visualizemodules/main.nf
+Jan-02 15:41:22.493 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-02 15:41:22.493 [main] DEBUG nextflow.Session - Session await
+Jan-02 15:41:22.595 [Actor Thread 117] INFO  nextflow.container.SingularityCache - Pulling Singularity image docker://ghcr.io/repo4eu/modulediscovery_python_dependencies:v0.1.0 [cache /tmp/bbc8731/singularity_cache/ghcr.io-repo4eu-modulediscovery_python_dependencies-v0.1.0.img]
+Jan-02 15:41:22.751 [Actor Thread 102] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.007 s; external sort time: 0.021 s; total time: 0.028 s
+Jan-02 15:41:22.751 [Actor Thread 124] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.007 s; external sort time: 0.022 s; total time: 0.029 s
+Jan-02 15:41:22.773 [Actor Thread 124] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /cosybio_scratch/bbc8731/nextflow_work/collect-file/2d0d311531fa361e2131f24a3487bf93
+Jan-02 15:41:22.774 [Actor Thread 102] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /cosybio_scratch/bbc8731/nextflow_work/collect-file/0c890ff979ea209d4a8458363ad83f26
+Jan-02 15:41:22.830 [Actor Thread 102] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /cosybio_scratch/bbc8731/nextflow_temp/nxf-5779155204526290793
+Jan-02 15:41:22.830 [Actor Thread 124] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /cosybio_scratch/bbc8731/nextflow_temp/nxf-13551851484921380857
+Jan-02 15:41:23.501 [Actor Thread 117] DEBUG nextflow.container.SingularityCache - Singularity pull complete image=docker://ghcr.io/repo4eu/modulediscovery_python_dependencies:v0.1.0 path=/tmp/bbc8731/singularity_cache/ghcr.io-repo4eu-modulediscovery_python_dependencies-v0.1.0.img
+Jan-02 15:41:23.614 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-02 15:41:23.619 [Task submitter] INFO  nextflow.Session - [b8/08ac34] Submitted process > NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (amygdala.rwr)
+Jan-02 15:41:24.480 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (amygdala.rwr); status: COMPLETED; exit: 255; error: -; workDir: /cosybio_scratch/bbc8731/nextflow_work/b8/08ac341c9257177c7cb0db1a0985bc]
+Jan-02 15:41:24.481 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-02 15:41:24.502 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (amygdala.rwr); work-dir=/cosybio_scratch/bbc8731/nextflow_work/b8/08ac341c9257177c7cb0db1a0985bc
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (amygdala.rwr)` terminated with an error exit status (255)
+Jan-02 15:41:24.525 [TaskFinalizer-1] ERROR nextflow.processor.TaskProcessor - Error executing process > 'NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (amygdala.rwr)'
+
+Caused by:
+  Process `NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER (amygdala.rwr)` terminated with an error exit status (255)
+
+
+Command executed:
+
+  graph_tool_parser.py input/amygdala.rwr.csv -f gt -l DEBUG
+  
+  cat <<-END_VERSIONS > versions.yml
+  "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:GRAPHTOOLPARSER":
+      python: $(python --version | sed 's/Python //g')
+      graph-tool: $(python -c "import graph_tool; print(graph_tool.__version__)")
+  END_VERSIONS
+
+Command exit status:
+  255
+
+Command output:
+  (empty)
+
+Command error:
+  INFO:    Converting SIF file to temporary sandbox...
+  FATAL:   while extracting /tmp/bbc8731/singularity_cache/ghcr.io-repo4eu-modulediscovery_python_dependencies-v0.1.0.img: root filesystem extraction failed: extract command failed: WARNING: passwd file doesn't exist in container, not updating
+  WARNING: group file doesn't exist in container, not updating
+  WARNING: Skipping mount /etc/hosts [binds]: /etc/hosts doesn't exist in container
+  WARNING: Skipping mount /etc/localtime [binds]: /etc/localtime doesn't exist in container
+  WARNING: Skipping mount proc [kernel]: /proc doesn't exist in container
+  WARNING: Skipping mount /home/bbc8731/miniconda3/envs/modulediscovery/var/singularity/mnt/session/tmp [tmp]: /tmp doesn't exist in container
+  WARNING: Skipping mount /home/bbc8731/miniconda3/envs/modulediscovery/var/singularity/mnt/session/var/tmp [tmp]: /var/tmp doesn't exist in container
+  WARNING: Skipping mount /home/bbc8731/miniconda3/envs/modulediscovery/var/singularity/mnt/session/etc/resolv.conf [files]: /etc/resolv.conf doesn't exist in container
+  
+  FATAL ERROR: write_file: failed to create file /image/root/opt/conda/bin/bzgrep, because No space left on device
+  Parallel unsquashfs: Using 128 processors
+  66068 inodes (47748 blocks) to write
+  
+  : exit status 1
+
+Work dir:
+  /cosybio_scratch/bbc8731/nextflow_work/b8/08ac341c9257177c7cb0db1a0985bc
+
+Container:
+  /tmp/bbc8731/singularity_cache/ghcr.io-repo4eu-modulediscovery_python_dependencies-v0.1.0.img
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+Jan-02 15:41:24.530 [Actor Thread 96] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.533 [Actor Thread 103] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.542 [Actor Thread 95] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.547 [Actor Thread 118] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.547 [Actor Thread 124] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.548 [Actor Thread 108] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.549 [Actor Thread 124] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.550 [TaskFinalizer-1] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
+Jan-02 15:41:24.552 [Actor Thread 101] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jan-02 15:41:24.556 [TaskFinalizer-1] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
+Jan-02 15:41:24.557 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-02 15:41:24.558 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-02 15:41:24.559 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-02 15:41:24.572 [Actor Thread 113] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.006 s; external sort time: 0.009 s; total time: 0.015 s
+Jan-02 15:41:24.581 [Actor Thread 113] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /cosybio_scratch/bbc8731/nextflow_work/collect-file/83f599428759fb1950e4396b17766495
+Jan-02 15:41:24.627 [Actor Thread 113] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /cosybio_scratch/bbc8731/nextflow_temp/nxf-6668960672783159700
+Jan-02 15:41:24.660 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jan-02 15:41:24.672 [main] INFO  nextflow.Nextflow - -[0;35m[nf-core/diseasemodulediscovery][0;31m Pipeline completed with errors[0m-
+Jan-02 15:41:24.679 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=826ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=6 GB; ]
+Jan-02 15:41:24.858 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jan-02 15:41:25.316 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jan-02 15:41:25.363 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jan-02 15:41:25.366 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-02 15:41:27.149 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-schema@2.2.0'
+Jan-02 15:41:27.149 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-schema
+Jan-02 15:41:27.150 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jan-02 15:41:27.152 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,8 @@
+Sample	custom_content_topology-nodes	custom_content_topology-edges	custom_content_topology-seeds	custom_content_topology-diameter	custom_content_topology-components	custom_content_topology-largest_component	custom_content_topology-max_dist_to_seed	custom_content_topology-isolated_nodes
+Host_Membrane.uniprot_ppi.diamond	390	11001	190	5.0	33	358	2	32
+Host_Membrane.uniprot_ppi.domino	240	847	49	7.0	1	240	1	0
+Host_Membrane.uniprot_ppi.firstneighbor	7789	215585	190	6.0	1	7789	1	0
+Host_Membrane.uniprot_ppi.no_tool	190	321	190	7.0	74	111	0	69
+Host_Membrane.uniprot_ppi.robust	423	647	190	13.0	13	410	1	11
+Host_Membrane.uniprot_ppi.robust_bias_aware	422	640	190	14.0	10	412	1	8
+Host_Membrane.uniprot_ppi.rwr	496	6729	190	6.0	1	496	1	0

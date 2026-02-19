@@ -1,0 +1,2 @@
+Sample	Nodes
+Replication_and_Transcription.uniprot_ppi.firstneighbor	8024

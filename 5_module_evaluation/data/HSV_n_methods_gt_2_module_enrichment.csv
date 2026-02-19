@@ -1,0 +1,11 @@
+module,pathway_id,pathway_name,pathway_database,module_size,pathway_size,overlap,p_value,fold_enrichment,fdr,significant
+CC_Host_Nucleus/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,411,301,22,1.7795802435789832e-10,5.312501708630635,1.7795802435789832e-09,True
+BP_Assembly_and_Packaging/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,86,301,10,1.530162711258063e-08,11.540371047818134,6.343524046240881e-08,True
+CC_Virion_Components/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,113,301,11,1.903057213872264e-08,9.66123098339465,6.343524046240881e-08,True
+BP_Egress_and_Envelopment/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,444,301,18,5.843579536613388e-07,4.023534770725782,1.4608948841533468e-06,True
+CC_Host_Membrane/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,453,301,17,3.472676094689211e-06,3.724508271944837,5.841839339595825e-06,True
+BP_Replication_and_Transcription/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,269,301,13,3.505103603757495e-06,4.796332651100623,5.841839339595825e-06,True
+BP_Entry_and_Uncoating/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,227,301,10,0.00010450064354308448,4.372122952036826,0.00014928663363297784,True
+BP_Immune_Evasion/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,252,301,10,0.00024437612043691666,3.9383805956839666,0.0003054701505461458,True
+CC_Host_Cytoplasm/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,102,301,6,0.0005821783798725516,5.838070059484468,0.0006468648665250574,True
+BP_Uncharacterized/consensus/uniprot_ppi.tsv,hsa05168,Herpes simplex virus 1 infection - Homo sapiens (human),KEGG,68,301,4,0.004914827148767877,5.838070059484468,0.004914827148767877,True

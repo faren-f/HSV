@@ -1,0 +1,234 @@
+{
+  "drugs": [
+    {
+      "drug_name": "drugbank.DB12010",
+      "score": "6.852817843462622e-05"
+    },
+    {
+      "drug_name": "drugbank.DB01268",
+      "score": "5.036825637246136e-05"
+    },
+    {
+      "drug_name": "drugbank.DB09079",
+      "score": "4.2285976214922185e-05"
+    },
+    {
+      "drug_name": "drugbank.DB06595",
+      "score": "4.137602701494069e-05"
+    },
+    {
+      "drug_name": "drugbank.DB06616",
+      "score": "3.8754910804210605e-05"
+    },
+    {
+      "drug_name": "drugbank.DB08865",
+      "score": "3.659703488613502e-05"
+    },
+    {
+      "drug_name": "drugbank.DB08877",
+      "score": "3.115338395364742e-05"
+    },
+    {
+      "drug_name": "drugbank.DB05294",
+      "score": "2.3620024650456688e-05"
+    },
+    {
+      "drug_name": "drugbank.DB06589",
+      "score": "2.2583775089717866e-05"
+    },
+    {
+      "drug_name": "drugbank.DB06626",
+      "score": "2.1641086858480283e-05"
+    },
+    {
+      "drug_name": "drugbank.DB11828",
+      "score": "2.15924483159147e-05"
+    },
+    {
+      "drug_name": "drugbank.DB00619",
+      "score": "1.8297643149760806e-05"
+    },
+    {
+      "drug_name": "drugbank.DB00945",
+      "score": "1.8039354608980175e-05"
+    },
+    {
+      "drug_name": "drugbank.DB00317",
+      "score": "1.7720113819890693e-05"
+    },
+    {
+      "drug_name": "drugbank.DB00819",
+      "score": "1.398411056563471e-05"
+    },
+    {
+      "drug_name": "drugbank.DB08916",
+      "score": "1.1413665559829868e-05"
+    },
+    {
+      "drug_name": "drugbank.DB00131",
+      "score": "1.0324791189435526e-05"
+    },
+    {
+      "drug_name": "drugbank.DB00795",
+      "score": "9.054807845958175e-06"
+    },
+    {
+      "drug_name": "drugbank.DB06151",
+      "score": "8.182435629569258e-06"
+    },
+    {
+      "drug_name": "drugbank.DB00995",
+      "score": "7.834467193582001e-06"
+    },
+    {
+      "drug_name": "drugbank.DB01169",
+      "score": "7.748548699387271e-06"
+    },
+    {
+      "drug_name": "drugbank.DB00162",
+      "score": "7.475123744525217e-06"
+    },
+    {
+      "drug_name": "drugbank.DB00755",
+      "score": "7.248366545171941e-06"
+    },
+    {
+      "drug_name": "drugbank.DB00244",
+      "score": "7.142164347683253e-06"
+    },
+    {
+      "drug_name": "drugbank.DB06757",
+      "score": "6.49147658676964e-06"
+    },
+    {
+      "drug_name": "drugbank.DB04272",
+      "score": "5.242024705739627e-06"
+    }
+  ],
+  "edges": [
+    [
+      "drugbank.DB00819",
+      "uniprot.P29972"
+    ],
+    [
+      "drugbank.DB00995",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB08865",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB08865",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB00162",
+      "uniprot.P49116"
+    ],
+    [
+      "drugbank.DB08916",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB00131",
+      "uniprot.O43741"
+    ],
+    [
+      "drugbank.DB06595",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB00795",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB00619",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB04272",
+      "uniprot.O14964"
+    ],
+    [
+      "drugbank.DB01169",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB06151",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB00244",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB08877",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB08877",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB01268",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB00945",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB00945",
+      "uniprot.O43741"
+    ],
+    [
+      "drugbank.DB00755",
+      "uniprot.P49116"
+    ],
+    [
+      "drugbank.DB06757",
+      "uniprot.Q15750"
+    ],
+    [
+      "drugbank.DB00317",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB12010",
+      "uniprot.O14920"
+    ],
+    [
+      "drugbank.DB12010",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB12010",
+      "uniprot.O43741"
+    ],
+    [
+      "drugbank.DB09079",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB05294",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB06616",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB06626",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB11828",
+      "uniprot.P51617"
+    ],
+    [
+      "drugbank.DB06589",
+      "uniprot.P51617"
+    ]
+  ]
+}

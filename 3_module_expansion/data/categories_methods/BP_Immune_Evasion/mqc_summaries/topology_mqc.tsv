@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Immune_Evasion.uniprot_ppi.robust_bias_aware	202	293	112	1	11.0	5	197	3
+Immune_Evasion.uniprot_ppi.firstneighbor	5837	175605	112	1	5.0	1	5837	0
+Immune_Evasion.uniprot_ppi.no_tool	112	325	112	0	6.0	23	89	21
+Immune_Evasion.uniprot_ppi.domino	288	1188	63	1	8.0	1	288	0
+Immune_Evasion.uniprot_ppi.diamond	312	12258	112	1	5.0	3	310	2
+Immune_Evasion.uniprot_ppi.rwr	320	7270	112	1	5.0	1	320	0
+Immune_Evasion.uniprot_ppi.robust	202	290	112	1	11.0	4	198	2

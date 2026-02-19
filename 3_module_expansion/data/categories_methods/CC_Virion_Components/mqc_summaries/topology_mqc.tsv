@@ -1,0 +1,8 @@
+sample	nodes	edges	seeds	max_dist_to_seed	diameter	components	largest_component	isolated_nodes
+Virion_Components.uniprot_ppi.robust_bias_aware	109	160	50	1	9.0	2	108	1
+Virion_Components.uniprot_ppi.no_tool	50	62	50	0	0	21	29	19
+Virion_Components.uniprot_ppi.robust	108	158	50	1	8.0	3	106	2
+Virion_Components.uniprot_ppi.domino	57	94	23	1	10.0	1	57	0
+Virion_Components.uniprot_ppi.rwr	87	441	50	1	6.0	1	87	0
+Virion_Components.uniprot_ppi.firstneighbor	3994	120266	50	1	5.0	1	3994	0
+Virion_Components.uniprot_ppi.diamond	250	4201	50	2	4.0	9	242	8

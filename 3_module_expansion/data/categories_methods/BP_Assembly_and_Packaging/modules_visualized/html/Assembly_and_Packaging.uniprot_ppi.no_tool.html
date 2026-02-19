@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "component_id": 0, "id": "P63172", "is_seed": 1, "label": "P63172", "shape": "dot", "size": 10, "spd": 0.017391304347826087, "title": "\n            P63172\n\n            is_seed: 1.0\nspd: 0.017391304347826087\ncomponent_id: 0.0\n        ", "x": 70.47523465419395, "y": 414.6693897897739}, {"color": "red", "component_id": 0, "id": "Q14203", "is_seed": 1, "label": "Q14203", "shape": "dot", "size": 10, "spd": 0.011235955056179775, "title": "\n            Q14203\n\n            is_seed: 1.0\nspd: 0.011235955056179775\ncomponent_id: 0.0\n        ", "x": 7.206261285831883, "y": 452.88177512667295}, {"color": "red", "component_id": 0, "id": "P51808", "is_seed": 1, "label": "P51808", "shape": "dot", "size": 10, "spd": 0.05, "title": "\n            P51808\n\n            is_seed: 1.0\nspd: 0.05\ncomponent_id: 0.0\n        ", "x": 141.3089967539479, "y": 414.2499014101435}, {"color": "red", "component_id": 2, "id": "P51617", "is_seed": 1, "label": "P51617", "shape": "dot", "size": 10, "spd": 0.027777777777777776, "title": "\n            P51617\n\n            is_seed: 1.0\nspd: 0.027777777777777776\ncomponent_id: 2.0\n        ", "x": -49.89865653706437, "y": 156.90035353464256}, {"color": "red", "component_id": 2, "id": "Q9Y6K9", "is_seed": 1, "label": "Q9Y6K9", "shape": "dot", "size": 10, "spd": 0.013636363636363636, "title": "\n            Q9Y6K9\n\n            is_seed: 1.0\nspd: 0.013636363636363636\ncomponent_id: 2.0\n        ", "x": 44.845915237991015, "y": 140.98412071843262}, {"color": "red", "component_id": 2, "id": "Q9Y4K3", "is_seed": 1, "label": "Q9Y4K3", "shape": "dot", "size": 10, "spd": 0.015332197614991482, "title": "\n            Q9Y4K3\n\n            is_seed: 1.0\nspd: 0.015332197614991482\ncomponent_id: 2.0\n        ", "x": 1.880964748965793, "y": 152.82420503530227}, {"color": "red", "component_id": 2, "id": "Q9NYJ8", "is_seed": 1, "label": "Q9NYJ8", "shape": "dot", "size": 10, "spd": 0.056910569105691054, "title": "\n            Q9NYJ8\n\n            is_seed: 1.0\nspd: 0.056910569105691054\ncomponent_id: 2.0\n        ", "x": -20.349537113624333, "y": 104.33318023880885}, {"color": "red", "component_id": 2, "id": "Q15750", "is_seed": 1, "label": "Q15750", "shape": "dot", "size": 10, "spd": 0.0375, "title": "\n            Q15750\n\n            is_seed: 1.0\nspd: 0.0375\ncomponent_id: 2.0\n        ", "x": 26.668392600907815, "y": 82.60570864311833}, {"color": "red", "component_id": 2, "id": "P0CG48", "is_seed": 1, "label": "P0CG48", "shape": "dot", "size": 10, "spd": 0.008506616257088847, "title": "\n            P0CG48\n\n            is_seed: 1.0\nspd: 0.008506616257088847\ncomponent_id: 2.0\n        ", "x": 106.80373904493352, "y": 147.91988351530614}, {"color": "red", "component_id": 2, "id": "Q13137", "is_seed": 1, "label": "Q13137", "shape": "dot", "size": 10, "spd": 0.015957446808510637, "title": "\n            Q13137\n\n            is_seed: 1.0\nspd: 0.015957446808510637\ncomponent_id: 2.0\n        ", "x": 42.27516678845683, "y": 216.110538403621}, {"color": "red", "component_id": 0, "id": "Q7Z4H7", "is_seed": 1, "label": "Q7Z4H7", "shape": "dot", "size": 10, "spd": 0.011627906976744186, "title": "\n            Q7Z4H7\n\n            is_seed: 1.0\nspd: 0.011627906976744186\ncomponent_id: 0.0\n        ", "x": -64.03089246685377, "y": 437.4362279922253}, {"color": "red", "component_id": 0, "id": "Q9UPY8", "is_seed": 1, "label": "Q9UPY8", "shape": "dot", "size": 10, "spd": 0.029411764705882353, "title": "\n            Q9UPY8\n\n            is_seed: 1.0\nspd: 0.029411764705882353\ncomponent_id: 0.0\n        ", "x": 22.402601929208885, "y": 524.569404422451}, {"color": "red", "component_id": 2, "id": "Q13547", "is_seed": 1, "label": "Q13547", "shape": "dot", "size": 10, "spd": 0.008605851979345954, "title": "\n            Q13547\n\n            is_seed: 1.0\nspd: 0.008605851979345954\ncomponent_id: 2.0\n        ", "x": -121.51591289612612, "y": 101.59301996349407}, {"color": "red", "component_id": 2, "id": "O94776", "is_seed": 1, "label": "O94776", "shape": "dot", "size": 10, "spd": 0.006993006993006993, "title": "\n            O94776\n\n            is_seed: 1.0\nspd: 0.006993006993006993\ncomponent_id: 2.0\n        ", "x": -220.38088061672713, "y": 131.702306183489}, {"color": "red", "component_id": 2, "id": "P49116", "is_seed": 1, "label": "P49116", "shape": "dot", "size": 10, "spd": 0.07272727272727272, "title": "\n            P49116\n\n            is_seed: 1.0\nspd: 0.07272727272727272\ncomponent_id: 2.0\n        ", "x": -55.648749734751725, "y": 58.80276106473436}, {"color": "red", "component_id": 2, "id": "P43355", "is_seed": 1, "label": "P43355", "shape": "dot", "size": 10, "spd": 0.0125, "title": "\n            P43355\n\n            is_seed: 1.0\nspd: 0.0125\ncomponent_id: 2.0\n        ", "x": -211.20423662655267, "y": 46.09109696325225}, {"color": "red", "component_id": 2, "id": "Q8ND90", "is_seed": 1, "label": "Q8ND90", "shape": "dot", "size": 10, "spd": 0.006711409395973154, "title": "\n            Q8ND90\n\n            is_seed: 1.0\nspd: 0.006711409395973154\ncomponent_id: 2.0\n        ", "x": 333.9218231335833, "y": 181.4806311733327}, {"color": "red", "component_id": 2, "id": "O14964", "is_seed": 1, "label": "O14964", "shape": "dot", "size": 10, "spd": 0.027777777777777776, "title": "\n            O14964\n\n            is_seed: 1.0\nspd: 0.027777777777777776\ncomponent_id: 2.0\n        ", "x": 243.75150210745048, "y": 200.994652372203}, {"color": "red", "component_id": 2, "id": "Q08379", "is_seed": 1, "label": "Q08379", "shape": "dot", "size": 10, "spd": 0.005050505050505051, "title": "\n            Q08379\n\n            is_seed: 1.0\nspd: 0.005050505050505051\ncomponent_id: 2.0\n        ", "x": 259.59006385098064, "y": 111.33025025814698}, {"color": "red", "component_id": 2, "id": "Q9UKT9", "is_seed": 1, "label": "Q9UKT9", "shape": "dot", "size": 10, "spd": 0.01834862385321101, "title": "\n            Q9UKT9\n\n            is_seed: 1.0\nspd: 0.01834862385321101\ncomponent_id: 2.0\n        ", "x": 183.98795845122171, "y": 84.18939616630301}, {"color": "red", "component_id": 2, "id": "Q99816", "is_seed": 1, "label": "Q99816", "shape": "dot", "size": 10, "spd": 0.015706806282722512, "title": "\n            Q99816\n\n            is_seed: 1.0\nspd: 0.015706806282722512\ncomponent_id: 2.0\n        ", "x": 184.97962040634005, "y": 234.60184328879575}, {"color": "red", "component_id": 2, "id": "Q8N6Y0", "is_seed": 1, "label": "Q8N6Y0", "shape": "dot", "size": 10, "spd": 0.015384615384615385, "title": "\n            Q8N6Y0\n\n            is_seed: 1.0\nspd: 0.015384615384615385\ncomponent_id: 2.0\n        ", "x": 248.89061213511783, "y": 282.84589136203795}, {"color": "red", "component_id": 2, "id": "Q15843", "is_seed": 1, "label": "Q15843", "shape": "dot", "size": 10, "spd": 0.009375, "title": "\n            Q15843\n\n            is_seed: 1.0\nspd: 0.009375\ncomponent_id: 2.0\n        ", "x": 124.71702477385213, "y": 201.79321722461495}, {"color": "red", "component_id": 2, "id": "Q6P1W5", "is_seed": 1, "label": "Q6P1W5", "shape": "dot", "size": 10, "spd": 0.04, "title": "\n            Q6P1W5\n\n            is_seed: 1.0\nspd: 0.04\ncomponent_id: 2.0\n        ", "x": 379.4064560160652, "y": 268.9116350840153}, {"color": "red", "component_id": 2, "id": "Q8N9W6", "is_seed": 1, "label": "Q8N9W6", "shape": "dot", "size": 10, "spd": 0.07142857142857142, "title": "\n            Q8N9W6\n\n            is_seed: 1.0\nspd: 0.07142857142857142\ncomponent_id: 2.0\n        ", "x": 480.0546077337949, "y": 265.87614599799707}, {"color": "red", "component_id": 2, "id": "O14770", "is_seed": 1, "label": "O14770", "shape": "dot", "size": 10, "spd": 0.02564102564102564, "title": "\n            O14770\n\n            is_seed: 1.0\nspd: 0.02564102564102564\ncomponent_id: 2.0\n        ", "x": 444.0275557916169, "y": 344.7845843874208}, {"color": "red", "component_id": 1, "id": "Q15427", "is_seed": 1, "label": "Q15427", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q15427\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 1.0\n        ", "x": -108.22712144849909, "y": 311.71851439288577}, {"color": "red", "component_id": 3, "id": "Q16666", "is_seed": 1, "label": "Q16666", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q16666\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 3.0\n        ", "x": -182.21236247246657, "y": 389.06769618721245}, {"color": "red", "component_id": 4, "id": "P62826", "is_seed": 1, "label": "P62826", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            P62826\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 4.0\n        ", "x": 257.6023129411738, "y": 443.83485492404526}, {"color": "red", "component_id": 5, "id": "Q8IZ63", "is_seed": 1, "label": "Q8IZ63", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q8IZ63\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 5.0\n        ", "x": 79.39756448037714, "y": -200.53273379215187}, {"color": "red", "component_id": 6, "id": "Q01484", "is_seed": 1, "label": "Q01484", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q01484\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 6.0\n        ", "x": 333.49305272233903, "y": -126.93706934334281}, {"color": "red", "component_id": 7, "id": "Q9H0A8", "is_seed": 1, "label": "Q9H0A8", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q9H0A8\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 7.0\n        ", "x": 340.84171019138176, "y": -13.671040481120249}, {"color": "red", "component_id": 8, "id": "Q96IJ6", "is_seed": 1, "label": "Q96IJ6", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q96IJ6\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 8.0\n        ", "x": -55.531713137318505, "y": -146.57774384658867}, {"color": "red", "component_id": 9, "id": "Q96FN5", "is_seed": 1, "label": "Q96FN5", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q96FN5\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 9.0\n        ", "x": 465.5417341675901, "y": 130.03633723384525}, {"color": "red", "component_id": 10, "id": "Q9Y287", "is_seed": 1, "label": "Q9Y287", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q9Y287\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 10.0\n        ", "x": 360.94342358374297, "y": 439.30589332387075}, {"color": "red", "component_id": 11, "id": "Q14576", "is_seed": 1, "label": "Q14576", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q14576\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 11.0\n        ", "x": 203.7956731876701, "y": -71.6275634706886}, {"color": "red", "component_id": 12, "id": "P0C7W6", "is_seed": 1, "label": "P0C7W6", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            P0C7W6\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 12.0\n        ", "x": -229.67622501239794, "y": 261.30040515069413}, {"color": "red", "component_id": 13, "id": "Q5JR59", "is_seed": 1, "label": "Q5JR59", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q5JR59\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 13.0\n        ", "x": -156.48420177427593, "y": -75.74858000327751}, {"color": "red", "component_id": 14, "id": "Q9GZV8", "is_seed": 1, "label": "Q9GZV8", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q9GZV8\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 14.0\n        ", "x": 449.37196963947383, "y": 13.817229454499312}, {"color": "red", "component_id": 15, "id": "Q16633", "is_seed": 1, "label": "Q16633", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q16633\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 15.0\n        ", "x": 63.40999984849146, "y": -84.35397399978427}, {"color": "red", "component_id": 16, "id": "Q9BQ66", "is_seed": 1, "label": "Q9BQ66", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            Q9BQ66\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 16.0\n        ", "x": 181.88690548619047, "y": 534.7072039115578}, {"color": "red", "component_id": 17, "id": "O95273", "is_seed": 1, "label": "O95273", "shape": "dot", "size": 10, "spd": 0.0, "title": "\n            O95273\n\n            is_seed: 1.0\nspd: 0.0\ncomponent_id: 17.0\n        ", "x": 217.43089198517816, "y": -198.1693318978071}]);
+                  edges = new vis.DataSet([{"from": "P63172", "to": "Q14203", "width": 1}, {"from": "P63172", "to": "P51808", "width": 1}, {"from": "P51617", "to": "Q9Y6K9", "width": 1}, {"from": "P51617", "to": "Q9Y4K3", "width": 1}, {"from": "P51617", "to": "Q9NYJ8", "width": 1}, {"from": "P51617", "to": "Q15750", "width": 1}, {"from": "Q9Y6K9", "to": "Q9Y4K3", "width": 1}, {"from": "Q9Y6K9", "to": "P0CG48", "width": 1}, {"from": "Q9Y6K9", "to": "Q13137", "width": 1}, {"from": "Q9Y6K9", "to": "Q9NYJ8", "width": 1}, {"from": "Q9Y6K9", "to": "Q15750", "width": 1}, {"from": "Q14203", "to": "Q7Z4H7", "width": 1}, {"from": "Q14203", "to": "Q9UPY8", "width": 1}, {"from": "Q13547", "to": "Q9Y4K3", "width": 1}, {"from": "Q13547", "to": "Q9NYJ8", "width": 1}, {"from": "Q13547", "to": "O94776", "width": 1}, {"from": "Q13547", "to": "P49116", "width": 1}, {"from": "Q13547", "to": "P43355", "width": 1}, {"from": "Q8ND90", "to": "O14964", "width": 1}, {"from": "Q08379", "to": "Q9UKT9", "width": 1}, {"from": "Q08379", "to": "O14964", "width": 1}, {"from": "Q99816", "to": "P0CG48", "width": 1}, {"from": "Q99816", "to": "Q8N6Y0", "width": 1}, {"from": "Q99816", "to": "O14964", "width": 1}, {"from": "Q9Y4K3", "to": "P0CG48", "width": 1}, {"from": "Q9Y4K3", "to": "Q13137", "width": 1}, {"from": "Q9Y4K3", "to": "Q15843", "width": 1}, {"from": "Q9Y4K3", "to": "Q9NYJ8", "width": 1}, {"from": "Q9Y4K3", "to": "Q15750", "width": 1}, {"from": "Q9Y4K3", "to": "P49116", "width": 1}, {"from": "P0CG48", "to": "Q13137", "width": 1}, {"from": "P0CG48", "to": "Q15843", "width": 1}, {"from": "P0CG48", "to": "Q9UKT9", "width": 1}, {"from": "P0CG48", "to": "Q9NYJ8", "width": 1}, {"from": "P0CG48", "to": "Q15750", "width": 1}, {"from": "P0CG48", "to": "O14964", "width": 1}, {"from": "Q15843", "to": "O14964", "width": 1}, {"from": "Q9NYJ8", "to": "Q15750", "width": 1}, {"from": "Q9NYJ8", "to": "P49116", "width": 1}, {"from": "Q15750", "to": "P49116", "width": 1}, {"from": "Q6P1W5", "to": "Q8N9W6", "width": 1}, {"from": "Q6P1W5", "to": "O14770", "width": 1}, {"from": "Q6P1W5", "to": "O14964", "width": 1}, {"from": "Q8N6Y0", "to": "O14964", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics",
+            "interaction",
+            "manipulation"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

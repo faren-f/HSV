@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+  <!-- property keys -->
+  <key id="key0" for="node" attr.name="component_id" attr.type="int" />
+  <key id="key1" for="node" attr.name="is_seed" attr.type="boolean" />
+  <key id="key2" for="node" attr.name="name" attr.type="string" />
+  <key id="key3" for="node" attr.name="spd" attr.type="float" />
+  <key id="key4" for="node" attr.name="submodule" attr.type="int" />
+
+  <graph id="G" edgedefault="undirected" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+
+   <!-- graph properties -->
+
+   <!-- vertices -->
+    <node id="n0">
+      <data key="key0">0</data>
+      <data key="key1">0</data>
+      <data key="key2">Q14790</data>
+      <data key="key3">0.011111111111111112</data>
+      <data key="key4">1</data>
+    </node>
+    <node id="n1">
+      <data key="key0">0</data>
+      <data key="key1">1</data>
+      <data key="key2">P02511</data>
+      <data key="key3">0.024390243902439025</data>
+      <data key="key4">1</data>
+    </node>
+    <node id="n2">
+      <data key="key0">1</data>
+      <data key="key1">0</data>
+      <data key="key2">Q9BVG8</data>
+      <data key="key3">0.021739130434782608</data>
+      <data key="key4">2</data>
+    </node>
+    <node id="n3">
+      <data key="key0">1</data>
+      <data key="key1">1</data>
+      <data key="key2">Q01850</data>
+      <data key="key3">0.038461538461538464</data>
+      <data key="key4">2</data>
+    </node>
+    <node id="n4">
+      <data key="key0">1</data>
+      <data key="key1">1</data>
+      <data key="key2">P04259</data>
+      <data key="key3">0.030303030303030304</data>
+      <data key="key4">2</data>
+    </node>
+    <node id="n5">
+      <data key="key0">0</data>
+      <data key="key1">1</data>
+      <data key="key2">Q8WXF8</data>
+      <data key="key3">0.10000000000000001</data>
+      <data key="key4">1</data>
+    </node>
+    <node id="n6">
+      <data key="key0">0</data>
+      <data key="key1">0</data>
+      <data key="key2">P07320</data>
+      <data key="key3">1</data>
+      <data key="key4">1</data>
+    </node>
+    <node id="n7">
+      <data key="key0">1</data>
+      <data key="key1">0</data>
+      <data key="key2">P14207</data>
+      <data key="key3">1</data>
+      <data key="key4">2</data>
+    </node>
+
+   <!-- edges -->
+    <edge id="e0" source="n0" target="n5">
+    </edge>
+    <edge id="e1" source="n1" target="n6">
+    </edge>
+    <edge id="e2" source="n1" target="n0">
+    </edge>
+    <edge id="e3" source="n3" target="n2">
+    </edge>
+    <edge id="e4" source="n4" target="n2">
+    </edge>
+    <edge id="e5" source="n7" target="n3">
+    </edge>
+
+  </graph>
+</graphml>

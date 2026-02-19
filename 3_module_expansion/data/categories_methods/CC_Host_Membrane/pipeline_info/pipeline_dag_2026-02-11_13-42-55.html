@@ -1,0 +1,309 @@
+<!--
+  ~ Copyright 2013-2024, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#B6ECE2',
+      'primaryTextColor': '#160F26',
+      'primaryBorderColor': '#065647',
+      'lineColor': '#545555',
+      'clusterBkg': '#BABCBD22',
+      'clusterBorder': '#DDDEDE',
+      'fontFamily': 'arial'
+    }
+  }
+}%%
+flowchart TB
+    subgraph " "
+    v10["Channel.fromList"]
+    v13["Channel.fromPath"]
+    v38["format"]
+    v59[" "]
+    v61[" "]
+    v67["format"]
+    v75["n"]
+    v76["alpha"]
+    v83["prefix"]
+    v85["format"]
+    v102["format"]
+    v116["format"]
+    v124["idspace"]
+    v142["format"]
+    v150["r"]
+    v227["id_space"]
+    v236["Channel.of"]
+    v239["Channel.fromPath"]
+    v242["ch_workflow_summary"]
+    v246["ch_methods_description"]
+    v253["replace_names"]
+    v254["sample_names"]
+    end
+    subgraph " "
+    v26["ch_shortest_paths"]
+    v28["ch_permuted_networks"]
+    v49[" "]
+    v50[" "]
+    v69[" "]
+    v87[" "]
+    v104[" "]
+    v118[" "]
+    v144[" "]
+    v187[" "]
+    v188[" "]
+    v189[" "]
+    v212[" "]
+    v213[" "]
+    v214[" "]
+    v215[" "]
+    v256[" "]
+    v257[" "]
+    v258[" "]
+    v261["versions"]
+    v263[" "]
+    v265[" "]
+    v267[" "]
+    v269[" "]
+    v271[" "]
+    end
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY [NFCORE_DISEASEMODULEDISCOVERY]"
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY [DISEASEMODULEDISCOVERY]"
+    v39(["GRAPHTOOLPARSER"])
+    v48(["INPUTCHECK"])
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION [NETWORKEXPANSION]"
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DIAMOND [GT_DIAMOND]"
+    v68(["GRAPHTOOLPARSER"])
+    v77(["DIAMOND"])
+    v70(( ))
+    v71(( ))
+    end
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_DOMINO [GT_DOMINO]"
+    v84(["PREFIXLINES"])
+    v86(["GRAPHTOOLPARSER"])
+    v89(["DOMINO_SLICER"])
+    v96(["DOMINO_DOMINO"])
+    v88(( ))
+    v91(( ))
+    end
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUST [GT_ROBUST]"
+    v103(["GRAPHTOOLPARSER"])
+    v110(["ROBUST"])
+    v105(( ))
+    v106(( ))
+    end
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_ROBUSTBIASAWARE [GT_ROBUSTBIASAWARE]"
+    v117(["GRAPHTOOLPARSER"])
+    v125(["ROBUSTBIASAWARE"])
+    v119(( ))
+    v120(( ))
+    end
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_FIRSTNEIGHBOR [GT_FIRSTNEIGHBOR]"
+    v135(["FIRSTNEIGHBOR"])
+    v131(( ))
+    v136(( ))
+    v138(( ))
+    end
+    subgraph "NFCORE_DISEASEMODULEDISCOVERY:DISEASEMODULEDISCOVERY:NETWORKEXPANSION:GT_RWR [GT_RWR]"
+    v143(["GRAPHTOOLPARSER"])
+    v151(["RWR"])
+    v145(( ))
+    v146(( ))
+    end
+    v163(["MODULEPARSER"])
+    v60(( ))
+    v62(( ))
+    v80(( ))
+    v81(( ))
+    v140(( ))
+    end
+    v169(["TOPOLOGY"])
+    v184(["NETWORKANNOTATION"])
+    v186(["SAVEMODULES"])
+    v211(["VISUALIZEMODULES"])
+    v228(["DRUGSTONEEXPORT"])
+    v255(["MULTIQC"])
+    v40(( ))
+    v44(( ))
+    v58(( ))
+    v250(( ))
+    v251(( ))
+    v252(( ))
+    v259(( ))
+    end
+    v260(( ))
+    end
+    subgraph "PIPELINE_INITIALISATION [PIPELINE_INITIALISATION]"
+    v11(( ))
+    end
+    subgraph "PIPELINE_COMPLETION [PIPELINE_COMPLETION]"
+    v262(( ))
+    v264(( ))
+    v266(( ))
+    v268(( ))
+    v270(( ))
+    end
+    v10 --> v11
+    v13 --> v11
+    v11 --> v26
+    v11 --> v28
+    v38 --> v39
+    v11 --> v39
+    v39 --> v68
+    v39 --> v86
+    v39 --> v103
+    v39 --> v117
+    v39 --> v143
+    v39 --> v40
+    v39 --> v44
+    v39 --> v58
+    v39 --> v81
+    v39 --> v131
+    v44 --> v48
+    v48 --> v50
+    v48 --> v49
+    v48 --> v84
+    v48 --> v40
+    v48 --> v44
+    v48 --> v58
+    v48 --> v71
+    v48 --> v81
+    v48 --> v106
+    v48 --> v120
+    v48 --> v131
+    v48 --> v146
+    v59 --> v60
+    v61 --> v62
+    v67 --> v68
+    v68 --> v69
+    v68 --> v70
+    v68 --> v71
+    v75 --> v77
+    v76 --> v77
+    v71 --> v77
+    v77 --> v70
+    v77 --> v81
+    v83 --> v84
+    v84 --> v91
+    v85 --> v86
+    v86 --> v89
+    v86 --> v87
+    v86 --> v88
+    v86 --> v91
+    v89 --> v88
+    v89 --> v91
+    v91 --> v96
+    v96 --> v81
+    v96 --> v88
+    v102 --> v103
+    v103 --> v104
+    v103 --> v105
+    v103 --> v106
+    v106 --> v110
+    v110 --> v81
+    v110 --> v105
+    v116 --> v117
+    v117 --> v118
+    v117 --> v119
+    v117 --> v120
+    v124 --> v125
+    v120 --> v125
+    v125 --> v81
+    v125 --> v119
+    v131 --> v135
+    v135 --> v136
+    v135 --> v138
+    v142 --> v143
+    v143 --> v144
+    v143 --> v145
+    v143 --> v146
+    v150 --> v151
+    v60 --> v151
+    v62 --> v151
+    v146 --> v151
+    v151 --> v81
+    v151 --> v145
+    v81 --> v163
+    v163 --> v80
+    v163 --> v140
+    v58 --> v169
+    v169 --> v40
+    v169 --> v58
+    v58 --> v184
+    v184 --> v186
+    v184 --> v40
+    v186 --> v189
+    v186 --> v188
+    v186 --> v187
+    v186 --> v40
+    v40 --> v211
+    v211 --> v215
+    v211 --> v214
+    v211 --> v213
+    v211 --> v212
+    v211 --> v40
+    v227 --> v228
+    v40 --> v228
+    v228 --> v40
+    v236 --> v40
+    v239 --> v250
+    v242 --> v40
+    v246 --> v40
+    v253 --> v255
+    v254 --> v255
+    v40 --> v255
+    v250 --> v255
+    v251 --> v255
+    v252 --> v255
+    v255 --> v258
+    v255 --> v257
+    v255 --> v256
+    v255 --> v259
+    v260 --> v261
+    v262 --> v263
+    v264 --> v265
+    v266 --> v267
+    v268 --> v269
+    v270 --> v271
+    v11 --> v44
+    v80 --> v40
+    v40 --> v260
+    v40 --> v266
+    v40 --> v268
+    v40 --> v270
+    v44 --> v264
+    v140 --> v58
+    v70 --> v80
+    v88 --> v80
+    v105 --> v80
+    v119 --> v80
+    v136 --> v80
+    v145 --> v80
+    v138 --> v140
+    v259 --> v262
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, maxTextSize: Number.MAX_SAFE_INTEGER, maxEdges: Number.MAX_SAFE_INTEGER });
+</script>
+</body>
+</html>
