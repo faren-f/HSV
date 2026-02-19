@@ -5,7 +5,7 @@
 
 ## Installation
 
-### 1. Clone the main repository
+1. Clone the main repository
 
 ```bash
 git clone https://github.com/faren-f/HSV.git
