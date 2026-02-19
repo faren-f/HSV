@@ -19,7 +19,7 @@ conda env create -f hsv_modulediscovery.yml
 conda activate hsv_modulediscovery
 ```
 
-4. Clone required external repositories
+3. Clone required external repositories
 
 ```bash
 git clone https://github.com/REPO4EU/diseasemodulediscovery.git
